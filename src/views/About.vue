@@ -49,6 +49,11 @@
           <h3 class="about__subsection-title">{{ $t("about.sharing") }}</h3>
           <p class="about__text">{{ $t("about.sharingText") }}</p>
         </div>
+
+        <div class="about__subsection">
+          <h3 class="about__subsection-title">{{ $t("about.analytics") }}</h3>
+          <p class="about__text">{{ $t("about.analyticsText") }}</p>
+        </div>
       </section>
 
       <section class="about__section">

@@ -60,6 +60,8 @@
     "localOnlyText": "Everything happens in your browser. Your answers are stored only on your device and nowhere else. If you clear your browser data, your results are gone forever - we have no backup because we never had them in the first place.",
     "sharing": "How Sharing Works",
     "sharingText": "When you share results, your answers are encoded directly into the URL link itself. This means anyone with that link can see your results, but the data never touches our servers. You control who sees your results by controlling who gets that link. Delete the link, and your results are truly private again.",
+    "analytics": "Privacy-Preserving Analytics",
+    "analyticsText": "We use Cloudflare Web Analytics, a privacy-first analytics service that does not use cookies, does not track individuals across websites, and does not collect any personally identifiable information. It provides us with basic aggregated statistics (like total page views) to help us understand if the site is being used, without compromising your privacy. Cloudflare cannot see your quiz answers or identify you personally.",
     "parties": "Parties Included",
     "partiesText": "We include 16 major South African political parties representing diverse viewpoints across the political spectrum. Our selection is based on parliamentary representation, electoral significance, and ideological diversity.",
     "disclaimer": "Important Disclaimer",
