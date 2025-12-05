@@ -37,7 +37,6 @@ describe("uiStore", () => {
   beforeEach(async () => {
     setActivePinia(createPinia());
     localStorage.clear();
-    // Reset i18n locale to default
     const { i18n } = await import("../i18n");
     i18n.global.locale.value = "en";
   });
