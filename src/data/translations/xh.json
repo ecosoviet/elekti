@@ -31,7 +31,7 @@
     "confidence": {
       "high": "Ukuhambelana okuqinileyo",
       "medium": "Ukuhambelana okuphakathi",
-      "low": "Ukuhambelana okubuthathaka"
+      "low": "Ukuhambelana okubuthathaka - cinga ngokuphonononga onke amaqela"
     },
     "scoreBreakdown": "Ukwahlulwa Kwamanqaku",
     "allParties": "Onke Amaqela",
@@ -52,8 +52,8 @@
     "transparencyText": "Zonke izikhundla zamaqela kunye nobunzima bamanqaku zinqunywa ngophando oluqinileyo lwamaxwebhu asemthethweni amaqela. Indlela yethu ivulelekile futhi inokuphononongwa. Asikhethi naliphi na iqela lezopolitiko okanye ingcamango - injongo yethu kuphela kukunceda wenze izigqibo ezinolwazi ezisekelwe kwizinto ozikhethayo kunye nezikhundla ezichazwe ngamaqela.",
     "dataSources": "Imithombo Yophando Lwethu",
     "dataSourcesText": "Izikhundla zamaqela zicutshungulwa ngononophelo kwiimaniifesto ezisemthethweni zamaqela, amaxwebhu omgaqo-nkqubo, iirekhodi zokuvota zeparamente kunye neengxelo zoluntu eziqinisekisiweyo. Sihlaziya idatha yethu rhoqo ukubonisa utshintsho lomgaqo-nkqubo. Zonke izixhobo zemithombo zivela kumajelo asemthethweni amaqela okanye imibutho yeendaba ehloniphekileyo. Ukuba ukholelwa ukuba naluphi na ulwazi aluchanekanga, samukela izilungiso ngamaxwebhu afanelekileyo.",
-    "privacy": "Ubumfihlo",
-    "privacyText": "Ubumfihlo bakho bubalulekile. Asiqokeleli ulwazi lomntu ka noši noma iimpendulo zemibuzo. Kuphela i-language preference yakho igcinwe kwindawo kwisixhobo sakho. Iimpendulo zemibuzo zakho zikhunyelwe ngqo kwi-URL xa ubantu bagcina - ayikho ibhaliso eserveni, akukho i-database, ayikho ilandelelaniselo.",
+    "privacy": "Ubumfihlo & Idatha Yakho",
+    "privacyText": "Ubumfihlo bakho bubaluleke kakhulu. Sikholelwa ukuba iimbono zakho zezopolitiko ziyimfihlo kwaye zifanele ukhuseleko oluphezulu.",
     "noTracking": "Akulandelwa Nhlobo",
     "noTrackingText": "Asisebenzisi amakhukhi, ii-analytics pixels, okanye naluphi na ubuchwepheshe bokulandela. Asikwazi ukubona iimpendulo zakho, asikwazi ukukwazisa, yaye asinayo umdla wokwenza oko. Iimpendulo zakho zemibuzo azithunyelwa kwiiseva zethu.",
     "localOnly": "Ugcino Lwendawo Kuphela",
@@ -63,7 +63,7 @@
     "analytics": "I-Analytics Egcina Ubumfihlo",
     "analyticsText": "Sisebenzisa iCloudflare Web Analytics, inkonzo ye-analytics egxile kubumfihlo engatoli amakhukhi, engalandeli abantu ngabanye kwiwebhusayithi, yaye engaqokeleli naluphi na ulwazi oluchongwayo lomntu. Isinika iinkcukacha ezidibanisiweyo ezisiseko (njengokujonga iphepha ngokupheleleyo) ukusinceda siqonde ukuba iwebhusayithi iyasetyenziswa, ngaphandle kokonakalisa ubumfihlo bakho. ICloudflare ayikwazi ukubona iimpendulo zakho zemibuzo okanye ukukuchonga ngokwakho.",
     "parties": "Amaqela Abandakanyiweyo",
-    "partiesText": "Sibandakanya amaqela amakhulu ali-11 ezopolitiko aseMzantsi Afrika.",
+    "partiesText": "Sibandakanya amaqela amakhulu ali-16 ezopolitiko aseMzantsi Afrika amele iimbono ezahlukeneyo kwi-spectrum yezopolitiko. Ukhetho lwethu lusekelwe ekumelweni kweparamente, ukubaluleka konyulo, kunye nokwahluka kweengcamango.",
     "disclaimer": "Isaziso",
     "disclaimerText": "Esi sixhobo sisetyenziselwa ulwazi kuphela kwaye asisiyongcebiso yokuvota.",
     "viewData": "Jonga Idatha Engalungisiwanga",
@@ -74,37 +74,37 @@
   },
   "party": {
     "anc": {
-      "desc": "I-African National Congress liqela elilawulayo eMzantsi Afrika."
+      "desc": "I-African National Congress liqela elilawulayo eMzantsi Afrika, elikhuthaza idemokhrasi yentlalo, utshintsho, kunye nokujongana nokungalingani ngongenelelo lukarhulumenti."
     },
     "da": {
-      "desc": "I-Democratic Alliance ikhuthaza idemokhrasi yenkululeko."
+      "desc": "I-Democratic Alliance ikhuthaza idemokhrasi yenkululeko, uqoqosho lwemarike yasimahla, kunye nezopolitiko ezingenalo uhlanga ngokugxininisa kulawulo olulungileyo kunye nokudala imisebenzi."
     },
     "mk": {
-      "desc": "I-uMkhonto we Sizwe Party igxile kutshintsho lwezoqoqosho oluqinile."
+      "desc": "I-uMkhonto we Sizwe Party igxile kutshintsho lwezoqoqosho oluqinile, ikhuthaza uphuhliso oluqhutywa ngurhulumeni kunye nokujongana nobungqina bembali."
     },
     "eff": {
-      "desc": "I-Economic Freedom Fighters liqela elikwesobunxele kakhulu."
+      "desc": "I-Economic Freedom Fighters liqela elikwesobunxele kakhulu elikhuthaza utshintsho lwezoqoqosho oluqinile, ukwenziwa kwelizwe kunye nokwabiwa komhlaba ngaphandle kwembuyekezo."
     },
     "ifp": {
-      "desc": "I-Inkatha Freedom Party ikhuthaza iinqobo zenkcubeko yamaZulu."
+      "desc": "I-Inkatha Freedom Party ikhuthaza iinqobo zenkcubeko yamaZulu, i-federalism, kunye noqoqosho lwemarike yasimahla ngoxanduva loluntu."
     },
     "pa": {
-      "desc": "I-Patriotic Alliance igxile kwimiba yokufuduka."
+      "desc": "I-Patriotic Alliance igxile ekujongananeni nemiba yokufuduka, ikhuthaza ubuzwe baseMzantsi Afrika, kunye nokubeka phambili iimfuno zabemi."
     },
     "vfplus": {
-      "desc": "I-Freedom Front Plus imele iimfuno zama-Afrikaner."
+      "desc": "I-Freedom Front Plus imele iimfuno zama-Afrikaner, ikhuthaza i-federalism, amalungelo abancinci, kunye neenqobo ezigcinayo."
     },
     "actionsa": {
-      "desc": "I-ActionSA liqela elisembindini eligxile kulawulo olusebenzayo."
+      "desc": "I-ActionSA liqela elisembindini eligxile kulawulo olusebenzayo, ukulwa urhwaphilizo, kunye nokukhula kwezoqoqosho ngothethathethwano lwecandelo labucala."
     },
     "acdp": {
-      "desc": "I-African Christian Democratic Party ikhuthaza iinqobo zobuKristu."
+      "desc": "I-African Christian Democratic Party ikhuthaza iinqobo zobuKristu, imigaqo-nkqubo yentlalo egcinayo, kunye nedemokhrasi yomgaqo-siseko."
     },
     "ufc": {
-      "desc": "I-Unite for Change igxile ekudibaniseni abantu."
+      "desc": "I-Unite for Change igxile ekudibaniseni abantu abasezantsi kunye nokujongana neenkxalabo zoluntu lwendawo ngemigaqo-nkqubo eqhubekayo."
     },
     "sacp": {
-      "desc": "I-South African Communist Party imele ubukomanisi."
+      "desc": "I-South African Communist Party ikhuthaza ubusoshiyali, amalungelo abasebenzi, kunye nenguqu iye kuluntu lobusoshiyali ngolawulo lukarhulumenti."
     },
     "udm": {
       "desc": "I-United Democratic Movement ikhuthaza idemokhrasi yentlalo, uxolelwano, kunye nemigaqo-nkqubo esebenzayo yokulwa nentlupheko nokungalingani."

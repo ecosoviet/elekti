@@ -31,7 +31,7 @@
     "confidence": {
       "high": "Ukufanana okuqinile",
       "medium": "Ukufanana okuphakathi",
-      "low": "Ukufanana okubuthakathaka"
+      "low": "Ukufanana okubuthakathaka - cabangela ukubuyekeza wonke amaqembu"
     },
     "scoreBreakdown": "Ukuhlukaniswa Kwamaphuzu",
     "allParties": "Wonke Amaqembu",
@@ -74,37 +74,37 @@
   },
   "party": {
     "anc": {
-      "desc": "I-African National Congress iyiqembu elibusayo eNingizimu Afrika."
+      "desc": "I-African National Congress iyiqembu elibusayo eNingizimu Afrika, elikhuthaza intando yeningi yomphakathi, uguquko, kanye nokubhekana nokungalingani ngokusebenzisa ukungenelela kukahulumeni."
     },
     "da": {
-      "desc": "I-Democratic Alliance ikhuthaza intando yeningi yenkululeko."
+      "desc": "I-Democratic Alliance ikhuthaza intando yeningi yenkululeko, ezomnotho zemakethe yamahhala, kanye nezepolitiki ezingenalo ubuhlanga ngokugcizelela ukubusa okuhle nokudala imisebenzi."
     },
     "mk": {
-      "desc": "I-uMkhonto we Sizwe Party igxile ekuguquleni kwezomnotho ngokuqinile."
+      "desc": "I-uMkhonto we Sizwe Party igxile ekuguquleni kwezomnotho ngokuqinile, ikhuthaza ukuthuthukiswa okuholwa uhulumeni kanye nokubhekana nokungalungi komlando."
     },
     "eff": {
-      "desc": "I-Economic Freedom Fighters iyiqembu elikwesokunxele kakhulu."
+      "desc": "I-Economic Freedom Fighters iyiqembu elikwesokunxele kakhulu elikhuthaza uguquko lwezomnotho oluqinile, ukwenza kwezwe kanye nokwabiwana komhlaba ngaphandle kwenhlawulo."
     },
     "ifp": {
-      "desc": "I-Inkatha Freedom Party ikhuthaza amasiko amaZulu."
+      "desc": "I-Inkatha Freedom Party ikhuthaza amasiko amaZulu, i-federalism, kanye nezomnotho zemakethe yamahhala ezinemibandela yomphakathi."
     },
     "pa": {
-      "desc": "I-Patriotic Alliance igxile ezindabeni zokufuduka."
+      "desc": "I-Patriotic Alliance igxile ekubhekaneni nezindaba zokufuduka, ikhuthaza ubuntu bezwe laseNingizimu Afrika, kanye nokubeka phambili izidingo zezakhamuzi."
     },
     "vfplus": {
-      "desc": "I-Freedom Front Plus imele izintshisekelo zama-Afrikaner."
+      "desc": "I-Freedom Front Plus imele izintshisekelo zama-Afrikaner, ikhuthaza i-federalism, amalungelo encinyane, kanye nezindinganiso zokugcina."
     },
     "actionsa": {
-      "desc": "I-ActionSA iyiqembu elisemaphakathi eligxile ekubuseni okungokoqobo."
+      "desc": "I-ActionSA iyiqembu elisemaphakathi eligxile ekubuseni okungokoqobo, ekulweni nenkohlakalo, kanye nokukhula kwezomnotho ngokubambisana nomkhakha wangasese."
     },
     "acdp": {
-      "desc": "I-African Christian Democratic Party ikhuthaza izindinganiso zobuKristu."
+      "desc": "I-African Christian Democratic Party ikhuthaza izindinganiso zobuKristu, izinqubomgomo zomphakathi ezigcinayo, kanye nentando yeningi yomthethosisekelo."
     },
     "ufc": {
-      "desc": "I-Unite for Change igxile ekuhlanganiseni abantu."
+      "desc": "I-Unite for Change igxile ekuhlanganiseni abantu ngaphansi kanye nokubhekana nezinkinga zemiphakathi yendawo ngezinqubomgomo eziqhubekayo."
     },
     "sacp": {
-      "desc": "I-South African Communist Party imele ubuntu."
+      "desc": "I-South African Communist Party ikhuthaza ubuntu, amalungelo abasebenzi, kanye nokuguqukela emphakathini wobuntu ngokuphatha kukahulumeni."
     },
     "udm": {
       "desc": "I-United Democratic Movement ikhuthaza intando yeningi yomphakathi, ukubuyisana, kanye nezinqubomgomo ezingokoqobo zokuqeda ubumpofu nokungalingani."
