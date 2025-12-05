@@ -13,7 +13,7 @@
 
     <div v-if="isOpen" class="language-selector__dropdown" role="listbox">
       <button
-        v-for="locale in availableLocales"
+        v-for="locale in sortedLocales"
         :key="locale.code"
         @click="selectLanguage(locale.code)"
         class="language-selector__option"
@@ -39,6 +39,10 @@
   const { locale } = useI18n();
   const uiStore = useUiStore();
   const isOpen = ref(false);
+
+  const sortedLocales = computed(() => {
+    return [...availableLocales].sort((a, b) => a.name.localeCompare(b.name));
+  });
 
   const currentLocale = computed(() => locale.value);
   const currentLocaleName = computed(() => {
