@@ -6,7 +6,7 @@ export interface Party {
   short: string;
   descriptionKey: string;
   colour: string;
-  logo: string;
+  logo?: string;
 }
 
 export interface Question {
@@ -83,7 +83,10 @@ export function computeScores(
 
   const normalizedScores: Record<string, number> = {};
   Object.entries(rawScores).forEach(([partyId, score]) => {
-    normalizedScores[partyId] = Math.max(0, Math.min(1, score / maxPossibleScore));
+    normalizedScores[partyId] = Math.max(
+      0,
+      Math.min(1, score / maxPossibleScore)
+    );
   });
 
   const partyScores: PartyScore[] = parties.map((party) => {

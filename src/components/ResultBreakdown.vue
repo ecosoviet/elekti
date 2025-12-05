@@ -22,7 +22,7 @@
     short: string;
     descriptionKey: string;
     colour: string;
-    logo: string;
+    logo?: string;
   }
 
   interface PartyScore {
