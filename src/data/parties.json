@@ -4,111 +4,111 @@
     "short": "ANC",
     "name": "African National Congress",
     "descriptionKey": "party.anc.desc",
-    "colour": "#006600"
+    "colour": "#007A1C"
   },
   {
     "id": "da",
     "short": "DA",
     "name": "Democratic Alliance",
     "descriptionKey": "party.da.desc",
-    "colour": "#0047AB"
+    "colour": "#007BFF"
   },
   {
     "id": "mk",
     "short": "MK",
     "name": "uMkhonto we Sizwe Party",
     "descriptionKey": "party.mk.desc",
-    "colour": "#000000"
+    "colour": "#1A1A1A"
   },
   {
     "id": "eff",
     "short": "EFF",
     "name": "Economic Freedom Fighters",
     "descriptionKey": "party.eff.desc",
-    "colour": "#CC0000"
+    "colour": "#D70022"
   },
   {
     "id": "ifp",
     "short": "IFP",
     "name": "Inkatha Freedom Party",
     "descriptionKey": "party.ifp.desc",
-    "colour": "#8B0000"
+    "colour": "#C00000"
   },
   {
     "id": "pa",
     "short": "PA",
     "name": "Patriotic Alliance",
     "descriptionKey": "party.pa.desc",
-    "colour": "#C8102E"
+    "colour": "#00A859"
   },
   {
     "id": "vfplus",
     "short": "VF+",
     "name": "Freedom Front Plus",
     "descriptionKey": "party.vfplus.desc",
-    "colour": "#FF8C00"
+    "colour": "#FF7F2A"
   },
   {
     "id": "actionsa",
     "short": "ActionSA",
     "name": "ActionSA",
     "descriptionKey": "party.actionsa.desc",
-    "colour": "#FF8C00"
+    "colour": "#00C853"
   },
   {
     "id": "acdp",
     "short": "ACDP",
     "name": "African Christian Democratic Party",
     "descriptionKey": "party.acdp.desc",
-    "colour": "#800080"
+    "colour": "#6A0DAD"
   },
   {
     "id": "ufc",
     "short": "UFC",
     "name": "Unite for Change",
     "descriptionKey": "party.ufc.desc",
-    "colour": "#005EB8"
+    "colour": "#0096C7"
   },
   {
     "id": "sacp",
     "short": "SACP",
     "name": "South African Communist Party",
     "descriptionKey": "party.sacp.desc",
-    "colour": "#FF0000"
+    "colour": "#E60000"
   },
   {
     "id": "udm",
     "short": "UDM",
     "name": "United Democratic Movement",
     "descriptionKey": "party.udm.desc",
-    "colour": "#228B22"
+    "colour": "#2E8B57"
   },
   {
     "id": "aljamah",
     "short": "Al Jama-ah",
     "name": "Al Jama-ah",
     "descriptionKey": "party.aljamah.desc",
-    "colour": "#008080"
+    "colour": "#00897B"
   },
   {
     "id": "atm",
     "short": "ATM",
     "name": "African Transformation Movement",
     "descriptionKey": "party.atm.desc",
-    "colour": "#FFA500"
+    "colour": "#FFB300"
   },
   {
     "id": "pf",
     "short": "PF",
     "name": "Patriotic Front",
     "descriptionKey": "party.pf.desc",
-    "colour": "#4B0082"
+    "colour": "#5E35B1"
   },
   {
     "id": "cope",
     "short": "COPE",
     "name": "Congress of the People",
     "descriptionKey": "party.cope.desc",
-    "colour": "#FF6347"
+    "colour": "#F6A623"
   }
 ]
