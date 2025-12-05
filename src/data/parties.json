@@ -1,79 +1,79 @@
 [
-    {
-        "id": "anc",
-        "short": "ANC",
-        "name": "African National Congress",
-        "descriptionKey": "party.anc.desc",
-        "colour": "#006600"
-    },
-    {
-        "id": "da",
-        "short": "DA",
-        "name": "Democratic Alliance",
-        "descriptionKey": "party.da.desc",
-        "colour": "#0047AB"
-    },
-    {
-        "id": "mk",
-        "short": "MK",
-        "name": "uMkhonto we Sizwe Party",
-        "descriptionKey": "party.mk.desc",
-        "colour": "#990000"
-    },
-    {
-        "id": "eff",
-        "short": "EFF",
-        "name": "Economic Freedom Fighters",
-        "descriptionKey": "party.eff.desc",
-        "colour": "#CC0000"
-    },
-    {
-        "id": "ifp",
-        "short": "IFP",
-        "name": "Inkatha Freedom Party",
-        "descriptionKey": "party.ifp.desc",
-        "colour": "#FF0000"
-    },
-    {
-        "id": "pa",
-        "short": "PA",
-        "name": "Patriotic Alliance",
-        "descriptionKey": "party.pa.desc",
-        "colour": "#000080"
-    },
-    {
-        "id": "vfplus",
-        "short": "VF+",
-        "name": "Freedom Front Plus",
-        "descriptionKey": "party.vfplus.desc",
-        "colour": "#008000"
-    },
-    {
-        "id": "actionsa",
-        "short": "ActionSA",
-        "name": "ActionSA",
-        "descriptionKey": "party.actionsa.desc",
-        "colour": "#FF8C00"
-    },
-    {
-        "id": "acdp",
-        "short": "ACDP",
-        "name": "African Christian Democratic Party",
-        "descriptionKey": "party.acdp.desc",
-        "colour": "#800080"
-    },
-    {
-        "id": "ufc",
-        "short": "UFC",
-        "name": "Unite for Change",
-        "descriptionKey": "party.ufc.desc",
-        "colour": "#005EB8"
-    },
-    {
-        "id": "sacp",
-        "short": "SACP",
-        "name": "South African Communist Party",
-        "descriptionKey": "party.sacp.desc",
-        "colour": "#FF0000"
-    }
+  {
+    "id": "anc",
+    "short": "ANC",
+    "name": "African National Congress",
+    "descriptionKey": "party.anc.desc",
+    "colour": "#006600"
+  },
+  {
+    "id": "da",
+    "short": "DA",
+    "name": "Democratic Alliance",
+    "descriptionKey": "party.da.desc",
+    "colour": "#0047AB"
+  },
+  {
+    "id": "mk",
+    "short": "MK",
+    "name": "uMkhonto we Sizwe Party",
+    "descriptionKey": "party.mk.desc",
+    "colour": "#000000"
+  },
+  {
+    "id": "eff",
+    "short": "EFF",
+    "name": "Economic Freedom Fighters",
+    "descriptionKey": "party.eff.desc",
+    "colour": "#CC0000"
+  },
+  {
+    "id": "ifp",
+    "short": "IFP",
+    "name": "Inkatha Freedom Party",
+    "descriptionKey": "party.ifp.desc",
+    "colour": "#8B0000"
+  },
+  {
+    "id": "pa",
+    "short": "PA",
+    "name": "Patriotic Alliance",
+    "descriptionKey": "party.pa.desc",
+    "colour": "#C8102E"
+  },
+  {
+    "id": "vfplus",
+    "short": "VF+",
+    "name": "Freedom Front Plus",
+    "descriptionKey": "party.vfplus.desc",
+    "colour": "#FF8C00"
+  },
+  {
+    "id": "actionsa",
+    "short": "ActionSA",
+    "name": "ActionSA",
+    "descriptionKey": "party.actionsa.desc",
+    "colour": "#FF8C00"
+  },
+  {
+    "id": "acdp",
+    "short": "ACDP",
+    "name": "African Christian Democratic Party",
+    "descriptionKey": "party.acdp.desc",
+    "colour": "#800080"
+  },
+  {
+    "id": "ufc",
+    "short": "UFC",
+    "name": "Unite for Change",
+    "descriptionKey": "party.ufc.desc",
+    "colour": "#005EB8"
+  },
+  {
+    "id": "sacp",
+    "short": "SACP",
+    "name": "South African Communist Party",
+    "descriptionKey": "party.sacp.desc",
+    "colour": "#FF0000"
+  }
 ]

@@ -1,9 +1,9 @@
 import { defineStore } from "pinia";
 import { computed, ref, watch } from "vue";
 
-import { i18n } from "../i18n";
 import partiesData from "../data/parties.json";
 import scoringData from "../data/scoring.json";
+import { i18n } from "../i18n";
 
 interface Party {
   id: string;
@@ -83,7 +83,13 @@ export const useQuizStore = defineStore("quiz", () => {
         id,
         text: qData.text,
         category: qData.category,
-        options: ["Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree"],
+        options: [
+          "Strongly Agree",
+          "Agree",
+          "Neutral",
+          "Disagree",
+          "Strongly Disagree",
+        ],
       };
     });
   }
@@ -97,7 +103,9 @@ export const useQuizStore = defineStore("quiz", () => {
     }
   );
 
-  const currentQuestion = computed(() => questions.value[currentQuestionIndex.value]);
+  const currentQuestion = computed(
+    () => questions.value[currentQuestionIndex.value]
+  );
   const progress = computed(
     () => (currentQuestionIndex.value / questions.value.length) * 100
   );
@@ -265,7 +273,8 @@ export const useQuizStore = defineStore("quiz", () => {
 
       if (hasValidAnswers) {
         answers.value = newAnswers;
-        completed.value = Object.keys(newAnswers).length === questions.value.length;
+        completed.value =
+          Object.keys(newAnswers).length === questions.value.length;
         return true;
       }
       return false;
@@ -312,4 +321,3 @@ function mapPartyKey(key: string): string {
 
   return mapping[key] || key.toLowerCase();
 }
-

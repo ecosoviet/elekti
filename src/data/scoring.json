@@ -1,1309 +1,1309 @@
 {
-    "questions": [
+  "questions": [
+    {
+      "id": 1,
+      "text": "Healthcare should be free and provided by the government for everyone.",
+      "category": "healthcare",
+      "options": [
         {
-            "id": 1,
-            "text": "Healthcare should be free and provided by the government for everyone.",
-            "category": "healthcare",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.5,
-                        "DA": 0.2,
-                        "EFF": 0.9,
-                        "IFP": 0.2,
-                        "MKP": 0.4,
-                        "PA": 0.3,
-                        "VF+": 0.0,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.2,
-                        "UFC": 0.3,
-                        "SACP": 0.8
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": 0.1,
-                        "EFF": 0.7,
-                        "IFP": 0.1,
-                        "MKP": 0.2,
-                        "PA": 0.2,
-                        "VF+": -0.1,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.1,
-                        "UFC": 0.2,
-                        "SACP": 0.6
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.2,
-                        "EFF": -0.5,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": -0.1,
-                        "VF+": 0.1,
-                        "ActionSA": -0.1,
-                        "ACDP": -0.1,
-                        "UFC": -0.1,
-                        "SACP": -0.5
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": -0.4,
-                        "EFF": -0.8,
-                        "IFP": -0.2,
-                        "MKP": -0.3,
-                        "PA": -0.2,
-                        "VF+": 0.2,
-                        "ActionSA": -0.3,
-                        "ACDP": -0.2,
-                        "UFC": -0.2,
-                        "SACP": -0.8
-                    }
-                }
-            ]
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.5,
+            "DA": 0.2,
+            "EFF": 0.9,
+            "IFP": 0.2,
+            "MKP": 0.4,
+            "PA": 0.3,
+            "VF+": 0.0,
+            "ActionSA": 0.1,
+            "ACDP": 0.2,
+            "UFC": 0.3,
+            "SACP": 0.8
+          }
         },
         {
-            "id": 2,
-            "text": "Higher education (colleges and universities) should be free for all students.",
-            "category": "education",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.5,
-                        "DA": 0.2,
-                        "EFF": 0.9,
-                        "IFP": 0.2,
-                        "MKP": 0.4,
-                        "PA": 0.3,
-                        "VF+": 0.0,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.1,
-                        "UFC": 0.3,
-                        "SACP": 0.8
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": 0.1,
-                        "EFF": 0.7,
-                        "IFP": 0.1,
-                        "MKP": 0.2,
-                        "PA": 0.2,
-                        "VF+": -0.1,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.0,
-                        "UFC": 0.2,
-                        "SACP": 0.6
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.2,
-                        "EFF": -0.5,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": -0.1,
-                        "VF+": 0.1,
-                        "ActionSA": -0.1,
-                        "ACDP": 0.0,
-                        "UFC": -0.1,
-                        "SACP": -0.5
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": -0.4,
-                        "EFF": -0.8,
-                        "IFP": -0.2,
-                        "MKP": -0.3,
-                        "PA": -0.2,
-                        "VF+": 0.2,
-                        "ActionSA": -0.3,
-                        "ACDP": -0.1,
-                        "UFC": -0.2,
-                        "SACP": -0.8
-                    }
-                }
-            ]
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": 0.1,
+            "EFF": 0.7,
+            "IFP": 0.1,
+            "MKP": 0.2,
+            "PA": 0.2,
+            "VF+": -0.1,
+            "ActionSA": 0.0,
+            "ACDP": 0.1,
+            "UFC": 0.2,
+            "SACP": 0.6
+          }
         },
         {
-            "id": 3,
-            "text": "The state should guarantee a basic income grant for all citizens, even if it requires higher taxes or debt.",
-            "category": "social welfare",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.5,
-                        "DA": 0.1,
-                        "EFF": 0.8,
-                        "IFP": 0.2,
-                        "MKP": 0.4,
-                        "PA": 0.3,
-                        "VF+": -0.1,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.2,
-                        "UFC": 0.3,
-                        "SACP": 0.8
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": 0.0,
-                        "EFF": 0.6,
-                        "IFP": 0.1,
-                        "MKP": 0.2,
-                        "PA": 0.2,
-                        "VF+": -0.2,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.1,
-                        "SACP": 0.6
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.3,
-                        "EFF": -0.4,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": -0.1,
-                        "VF+": 0.1,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.2,
-                        "UFC": -0.1,
-                        "SACP": -0.5
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": -0.5,
-                        "EFF": -0.7,
-                        "IFP": -0.3,
-                        "MKP": -0.3,
-                        "PA": -0.3,
-                        "VF+": 0.2,
-                        "ActionSA": -0.4,
-                        "ACDP": -0.4,
-                        "UFC": -0.3,
-                        "SACP": -0.8
-                    }
-                }
-            ]
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
         },
         {
-            "id": 4,
-            "text": "The government should raise taxes on the wealthy to fund social programs.",
-            "category": "economy",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.6,
-                        "DA": 0.2,
-                        "EFF": 0.9,
-                        "IFP": 0.1,
-                        "MKP": 0.4,
-                        "PA": 0.3,
-                        "VF+": -0.1,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.1,
-                        "UFC": 0.3,
-                        "SACP": 0.9
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.4,
-                        "DA": 0.1,
-                        "EFF": 0.7,
-                        "IFP": 0.0,
-                        "MKP": 0.3,
-                        "PA": 0.2,
-                        "VF+": -0.2,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.0,
-                        "UFC": 0.2,
-                        "SACP": 0.7
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.3,
-                        "EFF": -0.5,
-                        "IFP": -0.2,
-                        "MKP": -0.2,
-                        "PA": -0.1,
-                        "VF+": 0.3,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.1,
-                        "UFC": -0.2,
-                        "SACP": -0.7
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.5,
-                        "DA": -0.5,
-                        "EFF": -0.8,
-                        "IFP": -0.4,
-                        "MKP": -0.4,
-                        "PA": -0.3,
-                        "VF+": 0.5,
-                        "ActionSA": -0.4,
-                        "ACDP": -0.3,
-                        "UFC": -0.4,
-                        "SACP": -1.0
-                    }
-                }
-            ]
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.2,
+            "EFF": -0.5,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": -0.1,
+            "VF+": 0.1,
+            "ActionSA": -0.1,
+            "ACDP": -0.1,
+            "UFC": -0.1,
+            "SACP": -0.5
+          }
         },
         {
-            "id": 5,
-            "text": "The government should invest heavily in public housing for low-income families, even if it means cutting other services.",
-            "category": "housing",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.6,
-                        "DA": 0.3,
-                        "EFF": 0.8,
-                        "IFP": 0.3,
-                        "MKP": 0.4,
-                        "PA": 0.3,
-                        "VF+": 0.0,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.2,
-                        "UFC": 0.4,
-                        "SACP": 0.8
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.4,
-                        "DA": 0.2,
-                        "EFF": 0.6,
-                        "IFP": 0.2,
-                        "MKP": 0.3,
-                        "PA": 0.2,
-                        "VF+": -0.1,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.1,
-                        "UFC": 0.2,
-                        "SACP": 0.6
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.2,
-                        "EFF": -0.3,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": -0.1,
-                        "VF+": 0.1,
-                        "ActionSA": -0.1,
-                        "ACDP": -0.1,
-                        "UFC": -0.1,
-                        "SACP": -0.4
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": -0.4,
-                        "EFF": -0.6,
-                        "IFP": -0.2,
-                        "MKP": -0.3,
-                        "PA": -0.2,
-                        "VF+": 0.2,
-                        "ActionSA": -0.3,
-                        "ACDP": -0.2,
-                        "UFC": -0.2,
-                        "SACP": -0.7
-                    }
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "text": "Rural development and agricultural support should receive significantly more government funding and investment.",
-            "category": "agriculture",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.6,
-                        "DA": 0.4,
-                        "EFF": 0.5,
-                        "IFP": 0.5,
-                        "MKP": 0.4,
-                        "PA": 0.5,
-                        "VF+": 0.2,
-                        "ActionSA": 0.3,
-                        "ACDP": 0.2,
-                        "UFC": 0.4,
-                        "SACP": 0.5
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.4,
-                        "DA": 0.3,
-                        "EFF": 0.3,
-                        "IFP": 0.3,
-                        "MKP": 0.3,
-                        "PA": 0.3,
-                        "VF+": 0.1,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.1,
-                        "UFC": 0.3,
-                        "SACP": 0.4
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.2,
-                        "EFF": -0.2,
-                        "IFP": -0.2,
-                        "MKP": -0.1,
-                        "PA": -0.1,
-                        "VF+": 0.0,
-                        "ActionSA": -0.1,
-                        "ACDP": 0.0,
-                        "UFC": -0.1,
-                        "SACP": -0.2
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": -0.4,
-                        "EFF": -0.3,
-                        "IFP": -0.3,
-                        "MKP": -0.2,
-                        "PA": -0.3,
-                        "VF+": -0.1,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.1,
-                        "UFC": -0.2,
-                        "SACP": -0.4
-                    }
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "text": "Workers should have stronger rights to strike and negotiate directly with employers without government interference.",
-            "category": "labour rights",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.4,
-                        "DA": 0.1,
-                        "EFF": 0.8,
-                        "IFP": 0.2,
-                        "MKP": 0.3,
-                        "PA": 0.2,
-                        "VF+": -0.2,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.1,
-                        "UFC": 0.5,
-                        "SACP": 0.9
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": 0.1,
-                        "EFF": 0.6,
-                        "IFP": 0.1,
-                        "MKP": 0.2,
-                        "PA": 0.1,
-                        "VF+": -0.1,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.4,
-                        "SACP": 0.7
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.2,
-                        "EFF": -0.4,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": -0.1,
-                        "VF+": 0.2,
-                        "ActionSA": -0.1,
-                        "ACDP": -0.1,
-                        "UFC": -0.2,
-                        "SACP": -0.6
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": -0.3,
-                        "EFF": -0.7,
-                        "IFP": -0.2,
-                        "MKP": -0.3,
-                        "PA": -0.2,
-                        "VF+": 0.3,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.2,
-                        "UFC": -0.4,
-                        "SACP": -0.8
-                    }
-                }
-            ]
-        },
-        {
-            "id": 8,
-            "text": "Black Economic Empowerment (BEE) and affirmative action should remain key government priorities.",
-            "category": "transformation",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.7,
-                        "DA": 0.0,
-                        "EFF": 0.8,
-                        "IFP": 0.2,
-                        "MKP": 0.5,
-                        "PA": 0.4,
-                        "VF+": -0.3,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.2,
-                        "UFC": 0.3,
-                        "SACP": 0.7
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.5,
-                        "DA": 0.2,
-                        "EFF": 0.6,
-                        "IFP": 0.1,
-                        "MKP": 0.3,
-                        "PA": 0.3,
-                        "VF+": -0.2,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.1,
-                        "UFC": 0.2,
-                        "SACP": 0.5
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.3,
-                        "DA": -0.1,
-                        "EFF": -0.3,
-                        "IFP": -0.1,
-                        "MKP": -0.2,
-                        "PA": -0.1,
-                        "VF+": 0.3,
-                        "ActionSA": -0.1,
-                        "ACDP": 0.0,
-                        "UFC": -0.1,
-                        "SACP": -0.4
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.6,
-                        "DA": -0.3,
-                        "EFF": -0.6,
-                        "IFP": -0.2,
-                        "MKP": -0.4,
-                        "PA": -0.3,
-                        "VF+": 0.5,
-                        "ActionSA": -0.3,
-                        "ACDP": -0.1,
-                        "UFC": -0.2,
-                        "SACP": -0.7
-                    }
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "text": "Expropriation of private land without compensation is justified to achieve land reform.",
-            "category": "land reform",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.4,
-                        "DA": -0.4,
-                        "EFF": 0.95,
-                        "IFP": 0.0,
-                        "MKP": 0.5,
-                        "PA": 0.3,
-                        "VF+": -0.4,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.3,
-                        "UFC": 0.2,
-                        "SACP": 0.9
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": -0.3,
-                        "EFF": 0.8,
-                        "IFP": -0.1,
-                        "MKP": 0.3,
-                        "PA": 0.2,
-                        "VF+": -0.3,
-                        "ActionSA": -0.1,
-                        "ACDP": -0.2,
-                        "UFC": 0.1,
-                        "SACP": 0.7
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": 0.2,
-                        "EFF": -0.6,
-                        "IFP": 0.1,
-                        "MKP": -0.2,
-                        "PA": -0.2,
-                        "VF+": 0.2,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.1,
-                        "UFC": -0.1,
-                        "SACP": -0.6
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": 0.4,
-                        "EFF": -0.9,
-                        "IFP": 0.2,
-                        "MKP": -0.4,
-                        "PA": -0.4,
-                        "VF+": 0.4,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.3,
-                        "UFC": -0.2,
-                        "SACP": -0.95
-                    }
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "text": "The Constitution should be reformed to allow for faster transformation and give government more power to redistribute wealth.",
-            "category": "governance",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.6,
-                        "DA": -0.5,
-                        "EFF": 0.9,
-                        "IFP": 0.1,
-                        "MKP": 0.4,
-                        "PA": 0.3,
-                        "VF+": -0.3,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.2,
-                        "UFC": 0.2,
-                        "SACP": 0.8
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.4,
-                        "DA": -0.3,
-                        "EFF": 0.7,
-                        "IFP": 0.0,
-                        "MKP": 0.2,
-                        "PA": 0.2,
-                        "VF+": -0.2,
-                        "ActionSA": -0.1,
-                        "ACDP": -0.1,
-                        "UFC": 0.1,
-                        "SACP": 0.6
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.3,
-                        "DA": 0.3,
-                        "EFF": -0.4,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": -0.2,
-                        "VF+": 0.2,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.1,
-                        "UFC": 0.0,
-                        "SACP": -0.5
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.6,
-                        "DA": 0.6,
-                        "EFF": -0.8,
-                        "IFP": -0.2,
-                        "MKP": -0.3,
-                        "PA": -0.4,
-                        "VF+": 0.4,
-                        "ActionSA": 0.4,
-                        "ACDP": 0.3,
-                        "UFC": -0.1,
-                        "SACP": -0.8
-                    }
-                }
-            ]
-        },
-        {
-            "id": 11,
-            "text": "South Africa should prioritise trade agreements that protect local industries, even if it means higher consumer prices.",
-            "category": "trade policy",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.5,
-                        "DA": -0.1,
-                        "EFF": 0.7,
-                        "IFP": 0.3,
-                        "MKP": 0.4,
-                        "PA": 0.2,
-                        "VF+": -0.2,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.0,
-                        "UFC": 0.3,
-                        "SACP": 0.6
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": 0.0,
-                        "EFF": 0.5,
-                        "IFP": 0.2,
-                        "MKP": 0.2,
-                        "PA": 0.1,
-                        "VF+": -0.1,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.2,
-                        "SACP": 0.4
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": 0.3,
-                        "EFF": -0.3,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": 0.0,
-                        "VF+": 0.2,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.1,
-                        "UFC": -0.1,
-                        "SACP": -0.3
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": 0.5,
-                        "EFF": -0.6,
-                        "IFP": -0.2,
-                        "MKP": -0.3,
-                        "PA": -0.1,
-                        "VF+": 0.4,
-                        "ActionSA": 0.3,
-                        "ACDP": 0.2,
-                        "UFC": -0.2,
-                        "SACP": -0.5
-                    }
-                }
-            ]
-        },
-        {
-            "id": 12,
-            "text": "The country should prioritise investment in renewable energy (solar, wind) over expanding coal power.",
-            "category": "energy",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.5,
-                        "DA": 0.6,
-                        "EFF": 0.4,
-                        "IFP": 0.3,
-                        "MKP": 0.2,
-                        "PA": 0.2,
-                        "VF+": 0.1,
-                        "ActionSA": 0.5,
-                        "ACDP": 0.3,
-                        "UFC": 0.4,
-                        "SACP": 0.3
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": 0.4,
-                        "EFF": 0.2,
-                        "IFP": 0.1,
-                        "MKP": 0.1,
-                        "PA": 0.1,
-                        "VF+": 0.0,
-                        "ActionSA": 0.3,
-                        "ACDP": 0.2,
-                        "UFC": 0.2,
-                        "SACP": 0.2
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": -0.2,
-                        "EFF": -0.1,
-                        "IFP": -0.1,
-                        "MKP": 0.1,
-                        "PA": 0.0,
-                        "VF+": -0.1,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.1,
-                        "UFC": -0.1,
-                        "SACP": -0.1
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": -0.4,
-                        "EFF": -0.3,
-                        "IFP": -0.2,
-                        "MKP": 0.0,
-                        "PA": -0.1,
-                        "VF+": -0.2,
-                        "ActionSA": -0.4,
-                        "ACDP": -0.2,
-                        "UFC": -0.2,
-                        "SACP": -0.2
-                    }
-                }
-            ]
-        },
-        {
-            "id": 13,
-            "text": "Strong action against corruption (even if it disrupts current leaders) is more important than political stability.",
-            "category": "corruption",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": -0.1,
-                        "DA": 0.7,
-                        "EFF": 0.5,
-                        "IFP": 0.3,
-                        "MKP": 0.2,
-                        "PA": 0.4,
-                        "VF+": 0.4,
-                        "ActionSA": 0.8,
-                        "ACDP": 0.6,
-                        "UFC": 0.5,
-                        "SACP": -0.2
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.1,
-                        "DA": 0.5,
-                        "EFF": 0.3,
-                        "IFP": 0.2,
-                        "MKP": 0.1,
-                        "PA": 0.2,
-                        "VF+": 0.2,
-                        "ActionSA": 0.6,
-                        "ACDP": 0.4,
-                        "UFC": 0.3,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.3,
-                        "DA": -0.3,
-                        "EFF": -0.2,
-                        "IFP": -0.1,
-                        "MKP": -0.1,
-                        "PA": -0.2,
-                        "VF+": -0.2,
-                        "ActionSA": -0.4,
-                        "ACDP": -0.2,
-                        "UFC": -0.2,
-                        "SACP": 0.2
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.6,
-                        "DA": -0.6,
-                        "EFF": -0.5,
-                        "IFP": -0.3,
-                        "MKP": -0.3,
-                        "PA": -0.4,
-                        "VF+": -0.4,
-                        "ActionSA": -0.7,
-                        "ACDP": -0.5,
-                        "UFC": -0.4,
-                        "SACP": 0.4
-                    }
-                }
-            ]
-        },
-        {
-            "id": 14,
-            "text": "To reduce crime, the government should focus more on harsher punishment rather than addressing social causes like poverty.",
-            "category": "crime",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": -0.3,
-                        "DA": 0.3,
-                        "EFF": -0.4,
-                        "IFP": 0.2,
-                        "MKP": -0.1,
-                        "PA": 0.4,
-                        "VF+": 0.4,
-                        "ActionSA": 0.3,
-                        "ACDP": 0.2,
-                        "UFC": -0.2,
-                        "SACP": -0.6
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": 0.2,
-                        "EFF": -0.2,
-                        "IFP": 0.1,
-                        "MKP": 0.0,
-                        "PA": 0.2,
-                        "VF+": 0.2,
-                        "ActionSA": 0.1,
-                        "ACDP": 0.1,
-                        "UFC": -0.1,
-                        "SACP": -0.4
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": 0.3,
-                        "DA": -0.1,
-                        "EFF": 0.3,
-                        "IFP": -0.2,
-                        "MKP": 0.1,
-                        "PA": -0.2,
-                        "VF+": -0.2,
-                        "ActionSA": -0.1,
-                        "ACDP": -0.1,
-                        "UFC": 0.2,
-                        "SACP": 0.5
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": 0.5,
-                        "DA": -0.3,
-                        "EFF": 0.6,
-                        "IFP": -0.3,
-                        "MKP": 0.2,
-                        "PA": -0.4,
-                        "VF+": -0.4,
-                        "ActionSA": -0.3,
-                        "ACDP": -0.2,
-                        "UFC": 0.4,
-                        "SACP": 0.7
-                    }
-                }
-            ]
-        },
-        {
-            "id": 15,
-            "text": "Illegal immigrants should be deported and strict border control enforced to protect local jobs and resources.",
-            "category": "immigration",
-            "options": [
-                {
-                    "option": "Strongly agree",
-                    "scores": {
-                        "ANC": 0.2,
-                        "DA": -0.2,
-                        "EFF": -0.1,
-                        "IFP": 0.3,
-                        "MKP": 0.1,
-                        "PA": 0.6,
-                        "VF+": 0.3,
-                        "ActionSA": 0.4,
-                        "ACDP": 0.1,
-                        "UFC": 0.2,
-                        "SACP": -0.3
-                    }
-                },
-                {
-                    "option": "Agree",
-                    "scores": {
-                        "ANC": 0.1,
-                        "DA": -0.1,
-                        "EFF": 0.0,
-                        "IFP": 0.2,
-                        "MKP": 0.0,
-                        "PA": 0.4,
-                        "VF+": 0.2,
-                        "ActionSA": 0.2,
-                        "ACDP": 0.0,
-                        "UFC": 0.1,
-                        "SACP": -0.2
-                    }
-                },
-                {
-                    "option": "Neutral",
-                    "scores": {
-                        "ANC": 0.0,
-                        "DA": 0.0,
-                        "EFF": 0.0,
-                        "IFP": 0.0,
-                        "MKP": 0.0,
-                        "PA": 0.0,
-                        "VF+": 0.0,
-                        "ActionSA": 0.0,
-                        "ACDP": 0.0,
-                        "UFC": 0.0,
-                        "SACP": 0.0
-                    }
-                },
-                {
-                    "option": "Disagree",
-                    "scores": {
-                        "ANC": -0.2,
-                        "DA": 0.2,
-                        "EFF": 0.1,
-                        "IFP": -0.2,
-                        "MKP": -0.1,
-                        "PA": -0.3,
-                        "VF+": -0.2,
-                        "ActionSA": -0.2,
-                        "ACDP": -0.1,
-                        "UFC": -0.1,
-                        "SACP": 0.2
-                    }
-                },
-                {
-                    "option": "Strongly disagree",
-                    "scores": {
-                        "ANC": -0.4,
-                        "DA": 0.4,
-                        "EFF": 0.3,
-                        "IFP": -0.4,
-                        "MKP": -0.2,
-                        "PA": -0.5,
-                        "VF+": -0.3,
-                        "ActionSA": -0.4,
-                        "ACDP": -0.2,
-                        "UFC": -0.2,
-                        "SACP": 0.5
-                    }
-                }
-            ]
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": -0.4,
+            "EFF": -0.8,
+            "IFP": -0.2,
+            "MKP": -0.3,
+            "PA": -0.2,
+            "VF+": 0.2,
+            "ActionSA": -0.3,
+            "ACDP": -0.2,
+            "UFC": -0.2,
+            "SACP": -0.8
+          }
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Higher education (colleges and universities) should be free for all students.",
+      "category": "education",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.5,
+            "DA": 0.2,
+            "EFF": 0.9,
+            "IFP": 0.2,
+            "MKP": 0.4,
+            "PA": 0.3,
+            "VF+": 0.0,
+            "ActionSA": 0.2,
+            "ACDP": 0.1,
+            "UFC": 0.3,
+            "SACP": 0.8
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": 0.1,
+            "EFF": 0.7,
+            "IFP": 0.1,
+            "MKP": 0.2,
+            "PA": 0.2,
+            "VF+": -0.1,
+            "ActionSA": 0.1,
+            "ACDP": 0.0,
+            "UFC": 0.2,
+            "SACP": 0.6
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.2,
+            "EFF": -0.5,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": -0.1,
+            "VF+": 0.1,
+            "ActionSA": -0.1,
+            "ACDP": 0.0,
+            "UFC": -0.1,
+            "SACP": -0.5
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": -0.4,
+            "EFF": -0.8,
+            "IFP": -0.2,
+            "MKP": -0.3,
+            "PA": -0.2,
+            "VF+": 0.2,
+            "ActionSA": -0.3,
+            "ACDP": -0.1,
+            "UFC": -0.2,
+            "SACP": -0.8
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "The state should guarantee a basic income grant for all citizens, even if it requires higher taxes or debt.",
+      "category": "social welfare",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.5,
+            "DA": 0.1,
+            "EFF": 0.8,
+            "IFP": 0.2,
+            "MKP": 0.4,
+            "PA": 0.3,
+            "VF+": -0.1,
+            "ActionSA": 0.1,
+            "ACDP": 0.2,
+            "UFC": 0.3,
+            "SACP": 0.8
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": 0.0,
+            "EFF": 0.6,
+            "IFP": 0.1,
+            "MKP": 0.2,
+            "PA": 0.2,
+            "VF+": -0.2,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.1,
+            "SACP": 0.6
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.3,
+            "EFF": -0.4,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": -0.1,
+            "VF+": 0.1,
+            "ActionSA": -0.2,
+            "ACDP": -0.2,
+            "UFC": -0.1,
+            "SACP": -0.5
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": -0.5,
+            "EFF": -0.7,
+            "IFP": -0.3,
+            "MKP": -0.3,
+            "PA": -0.3,
+            "VF+": 0.2,
+            "ActionSA": -0.4,
+            "ACDP": -0.4,
+            "UFC": -0.3,
+            "SACP": -0.8
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "The government should raise taxes on the wealthy to fund social programs.",
+      "category": "economy",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.6,
+            "DA": 0.2,
+            "EFF": 0.9,
+            "IFP": 0.1,
+            "MKP": 0.4,
+            "PA": 0.3,
+            "VF+": -0.1,
+            "ActionSA": 0.2,
+            "ACDP": 0.1,
+            "UFC": 0.3,
+            "SACP": 0.9
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.4,
+            "DA": 0.1,
+            "EFF": 0.7,
+            "IFP": 0.0,
+            "MKP": 0.3,
+            "PA": 0.2,
+            "VF+": -0.2,
+            "ActionSA": 0.1,
+            "ACDP": 0.0,
+            "UFC": 0.2,
+            "SACP": 0.7
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.3,
+            "EFF": -0.5,
+            "IFP": -0.2,
+            "MKP": -0.2,
+            "PA": -0.1,
+            "VF+": 0.3,
+            "ActionSA": -0.2,
+            "ACDP": -0.1,
+            "UFC": -0.2,
+            "SACP": -0.7
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.5,
+            "DA": -0.5,
+            "EFF": -0.8,
+            "IFP": -0.4,
+            "MKP": -0.4,
+            "PA": -0.3,
+            "VF+": 0.5,
+            "ActionSA": -0.4,
+            "ACDP": -0.3,
+            "UFC": -0.4,
+            "SACP": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "The government should invest heavily in public housing for low-income families, even if it means cutting other services.",
+      "category": "housing",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.6,
+            "DA": 0.3,
+            "EFF": 0.8,
+            "IFP": 0.3,
+            "MKP": 0.4,
+            "PA": 0.3,
+            "VF+": 0.0,
+            "ActionSA": 0.2,
+            "ACDP": 0.2,
+            "UFC": 0.4,
+            "SACP": 0.8
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.4,
+            "DA": 0.2,
+            "EFF": 0.6,
+            "IFP": 0.2,
+            "MKP": 0.3,
+            "PA": 0.2,
+            "VF+": -0.1,
+            "ActionSA": 0.1,
+            "ACDP": 0.1,
+            "UFC": 0.2,
+            "SACP": 0.6
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.2,
+            "EFF": -0.3,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": -0.1,
+            "VF+": 0.1,
+            "ActionSA": -0.1,
+            "ACDP": -0.1,
+            "UFC": -0.1,
+            "SACP": -0.4
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": -0.4,
+            "EFF": -0.6,
+            "IFP": -0.2,
+            "MKP": -0.3,
+            "PA": -0.2,
+            "VF+": 0.2,
+            "ActionSA": -0.3,
+            "ACDP": -0.2,
+            "UFC": -0.2,
+            "SACP": -0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Rural development and agricultural support should receive significantly more government funding and investment.",
+      "category": "agriculture",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.6,
+            "DA": 0.4,
+            "EFF": 0.5,
+            "IFP": 0.5,
+            "MKP": 0.4,
+            "PA": 0.5,
+            "VF+": 0.2,
+            "ActionSA": 0.3,
+            "ACDP": 0.2,
+            "UFC": 0.4,
+            "SACP": 0.5
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.4,
+            "DA": 0.3,
+            "EFF": 0.3,
+            "IFP": 0.3,
+            "MKP": 0.3,
+            "PA": 0.3,
+            "VF+": 0.1,
+            "ActionSA": 0.2,
+            "ACDP": 0.1,
+            "UFC": 0.3,
+            "SACP": 0.4
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.2,
+            "EFF": -0.2,
+            "IFP": -0.2,
+            "MKP": -0.1,
+            "PA": -0.1,
+            "VF+": 0.0,
+            "ActionSA": -0.1,
+            "ACDP": 0.0,
+            "UFC": -0.1,
+            "SACP": -0.2
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": -0.4,
+            "EFF": -0.3,
+            "IFP": -0.3,
+            "MKP": -0.2,
+            "PA": -0.3,
+            "VF+": -0.1,
+            "ActionSA": -0.2,
+            "ACDP": -0.1,
+            "UFC": -0.2,
+            "SACP": -0.4
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Workers should have stronger rights to strike and negotiate directly with employers without government interference.",
+      "category": "labour rights",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.4,
+            "DA": 0.1,
+            "EFF": 0.8,
+            "IFP": 0.2,
+            "MKP": 0.3,
+            "PA": 0.2,
+            "VF+": -0.2,
+            "ActionSA": 0.0,
+            "ACDP": 0.1,
+            "UFC": 0.5,
+            "SACP": 0.9
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": 0.1,
+            "EFF": 0.6,
+            "IFP": 0.1,
+            "MKP": 0.2,
+            "PA": 0.1,
+            "VF+": -0.1,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.4,
+            "SACP": 0.7
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.2,
+            "EFF": -0.4,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": -0.1,
+            "VF+": 0.2,
+            "ActionSA": -0.1,
+            "ACDP": -0.1,
+            "UFC": -0.2,
+            "SACP": -0.6
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": -0.3,
+            "EFF": -0.7,
+            "IFP": -0.2,
+            "MKP": -0.3,
+            "PA": -0.2,
+            "VF+": 0.3,
+            "ActionSA": -0.2,
+            "ACDP": -0.2,
+            "UFC": -0.4,
+            "SACP": -0.8
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Black Economic Empowerment (BEE) and affirmative action should remain key government priorities.",
+      "category": "transformation",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.7,
+            "DA": 0.0,
+            "EFF": 0.8,
+            "IFP": 0.2,
+            "MKP": 0.5,
+            "PA": 0.4,
+            "VF+": -0.3,
+            "ActionSA": 0.1,
+            "ACDP": 0.2,
+            "UFC": 0.3,
+            "SACP": 0.7
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.5,
+            "DA": 0.2,
+            "EFF": 0.6,
+            "IFP": 0.1,
+            "MKP": 0.3,
+            "PA": 0.3,
+            "VF+": -0.2,
+            "ActionSA": 0.1,
+            "ACDP": 0.1,
+            "UFC": 0.2,
+            "SACP": 0.5
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.3,
+            "DA": -0.1,
+            "EFF": -0.3,
+            "IFP": -0.1,
+            "MKP": -0.2,
+            "PA": -0.1,
+            "VF+": 0.3,
+            "ActionSA": -0.1,
+            "ACDP": 0.0,
+            "UFC": -0.1,
+            "SACP": -0.4
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.6,
+            "DA": -0.3,
+            "EFF": -0.6,
+            "IFP": -0.2,
+            "MKP": -0.4,
+            "PA": -0.3,
+            "VF+": 0.5,
+            "ActionSA": -0.3,
+            "ACDP": -0.1,
+            "UFC": -0.2,
+            "SACP": -0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Expropriation of private land without compensation is justified to achieve land reform.",
+      "category": "land reform",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.4,
+            "DA": -0.4,
+            "EFF": 0.95,
+            "IFP": 0.0,
+            "MKP": 0.5,
+            "PA": 0.3,
+            "VF+": -0.4,
+            "ActionSA": -0.2,
+            "ACDP": -0.3,
+            "UFC": 0.2,
+            "SACP": 0.9
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": -0.3,
+            "EFF": 0.8,
+            "IFP": -0.1,
+            "MKP": 0.3,
+            "PA": 0.2,
+            "VF+": -0.3,
+            "ActionSA": -0.1,
+            "ACDP": -0.2,
+            "UFC": 0.1,
+            "SACP": 0.7
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": 0.2,
+            "EFF": -0.6,
+            "IFP": 0.1,
+            "MKP": -0.2,
+            "PA": -0.2,
+            "VF+": 0.2,
+            "ActionSA": 0.1,
+            "ACDP": 0.1,
+            "UFC": -0.1,
+            "SACP": -0.6
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": 0.4,
+            "EFF": -0.9,
+            "IFP": 0.2,
+            "MKP": -0.4,
+            "PA": -0.4,
+            "VF+": 0.4,
+            "ActionSA": 0.2,
+            "ACDP": 0.3,
+            "UFC": -0.2,
+            "SACP": -0.95
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "The Constitution should be reformed to allow for faster transformation and give government more power to redistribute wealth.",
+      "category": "governance",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.6,
+            "DA": -0.5,
+            "EFF": 0.9,
+            "IFP": 0.1,
+            "MKP": 0.4,
+            "PA": 0.3,
+            "VF+": -0.3,
+            "ActionSA": -0.2,
+            "ACDP": -0.2,
+            "UFC": 0.2,
+            "SACP": 0.8
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.4,
+            "DA": -0.3,
+            "EFF": 0.7,
+            "IFP": 0.0,
+            "MKP": 0.2,
+            "PA": 0.2,
+            "VF+": -0.2,
+            "ActionSA": -0.1,
+            "ACDP": -0.1,
+            "UFC": 0.1,
+            "SACP": 0.6
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.3,
+            "DA": 0.3,
+            "EFF": -0.4,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": -0.2,
+            "VF+": 0.2,
+            "ActionSA": 0.2,
+            "ACDP": 0.1,
+            "UFC": 0.0,
+            "SACP": -0.5
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.6,
+            "DA": 0.6,
+            "EFF": -0.8,
+            "IFP": -0.2,
+            "MKP": -0.3,
+            "PA": -0.4,
+            "VF+": 0.4,
+            "ActionSA": 0.4,
+            "ACDP": 0.3,
+            "UFC": -0.1,
+            "SACP": -0.8
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "South Africa should prioritise trade agreements that protect local industries, even if it means higher consumer prices.",
+      "category": "trade policy",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.5,
+            "DA": -0.1,
+            "EFF": 0.7,
+            "IFP": 0.3,
+            "MKP": 0.4,
+            "PA": 0.2,
+            "VF+": -0.2,
+            "ActionSA": 0.1,
+            "ACDP": 0.0,
+            "UFC": 0.3,
+            "SACP": 0.6
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": 0.0,
+            "EFF": 0.5,
+            "IFP": 0.2,
+            "MKP": 0.2,
+            "PA": 0.1,
+            "VF+": -0.1,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.2,
+            "SACP": 0.4
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": 0.3,
+            "EFF": -0.3,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": 0.0,
+            "VF+": 0.2,
+            "ActionSA": 0.2,
+            "ACDP": 0.1,
+            "UFC": -0.1,
+            "SACP": -0.3
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": 0.5,
+            "EFF": -0.6,
+            "IFP": -0.2,
+            "MKP": -0.3,
+            "PA": -0.1,
+            "VF+": 0.4,
+            "ActionSA": 0.3,
+            "ACDP": 0.2,
+            "UFC": -0.2,
+            "SACP": -0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "The country should prioritise investment in renewable energy (solar, wind) over expanding coal power.",
+      "category": "energy",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.5,
+            "DA": 0.6,
+            "EFF": 0.4,
+            "IFP": 0.3,
+            "MKP": 0.2,
+            "PA": 0.2,
+            "VF+": 0.1,
+            "ActionSA": 0.5,
+            "ACDP": 0.3,
+            "UFC": 0.4,
+            "SACP": 0.3
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": 0.4,
+            "EFF": 0.2,
+            "IFP": 0.1,
+            "MKP": 0.1,
+            "PA": 0.1,
+            "VF+": 0.0,
+            "ActionSA": 0.3,
+            "ACDP": 0.2,
+            "UFC": 0.2,
+            "SACP": 0.2
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": -0.2,
+            "EFF": -0.1,
+            "IFP": -0.1,
+            "MKP": 0.1,
+            "PA": 0.0,
+            "VF+": -0.1,
+            "ActionSA": -0.2,
+            "ACDP": -0.1,
+            "UFC": -0.1,
+            "SACP": -0.1
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": -0.4,
+            "EFF": -0.3,
+            "IFP": -0.2,
+            "MKP": 0.0,
+            "PA": -0.1,
+            "VF+": -0.2,
+            "ActionSA": -0.4,
+            "ACDP": -0.2,
+            "UFC": -0.2,
+            "SACP": -0.2
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Strong action against corruption (even if it disrupts current leaders) is more important than political stability.",
+      "category": "corruption",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": -0.1,
+            "DA": 0.7,
+            "EFF": 0.5,
+            "IFP": 0.3,
+            "MKP": 0.2,
+            "PA": 0.4,
+            "VF+": 0.4,
+            "ActionSA": 0.8,
+            "ACDP": 0.6,
+            "UFC": 0.5,
+            "SACP": -0.2
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.1,
+            "DA": 0.5,
+            "EFF": 0.3,
+            "IFP": 0.2,
+            "MKP": 0.1,
+            "PA": 0.2,
+            "VF+": 0.2,
+            "ActionSA": 0.6,
+            "ACDP": 0.4,
+            "UFC": 0.3,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.3,
+            "DA": -0.3,
+            "EFF": -0.2,
+            "IFP": -0.1,
+            "MKP": -0.1,
+            "PA": -0.2,
+            "VF+": -0.2,
+            "ActionSA": -0.4,
+            "ACDP": -0.2,
+            "UFC": -0.2,
+            "SACP": 0.2
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.6,
+            "DA": -0.6,
+            "EFF": -0.5,
+            "IFP": -0.3,
+            "MKP": -0.3,
+            "PA": -0.4,
+            "VF+": -0.4,
+            "ActionSA": -0.7,
+            "ACDP": -0.5,
+            "UFC": -0.4,
+            "SACP": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "To reduce crime, the government should focus more on harsher punishment rather than addressing social causes like poverty.",
+      "category": "crime",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": -0.3,
+            "DA": 0.3,
+            "EFF": -0.4,
+            "IFP": 0.2,
+            "MKP": -0.1,
+            "PA": 0.4,
+            "VF+": 0.4,
+            "ActionSA": 0.3,
+            "ACDP": 0.2,
+            "UFC": -0.2,
+            "SACP": -0.6
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": 0.2,
+            "EFF": -0.2,
+            "IFP": 0.1,
+            "MKP": 0.0,
+            "PA": 0.2,
+            "VF+": 0.2,
+            "ActionSA": 0.1,
+            "ACDP": 0.1,
+            "UFC": -0.1,
+            "SACP": -0.4
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": 0.3,
+            "DA": -0.1,
+            "EFF": 0.3,
+            "IFP": -0.2,
+            "MKP": 0.1,
+            "PA": -0.2,
+            "VF+": -0.2,
+            "ActionSA": -0.1,
+            "ACDP": -0.1,
+            "UFC": 0.2,
+            "SACP": 0.5
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": 0.5,
+            "DA": -0.3,
+            "EFF": 0.6,
+            "IFP": -0.3,
+            "MKP": 0.2,
+            "PA": -0.4,
+            "VF+": -0.4,
+            "ActionSA": -0.3,
+            "ACDP": -0.2,
+            "UFC": 0.4,
+            "SACP": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Illegal immigrants should be deported and strict border control enforced to protect local jobs and resources.",
+      "category": "immigration",
+      "options": [
+        {
+          "option": "Strongly agree",
+          "scores": {
+            "ANC": 0.2,
+            "DA": -0.2,
+            "EFF": -0.1,
+            "IFP": 0.3,
+            "MKP": 0.1,
+            "PA": 0.6,
+            "VF+": 0.3,
+            "ActionSA": 0.4,
+            "ACDP": 0.1,
+            "UFC": 0.2,
+            "SACP": -0.3
+          }
+        },
+        {
+          "option": "Agree",
+          "scores": {
+            "ANC": 0.1,
+            "DA": -0.1,
+            "EFF": 0.0,
+            "IFP": 0.2,
+            "MKP": 0.0,
+            "PA": 0.4,
+            "VF+": 0.2,
+            "ActionSA": 0.2,
+            "ACDP": 0.0,
+            "UFC": 0.1,
+            "SACP": -0.2
+          }
+        },
+        {
+          "option": "Neutral",
+          "scores": {
+            "ANC": 0.0,
+            "DA": 0.0,
+            "EFF": 0.0,
+            "IFP": 0.0,
+            "MKP": 0.0,
+            "PA": 0.0,
+            "VF+": 0.0,
+            "ActionSA": 0.0,
+            "ACDP": 0.0,
+            "UFC": 0.0,
+            "SACP": 0.0
+          }
+        },
+        {
+          "option": "Disagree",
+          "scores": {
+            "ANC": -0.2,
+            "DA": 0.2,
+            "EFF": 0.1,
+            "IFP": -0.2,
+            "MKP": -0.1,
+            "PA": -0.3,
+            "VF+": -0.2,
+            "ActionSA": -0.2,
+            "ACDP": -0.1,
+            "UFC": -0.1,
+            "SACP": 0.2
+          }
+        },
+        {
+          "option": "Strongly disagree",
+          "scores": {
+            "ANC": -0.4,
+            "DA": 0.4,
+            "EFF": 0.3,
+            "IFP": -0.4,
+            "MKP": -0.2,
+            "PA": -0.5,
+            "VF+": -0.3,
+            "ActionSA": -0.4,
+            "ACDP": -0.2,
+            "UFC": -0.2,
+            "SACP": 0.5
+          }
+        }
+      ]
+    }
+  ]
 }

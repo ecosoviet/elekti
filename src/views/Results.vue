@@ -137,7 +137,9 @@
   });
 
   function copyResults() {
-    if (!result.value) return;
+    if (!result.value) {
+      return;
+    }
 
     const encoded = quizStore.encodeAnswersToUrl();
     const shareUrl = `${window.location.origin}${window.location.pathname}#/results?r=${encoded}`;

@@ -1,10 +1,10 @@
 import { createPinia } from "pinia";
 import { createApp } from "vue";
 
+import "@fontsource-variable/inter";
 import App from "./App.vue";
 import { i18n } from "./i18n";
 import router from "./router";
-import "@fontsource-variable/inter";
 import "./theme.css";
 
 const app = createApp(App);
