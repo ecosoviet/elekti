@@ -86,6 +86,21 @@
     },
     "sacp": {
       "desc": "I-South African Communist Party imele ubukomanisi."
+    },
+    "udm": {
+      "desc": "I-United Democratic Movement ikhuthaza idemokhrasi yentlalo, uxolelwano, kunye nemigaqo-nkqubo esebenzayo yokulwa nentlupheko nokungalingani."
+    },
+    "aljamah": {
+      "desc": "I-Al Jama-ah imele iinqobo zamaSilamsi kwaye ikhuthaza ubulungisa bentlalo, ulawulo olunesimilo, kunye namalungelo oluntu olucinezelelweyo."
+    },
+    "atm": {
+      "desc": "I-African Transformation Movement igxile ekulweni norhwaphilizo, ubunkokheli obunokuziphatha, kunye nokutshintsha uMzantsi Afrika ngokuphendula."
+    },
+    "pf": {
+      "desc": "I-Patriotic Front ikhuthaza imigaqo-nkqubo yezwe, ukuzimela kwezoqoqosho, kunye nokubeka phambili iimfuno zabemi boMzantsi Afrika."
+    },
+    "cope": {
+      "desc": "I-Congress of the People ikhuthaza idemokhrasi yentlalo, ulawulo olulungileyo, kunye nemigaqo-nkqubo yezoqoqosho elinganisa ukukhula nentlalontle yoluntu."
     }
   },
   "options": {
@@ -97,64 +112,92 @@
   },
   "questions": {
     "q1": {
-      "text": "Izalachichwa kufanele zibe simahla zze zibonelelwe yirhulumeni kubo bonke.",
-      "category": "izalachichwa"
+      "text": "Inkqubo yempilo yoluntu exhaswa ngumphakathi (inkqubo ye-National Health Insurance) kufuneka isekwe ukunikeza ukukhathalelwa kwasimahla kubo bonke.",
+      "category": "ezempilo"
     },
     "q2": {
-      "text": "Iimfundo eziphezulu (iikoleji kunye namanyunivesithi) kufanele zibe simahla kubo bonke abafundi.",
-      "category": "iimfundo"
+      "text": "Imfundo ephakamileyo kufuneka ibe simahla kubo bonke abafundi (akukho mali), kungekhona nje uncedo lwemali oluhlolwayo.",
+      "category": "imfundo"
     },
     "q3": {
-      "text": "Isifunda kufanele sikwenze isibonelelo sezimali yesiseko kubo bonke abantu, nokuba kukhomba izintela eziphakameleyo okanye umqolo.",
-      "category": "ukuzisindisa komuntu"
+      "text": "Urhulumeni kufuneka asebenzise isibonelelo-mali esingenammiqathango kubo bonke abemi, nokuba kufuna irhafu ephezulu okanye ukuboleka.",
+      "category": "intlalontle yoluntu"
     },
     "q4": {
-      "text": "Irhulumeni kufanele inyuse intela kubo bantu abayimpumelelo ukuthandela iziniselezo zomuntu.",
-      "category": "iindlela zezomnotho"
+      "text": "Urhulumeni kufuneka anyuse irhafu kubantu abatyebileyo ukuxhasa iinkqubo zoluntu ezandisiweyo (impilo, imfundo kunye nezibonelelo zentlalo).",
+      "category": "uqoqosho"
     },
     "q5": {
-      "text": "Irhulumeni kufanele itshale ngamandla amanzi ezo indlu zabantu abanezindinganiso ezikwindlela, nokuba kukhomba ukuba izinye izinsiza ziyaliswa.",
+      "text": "Urhulumeni kufuneka atyale kakhulu kwizindlu zikawonke-wonke zeentsapho ezingenayo imali eninzi.",
       "category": "izindlu"
     },
     "q6": {
-      "text": "Ukuthuthuka komhla wasetingwini kunye nenkxaso yezolimo kufanele zifumane iqambela lenkulu ephakameleyo kunye nokutsala ngobu.",
-      "category": "izolimo"
+      "text": "Utyalo-mali lwezindlu zikawonke-wonke kufuneka lube yinto ephambili nokuba kufuna ukusika ezinye iinkonzo zikawonke-wonke.",
+      "category": "izindlu"
     },
     "q7": {
-      "text": "Abasebenzi kufanele babe nabambo abamakhulu okufa kunye nokunegotiyetha ngokuthe ngqo nezibancibenci kunye ngaphandle kokungenelela kwerhulumeni.",
-      "category": "amazwi abasebenzi"
+      "text": "Uphuhliso lwamaphandle kunye nenkxaso yezolimo (kubandakanywa iinkxaso-mali kunye neziseko zeengqalasizinda zabalimi abancinci) kufuneka ifumane inkxaso-mali enkulu kurhulumeni.",
+      "category": "ezolimo"
     },
     "q8": {
-      "text": "Ukulungiswa Kwezomnotho Kwabantu Abamnyama (BEE) kunye nenkxaso yezifo kufanele ziqhubeke njengezikhundla eziphakameleyo zerhulumeni.",
-      "category": "uguquko"
+      "text": "Abasebenzi kufuneka babe namalungelo aqinileyo okugweva kunye nokuxoxisana ngqo nabaqeshi ngaphandle kokungenelela kurhulumeni.",
+      "category": "amalungelo abasebenzi"
     },
     "q9": {
-      "text": "Ukuthatha umhlaba womuntu ngaphandle kwemali ithile iyakufuneka ukufikela ekutshintsheni komhlaba.",
-      "category": "uguquko lomhlaba"
+      "text": "I-BEE kunye nokwenza ngokulungisa kufuneka kuqhubeke kube ziinkalo eziphambili kurhulumeni ukubuyisela ukungalingani ngokobuhlanga noqoqosho.",
+      "category": "utshintsho"
     },
     "q10": {
-      "text": "UMthetho-sisekelo kufanele utshintshwe ukuvumela uguquko olukhulu kunye nokumnika irhulumeni amandla okusasaza ingcwele.",
-      "category": "ubusele"
+      "text": "Ukuthathwa komhlaba wabucala ngaphandle kwembuyekezo yexabiso lemarike kufuneka kuvunyelwe phantsi komthetho ukukhawulezisa uhlaziyo lomhlaba.",
+      "category": "uhlaziyo lomhlaba"
     },
     "q11": {
-      "text": "IMzantsi Afrika kufanele isixhasi senkqubo yethengi enokundibela e-izindustriya zasekhaya, nokuba kukhomba amtengo amanzi okuthenga.",
-      "category": "umthetho wethengi"
+      "text": "UMgaqo-siseko kufuneka uhlengahlengiswe apho kuyimfuneko ukukhawulezisa utshintsho kunye nokuvumela ulwabiwo oluqhubekayo.",
+      "category": "ulawulo"
     },
     "q12": {
-      "text": "Elizwe kufanele likhusele amandla akabusha (ilanga, umoya) ekubeni namagumbi eamakola.",
-      "category": "amandla"
+      "text": "UMzantsi Afrika kufuneka ubeke phambili izivumelwano zorhwebo ezikhusela amashishini asekhaya, nokuba kuthetha amaxabiso aphezulu kubathengi.",
+      "category": "umgaqo-nkqubo worhwebo"
     },
     "q13": {
-      "text": "Ukungenelela okuqinile ekusasazeni (nokuba kukhomba abaholi bakamuva) kubalulekile kunokushaya kwesidumbu.",
-      "category": "uhozi"
+      "text": "Ilizwe kufuneka libeke phambili utyalo-mali kumandla ahlaziyekayo (ilanga, umoya) kunokwandisa amandla amalahle.",
+      "category": "amandla"
     },
     "q14": {
-      "text": "Ukunciphisa uhozi, irhulumeni kufanele igxile ekuthuthweni kugqwesa kunokuthandela izizathu zezentlalo njengomsulwini.",
-      "category": "ubugora"
+      "text": "Inyathelo elinamandla lokulwa urhwaphilizo (nokuba liphazamisa iinkokeli zangoku) libaluleke ngaphezu kokugcina uzinzo lwezopolitiko.",
+      "category": "urhwaphilizo"
     },
     "q15": {
-      "text": "Abantu abangena kwanggeshini kufanele basulwe kunye nongezelelo lwamaphandle. enokundibela kusebenze kwanumzane womuntu noMzantsi Afrika.",
-      "category": "ukufika kwelinye ililunga"
+      "text": "Ukunciphisa ulwaphulo-mthetho, urhulumeni kufuneka agxile kwisohlwayo esinamandla kunokujongana nezizathu zentlalo ezifana nobuhlwempu.",
+      "category": "ulwaphulo-mthetho"
+    },
+    "q16": {
+      "text": "Abafuduki abangekho emthethweni kufuneka bagxothwe kwaye kulawulwe imida eqinileyo ukukhusela imisebenzi kunye nezibonelelo zasekhaya.",
+      "category": "ukufuduka"
+    },
+    "q17": {
+      "text": "Urhulumeni kufuneka adale iinkqubo ezinkulu zemisebenzi yoluntu kunye neenkqubo zokuqinisekisa umsebenzi ukunciphisa ukungaqeshwa.",
+      "category": "ingqesho"
+    },
+    "q18": {
+      "text": "Ipropati yabucala kunye namalungelo amashishini amancane kufuneka akhuselelwe ngamandla ekuthathweni kunye nomthetho onzima.",
+      "category": "amalungelo epropati"
+    },
+    "q19": {
+      "text": "Urhulumeni kufuneka aqinise ukukhuselwa komthetho kwabantu be-LGBTQ+ kwaye aqhubele phambili amalungelo alinganayo oluntu.",
+      "category": "amalungelo oluntu"
+    },
+    "q20": {
+      "text": "Ukuzimela kwezobulungisa kunye namagunya okuphekelela kufuneka kukhuselelwe ngokungqongqo, nokuba oko kunciphisa ukuguquguquka kwesigqeba.",
+      "category": "amaziko"
+    },
+    "q21": {
+      "text": "UMzantsi Afrika kufuneka ubeke phambili ukubambisana kwamazwe amaningi kwezodiplomacy norhwebo (ne-EU, i-US kunye nabamelwane base-Afrika) kunokuthambisana ikakhulu namaqela ezopolitiko.",
+      "category": "umgaqo-nkqubo wamazwe angaphandle"
+    },
+    "q22": {
+      "text": "Urhulumeni kufuneka andise amagunya okubeka iliso kunye nokufikelela kwidatha yabanyanzelisi bomthetho ukulwa ulwaphulo-mthetho kunye nobunqolobi, nokuba oko kunciphisa ubumfihlo.",
+      "category": "ubumfihlo & iteknoloji"
     }
   },
   "footer": {

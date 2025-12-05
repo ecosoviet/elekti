@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     gap: var(--space-md);
-    padding: var(--space-lg);
+    padding: var(--space-md);
     background-color: var(--color-surface);
     border: 2px solid var(--color-border);
     border-radius: var(--radius-lg);
@@ -76,7 +76,7 @@
   }
 
   .quiz-option__text {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
   }
 

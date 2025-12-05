@@ -5,7 +5,7 @@ import "@fontsource-variable/inter";
 import App from "./App.vue";
 import { i18n } from "./i18n";
 import router from "./router";
-import "./theme.css";
+import "./styles/theme.css";
 
 const app = createApp(App);
 

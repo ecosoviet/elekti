@@ -75,5 +75,40 @@
     "name": "South African Communist Party",
     "descriptionKey": "party.sacp.desc",
     "colour": "#FF0000"
+  },
+  {
+    "id": "udm",
+    "short": "UDM",
+    "name": "United Democratic Movement",
+    "descriptionKey": "party.udm.desc",
+    "colour": "#228B22"
+  },
+  {
+    "id": "aljamah",
+    "short": "Al Jama-ah",
+    "name": "Al Jama-ah",
+    "descriptionKey": "party.aljamah.desc",
+    "colour": "#008080"
+  },
+  {
+    "id": "atm",
+    "short": "ATM",
+    "name": "African Transformation Movement",
+    "descriptionKey": "party.atm.desc",
+    "colour": "#FFA500"
+  },
+  {
+    "id": "pf",
+    "short": "PF",
+    "name": "Patriotic Front",
+    "descriptionKey": "party.pf.desc",
+    "colour": "#4B0082"
+  },
+  {
+    "id": "cope",
+    "short": "COPE",
+    "name": "Congress of the People",
+    "descriptionKey": "party.cope.desc",
+    "colour": "#FF6347"
   }
 ]

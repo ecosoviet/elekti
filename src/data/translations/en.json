@@ -86,6 +86,21 @@
     },
     "sacp": {
       "desc": "The South African Communist Party advocates for socialism, workers' rights, and the transition to a socialist society through state control."
+    },
+    "udm": {
+      "desc": "The United Democratic Movement promotes social democracy, reconciliation, and pragmatic policies to address poverty and inequality."
+    },
+    "aljamah": {
+      "desc": "Al Jama-ah represents Islamic values and advocates for social justice, ethical governance, and the rights of marginalized communities."
+    },
+    "atm": {
+      "desc": "The African Transformation Movement focuses on anti-corruption, ethical leadership, and transforming South Africa through accountability."
+    },
+    "pf": {
+      "desc": "The Patriotic Front advocates for nationalist policies, economic sovereignty, and prioritizing South African citizens' interests."
+    },
+    "cope": {
+      "desc": "The Congress of the People promotes social democracy, good governance, and economic policies that balance growth with social welfare."
     }
   },
   "options": {
@@ -97,64 +112,92 @@
   },
   "questions": {
     "q1": {
-      "text": "Healthcare should be free and provided by the government for everyone.",
+      "text": "Universal publicly funded healthcare (a National Health Insurance-style system) should be established to provide free basic care to everyone.",
       "category": "healthcare"
     },
     "q2": {
-      "text": "Higher education (colleges and universities) should be free for all students.",
+      "text": "Higher education should be free for all students (no fees), not just means-tested financial aid.",
       "category": "education"
     },
     "q3": {
-      "text": "The state should guarantee a basic income grant for all citizens, even if it requires higher taxes or debt.",
+      "text": "The state should implement an unconditional basic income grant for all citizens, even if it requires higher taxes or borrowing.",
       "category": "social welfare"
     },
     "q4": {
-      "text": "The government should raise taxes on the wealthy to fund social programs.",
+      "text": "The government should raise taxes on the wealthy to fund expanded social programmes (health, education and social grants).",
       "category": "economy"
     },
     "q5": {
-      "text": "The government should invest heavily in public housing for low-income families, even if it means cutting other services.",
+      "text": "Government should invest heavily in public housing for low-income families.",
       "category": "housing"
     },
     "q6": {
-      "text": "Rural development and agricultural support should receive significantly more government funding and investment.",
-      "category": "agriculture"
+      "text": "Public housing investment should take priority even if it requires cutting other public services.",
+      "category": "housing"
     },
     "q7": {
+      "text": "Rural development and agricultural support (including subsidies and infrastructure for small farmers) should receive significantly more government funding.",
+      "category": "agriculture"
+    },
+    "q8": {
       "text": "Workers should have stronger rights to strike and negotiate directly with employers without government interference.",
       "category": "labour rights"
     },
-    "q8": {
-      "text": "Black Economic Empowerment (BEE) and affirmative action should remain key government priorities.",
+    "q9": {
+      "text": "BEE and affirmative action should remain central government priorities to redress historic racial and economic inequality.",
       "category": "transformation"
     },
-    "q9": {
-      "text": "Expropriation of private land without compensation is justified to achieve land reform.",
+    "q10": {
+      "text": "Expropriation of private land without market-rate compensation should be permitted under law to accelerate land reform.",
       "category": "land reform"
     },
-    "q10": {
-      "text": "The Constitution should be reformed to allow for faster transformation and give government more power to redistribute wealth.",
+    "q11": {
+      "text": "The Constitution should be amended where necessary to speed up transformation and enable more progressive redistribution.",
       "category": "governance"
     },
-    "q11": {
+    "q12": {
       "text": "South Africa should prioritise trade agreements that protect local industries, even if it means higher consumer prices.",
       "category": "trade policy"
     },
-    "q12": {
+    "q13": {
       "text": "The country should prioritise investment in renewable energy (solar, wind) over expanding coal power.",
       "category": "energy"
     },
-    "q13": {
-      "text": "Strong action against corruption (even if it disrupts current leaders) is more important than political stability.",
+    "q14": {
+      "text": "Strong action against corruption (even if it disrupts current leaders) is more important than preserving political stability.",
       "category": "corruption"
     },
-    "q14": {
+    "q15": {
       "text": "To reduce crime, the government should focus more on harsher punishment rather than addressing social causes like poverty.",
       "category": "crime"
     },
-    "q15": {
+    "q16": {
       "text": "Illegal immigrants should be deported and strict border control enforced to protect local jobs and resources.",
       "category": "immigration"
+    },
+    "q17": {
+      "text": "The government should create large public works and job guarantee programmes to reduce unemployment.",
+      "category": "employment"
+    },
+    "q18": {
+      "text": "Private property and small-business rights should be strongly protected against expropriation and heavy regulation.",
+      "category": "property rights"
+    },
+    "q19": {
+      "text": "The government should strengthen legal protections for LGBTQ+ people and actively advance equal civil rights.",
+      "category": "civil rights"
+    },
+    "q20": {
+      "text": "The independence of the judiciary and prosecuting authorities must be strictly protected, even if that limits executive flexibility.",
+      "category": "institutions"
+    },
+    "q21": {
+      "text": "South Africa should prioritise broad multilateral diplomatic and trade engagement (with the EU, US and African neighbours) over aligning primarily with alternative geopolitical blocs.",
+      "category": "foreign policy"
+    },
+    "q22": {
+      "text": "The government should expand surveillance and data-access powers for law enforcement to fight crime and terrorism, even if it reduces some privacy.",
+      "category": "privacy & tech"
     }
   },
   "footer": {

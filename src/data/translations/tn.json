@@ -86,6 +86,21 @@
     },
     "sacp": {
       "desc": "South African Communist Party e emela bokomanisi."
+    },
+    "udm": {
+      "desc": "United Democratic Movement e rotloetsa demokrasi ya loago, kopano, le dipholisi tse di sebetsang go lwantsha lehuma le go se lekane."
+    },
+    "aljamah": {
+      "desc": "Al Jama-ah e emela ditumelo tsa boIslam mme e rotloetsa toka ya loago, puso e e nang le maitsholo, le ditshwanelo tsa batho ba ba gateletsweng."
+    },
+    "atm": {
+      "desc": "African Transformation Movement e itebaganya le go lwantsha bosenyi, boeteledipele jo bo nang le maitsholo, le go fetola Afrika Borwa ka maikarabelo."
+    },
+    "pf": {
+      "desc": "Patriotic Front e rotloetsa dipholisi tsa bosetshaba, boikemelo jwa ikonomi, le go baya pele dikgatlhego tsa baagi ba Afrika Borwa."
+    },
+    "cope": {
+      "desc": "Congress of the People e rotloetsa demokrasi ya loago, puso e e siameng, le dipholisi tsa ikonomi tse di lekanyang kgolo le boiketlo jwa loago."
     }
   },
   "options": {
@@ -97,64 +112,92 @@
   },
   "questions": {
     "q1": {
-      "text": "Tlhoafalo ya molwetse e ba bohitshware mo dikaogelo tsa setjhaba gohle.",
-      "category": "boitekanelo bja madi"
+      "text": "Tsamaiso ya tlhokomelo ya botsogo ya batho yotlhe e e tshegediswang ke setšhaba (tsamaiso ya mofuta wa National Health Insurance) e tshwanetse go tlhamiwa go tlamela ka tlhokomelo ya motheo ya mahala go botlhe.",
+      "category": "botsogo"
     },
     "q2": {
-      "text": "Thuto e e kwa godimo (dikoleje le diunivesithi) e ba bohitshware mo baithuti botlhe.",
+      "text": "Thuto e e kwa godimo e tshwanetse go nna ya mahala go baithuti botlhe (ga go na dituelo), e seng fela thuso ya madi e e lekanyeditsweng.",
       "category": "thuto"
     },
     "q3": {
-      "text": "Setjhaba se ba le khuetso ya go neela bathusi ba dikonopo go batsi botlhe, gooba go lebana le dimakarapa e kwa godimo kgotsa ditlhole.",
-      "category": "tshireletso ya setjhaba"
+      "text": "Puso e tshwanetse go tsenya mo tirisong mpho ya madi ya motheo e e sa beakanyeng mabaka go baagi botlhe, le fa go tlhokega lekgetho le le kwa godimo kgotsa go adima.",
+      "category": "boitekanelo jwa setšhaba"
     },
     "q4": {
-      "text": "Puso e se khuphule makarapa go ba ba le madi go realo dithuso tsa setjhaba.",
-      "category": "tshitantsho ya dikonopo"
+      "text": "Puso e tshwanetse go tlhatlosa lekgetho go bahumegi go tšhegetsa mananeo a setšhaba a a atolositsweng (botsogo, thuto le dimpho tsa loago).",
+      "category": "ikonomi"
     },
     "q5": {
-      "text": "Puso e se invelete go letlele mo ntlong ya baeti ba le dikonopo, gooba go remetsa dithuso tse dingwe.",
-      "category": "intlo"
+      "text": "Puso e tshwanetse go beeletsa thata mo matlong a setšhaba a malapa a a senang madi a mantsi.",
+      "category": "matlo"
     },
     "q6": {
-      "text": "Tlhabollo ya motse le thupo ya temoso e se amogele kakaretso e kgonano ga go le karolo ya puso.",
-      "category": "temoso"
+      "text": "Peeletso ya matlo a setšhaba e tshwanetse go nna kgakololo le fa go tlhokega go kgaoganya ditirelo tse dingwe tsa setšhaba.",
+      "category": "matlo"
     },
     "q7": {
-      "text": "Balesika ba se be le tsholo e e kgonano go go oketsa go gopana morago ga badugi ba tiro nang mo boipolelo bja puso.",
-      "category": "bokaedi bja balesika"
+      "text": "Tlhabololo ya magae le tshegetso ya temo (go akaretsa ditshegetso le motheo wa balemirui ba bannye) e tshwanetse go amogela matlole a mantsi a puso.",
+      "category": "temo"
     },
     "q8": {
-      "text": "Bokgonne bja Tshitantsho ya Bantsho (BEE) le tshireletso ya go swanela go le setshwantsho se se kwa pele sa puso.",
-      "category": "phapanyetsano"
+      "text": "Badiri ba tshwanetse go nna le ditshwanelo tse di nonofileng tsa go itlhagisa le go buisana ka tlhamalalo le bahiri kwa ntle ga go tsena ga puso.",
+      "category": "ditshwanelo tsa badiri"
     },
     "q9": {
-      "text": "Go nka lefatshe la motho nang kgutlo alete go thekga phetogo ya lefatshe.",
-      "category": "phetogo ya lefatshe"
+      "text": "BEE le go dira ka tshiamo go tshwanetse go tswelela e le dikgakololo tsa botlhokwa tsa puso go lokisa go se lekane ga morafe le ikonomi ga histori.",
+      "category": "phetogo"
     },
     "q10": {
-      "text": "Molaomotheo o lokela go fetogwa go fa kgetsi go badela mo dirang go go re phiritso ya lefatshe.",
-      "category": "puso"
+      "text": "Go tsewa ga lefatshe la poraefete kwa ntle ga tuelo ya boleng jwa mebaraka go tshwanetse go dumelwa ka fa tlase ga molao go potlakisa petoloelo ya lefatshe.",
+      "category": "petoloelo ya lefatshe"
     },
     "q11": {
-      "text": "Afrika Borwa e se kaonela go thotloetsa ditumelano tsa go rekana tse di leboga dithuto tsa lapeng, gooba go thaka melato ya go realo.",
-      "category": "go rekana thapo"
+      "text": "Molaotheo o tshwanetse go fetolwa fa go tlhokega go potlakisa phetogo le go kgontsha kabo e e tswelelang.",
+      "category": "puso"
     },
     "q12": {
-      "text": "Naga e se kaonela go invelete mo mafolofolo a mafsa (letsatsi, maloba) go fapana le go okeleza motlholo.",
-      "category": "mafolofolo"
+      "text": "Afrika Borwa e tshwanetse go baya kgakololo ditumalano tsa kgwebo tse di sireletsang madirelo a selegae, le fa go raya ditlhotlhwa tse di kwa godimo tsa bareki.",
+      "category": "pholisi ya kgwebo"
     },
     "q13": {
-      "text": "Go bereka go le le mothusi (gooba go se bese bamoduli ba gontsokolo) go balele ke go ba le molemo go fapana le puo ya setjhaba.",
-      "category": "go hloile motho"
+      "text": "Naga e tshwanetse go baya kgakololo peeletso mo motlakaseng o o mpshafaditsweng (letsatsi, phefo) go feta go atolosa motlakase wa magala.",
+      "category": "motlakase"
     },
     "q14": {
-      "text": "Go fokotsa serama, puso e se lebane go tlametela molato go thaka sengwe sa bothogo joalaka sematshwenyego.",
-      "category": "serama"
+      "text": "Kgato e e nonofileng kgatlhanong le bosenyi (le fa e tsenya tiragalo mo baeteledipele ba jaana) e botlhokwa go feta go boloka botsitso jwa sepolotiki.",
+      "category": "bosenyi"
     },
     "q15": {
-      "text": "Batang ba ba isago ba ba lokela go sokologiwa go amoga sekgoba se se tiile se go sireletsa dithuso tsa tikologo le lefatshe.",
-      "category": "go mo setsi sa ditshi"
+      "text": "Go fokotsa bosenyi, puso e tshwanetse go tlhoma mogopolo mo kotlhaong e e thata go feta go lebagana le mabaka a loago jaaka lehuma.",
+      "category": "bosenyi"
+    },
+    "q16": {
+      "text": "Bafaladi ba ba sa dumelwang ba tshwanetse go lelekiwa le taolo e e tiileng ya moedi go sireletswa ditiro tsa selegae le dithuso.",
+      "category": "bofaladi"
+    },
+    "q17": {
+      "text": "Puso e tshwanetse go tlhama mananeo a magolo a ditiro tsa setšhaba le mananeo a go netefatsa tiro go fokotsa tlhoka tiro.",
+      "category": "tiro"
+    },
+    "q18": {
+      "text": "Thoto ya poraefete le ditshwanelo tsa dikgwebo tse dinnye di tshwanetse go sirelediwa ka thata kgatlhanong le go tsewa le melawana e e bokete.",
+      "category": "ditshwanelo tsa thoto"
+    },
+    "q19": {
+      "text": "Puso e tshwanetse go nonotsha tshireletso ya molao ya batho ba LGBTQ+ le go tlhabolola ditshwanelo tse di lekana tsa baagi.",
+      "category": "ditshwanelo tsa baagi"
+    },
+    "q20": {
+      "text": "Boikemelo jwa tsamaiso ya tshiamiso le marapo a a tshwereng molato bo tshwanetse go sirelediwa ka thata, le fa seo se fokotsa bofefo jwa tsamaiso.",
+      "category": "ditheo"
+    },
+    "q21": {
+      "text": "Afrika Borwa e tshwanetse go baya kgakololo tirisanommogo e e pharaletseng ya dinaga tse dintsi ya dipolotiki le kgwebo (le EU, US le baagisani ba Afrika) go feta go tshwaragana bogolo le ditlhopha tse dingwe tsa sepolotiki.",
+      "category": "pholisi ya dinaga tsa kwa ntle"
+    },
+    "q22": {
+      "text": "Puso e tshwanetse go atolosa maatla a tlhatlhobo le a phitlhelelo ya data a tsamaiso ya molao go lwantsha bosenyi le boqhekanyetsi, le fa go fokotsa sephiri.",
+      "category": "sephiri & thekenoloji"
     }
   },
   "footer": {

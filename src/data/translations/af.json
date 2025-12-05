@@ -86,6 +86,21 @@
     },
     "sacp": {
       "desc": "Die South African Communist Party bepleit sosialisme."
+    },
+    "udm": {
+      "desc": "Die United Democratic Movement bevorder sosiale demokrasie, versoening en praktiese beleide om armoede en ongelykheid aan te spreek."
+    },
+    "aljamah": {
+      "desc": "Al Jama-ah verteenwoordig Islamitiese waardes en bepleit sosiale geregtigheid, etiese bestuur en die regte van gemarginaliseerde gemeenskappe."
+    },
+    "atm": {
+      "desc": "Die African Transformation Movement fokus op anti-korrupsie, etiese leierskap en transformasie van Suid-Afrika deur verantwoordbaarheid."
+    },
+    "pf": {
+      "desc": "Die Patriotic Front bepleit nasionalistiese beleide, ekonomiese soewereiniteit en om Suid-Afrikaanse burgers se belange te prioritiseer."
+    },
+    "cope": {
+      "desc": "Die Congress of the People bevorder sosiale demokrasie, goeie bestuur en ekonomiese beleide wat groei met sosiale welsyn balanseer."
     }
   },
   "options": {
@@ -97,64 +112,92 @@
   },
   "questions": {
     "q1": {
-      "text": "Gesondheidsorg moet gratis en deur die regering vir almal voorsien word.",
+      "text": "Universele publiek-gefinansieerde gesondheidsorg ('n Nasionale Gesondheidsversekering-stelsel) moet ingestel word om gratis basiese sorg vir almal te verskaf.",
       "category": "gesondheidsorg"
     },
     "q2": {
-      "text": "Hoër onderwys (kolleges en universiteite) moet gratis vir alle studente wees.",
+      "text": "Hoër onderwys moet gratis wees vir alle studente (geen fooie), nie net behoeftetoets finansiële hulp nie.",
       "category": "onderwys"
     },
     "q3": {
-      "text": "Die staat behoort 'n basiese inkomstetoelae vir alle burgers te waarborg, al vereis dit hoër belastings of skuld.",
+      "text": "Die staat moet 'n onvoorwaardelike basiese inkomste-toelae vir alle burgers implementeer, selfs as dit hoër belasting of lenings vereis.",
       "category": "sosiale welsyn"
     },
     "q4": {
-      "text": "Die regering behoort belaste op die rykes te verhoog om maatskaplike programme te finansier.",
+      "text": "Die regering behoort belasting op die rykes te verhoog om uitgebreide sosiale programme (gesondheid, onderwys en sosiale toelaes) te befonds.",
       "category": "ekonomie"
     },
     "q5": {
-      "text": "Die regering behoort swaar in openbare behuising vir lae-inkomstegezinne te investeer, al beteken dit dat ander dienste gesny word.",
+      "text": "Die regering moet swaar in openbare behuising vir lae-inkomste gesinne investeer.",
       "category": "behuising"
     },
     "q6": {
-      "text": "Landelike ontwikkeling en landbousteun behoort aansienlik meer staatsbeleid en belegging te ontvang.",
-      "category": "landbou"
+      "text": "Openbare behuisingsbelegging moet prioriteit kry, selfs as dit vereis dat ander openbare dienste gesny word.",
+      "category": "behuising"
     },
     "q7": {
-      "text": "Werkers behoort sterker regte om te staking en direk met werkgewers te onderhandel sonder staatsintervensie te hê.",
-      "category": "arbeidsregte"
+      "text": "Landelike ontwikkeling en landbousteun (insluitend subsidies en infrastruktuur vir klein boere) behoort aansienlik meer regeringsbefondsing te ontvang.",
+      "category": "landbou"
     },
     "q8": {
-      "text": "Swart Ekonomiese Bemagtiging (BEE) en regstellende aksie behoort sleutelregeringsprioriteite te bly.",
-      "category": "transformasie"
+      "text": "Werkers behoort sterker regte te hê om te staak en direk met werkgewers te onderhandel sonder regeringsinminging.",
+      "category": "arbeidsregte"
     },
     "q9": {
-      "text": "Ekspropriasie van privaat grond sonder kompensasie is geregverdig om grondhervorming te bereik.",
-      "category": "grondhervorming"
+      "text": "BEE en regstellende aksie behoort sentrale regeringsprioriteite te bly om historiese rasse- en ekonomiese ongelykheid aan te spreek.",
+      "category": "transformasie"
     },
     "q10": {
-      "text": "Die Grondwet behoort hervormd te word om vinniger transformasie toe te laat en die regering meer mag te gee om welvaart te herverdeel.",
-      "category": "bestuur"
+      "text": "Onteiening van privaat grond sonder markwaarde-vergoeding moet onder die wet toegelaat word om grondhervorming te versnel.",
+      "category": "grondhervorming"
     },
     "q11": {
-      "text": "Suid-Afrika behoort handel-ooreenkoms wat plaaslike nywerhede beskerm prioriteit te gee, al beteken dit hoër verbruikersryse.",
-      "category": "handelsbeleid"
+      "text": "Die Grondwet moet gewysig word waar nodig om transformasie te versnel en meer progressiewe herverdeling moontlik te maak.",
+      "category": "bestuur"
     },
     "q12": {
-      "text": "Die land behoort belegging in hernubare energie (son, wind) prioriteit te gee bo die uitbreiding van steenkool.",
-      "category": "energie"
+      "text": "Suid-Afrika behoort handelsooreenskomste wat plaaslike nywerhede beskerm te prioritiseer, selfs as dit hoër verbruikerspryse beteken.",
+      "category": "handelsbeleid"
     },
     "q13": {
-      "text": "Sterk aksie teen korrupsie (selfs as dit huidige leiers versteur) is belangriker as politieke stabiliteit.",
-      "category": "korrupsie"
+      "text": "Die land behoort belegging in hernubare energie (sonkrag, wind) te prioritiseer bo die uitbreiding van steenkoolkrag.",
+      "category": "energie"
     },
     "q14": {
-      "text": "Om misdaad te verminder, behoort die regering op swaarder strawwe eerder as die aansprek van sosiale oorsake soos armoede te fokus.",
-      "category": "misdaad"
+      "text": "Sterk optrede teen korrupsie (selfs as dit huidige leiers ontwrig) is belangriker as die behoud van politieke stabiliteit.",
+      "category": "korrupsie"
     },
     "q15": {
-      "text": "Onwettige immigrante behoort deporteer te word en streng grenskontrole afgedwing word om plaaslike werk en hulpbronne te beskerm.",
+      "text": "Om misdaad te verminder, moet die regering meer op harder strawwe fokus eerder as om sosiale oorsake soos armoede aan te spreek.",
+      "category": "misdaad"
+    },
+    "q16": {
+      "text": "Onwettige immigrante moet gedeporteer word en streng grenskontrole afgedwing word om plaaslike werk en hulpbronne te beskerm.",
       "category": "immigrasie"
+    },
+    "q17": {
+      "text": "Die regering moet groot openbare werke en werkwaarborg-programme skep om werkloosheid te verminder.",
+      "category": "indiensneming"
+    },
+    "q18": {
+      "text": "Privaat eiendom en kleinsakeregte moet sterk beskerm word teen onteiening en swaar regulasie.",
+      "category": "eiendomsregte"
+    },
+    "q19": {
+      "text": "Die regering moet regsbeskermings vir LGBTQ+ mense versterk en aktief gelyke burgerregte bevorder.",
+      "category": "burgerregte"
+    },
+    "q20": {
+      "text": "Die onafhanklikheid van die regsprekende gesag en vervolgingsowerhede moet streng beskerm word, selfs as dit uitvoerende buigsaamheid beperk.",
+      "category": "instellings"
+    },
+    "q21": {
+      "text": "Suid-Afrika behoort breë multilaterale diplomatieke en handelsbetrokkenheid (met die EU, VSA en Afrika-bure) te prioritiseer bo belyning hoofsaaklik met alternatiewe geopolitieke blokke.",
+      "category": "buitelandse beleid"
+    },
+    "q22": {
+      "text": "Die regering moet waarnemings- en datatoegangsmagte vir wetstoepassing uitbrei om misdaad en terrorisme te beveg, selfs as dit privaatheid verminder.",
+      "category": "privaatheid & tegnologie"
     }
   },
   "footer": {

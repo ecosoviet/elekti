@@ -86,6 +86,21 @@
     },
     "sacp": {
       "desc": "I-South African Communist Party imele ubuntu."
+    },
+    "udm": {
+      "desc": "I-United Democratic Movement ikhuthaza intando yeningi yomphakathi, ukubuyisana, kanye nezinqubomgomo ezingokoqobo zokuqeda ubumpofu nokungalingani."
+    },
+    "aljamah": {
+      "desc": "I-Al Jama-ah imele izindinganiso zobuIslam futhi imele ubulungiswa bomphakathi, ukubusa okunokuziphatha, namalungelo emiphakathi ecindezelwe."
+    },
+    "atm": {
+      "desc": "I-African Transformation Movement igxile ekulweni nenkohlakalo, ubuholi obunokuziphatha, kanye nokushintsha iNingizimu Afrika ngokuziphendulela."
+    },
+    "pf": {
+      "desc": "I-Patriotic Front imele izinqubomgomo zezwe, ukuzimela kwezomnotho, kanye nokubeka phambili izintshisekelo zezakhamuzi zaseNingizimu Afrika."
+    },
+    "cope": {
+      "desc": "I-Congress of the People ikhuthaza intando yeningi yomphakathi, ukubusa okuhle, kanye nezinqubomgomo zezomnotho ezilinganisa ukukhula nenhlalakahle yomphakathi."
     }
   },
   "options": {
@@ -97,64 +112,92 @@
   },
   "questions": {
     "q1": {
-      "text": "Inkosilizali kufanele ibe mahala futhi ibikezelwe yuhulumeni kubo bonke.",
-      "category": "inkosilizali"
+      "text": "Uhlelo lokunakekelwa kwempilo oluxhaswa ngumphakathi (uhlelo lwe-National Health Insurance) kufanele lusungulwe ukunikeza ukunakekelwa kwamahhala kubo bonke.",
+      "category": "ezempilo"
     },
     "q2": {
-      "text": "Imfundo ephakamileyo (ikiloji namanyunivesithi) kufanele ibe mahala kubo bonke abafundi.",
+      "text": "Imfundo ephakeme kufanele ibe mahhala kubo bonke abafundi (ayikho imali), hhayi nje usizo lwezimali oluhlolwayo.",
       "category": "imfundo"
     },
     "q3": {
-      "text": "Isifunda sikhuluma imibuzo yesinghalo semvume yemali eyayisisekelo kubo bonke abantu, ngisho noma kukhombe amatreyiksi aphakeme noma amaleveni.",
-      "category": "ukuzisindisa komuntu"
+      "text": "Uhulumeni kufanele asebenzise isibonelelo semali esingagunyaziwe kubo bonke izakhamuzi, ngisho noma kudinga izintela eziphezulu noma ukuboleka.",
+      "category": "inhlalakahle yomphakathi"
     },
     "q4": {
-      "text": "Uhulumeni kufanele akhuphele amatreyikski kubo bantu abamcebo ukufunda izinhlelo zamahlongonhlobo.",
+      "text": "Uhulumeni kufanele akhuphule izintela kubantu abanothileyo ukuxhasa izinhlelo zomphakathi ezingeziwe (ezempilo, imfundo nezibonelelo zomphakathi).",
       "category": "ezomnotho"
     },
     "q5": {
-      "text": "Uhulumeni kufanele ainvesthe kakhulu ezindlwini ezikhethekile zabantu abanezindinganiso eziphansi, ngisho noma kukhombe ukuthi izinye izinsiza ziyeshiywa.",
+      "text": "Uhulumeni kufanele atshale kakhulu ezindlini zomphakathi zemindeni engenayo imali eningi.",
       "category": "izindlu"
     },
     "q6": {
-      "text": "Ukuthuthuka komhlaba wasetingweni nezisebenzi zezolimo kufanele zithole imbuzo enkulu yehulumeni kanye nokuinvesta.",
-      "category": "ezolimo"
+      "text": "Ukutshalwa kwezimali ezindlini zomphakathi kufanele kube yinto ebalulekile ngisho noma kudinga ukunciphisa ezinye izinsizakalo zomphakathi.",
+      "category": "izindlu"
     },
     "q7": {
-      "text": "Abasebenzi kufanele babe namathuba amakhulu okushayela kanye nokunegotiyeta ngokuqondile nabafundishi futhi ngaphandle kokungenelela kuhulumeni.",
-      "category": "amazwi abasebenzi"
+      "text": "Ukuthuthukiswa kwezindawo zasemakhaya nokusekela ezolimo (okuhlanganisa izibonelelo nezingqalasizinda zabalimi abancane) kufanele kuthole uxhaso olukhulu luka hulumeni.",
+      "category": "ezolimo"
     },
     "q8": {
-      "text": "Ukuqinisekiswa Kwezomnotho Kabantu Abamnyama (BEE) kanye nempilo eyibhalisisa kufanele ibe izinto ezibalulekile zokuthola kahulumeni.",
-      "category": "uguquko"
+      "text": "Abasebenzi kufanele babe namalungelo aqinile okushayela nokuxoxisana ngqo nabaqashi ngaphandle kokungenelela kukahulumeni.",
+      "category": "amalungelo abasebenzi"
     },
     "q9": {
-      "text": "Ukuthatha umhlaba womuntu ngaphandle kokukhokha ngubani ugwebe ulunga ekusitsheni umhlaba.",
-      "category": "uguquko lomhlaba"
+      "text": "I-BEE kanye nokwenza ngokubuyisana kufanele kuqhubeke kube yizinto ezibalulekile kuhulumeni ukubuyisela ukungalingani kobuhlanga kwezomnotho.",
+      "category": "uguquko"
     },
     "q10": {
-      "text": "Umthetho-sisekelo kufanele uguqulwe ukuvumela uguquko olukhulu futhi anikezele uhulumeni amandla okulingana ngokwethunzi lwabantu.",
-      "category": "ubusele"
+      "text": "Ukuthathwa komhlaba wangasese ngaphandle kokukhokhelwa kwenani lemakethe kufanele kuvunyelwe ngaphansi komthetho ukusheshisa ukuguqulwa komhlaba.",
+      "category": "ukuguqulwa komhlaba"
     },
     "q11": {
-      "text": "INingizimu Afrika kufanele ibe sesixhasi se-imibango yokuthandwa isikhali kuzo zonke izinhlelo, ngisho noma kukhombe izintengo zabaningi.",
-      "category": "umthetho wethayi"
+      "text": "Umthethosisekelo kufanele uchitshiyelwe lapho kudingeka ukusheshisa uguquko nokuvumela ukwabiwa okuqhubekayo.",
+      "category": "ukubusa"
     },
     "q12": {
-      "text": "Umhlaba kufanele akusite amandla akabusha (ilanga, umoya) endlela enqumayo ekuphumele amakola.",
-      "category": "amandla"
+      "text": "INingizimu Afrika kufanele ibeke phambili izivumelwano zohwebo ezivikela izimboni zasekhaya, ngisho noma kusho amanani aphezulu kubathengi.",
+      "category": "inqubomgomo yohwebo"
     },
     "q13": {
-      "text": "Ukungenelela okuningiziwe ekushayeni (ngisho noma kukhombe abaholi bakamuva) kubaluleke kunokushaya komuntu.",
-      "category": "ubugebengu"
+      "text": "Izwe kufanele libeke phambili ukutshalwa kwezimali emandleni avuselelekayo (ilanga, umoya) kunokwandisa amandla amalahle.",
+      "category": "amandla"
     },
     "q14": {
-      "text": "Ukunciphisa ubugebengu, uhulumeni kufanele agxile ekushayeni izahluko ezinkulu kunokulunga okunzima senzakala.",
-      "category": "ubugora"
+      "text": "Isenzo esinamandla esilwa nenkohlakalo (ngisho noma kuphazamisa abaholi bamanje) kubaluleke kunokugcina ukuzinza kwezepolitiki.",
+      "category": "inkohlakalo"
     },
     "q15": {
-      "text": "Izilwane ezingena kwanggeshini kufanele zisulwe futhi iphasi lemikhawulo lishone ekulungeni umuntu nomuntu woMzansi Afrika kanye nezinsiza zazo.",
-      "category": "ukufika kwelinye ililunga"
+      "text": "Ukunciphisa ubugebengu, uhulumeni kufanele agxile ekujeziseni okunamandla kunokubhekana nezimbangela zomphakathi njengobumpofu.",
+      "category": "ubugebengu"
+    },
+    "q16": {
+      "text": "Abafiki abangekho emthethweni kufanele baxoshwe bese kulawulwa imingcele eqinile ukuvikela imisebenzi nezinsiza zendawo.",
+      "category": "ukufika kwezizwe"
+    },
+    "q17": {
+      "text": "Uhulumeni kufanele adale izinhlelo ezinkulu zemisebenzi yomphakathi kanye nezinhlelo zokuqinisekisa umsebenzi ukunciphisa ukungaqashwa.",
+      "category": "ukuqashwa"
+    },
+    "q18": {
+      "text": "Impahla yangasese namalungelo amabhizinisi amancane kufanele avikelwe ngokuqinile ekuthathweni nasemithethweni enzima.",
+      "category": "amalungelo empahla"
+    },
+    "q19": {
+      "text": "Uhulumeni kufanele aqinise ukuvikelwa komthetho kwabantu be-LGBTQ+ futhi athuthukise amalungelo alinganayo asakhamuzi.",
+      "category": "amalungelo asakhamuzi"
+    },
+    "q20": {
+      "text": "Ukuzimela kwezinkantolo kanye nezikhathi zokushushisa kufanele kuvikelwe ngokuqinile, ngisho noma lokho kunciphisa ukuguquguquka kwesigqila.",
+      "category": "izikhungo"
+    },
+    "q21": {
+      "text": "INingizimu Afrika kufanele ibeke phambili ukubambisana okwamazwe amaningi kwezokuxhumana nehwebo (ne-EU, i-US kanye nomakhelwane base-Afrika) kunokuhambisana nezigaba ezinye zezombusazwe.",
+      "category": "inqubomgomo yangaphandle"
+    },
+    "q22": {
+      "text": "Uhulumeni kufanele andise amandla okuphatha kanye nokufinyelela kudatha ukuze alwe nobugebengu nobuphekuli, ngisho noma kunciphisa ubumfihlo.",
+      "category": "ubumfihlo & ubuchwepheshe"
     }
   },
   "footer": {

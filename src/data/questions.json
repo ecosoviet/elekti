@@ -2,7 +2,7 @@
   "questions": [
     {
       "id": "q1",
-      "text": "Healthcare should be free and provided by the government for everyone.",
+      "text": "Universal publicly funded healthcare (a National Health Insurance-style system) should be established to provide free basic care to everyone.",
       "category": "healthcare",
       "options": [
         "Strongly agree",
@@ -14,7 +14,7 @@
     },
     {
       "id": "q2",
-      "text": "Higher education (colleges and universities) should be free for all students.",
+      "text": "Higher education should be free for all students (no fees), not just means-tested financial aid.",
       "category": "education",
       "options": [
         "Strongly agree",
@@ -26,7 +26,7 @@
     },
     {
       "id": "q3",
-      "text": "The state should guarantee a basic income grant for all citizens, even if it requires higher taxes or debt.",
+      "text": "The state should implement an unconditional basic income grant for all citizens, even if it requires higher taxes or borrowing.",
       "category": "social welfare",
       "options": [
         "Strongly agree",
@@ -38,7 +38,7 @@
     },
     {
       "id": "q4",
-      "text": "The government should raise taxes on the wealthy to fund social programs.",
+      "text": "The government should raise taxes on the wealthy to fund expanded social programmes (health, education and social grants).",
       "category": "economy",
       "options": [
         "Strongly agree",
@@ -50,7 +50,7 @@
     },
     {
       "id": "q5",
-      "text": "The government should invest heavily in public housing for low-income families, even if it means cutting other services.",
+      "text": "Government should invest heavily in public housing for low-income families.",
       "category": "housing",
       "options": [
         "Strongly agree",
@@ -62,8 +62,8 @@
     },
     {
       "id": "q6",
-      "text": "Rural development and agricultural support should receive significantly more government funding and investment.",
-      "category": "agriculture",
+      "text": "Public housing investment should take priority even if it requires cutting other public services.",
+      "category": "housing",
       "options": [
         "Strongly agree",
         "Agree",
@@ -74,6 +74,18 @@
     },
     {
       "id": "q7",
+      "text": "Rural development and agricultural support (including subsidies and infrastructure for small farmers) should receive significantly more government funding.",
+      "category": "agriculture",
+      "options": [
+        "Strongly agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Strongly disagree"
+      ]
+    },
+    {
+      "id": "q8",
       "text": "Workers should have stronger rights to strike and negotiate directly with employers without government interference.",
       "category": "labour rights",
       "options": [
@@ -85,8 +97,8 @@
       ]
     },
     {
-      "id": "q8",
-      "text": "Black Economic Empowerment (BEE) and affirmative action should remain key government priorities.",
+      "id": "q9",
+      "text": "BEE and affirmative action should remain central government priorities to redress historic racial and economic inequality.",
       "category": "transformation",
       "options": [
         "Strongly agree",
@@ -97,8 +109,8 @@
       ]
     },
     {
-      "id": "q9",
-      "text": "Expropriation of private land without compensation is justified to achieve land reform.",
+      "id": "q10",
+      "text": "Expropriation of private land without market-rate compensation should be permitted under law to accelerate land reform.",
       "category": "land reform",
       "options": [
         "Strongly agree",
@@ -109,8 +121,8 @@
       ]
     },
     {
-      "id": "q10",
-      "text": "The Constitution should be reformed to allow for faster transformation and give government more power to redistribute wealth.",
+      "id": "q11",
+      "text": "The Constitution should be amended where necessary to speed up transformation and enable more progressive redistribution.",
       "category": "governance",
       "options": [
         "Strongly agree",
@@ -121,7 +133,7 @@
       ]
     },
     {
-      "id": "q11",
+      "id": "q12",
       "text": "South Africa should prioritise trade agreements that protect local industries, even if it means higher consumer prices.",
       "category": "trade policy",
       "options": [
@@ -133,7 +145,7 @@
       ]
     },
     {
-      "id": "q12",
+      "id": "q13",
       "text": "The country should prioritise investment in renewable energy (solar, wind) over expanding coal power.",
       "category": "energy",
       "options": [
@@ -145,8 +157,8 @@
       ]
     },
     {
-      "id": "q13",
-      "text": "Strong action against corruption (even if it disrupts current leaders) is more important than political stability.",
+      "id": "q14",
+      "text": "Strong action against corruption (even if it disrupts current leaders) is more important than preserving political stability.",
       "category": "corruption",
       "options": [
         "Strongly agree",
@@ -157,7 +169,7 @@
       ]
     },
     {
-      "id": "q14",
+      "id": "q15",
       "text": "To reduce crime, the government should focus more on harsher punishment rather than addressing social causes like poverty.",
       "category": "crime",
       "options": [
@@ -169,9 +181,81 @@
       ]
     },
     {
-      "id": "q15",
+      "id": "q16",
       "text": "Illegal immigrants should be deported and strict border control enforced to protect local jobs and resources.",
       "category": "immigration",
+      "options": [
+        "Strongly agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Strongly disagree"
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "The government should create large public works and job guarantee programmes to reduce unemployment.",
+      "category": "employment",
+      "options": [
+        "Strongly agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Strongly disagree"
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "Private property and small-business rights should be strongly protected against expropriation and heavy regulation.",
+      "category": "property rights",
+      "options": [
+        "Strongly agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Strongly disagree"
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "The government should strengthen legal protections for LGBTQ+ people and actively advance equal civil rights.",
+      "category": "civil rights",
+      "options": [
+        "Strongly agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Strongly disagree"
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "The independence of the judiciary and prosecuting authorities must be strictly protected, even if that limits executive flexibility.",
+      "category": "institutions",
+      "options": [
+        "Strongly agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Strongly disagree"
+      ]
+    },
+    {
+      "id": "q21",
+      "text": "South Africa should prioritise broad multilateral diplomatic and trade engagement (with the EU, US and African neighbours) over aligning primarily with alternative geopolitical blocs.",
+      "category": "foreign policy",
+      "options": [
+        "Strongly agree",
+        "Agree",
+        "Neutral",
+        "Disagree",
+        "Strongly disagree"
+      ]
+    },
+    {
+      "id": "q22",
+      "text": "The government should expand surveillance and data-access powers for law enforcement to fight crime and terrorism, even if it reduces some privacy.",
+      "category": "privacy & tech",
       "options": [
         "Strongly agree",
         "Agree",
