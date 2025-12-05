@@ -37,6 +37,12 @@ export default defineConfig({
             return 'vue-i18n'
           }
         }
+      },
+      onwarn(warning, warn) {
+        if (warning.code === 'IMPORT_IS_UNDEFINED' && warning.message.includes('vue-i18n')) {
+          return
+        }
+        warn(warning)
       }
     }
   }
