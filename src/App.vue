@@ -26,7 +26,13 @@
           <router-link to="/about">{{ $t("footer.privacy") }}</router-link>
         </nav>
         <p class="app-footer__copyright">
-          © {{ new Date().getFullYear() }} Elekti
+          Elekti is released under the
+          <a
+            href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.en"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CC0 1.0 Universal Public Domain Dedication</a
+          >
         </p>
       </div>
     </footer>
@@ -121,6 +127,17 @@
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
     margin: 0;
+  }
+
+  .app-footer__copyright a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .app-footer__copyright a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
   }
 
   @media (max-width: 640px) {
