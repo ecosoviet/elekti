@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.8",
-    "lucide-vue-next": "^0.555.0",
+    "lucide-vue-next": "^0.556.0",
     "pinia": "^3.0.4",
     "vue": "^3.5.25",
     "vue-i18n": "^11.2.2",
