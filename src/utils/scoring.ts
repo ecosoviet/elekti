@@ -105,7 +105,7 @@ export function computeScores(
 
     if (scoringQuestion) {
       const maxScoreForQuestion = Math.max(
-        ...scoringQuestion.options.flatMap(opt => Object.values(opt.scores))
+        ...scoringQuestion.options.flatMap((opt) => Object.values(opt.scores))
       );
       theoreticalMax += maxScoreForQuestion * scoringQuestion.weight;
     }
@@ -113,9 +113,12 @@ export function computeScores(
 
   const partyScores: PartyScore[] = parties.map((party) => {
     const rawScore = rawScores[party.id];
-    let normalizedScore = theoreticalMax > 0
-      ? (rawScore !== undefined ? rawScore / theoreticalMax : 0)
-      : 0;
+    let normalizedScore =
+      theoreticalMax > 0
+        ? rawScore !== undefined
+          ? rawScore / theoreticalMax
+          : 0
+        : 0;
     normalizedScore = Math.max(0, Math.min(1, normalizedScore));
 
     return {
@@ -162,8 +165,7 @@ export function computeScores(
 
   if (primary.normalizedScore < 0.35) {
     confidence = "low";
-  }
-  else if (gapToSecond < 0.05 || primary.normalizedScore < 0.50) {
+  } else if (gapToSecond < 0.05 || primary.normalizedScore < 0.5) {
     confidence = "medium";
   }
 

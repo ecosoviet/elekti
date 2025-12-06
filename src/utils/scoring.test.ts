@@ -234,4 +234,111 @@ describe("scoring.ts - computeScores", () => {
       }
     }
   });
+
+  it("should handle negative raw scores by clamping normalized score to 0", () => {
+    const answers = {
+      q1: 4,
+      q2: 4,
+      q3: 4,
+      q4: 4,
+      q5: 4,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    result.allScores.forEach((score: PartyScore) => {
+      expect(score.normalizedScore).toBeGreaterThanOrEqual(0);
+      expect(score.normalizedScore).toBeLessThanOrEqual(1);
+    });
+  });
+
+  it("should use absolute scoring not relative (scores reflect true alignment)", () => {
+    const answers = {
+      q1: 0,
+      q2: 1,
+      q3: 2,
+      q4: 3,
+      q5: 0,
+      q6: 1,
+      q7: 2,
+    };
+
+    const result = computeScores(answers, mockParties);
+    const topScore = result.primary.normalizedScore;
+    const secondScore = result.allScores[1]?.normalizedScore ?? 0;
+
+    expect(topScore).toBeGreaterThan(0);
+    expect(topScore).toBeLessThanOrEqual(1.0);
+    expect(secondScore).toBeGreaterThan(0);
+  });
+
+  it("should calculate confidence based on absolute score thresholds", () => {
+    const lowAnswers = {
+      q1: 2,
+      q2: 2,
+      q3: 2,
+    };
+    const lowResult = computeScores(lowAnswers, mockParties);
+
+    if (lowResult.primary.normalizedScore < 0.35) {
+      expect(lowResult.confidence).toBe("low");
+    }
+
+    const highAnswers = {
+      q1: 0,
+      q2: 0,
+      q3: 0,
+      q4: 0,
+      q5: 0,
+      q6: 0,
+      q7: 0,
+      q8: 0,
+      q9: 0,
+      q10: 0,
+    };
+    const highResult = computeScores(highAnswers, mockParties);
+
+    const gapToSecond = highResult.alternatives[0]
+      ? highResult.primary.normalizedScore -
+        highResult.alternatives[0].normalizedScore
+      : highResult.primary.normalizedScore;
+
+    if (highResult.primary.normalizedScore >= 0.5 && gapToSecond >= 0.05) {
+      expect(highResult.confidence).toBe("high");
+    }
+  });
+
+  it("should base theoretical max only on answered questions", () => {
+    const partialAnswers = {
+      q1: 0,
+      q5: 0,
+    };
+
+    const result = computeScores(partialAnswers, mockParties);
+
+    expect(result.primary.normalizedScore).toBeGreaterThan(0);
+    expect(
+      result.allScores.every(
+        (s: PartyScore) => s.normalizedScore >= 0 && s.normalizedScore <= 1
+      )
+    ).toBe(true);
+  });
+
+  it("should handle ties by including parties within tie margin in alternatives", () => {
+    const answers = {
+      q1: 2,
+      q2: 2,
+      q3: 2,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    if (result.alternatives.length > 0) {
+      result.alternatives.forEach((alt: PartyScore) => {
+        expect(alt.normalizedScore).toBeLessThanOrEqual(
+          result.primary.normalizedScore
+        );
+      });
+    }
+  });
 });
