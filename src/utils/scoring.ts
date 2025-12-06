@@ -97,19 +97,25 @@ export function computeScores(
     }
   });
 
-  const scoreValues = Object.values(rawScores);
-  const minScore = Math.min(...scoreValues);
-  const maxScore = Math.max(...scoreValues);
-  const scoreRange = maxScore - minScore;
+  let theoreticalMax = 0;
+
+  Object.keys(answers).forEach((questionId) => {
+    const qNum = parseInt(questionId.substring(1));
+    const scoringQuestion = scoringQuestions.find((q) => q.id === qNum);
+
+    if (scoringQuestion) {
+      const maxScoreForQuestion = Math.max(
+        ...scoringQuestion.options.flatMap(opt => Object.values(opt.scores))
+      );
+      theoreticalMax += maxScoreForQuestion * scoringQuestion.weight;
+    }
+  });
 
   const partyScores: PartyScore[] = parties.map((party) => {
     const rawScore = rawScores[party.id];
-    const normalizedScore =
-      scoreRange > 0
-        ? rawScore !== undefined
-          ? (rawScore - minScore) / scoreRange
-          : 0
-        : 0;
+    const normalizedScore = theoreticalMax > 0
+      ? (rawScore !== undefined ? rawScore / theoreticalMax : 0)
+      : 0;
     return {
       partyId: party.id,
       rawScore: rawScore !== undefined ? rawScore : 0,
@@ -152,9 +158,10 @@ export function computeScores(
       ? primary.normalizedScore - alternatives[0].normalizedScore
       : primary.normalizedScore;
 
-  if (primary.normalizedScore < 0.15) {
+  if (primary.normalizedScore < 0.35) {
     confidence = "low";
-  } else if (gapToSecond < 0.08 || primary.normalizedScore < 0.4) {
+  }
+  else if (gapToSecond < 0.05 || primary.normalizedScore < 0.50) {
     confidence = "medium";
   }
 
