@@ -234,6 +234,34 @@
     "q28": {
       "text": "Puso e lokela ho eketsa matla a ho shebella le ho fumana data bakeng sa puso ya polokeho le tlhabollo ya botlokotsebe, le ha sena se fokotsa lekunutu.",
       "category": "lekunutu le thekenoloji"
+    },
+    "q29": {
+      "text": "Abortion should be legal, publicly funded where necessary, and available on request.",
+      "category": "reproductive rights"
+    },
+    "q30": {
+      "text": "The state should prioritise keeping key public utilities (power, water, rail) in public ownership rather than selling them to private firms.",
+      "category": "ownership & privatisation"
+    },
+    "q31": {
+      "text": "The government should actively fund and protect Afrikaans language education and cultural programmes.",
+      "category": "language & culture"
+    },
+    "q32": {
+      "text": "Government should make active legal and practical accommodations for religious minorities, including Muslim practices and holidays.",
+      "category": "religion & state"
+    },
+    "q33": {
+      "text": "The government should introduce specific legal protections and targeted support to preserve the rights and cultures of national minorities.",
+      "category": "minority rights"
+    },
+    "q34": {
+      "text": "The government should prioritise paying down public debt and ensuring fiscal sustainability even if it limits new social spending.",
+      "category": "fiscal policy"
+    },
+    "q35": {
+      "text": "Immigration policy should be significantly tightened including stronger border controls and stricter vetting.",
+      "category": "immigration"
     }
   },
   "footer": {
