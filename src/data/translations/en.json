@@ -14,7 +14,27 @@
     "subtitle": "Answer questions about your political views and discover which South African party aligns with your values.",
     "startButton": "Start Quiz",
     "aboutLink": "Learn about our methodology",
-    "privacy": "Your answers are stored locally and never shared."
+    "privacy": "Your answers are stored locally and never shared.",
+    "howItHelps": {
+      "title": "How This Tool Helps",
+      "intro": "Understand where you truly stand and make your vote count. Match your views with every party's actual positions.",
+      "benefit1": {
+        "title": "Cut Through the Noise",
+        "text": "Skip campaign promises and see which parties align with your beliefs on real policy issues."
+      },
+      "benefit2": {
+        "title": "Discover Unexpected Matches",
+        "text": "Find parties you might have overlooked based on actual policy alignment, not just popularity or perception."
+      },
+      "benefit3": {
+        "title": "See All Your Matches",
+        "text": "Get a ranked list of every party with match scores, so you can see your top choices and alternatives."
+      },
+      "benefit4": {
+        "title": "Vote with Confidence",
+        "text": "Make an informed decision backed by data, not guesswork. Your values matched with party positions."
+      }
+    }
   },
   "quiz": {
     "question": "Question {number} of {total}",

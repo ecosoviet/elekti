@@ -14,7 +14,27 @@
     "subtitle": "Beantwoord vrae oor jou politieke sienings en ontdek watter Suid-Afrikaanse party ooreenstem met jou waardes.",
     "startButton": "Begin Vasvra",
     "aboutLink": "Leer oor ons metodologie",
-    "privacy": "Jou antwoorde word plaaslik gestoor en word nooit gedeel nie."
+    "privacy": "Jou antwoorde word plaaslik gestoor en word nooit gedeel nie.",
+    "howItHelps": {
+      "title": "Hoe Hierdie Instrument Help",
+      "intro": "Laat jou stem tel deur te verstaan waar jy werklik staan. Vergelyk jou sienings met elke party se werklike posisies.",
+      "benefit1": {
+        "title": "Sny Deur die Geraas",
+        "text": "Slaan veldtogbeloftes oor en sien watter partye ooreenstem met jou oortuigings oor werklike beleidskwessies."
+      },
+      "benefit2": {
+        "title": "Ontdek Onverwagte Passings",
+        "text": "Vind partye wat jy dalk oorgesien het, gebaseer op werklike beleidsooreenkomste, nie net populariteit nie."
+      },
+      "benefit3": {
+        "title": "Sien Al Jou Passings",
+        "text": "Kry 'n gerangskte lys van elke party met passingstellings, sodat jy jou topkeuses en alternatiewe kan sien."
+      },
+      "benefit4": {
+        "title": "Stem met Vertroue",
+        "text": "Maak 'n ingeligte besluit ondersteun deur data, nie raaiskote nie. Jou waardes word gepas met partyposisies."
+      }
+    }
   },
   "quiz": {
     "question": "Vraag {number} van {total}",

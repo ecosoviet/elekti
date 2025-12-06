@@ -30,6 +30,49 @@
         </p>
       </div>
 
+      <div class="landing__why">
+        <h2 class="landing__why-title">{{ $t("landing.howItHelps.title") }}</h2>
+        <p class="landing__why-intro">{{ $t("landing.howItHelps.intro") }}</p>
+
+        <div class="landing__benefits">
+          <div class="landing__benefit">
+            <h3 class="landing__benefit-title">
+              {{ $t("landing.howItHelps.benefit1.title") }}
+            </h3>
+            <p class="landing__benefit-text">
+              {{ $t("landing.howItHelps.benefit1.text") }}
+            </p>
+          </div>
+
+          <div class="landing__benefit">
+            <h3 class="landing__benefit-title">
+              {{ $t("landing.howItHelps.benefit2.title") }}
+            </h3>
+            <p class="landing__benefit-text">
+              {{ $t("landing.howItHelps.benefit2.text") }}
+            </p>
+          </div>
+
+          <div class="landing__benefit">
+            <h3 class="landing__benefit-title">
+              {{ $t("landing.howItHelps.benefit3.title") }}
+            </h3>
+            <p class="landing__benefit-text">
+              {{ $t("landing.howItHelps.benefit3.text") }}
+            </p>
+          </div>
+
+          <div class="landing__benefit">
+            <h3 class="landing__benefit-title">
+              {{ $t("landing.howItHelps.benefit4.title") }}
+            </h3>
+            <p class="landing__benefit-text">
+              {{ $t("landing.howItHelps.benefit4.text") }}
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div class="landing__links">
         <router-link to="/about" class="landing__link">
           <Info :size="20" />
@@ -136,6 +179,53 @@
 
   .landing__link:hover {
     color: var(--color-primary-dark);
+  }
+
+  .landing__why {
+    background: var(--color-surface);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin-bottom: var(--space-3xl);
+    border: 1px solid var(--color-border);
+  }
+
+  .landing__why-title {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+    text-align: center;
+    margin-bottom: var(--space-md);
+  }
+
+  .landing__why-intro {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    text-align: center;
+    margin-bottom: var(--space-xl);
+    line-height: var(--line-height-relaxed);
+  }
+
+  .landing__benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-xl);
+  }
+
+  .landing__benefit {
+    text-align: center;
+  }
+
+  .landing__benefit-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .landing__benefit-text {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-relaxed);
   }
 
   @media (max-width: 640px) {

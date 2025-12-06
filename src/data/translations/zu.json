@@ -14,7 +14,27 @@
     "subtitle": "Phendula imibuzo mayelana nemibono yakho yezepolitiki uthole ukuthi yiliphi iqembu laseNingizimu Afrika elihambisana nezindinganiso zakho.",
     "startButton": "Qala Imibuzo",
     "aboutLink": "Funda ngendlela yethu",
-    "privacy": "Izimpendulo zakho zigcinwa endaweni futhi azikaze zabiwe."
+    "privacy": "Izimpendulo zakho zigcinwa endaweni futhi azikaze zabiwe.",
+    "howItHelps": {
+      "title": "Indlela Leli Thuluzi Elisizayo",
+      "intro": "Yenza ivoti lakho libalwe ngokuqonda lapho umi khona ngempela. Qhathanisa imibono yakho nezikhundla zamaqembu wonke angempela.",
+      "benefit1": {
+        "title": "Nquma Phakathi Komsindo",
+        "text": "Yeqa izithembiso zemikhankaso ubone amaqembu ahambisana nezinkolelo zakho ezindabeni zenqubomgomo yangempela."
+      },
+      "benefit2": {
+        "title": "Thola Ukufanana Okungalindelekile",
+        "text": "Thola amaqembu ongase ungawabhekile ngokusekelwe ekuhambisaneni kwenqubomgomo yangempela, hhayi nje ukuthandwa."
+      },
+      "benefit3": {
+        "title": "Bona Konke Okufanayo Kwakho",
+        "text": "Thola uhlu oluhlelwe lwawo wonke amaqembu enamaphuzu okufanana, ukuze ubone izinketho zakho eziphezulu nezinye izindlela."
+      },
+      "benefit4": {
+        "title": "Vota Ngokuzethemba",
+        "text": "Yenza isinqumo esinolwazi esisekelwe edatheni, hhayi ekuqageleni. Izindinganiso zakho zifaniswe nezikhundla zamaqembu."
+      }
+    }
   },
   "quiz": {
     "question": "Umbuzo {number} ku {total}",
