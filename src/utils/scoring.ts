@@ -42,6 +42,7 @@ export interface PartyScore {
   normalizedScore: number;
   party: Party;
   topPolicies?: PolicyAlignment[];
+  topDisagreements?: PolicyAlignment[];
 }
 
 export interface QuizResult {
@@ -57,11 +58,11 @@ export function computeScores(
   parties: Party[]
 ): QuizResult {
   const rawScores: Record<string, number> = {};
-  const policyAlignments: Record<string, PolicyAlignment[]> = {};
+  const categoryScores: Record<string, Record<string, number[]>> = {};
 
   parties.forEach((party) => {
     rawScores[party.id] = 0;
-    policyAlignments[party.id] = [];
+    categoryScores[party.id] = {};
   });
 
   const scoringQuestions = scoringData as unknown as ScoringQuestion[];
@@ -78,13 +79,13 @@ export function computeScores(
         if (rawScores[partyId] !== undefined) {
           rawScores[partyId] += (score as number) * weight;
 
-          if ((score as number) >= 0.7 && policyAlignments[partyId]) {
-            policyAlignments[partyId].push({
-              questionId,
-              questionText: scoringQuestion.text,
-              category: scoringQuestion.category,
-              score: score as number,
-            });
+          const category = scoringQuestion.category;
+          const partyCategories = categoryScores[partyId];
+          if (partyCategories) {
+            if (!partyCategories[category]) {
+              partyCategories[category] = [];
+            }
+            partyCategories[category].push(score as number);
           }
         }
       });
@@ -130,11 +131,41 @@ export function computeScores(
       maxScore > 0 ? (rawScore !== undefined ? rawScore / maxScore : 0) : 0;
     normalizedScore = Math.max(0, Math.min(1, normalizedScore));
 
+    const categoryAverages: Array<{ category: string; avgScore: number }> = [];
+    const partyCategoryScores = categoryScores[party.id];
+    if (partyCategoryScores) {
+      Object.entries(partyCategoryScores).forEach(([category, scores]) => {
+        const avgScore = scores.reduce((sum, s) => sum + s, 0) / scores.length;
+        categoryAverages.push({ category, avgScore });
+      });
+    }
+
     const topPolicies =
       normalizedScore >= 0.15
-        ? (policyAlignments[party.id] || [])
-            .sort((a, b) => b.score - a.score)
+        ? categoryAverages
+            .filter((c) => c.avgScore >= 0.5)
+            .sort((a, b) => b.avgScore - a.avgScore)
             .slice(0, 3)
+            .map((c) => ({
+              questionId: "",
+              questionText: "",
+              category: c.category,
+              score: c.avgScore,
+            }))
+        : [];
+
+    const topDisagreements =
+      normalizedScore >= 0.15
+        ? categoryAverages
+            .filter((c) => c.avgScore <= -0.5)
+            .sort((a, b) => a.avgScore - b.avgScore)
+            .slice(0, 3)
+            .map((c) => ({
+              questionId: "",
+              questionText: "",
+              category: c.category,
+              score: c.avgScore,
+            }))
         : [];
 
     return {
@@ -143,6 +174,7 @@ export function computeScores(
       normalizedScore,
       party,
       topPolicies,
+      topDisagreements,
     };
   });
 

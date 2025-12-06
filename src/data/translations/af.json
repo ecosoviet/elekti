@@ -48,7 +48,8 @@
     "title": "Jou Resultate",
     "primaryMatch": "Jou Primêre Passing",
     "alternativeMatch": "Alternatiewe Passings",
-    "alignedPolicies": "Beleide Waarmee Jy Sterk Saamval",
+    "alignedPolicies": "Beleide waaroor jy saamstem",
+    "disagreedPolicies": "Beleide waaroor jy verskil",
     "confidence": {
       "high": "Sterk passing",
       "medium": "Matige passing",

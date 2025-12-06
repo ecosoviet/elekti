@@ -20,6 +20,7 @@
     party: Party;
     score?: number;
     policies?: PolicyAlignment[];
+    disagreements?: PolicyAlignment[];
   }>();
 </script>
 
@@ -88,6 +89,25 @@
           :title="policy.questionText"
         >
           {{ policy.category }}
+        </span>
+      </div>
+    </div>
+
+    <div
+      v-if="disagreements && disagreements.length > 0"
+      class="party-card__disagreements"
+    >
+      <div class="party-card__disagreements-label">
+        {{ $t("results.disagreedPolicies") }}:
+      </div>
+      <div class="party-card__disagreements-tags">
+        <span
+          v-for="disagreement in disagreements"
+          :key="disagreement.questionId"
+          class="party-card__disagreement-tag"
+          :title="disagreement.questionText"
+        >
+          {{ disagreement.category }}
         </span>
       </div>
     </div>
@@ -236,6 +256,48 @@
   }
 
   .party-card__policy-tag:hover {
+    opacity: 0.85;
+  }
+
+  .party-card__disagreements {
+    margin-top: var(--space-md);
+    padding-top: var(--space-sm);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+
+  .party-card__disagreements-label {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+    line-height: 1.8;
+  }
+
+  .party-card__disagreements-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    flex: 1;
+  }
+
+  .party-card__disagreement-tag {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-sm);
+    background-color: #dc2626;
+    color: white;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+    cursor: help;
+    transition: opacity var(--transition-fast);
+    line-height: 1.4;
+  }
+
+  .party-card__disagreement-tag:hover {
     opacity: 0.85;
   }
 </style>
