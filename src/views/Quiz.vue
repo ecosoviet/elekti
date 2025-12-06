@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ChevronLeft, ChevronRight } from "lucide-vue-next";
-  import { computed } from "vue";
+  import { computed, ref } from "vue";
   import { useRouter } from "vue-router";
   import ProgressBar from "../components/ProgressBar.vue";
   import QuizQuestion from "../components/QuizQuestion.vue";
@@ -8,6 +8,7 @@
 
   const router = useRouter();
   const quizStore = useQuizStore();
+  const isTransitioning = ref(false);
 
   const currentQuestion = computed(() => quizStore.currentQuestion);
   const isLastQuestion = computed(
@@ -17,11 +18,15 @@
   function handleAnswer(optionIndex: number) {
     if (currentQuestion.value) {
       quizStore.answerQuestion(currentQuestion.value.id, optionIndex);
+      isTransitioning.value = true;
       setTimeout(() => {
         if (isLastQuestion.value) {
           handleFinish();
         } else {
           quizStore.nextQuestion();
+          setTimeout(() => {
+            isTransitioning.value = false;
+          }, 50);
         }
       }, 300);
     }
@@ -56,7 +61,11 @@
           </ProgressBar>
         </div>
 
-        <div v-if="currentQuestion" class="quiz__content">
+        <div
+          v-if="currentQuestion"
+          class="quiz__content"
+          :class="{ 'quiz__content--transitioning': isTransitioning }"
+        >
           <QuizQuestion
             :question="currentQuestion"
             :model-value="quizStore.answers[currentQuestion.id]"
@@ -120,13 +129,18 @@
   }
 
   .quiz__header {
-    margin-bottom: var(--space-2xl);
+    margin-bottom: var(--space-lg);
   }
 
   .quiz__content {
     margin-bottom: var(--space-xl);
     min-height: auto;
     animation: fadeIn 0.4s ease-out;
+    transition: opacity 0.25s ease-out;
+  }
+
+  .quiz__content--transitioning {
+    opacity: 0;
   }
 
   @keyframes fadeIn {
