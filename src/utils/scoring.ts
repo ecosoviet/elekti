@@ -76,12 +76,20 @@ export function computeScores(
   Object.keys(answers).forEach((questionId) => {
     const qNum = parseInt(questionId.substring(1));
     const scoringQuestion = scoringQuestions.find((q) => q.id === qNum);
+    const optionIndex = answers[questionId];
 
-    if (scoringQuestion) {
-      const maxScoreForQuestion = Math.max(
-        ...scoringQuestion.options.flatMap((opt) => Object.values(opt.scores))
-      );
-      theoreticalMax += maxScoreForQuestion * scoringQuestion.weight;
+    if (scoringQuestion && optionIndex !== undefined) {
+      const selectedOption = scoringQuestion.options[optionIndex];
+      const hasScores =
+        selectedOption &&
+        Object.values(selectedOption.scores).some((s) => s !== 0);
+
+      if (hasScores) {
+        const maxScoreForQuestion = Math.max(
+          ...scoringQuestion.options.flatMap((opt) => Object.values(opt.scores))
+        );
+        theoreticalMax += maxScoreForQuestion * scoringQuestion.weight;
+      }
     }
   });
 
@@ -103,7 +111,12 @@ export function computeScores(
     };
   });
 
-  partyScores.sort((a, b) => b.normalizedScore - a.normalizedScore);
+  partyScores.sort((a, b) => {
+    if (Math.abs(b.normalizedScore - a.normalizedScore) > 0.0001) {
+      return b.normalizedScore - a.normalizedScore;
+    }
+    return b.rawScore - a.rawScore;
+  });
 
   const primary = partyScores[0];
   if (!primary) {
