@@ -113,9 +113,11 @@ export function computeScores(
 
   const partyScores: PartyScore[] = parties.map((party) => {
     const rawScore = rawScores[party.id];
-    const normalizedScore = theoreticalMax > 0
+    let normalizedScore = theoreticalMax > 0
       ? (rawScore !== undefined ? rawScore / theoreticalMax : 0)
       : 0;
+    normalizedScore = Math.max(0, Math.min(1, normalizedScore));
+
     return {
       partyId: party.id,
       rawScore: rawScore !== undefined ? rawScore : 0,
