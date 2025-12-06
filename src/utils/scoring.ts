@@ -107,11 +107,7 @@ export function computeScores(
     const maxScore = partyMaxScores[party.id] || 0;
 
     let normalizedScore =
-      maxScore > 0
-        ? rawScore !== undefined
-          ? rawScore / maxScore
-          : 0
-        : 0;
+      maxScore > 0 ? (rawScore !== undefined ? rawScore / maxScore : 0) : 0;
     normalizedScore = Math.max(0, Math.min(1, normalizedScore));
 
     return {
