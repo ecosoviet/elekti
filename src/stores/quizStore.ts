@@ -64,6 +64,11 @@ export const useQuizStore = defineStore("quiz", () => {
       "q33",
       "q34",
       "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
     ];
 
     return questionIds.map((id) => {

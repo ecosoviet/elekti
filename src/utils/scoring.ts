@@ -29,10 +29,6 @@ interface ScoringQuestion {
   options: ScoringOption[];
 }
 
-interface ScoringData {
-  questions: ScoringQuestion[];
-}
-
 export interface PartyScore {
   partyId: string;
   rawScore: number;
@@ -78,7 +74,7 @@ export function computeScores(
     rawScores[party.id] = 0;
   });
 
-  const scoringQuestions = (scoringData as ScoringData).questions;
+  const scoringQuestions = scoringData as unknown as ScoringQuestion[];
 
   Object.entries(answers).forEach(([questionId, optionIndex]) => {
     const qNum = parseInt(questionId.substring(1));

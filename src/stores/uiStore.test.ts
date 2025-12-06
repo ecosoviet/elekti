@@ -76,18 +76,6 @@ describe("uiStore", () => {
       expect(store.lang).toBe("zu");
     });
 
-    it("should set language to Xhosa", () => {
-      const store = useUiStore();
-      store.setLang("xh");
-      expect(store.lang).toBe("xh");
-    });
-
-    it("should set language to Setswana", () => {
-      const store = useUiStore();
-      store.setLang("tn");
-      expect(store.lang).toBe("tn");
-    });
-
     it("should allow switching between languages", () => {
       const store = useUiStore();
 
@@ -118,13 +106,7 @@ describe("uiStore", () => {
     it("should update i18n locale for all supported languages", async () => {
       const store = useUiStore();
       const { i18n } = await import("../i18n");
-      const languages: Array<"en" | "af" | "zu" | "xh" | "tn"> = [
-        "en",
-        "af",
-        "zu",
-        "xh",
-        "tn",
-      ];
+      const languages: Array<"en" | "af" | "zu"> = ["en", "af", "zu"];
 
       languages.forEach((lang) => {
         store.setLang(lang);
@@ -143,13 +125,7 @@ describe("uiStore", () => {
 
     it("should persist all language options to localStorage", () => {
       const store = useUiStore();
-      const languages: Array<"en" | "af" | "zu" | "xh" | "tn"> = [
-        "en",
-        "af",
-        "zu",
-        "xh",
-        "tn",
-      ];
+      const languages: Array<"en" | "af" | "zu"> = ["en", "af", "zu"];
 
       languages.forEach((lang) => {
         store.setLang(lang);
@@ -166,8 +142,8 @@ describe("uiStore", () => {
       store.setLang("zu");
       expect(localStorage.getItem("lang")).toBe("zu");
 
-      store.setLang("xh");
-      expect(localStorage.getItem("lang")).toBe("xh");
+      store.setLang("af");
+      expect(localStorage.getItem("lang")).toBe("af");
     });
   });
 
@@ -197,13 +173,7 @@ describe("uiStore", () => {
   describe("locale type validation", () => {
     it("should accept all valid locale types", () => {
       const store = useUiStore();
-      const validLocales: Array<"en" | "af" | "zu" | "xh" | "tn"> = [
-        "en",
-        "af",
-        "zu",
-        "xh",
-        "tn",
-      ];
+      const validLocales: Array<"en" | "af" | "zu"> = ["en", "af", "zu"];
 
       validLocales.forEach((locale) => {
         expect(() => {
@@ -231,18 +201,18 @@ describe("uiStore", () => {
       expect(store1.lang).toBe("zu");
       expect(store2.lang).toBe("zu");
 
-      store2.setLang("xh");
-      expect(store1.lang).toBe("xh");
-      expect(store2.lang).toBe("xh");
+      store2.setLang("af");
+      expect(store1.lang).toBe("af");
+      expect(store2.lang).toBe("af");
     });
 
     it("should sync localStorage across instances", () => {
       const store1 = useUiStore();
       const store2 = useUiStore();
 
-      store1.setLang("tn");
-      expect(localStorage.getItem("lang")).toBe("tn");
-      expect(store2.lang).toBe("tn");
+      store1.setLang("zu");
+      expect(localStorage.getItem("lang")).toBe("zu");
+      expect(store2.lang).toBe("zu");
     });
   });
 });

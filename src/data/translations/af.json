@@ -31,7 +31,7 @@
     "confidence": {
       "high": "Sterk passing",
       "medium": "Matige passing",
-      "low": "Swak passing - oorweeg om alle partye te hersien"
+      "low": "Swak passing"
     },
     "scoreBreakdown": "Telling Uiteensetting",
     "allParties": "Alle Party Tellings",
@@ -45,7 +45,7 @@
     "methodology": "Metodologie",
     "methodologyText": "Elekti gebruik 'n omvattende, bewyse-gebaseerde benadering om jou politieke sienings met Suid-Afrikaanse politieke partye te pas. Ons stelsel is ontwerp om regverdig, deursigtig en nie-partydig te wees.",
     "howItWorks": "Hoe Dit Werk",
-    "howItWorksText": "Jy beantwoord 28 noukeurig saamgestelde vrae wat groot beleidsareas dek, insluitend gesondheidsorg, onderwys, ekonomie, bestuur en sosiale kwessies. Elke vraag is ontwerp om jou politieke voorkeure te openbaar sonder vooroordeel teenoor enige party.",
+    "howItWorksText": "Jy beantwoord 40 noukeurig saamgestelde vrae wat groot beleidsareas dek, insluitend gesondheidsorg, onderwys, ekonomie, bestuur en sosiale kwessies. Elke vraag is ontwerp om jou politieke voorkeure te openbaar sonder vooroordeel teenoor enige party.",
     "scoring": "Puntestelsel",
     "scoringText": "Elke antwoord wat jy gee word gepas teen gedokumenteerde party-posisies uit amptelike manifeste, beleidsdokumente en openbare verklarings. Partye ontvang geweegde punte gebaseer op hoe nou hul verklaarde posisies ooreenstem met jou antwoorde. Hierdie punte word genormaliseer op 'n 0-100 skaal, met jou topvonds en alternatiewe duidelik geïdentifiseer. Ons bied ook 'n vertrouensgradering om jou te help verstaan hoe sterk jou passing is.",
     "transparency": "Ons Verbintenis tot Deursigtigheid",
@@ -124,144 +124,164 @@
   },
   "questions": {
     "q1": {
-      "text": "Universele publiek-gefinansieerde gesondheidsorg ('n Nasionale Gesondheidsversekering-stelsel) moet ingestel word om gratis basiese sorg vir almal te verskaf.",
-      "category": "gesondheidsorg"
+      "text": "Die regering behoort belasting op die rykes te verhoog om uitgebreide sosiale programme (gesondheid, onderwys en sosiale toelaes) te befonds.",
+      "category": "ekonomie & fiskaal"
     },
     "q2": {
-      "text": "Hoër onderwys moet gratis wees vir alle studente (geen fooie), nie net behoeftetoets finansiële hulp nie.",
-      "category": "onderwys"
-    },
-    "q5": {
-      "text": "Die staat moet 'n onvoorwaardelike basiese inkomste-toelae vir alle burgers implementeer, selfs as dit hoër belasting of lenings vereis.",
-      "category": "sosiale welsyn"
-    },
-    "q4": {
-      "text": "Die regering moet swaar in openbare behuising vir lae-inkomste gesinne investeer.",
-      "category": "behuising"
-    },
-    "q17": {
-      "text": "Openbare behuisingsbelegging moet prioriteit kry, selfs as dit vereis dat ander openbare dienste gesny word.",
-      "category": "behuising"
+      "text": "Die regering behoort die afbetaling van openbare skuld en die versekering van fiskale volhoubaarheid te prioritiseer, selfs as dit nuwe sosiale besteding beperk.",
+      "category": "ekonomie & fiskaal"
     },
     "q3": {
-      "text": "Die regering behoort belasting op die rykes te verhoog om uitgebreide sosiale programme (gesondheid, onderwys en sosiale toelaes) te befonds.",
-      "category": "ekonomie"
+      "text": "Die regering moet klein en medium besighede aktief ondersteun met belastingverligting en deregulering om groei aan te moedig.",
+      "category": "ekonomie & fiskaal"
     },
-    "q8": {
-      "text": "Suid-Afrika behoort handelsooreenskomste wat plaaslike nywerhede beskerm te prioritiseer, selfs as dit hoër verbruikerspryse beteken.",
-      "category": "handelsbeleid"
+    "q4": {
+      "text": "Die staat moet 'n onvoorwaardelike basiese inkomste-toelae vir alle burgers implementeer.",
+      "category": "ekonomie & fiskaal"
     },
-    "q7": {
-      "text": "Privaat eiendom en kleinsakeregte moet sterk beskerm word teen onteiening en swaar regulasie.",
-      "category": "eiendomsregte"
-    },
-    "q9": {
-      "text": "Die regering moet groot openbare werke en werkwaarborg-programme skep om werkloosheid te verminder.",
-      "category": "indiensneming"
-    },
-    "q10": {
-      "text": "Werkers behoort sterker regte te hê om te staak en direk met werkgewers te onderhandel sonder regeringsinminging.",
-      "category": "arbeidsregte"
-    },
-    "q15": {
-      "text": "BEE en regstellende aksie behoort sentrale regeringsprioriteite te bly om historiese rasse- en ekonomiese ongelykheid aan te spreek.",
-      "category": "transformasie"
-    },
-    "q16": {
-      "text": "Onteiening van privaat grond sonder markwaarde-vergoeding moet onder die wet toegelaat word om grondhervorming te versnel.",
-      "category": "grondhervorming"
-    },
-    "q14": {
-      "text": "Landelike ontwikkeling en landbousteun (insluitend subsidies en infrastruktuur vir klein boere) behoort aansienlik meer regeringsbefondsing te ontvang.",
-      "category": "landbou"
-    },
-    "q12": {
-      "text": "Die land behoort belegging in hernubare energie (sonkrag, wind) te prioritiseer bo die uitbreiding van steenkoolkrag.",
-      "category": "energie"
-    },
-    "q11": {
-      "text": "Die regering moet dringend belê in die herstel van water- en sanitasie-infrastruktuur (pype, suiweringsaanlegte) in falende munisipaliteite.",
-      "category": "infrastruktuur"
-    },
-    "q21": {
-      "text": "Die Grondwet moet gewysig word waar nodig om transformasie te versnel en meer progressiewe herverdeling moontlik te maak.",
-      "category": "bestuur"
-    },
-    "q18": {
-      "text": "Sterk optrede teen korrupsie (selfs as dit huidige leiers ontwrig) is belangriker as die behoud van politieke stabiliteit.",
-      "category": "korrupsie"
-    },
-    "q20": {
-      "text": "Die onafhanklikheid van die regsprekende gesag en vervolgingsowerhede moet streng beskerm word, selfs as dit uitvoerende buigsaamheid beperk.",
-      "category": "instellings"
-    },
-    "q19": {
-      "text": "Suid-Afrika het sterker staatskaping-hervormings nodig, insluitend strenger beheer oor politieke party-befondsing en korporatiewe invloed in die regering.",
-      "category": "staatskaping hervorming"
-    },
-    "q22": {
-      "text": "Provinsies en munisipaliteite behoort meer mag en begrotingsbeheer te hê, selfs as dit beteken om nasionale regeringsgesag te verminder.",
-      "category": "desentralisasie"
-    },
-    "q23": {
-      "text": "Om misdaad te verminder, moet die regering meer op harder strawwe fokus eerder as om sosiale oorsake soos armoede aan te spreek.",
-      "category": "misdaad"
-    },
-    "q24": {
-      "text": "Onwettige immigrante moet gedeporteer word en streng grenskontrole afgedwing word om plaaslike werk en hulpbronne te beskerm.",
-      "category": "immigrasie"
-    },
-    "q26": {
-      "text": "Die regering moet regsbeskermings vir LGBTQ+ mense versterk en aktief gelyke burgerregte bevorder.",
-      "category": "burgerregte"
-    },
-    "q31": {
-      "text": "Godsdienstige waardes en leringe behoort 'n groter invloed te hê in die vorming van wette en regeringsbeleid.",
-      "category": "godsdiens & staat"
-    },
-    "q33": {
-      "text": "Suid-Afrika moet tradisionele leierskapstrukture (hoofmanne en konings) formeel erken en befonds as deel van regering.",
-      "category": "tradisionele leierskap"
-    },
-    "q29": {
-      "text": "Die regering moet meer befondsing en ondersteuning verskaf vir inheemse tale in onderwys, media en openbare dienste.",
-      "category": "taal & kultuur"
-    },
-    "q34": {
-      "text": "Suid-Afrika moet breë multilaterale diplomatieke en handelsbetrokkenheid (met die EU, VSA en Afrika-bure) prioritiseer bo belyning met alternatiewe geopolitieke blokke.",
-      "category": "buitelandse beleid"
-    },
-    "q35": {
-      "text": "Die regering moet toesig- en data-toegangsmagte vir wetstoepassers uitbrei om misdaad en terrorisme te bekamp, selfs al verminder dit privaatheid.",
-      "category": "privaatheid & tegnologie"
-    },
-    "q27": {
-      "text": "Aborsie behoort wettig, waar nodig openbaar befonds, en op aanvraag beskikbaar te wees.",
-      "category": "reproduktiewe regte"
-    },
-    "q13": {
-      "text": "Die staat behoort sleutel openbare nutsdienste (krag, water, spoor) in openbare eienaarskap te hou eerder as om dit aan privaat firmas te verkoop.",
-      "category": "eienaarskap & privatisering"
-    },
-    "q30": {
-      "text": "Die regering behoort Afrikaanse taalonderwys en kulturele programme aktief te befonds en te beskerm.",
-      "category": "taal & kultuur"
-    },
-    "q32": {
-      "text": "Die regering behoort aktiewe wetlike en praktiese voorsiening te maak vir godsdienstige minderhede, insluitend Moslem-praktyke en feesdae.",
-      "category": "godsdiens & staat"
-    },
-    "q28": {
-      "text": "Die regering behoort spesifieke regsbeskermings en geteikende ondersteuning in te stel om die regte en kulture van nasionale minderhede te bewaar.",
-      "category": "minderheidsregte"
+    "q5": {
+      "text": "Openbare belegging in werkryke openbare werke programme is 'n geskikte korttermyn metode om werkloosheid te verminder.",
+      "category": "ekonomie & fiskaal"
     },
     "q6": {
-      "text": "Die regering behoort die afbetaling van openbare skuld en die versekering van fiskale volhoubaarheid te prioritiseer, selfs as dit nuwe sosiale besteding beperk.",
-      "category": "fiskale beleid"
+      "text": "Gesondheidsorg moet universeel publiek gefinansier word (basiese dienste gratis by die punt van gebruik).",
+      "category": "sosiale welsyn & dienste"
+    },
+    "q7": {
+      "text": "Hoër onderwys moet gratis wees vir alle studente, selfs as dit hoër belasting vereis.",
+      "category": "sosiale welsyn & dienste"
+    },
+    "q8": {
+      "text": "Die staat moet sterk subsidies vir kindersorg verskaf om werkende ouers te ondersteun.",
+      "category": "sosiale welsyn & dienste"
+    },
+    "q9": {
+      "text": "Plaaslike regeringsdienste moet professioneel beman en gereeld geoudit word om korrupsie en diensmislukking te verminder.",
+      "category": "sosiale welsyn & dienste"
+    },
+    "q10": {
+      "text": "Sleutel openbare nutsdienste (krag, water, spoor) moet in openbare eienaarskap bly en nie geprivatiseer word nie.",
+      "category": "eienaarskap & grond"
+    },
+    "q11": {
+      "text": "Onteiening van grond sonder markwaarde-vergoeding moet toegelaat word om grondhervorming te versnel.",
+      "category": "eienaarskap & grond"
+    },
+    "q12": {
+      "text": "Kleinskaalse boerdery en gemeenskaplike grondregte moet voorkeur beleidsondersteuning ontvang bo groot kommersiële landboubesighede.",
+      "category": "eienaarskap & grond"
+    },
+    "q13": {
+      "text": "Werkers moet sterker regte hê om te vakbond en te staak, met minder beperkings.",
+      "category": "arbeid & werkplek"
+    },
+    "q14": {
+      "text": "Minimum lone moet aansienlik verhoog word om armoede onder werkendes te verminder, selfs as sommige klein besighede sukkel.",
+      "category": "arbeid & werkplek"
+    },
+    "q15": {
+      "text": "Arbeidsmark-buigsaamheid (makliker aanstelling en afdanking) sal belegging verhoog en moet aangemoedig word.",
+      "category": "arbeid & werkplek"
+    },
+    "q16": {
+      "text": "Die polisie moet sterker magte en hulpbronne gegee word om gewelddadige misdaad te bekamp, selfs as dit staatsgesag uitbrei.",
+      "category": "misdaad & instellings"
+    },
+    "q17": {
+      "text": "Onafhanklike toesiginstellings (regbank, vervolging) moet beskerm word, selfs as dit vervolgings van magtige amptenare vertraag.",
+      "category": "misdaad & instellings"
+    },
+    "q18": {
+      "text": "Korrupsievervolgings moet vinnig en aggressief wees, selfs as dit korttermyn onstabiliteit in die regering veroorsaak.",
+      "category": "misdaad & instellings"
+    },
+    "q19": {
+      "text": "Burgerlike vryhede soos vryheid van uitdrukking en vreedsame protes moet geprioritiseer word, selfs as dit polisiëring bemoeilik.",
+      "category": "regte & vryhede"
+    },
+    "q20": {
+      "text": "Die staat moet LGBTQ+ anti-diskriminasie beskerming en insluitingsbeleide aktief bevorder.",
+      "category": "regte & vryhede"
+    },
+    "q21": {
+      "text": "Persvryheid en die beskerming van joernaliste moet versterk word, selfs as kritiese beriggewing die regering teiken.",
+      "category": "regte & vryhede"
+    },
+    "q22": {
+      "text": "Suid-Afrika moet wetlik bindende nasionale teikens stel om kweekhuisgasvrystellings te sny en steenkoolkrag oor tyd uit te faseer.",
+      "category": "omgewing & energie"
+    },
+    "q23": {
+      "text": "Die staat moet belegging in hernubare energie en energiedoeltreffendheid prioritiseer om afhanklikheid van Eskom/steenkool te verminder.",
+      "category": "omgewing & energie"
+    },
+    "q24": {
+      "text": "Omgewingsbeskermingswette moet voorkeur geniet bo nuwe mineraal- en steenkoolontwikkelings.",
+      "category": "omgewing & energie"
     },
     "q25": {
-      "text": "Immigrasiebeleid behoort aansienlik verskerp te word, insluitend sterker grensbeheer en strenger keuring.",
-      "category": "immigrasie"
+      "text": "Suid-Afrika moet uitvoer-geleide groei prioritiseer deur sterker handelsbande met internasionale markte.",
+      "category": "buitelandse beleid & handel"
+    },
+    "q26": {
+      "text": "Suid-Afrika moet die bou van sterker strategiese bande met ander Global South-lande prioritiseer bo eksklusiewe belyning met Westerse moondhede.",
+      "category": "buitelandse beleid & handel"
+    },
+    "q27": {
+      "text": "Handelsbeleid moet die beskerming van plaaslike nywerhede deur tariewe en plaaslike inhoudsreëls prioritiseer.",
+      "category": "buitelandse beleid & handel"
+    },
+    "q28": {
+      "text": "Openbare belegging moet massa-openbare vervoer (spoor en bus-snelvervoer) prioritiseer bo nuwe hoofweë.",
+      "category": "infrastruktuur & stedelik"
+    },
+    "q29": {
+      "text": "Bekostigbare openbare behuisingsprojekte moet geprioritiseer word bo aansporings vir private behuisingsontwikkelaars.",
+      "category": "infrastruktuur & stedelik"
+    },
+    "q30": {
+      "text": "Stadsbeplanning moet groen openbare ruimtes, loopbaarheid en gemengde gebruik-ontwikkeling prioritiseer bo motor-gesentreerde uitbreiding.",
+      "category": "infrastruktuur & stedelik"
+    },
+    "q31": {
+      "text": "Suid-Afrika moet sterk digitale privaatheidswette aanneem wat korporatiewe en staatstoesig beperk.",
+      "category": "digitaal & tegnologie"
+    },
+    "q32": {
+      "text": "Die regering moet kunsmatige intelligensie reguleer om werk te beskerm en bevooroordeelde outomatiese besluite te voorkom.",
+      "category": "digitaal & tegnologie"
+    },
+    "q33": {
+      "text": "Wetenskap- en navorsingsbefondsing moet aansienlik verhoog word om innovasie en langtermyn groei te dryf.",
+      "category": "digitaal & tegnologie"
+    },
+    "q34": {
+      "text": "Voedselsekuriteit moet bereik word deur 'n nasionale strategie wat plaaslike produksie, agro-ekologie en gemeenskapstuine ondersteun.",
+      "category": "voedsel & landbou"
+    },
+    "q35": {
+      "text": "Dierewelsyn-regulasies moet versterk word, insluitend die verbod op intensiewe fabrieksboerdery-praktyke.",
+      "category": "voedsel & landbou"
+    },
+    "q36": {
+      "text": "Jeugwerkloosheid vereis 'n toegewyde nasionale jeugdiens en gewaarborgde vakleerlingskap-skemas.",
+      "category": "jeug & onderwys"
+    },
+    "q37": {
+      "text": "Spesiale maatreëls word vereis om toeganklikheid en dienste vir mense met gestremdhede regoor regeringsdepartemente te verbeter.",
+      "category": "sosiale insluiting"
+    },
+    "q38": {
+      "text": "Die staat behoort geteikende subsidies en aansporings in te stel om township- en landelike ekonomieë te versnel.",
+      "category": "ekonomiese insluiting"
+    },
+    "q39": {
+      "text": "Kultuurbeleid moet die diversiteit van Suid-Afrikaanse tale en kunste ondersteun deur stabiele openbare befondsing.",
+      "category": "kultuur & identiteit"
+    },
+    "q40": {
+      "text": "Kiesers behoort 'n party se rekord op dienslewering en korrupsie swaarder te weeg as sy ideologiese slagspreuke.",
+      "category": "stemgedrag"
     }
   },
   "footer": {

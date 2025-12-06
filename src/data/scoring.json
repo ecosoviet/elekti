@@ -1,3609 +1,4122 @@
-{
-  "questions": [
-    {
-      "id": 1,
-      "text": "Universal publicly funded healthcare (a National Health Insurance) should be established to provide free basic care to everyone.",
-      "category": "healthcare",
-      "weight": 2.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": 0.0,
-            "EFF": 0.9,
-            "IFP": 0.2,
-            "MKP": 0.4,
-            "PA": 0.3,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.3,
-            "SACP": 0.8,
-            "UDM": 0.4,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": -0.25,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.2,
-            "PA": 0.2,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.2,
-            "SACP": 0.6,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.2,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.5,
-            "UDM": -0.3,
-            "Al Jama-ah": -0.4,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.4,
-            "EFF": -0.9,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.8,
-            "UDM": -0.6,
-            "Al Jama-ah": -0.7,
-            "COPE": -0.4
-          }
+[
+  {
+    "id": 1,
+    "text": "The government should raise taxes on the wealthy to fund expanded social programmes (health, education, social grants).",
+    "category": "economy & fiscal",
+    "weight": 2.0,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": -0.6,
+          "EFF": 0.95,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.2,
+          "VF+": -0.5,
+          "ActionSA": -0.2,
+          "ACDP": -0.6,
+          "UFC": 0.1,
+          "SACP": 0.95,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.3
         }
-      ]
-    },
-    {
-      "id": 2,
-      "text": "Higher education should be free for all students (even if it requires higher taxes or borrowing).",
-      "category": "education",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": -0.25,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.2,
-            "PA": 0.2,
-            "VF+": -0.1,
-            "ActionSA": -0.1,
-            "ACDP": 0.1,
-            "UFC": 0.2,
-            "SACP": 0.9,
-            "UDM": 0.3,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.4
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.25,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.2,
-            "PA": 0.1,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.1,
-            "SACP": 0.7,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.2,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": -0.1,
-            "SACP": -0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.4,
-            "EFF": -0.8,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": -0.2,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.3,
-            "SACP": -0.7,
-            "UDM": -0.4,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.4
-          }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.4,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.3,
+          "ActionSA": -0.1,
+          "ACDP": -0.4,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
         }
-      ]
-    },
-    {
-      "id": 3,
-      "text": "The government should raise taxes on the wealthy to fund social programs and public services.",
-      "category": "economy",
-      "weight": 2.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": -0.5,
-            "EFF": 0.9,
-            "IFP": -0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": -0.3,
-            "ActionSA": -0.1,
-            "ACDP": 0.0,
-            "UFC": -0.2,
-            "SACP": 0.8,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.5,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": -0.5,
-            "EFF": 0.7,
-            "IFP": -0.1,
-            "MKP": 0.5,
-            "PA": 0.1,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": -0.1,
-            "SACP": 0.7,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.4,
-            "EFF": -0.5,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": 0.1,
-            "VF+": 0.5,
-            "ActionSA": 0.0,
-            "ACDP": -0.1,
-            "UFC": 0.3,
-            "SACP": -0.4,
-            "UDM": 0.1,
-            "Al Jama-ah": -0.2,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.5,
-            "EFF": -0.9,
-            "IFP": 0.2,
-            "MKP": -0.2,
-            "PA": 0.2,
-            "VF+": 0.7,
-            "ActionSA": 0.1,
-            "ACDP": -0.2,
-            "UFC": 0.5,
-            "SACP": -0.7,
-            "UDM": 0.3,
-            "Al Jama-ah": -0.5,
-            "COPE": 0.5
-          }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 4,
-      "text": "Government should invest heavily in public housing construction to alleviate homelessness.",
-      "category": "housing",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": -0.25,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.3,
-            "PA": 0.2,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.2,
-            "SACP": 0.8,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.25,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.2,
-            "PA": 0.1,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.1,
-            "SACP": 0.6,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.2,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.4,
-            "EFF": -0.8,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.8,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.7,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.5,
+          "EFF": -0.6,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.2,
+          "VF+": 0.6,
+          "ActionSA": 0.3,
+          "ACDP": 0.4,
+          "UFC": 0.2,
+          "SACP": -0.6,
+          "UDM": 0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
         }
-      ]
-    },
-    {
-      "id": 5,
-      "text": "The state should implement an unconditional basic income grant for all citizens, even if it requires higher taxes or borrowing.",
-      "category": "social welfare",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": -0.3,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.4,
-            "PA": 0.3,
-            "VF+": -0.1,
-            "ActionSA": -0.1,
-            "ACDP": 0.1,
-            "UFC": 0.2,
-            "SACP": 0.8,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.2,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.3,
-            "PA": 0.1,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.1,
-            "SACP": 0.7,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.3,
-            "EFF": -0.5,
-            "IFP": -0.2,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.5,
-            "UDM": -0.3,
-            "Al Jama-ah": -0.2,
-            "COPE": -0.3
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.5,
-            "EFF": -0.8,
-            "IFP": -0.3,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.1,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.7,
-            "UDM": -0.6,
-            "Al Jama-ah": -0.4,
-            "COPE": -0.6
-          }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.8,
+          "EFF": -0.9,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.4,
+          "VF+": 0.9,
+          "ActionSA": 0.5,
+          "ACDP": 0.7,
+          "UFC": 0.4,
+          "SACP": -0.9,
+          "UDM": 0.2,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
         }
-      ]
-    },
-    {
-      "id": 6,
-      "text": "The government should prioritise paying down public debt and ensuring fiscal sustainability even if it limits new social spending.",
-      "category": "fiscal policy",
-      "weight": 1.8,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": 0.8,
-            "EFF": -0.8,
-            "IFP": 0.2,
-            "MKP": 0.3,
-            "PA": 0.4,
-            "VF+": 0.7,
-            "ActionSA": 0.5,
-            "ACDP": 0.4,
-            "UFC": 0.2,
-            "SACP": -0.9,
-            "UDM": 0.3,
-            "Al Jama-ah": -0.1,
-            "COPE": 0.4
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.6,
-            "EFF": -0.6,
-            "IFP": 0.1,
-            "MKP": 0.2,
-            "PA": 0.3,
-            "VF+": 0.5,
-            "ActionSA": 0.3,
-            "ACDP": 0.2,
-            "UFC": 0.1,
-            "SACP": -0.7,
-            "UDM": 0.2,
-            "Al Jama-ah": -0.1,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": -0.4,
-            "EFF": 0.6,
-            "IFP": -0.1,
-            "MKP": 0.1,
-            "PA": -0.1,
-            "VF+": -0.5,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.1,
-            "SACP": 0.6,
-            "UDM": -0.2,
-            "Al Jama-ah": 0.1,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": -0.7,
-            "EFF": 0.9,
-            "IFP": -0.2,
-            "MKP": 0.2,
-            "PA": -0.2,
-            "VF+": -0.8,
-            "ActionSA": -0.4,
-            "ACDP": -0.5,
-            "UFC": -0.3,
-            "SACP": 0.9,
-            "UDM": -0.3,
-            "Al Jama-ah": 0.2,
-            "COPE": -0.2
-          }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Fiscal discipline and reducing public debt should be prioritised even if it limits new social spending.",
+    "category": "economy & fiscal",
+    "weight": 1.8,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.9,
+          "EFF": -0.8,
+          "IFP": 0.2,
+          "MKP": 0.3,
+          "PA": 0.4,
+          "VF+": 0.9,
+          "ActionSA": 0.6,
+          "ACDP": 0.6,
+          "UFC": 0.2,
+          "SACP": -0.9,
+          "UDM": 0.3,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.3
         }
-      ]
-    },
-    {
-      "id": 7,
-      "text": "Private property and small-business rights should be strongly protected against expropriation and heavy regulation.",
-      "category": "property rights",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.8,
-            "EFF": -0.8,
-            "IFP": 0.2,
-            "MKP": 0.5,
-            "PA": 0.3,
-            "VF+": 0.9,
-            "ActionSA": 0.6,
-            "ACDP": 0.7,
-            "UFC": 0.4,
-            "SACP": -0.6,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.6,
-            "EFF": -0.7,
-            "IFP": 0.1,
-            "MKP": 0.4,
-            "PA": 0.2,
-            "VF+": 0.7,
-            "ActionSA": 0.5,
-            "ACDP": 0.6,
-            "UFC": 0.3,
-            "SACP": -0.5,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.4
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.4,
-            "EFF": 0.8,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": -0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": 0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.8,
-            "EFF": 0.9,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": -0.2,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": 0.7,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.1,
+          "DA": 0.6,
+          "EFF": -0.6,
+          "IFP": 0.1,
+          "MKP": 0.2,
+          "PA": 0.2,
+          "VF+": 0.6,
+          "ActionSA": 0.4,
+          "ACDP": 0.3,
+          "UFC": 0.1,
+          "SACP": -0.7,
+          "UDM": 0.2,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.2
         }
-      ]
-    },
-    {
-      "id": 8,
-      "text": "South Africa should prioritise trade agreements that protect local industries, even if it means higher prices for consumers.",
-      "category": "trade policy",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.3,
-            "EFF": 0.8,
-            "IFP": 0.1,
-            "MKP": 0.3,
-            "PA": 0.3,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.2,
-            "Al Jama-ah": 0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.0,
-            "DA": -0.3,
-            "EFF": 0.6,
-            "IFP": 0.0,
-            "MKP": 0.2,
-            "PA": 0.1,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.4,
-            "UDM": 0.4,
-            "Al Jama-ah": 0.5,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.3,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": -0.1,
-            "SACP": -0.3,
-            "UDM": -0.1,
-            "Al Jama-ah": -0.3,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.5,
-            "EFF": -0.8,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.3,
-            "ActionSA": 0.0,
-            "ACDP": -0.1,
-            "UFC": -0.2,
-            "SACP": -0.5,
-            "UDM": -0.3,
-            "Al Jama-ah": -0.5,
-            "COPE": 0.5
-          }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 9,
-      "text": "The government should create large public works programs to reduce unemployment, even if it means borrowing more money.",
-      "category": "employment",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": -0.2,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.3,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.1,
-            "SACP": 0.8,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": -0.1,
-            "EFF": 0.7,
-            "IFP": 0.0,
-            "MKP": 0.4,
-            "PA": 0.2,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.4
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.0,
-            "EFF": -0.5,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": -0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.2,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.3,
-            "EFF": -0.8,
-            "IFP": 0.2,
-            "MKP": -0.2,
-            "PA": 0.1,
-            "VF+": 0.5,
-            "ActionSA": 0.1,
-            "ACDP": -0.1,
-            "UFC": 0.2,
-            "SACP": -0.7,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.4,
-            "COPE": -0.4
-          }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.4,
+          "EFF": 0.6,
+          "IFP": -0.1,
+          "MKP": 0.0,
+          "PA": -0.2,
+          "VF+": -0.5,
+          "ActionSA": -0.2,
+          "ACDP": -0.3,
+          "UFC": -0.1,
+          "SACP": 0.7,
+          "UDM": -0.1,
+          "Al Jama-ah": 0.1,
+          "COPE": -0.1
         }
-      ]
-    },
-    {
-      "id": 10,
-      "text": "Workers should have stronger rights to strike and protest for better conditions.",
-      "category": "labour rights",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": 0.0,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": -0.1,
-            "ActionSA": -0.1,
-            "ACDP": 0.0,
-            "UFC": 0.1,
-            "SACP": 0.8,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.4
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.0,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.5,
-            "PA": 0.3,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.1,
-            "EFF": -0.5,
-            "IFP": 0.2,
-            "MKP": -0.1,
-            "PA": 0.0,
-            "VF+": 0.3,
-            "ActionSA": 0.1,
-            "ACDP": 0.1,
-            "UFC": 0.0,
-            "SACP": -0.4,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.3,
-            "EFF": -0.8,
-            "IFP": 0.3,
-            "MKP": -0.2,
-            "PA": 0.2,
-            "VF+": 0.5,
-            "ActionSA": 0.2,
-            "ACDP": 0.2,
-            "UFC": 0.1,
-            "SACP": -0.6,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.5,
-            "COPE": -0.4
-          }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": 0.6,
+          "DA": -0.7,
+          "EFF": 0.9,
+          "IFP": -0.2,
+          "MKP": 0.1,
+          "PA": -0.4,
+          "VF+": -0.8,
+          "ActionSA": -0.5,
+          "ACDP": -0.6,
+          "UFC": -0.3,
+          "SACP": 0.9,
+          "UDM": -0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": -0.2
         }
-      ]
-    },
-    {
-      "id": 11,
-      "text": "The government should invest in fixing water and electricity infrastructure.",
-      "category": "infrastructure",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.6,
-            "DA": 0.3,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.5,
-            "PA": 0.2,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.0,
-            "SACP": 0.8,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": 0.1,
-            "EFF": 0.7,
-            "IFP": 0.0,
-            "MKP": 0.3,
-            "PA": 0.1,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.1,
-            "SACP": 0.6,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.1,
-            "EFF": -0.5,
-            "IFP": 0.0,
-            "MKP": -0.1,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.5,
-            "DA": -0.2,
-            "EFF": -0.8,
-            "IFP": 0.0,
-            "MKP": -0.2,
-            "PA": -0.1,
-            "VF+": 0.0,
-            "ActionSA": -0.1,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.7,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "The government should actively support small and medium businesses with tax breaks and deregulation to spur growth.",
+    "category": "economy & fiscal",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.8,
+          "EFF": -0.4,
+          "IFP": 0.4,
+          "MKP": 0.6,
+          "PA": 0.7,
+          "VF+": 0.8,
+          "ActionSA": 0.7,
+          "ACDP": 0.5,
+          "UFC": 0.6,
+          "SACP": -0.5,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.1
         }
-      ]
-    },
-    {
-      "id": 12,
-      "text": "The country should prioritise investment in renewable energy and climate change adaptation.",
-      "category": "energy",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.7,
-            "DA": -0.25,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.3,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.1,
-            "SACP": 0.8,
-            "UDM": 0.1,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.6,
-            "DA": -0.25,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.2,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": 0.1,
-            "EFF": -0.5,
-            "IFP": 0.1,
-            "MKP": -0.2,
-            "PA": 0.0,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": -0.4,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.4,
-            "EFF": -0.8,
-            "IFP": 0.2,
-            "MKP": -0.3,
-            "PA": 0.1,
-            "VF+": 0.5,
-            "ActionSA": 0.1,
-            "ACDP": -0.1,
-            "UFC": 0.2,
-            "SACP": -0.7,
-            "UDM": -0.4,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.3
-          }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": 0.6,
+          "EFF": -0.2,
+          "IFP": 0.3,
+          "MKP": 0.4,
+          "PA": 0.5,
+          "VF+": 0.6,
+          "ActionSA": 0.5,
+          "ACDP": 0.3,
+          "UFC": 0.4,
+          "SACP": -0.3,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 13,
-      "text": "The state should prioritise keeping key public utilities (power, water, rail) in public ownership rather than selling them to private firms.",
-      "category": "ownership & privatisation",
-      "weight": 2.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": -0.5,
-            "EFF": 0.9,
-            "IFP": 0.0,
-            "MKP": 0.5,
-            "PA": -0.1,
-            "VF+": -0.6,
-            "ActionSA": -0.2,
-            "ACDP": -0.4,
-            "UFC": 0.0,
-            "SACP": 0.9,
-            "UDM": 0.1,
-            "Al Jama-ah": 0.2,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.3,
-            "EFF": 0.7,
-            "IFP": 0.0,
-            "MKP": 0.4,
-            "PA": -0.1,
-            "VF+": -0.4,
-            "ActionSA": -0.1,
-            "ACDP": -0.3,
-            "UFC": 0.0,
-            "SACP": 0.7,
-            "UDM": 0.1,
-            "Al Jama-ah": 0.1,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.4,
-            "EFF": -0.6,
-            "IFP": 0.0,
-            "MKP": -0.1,
-            "PA": 0.2,
-            "VF+": 0.6,
-            "ActionSA": 0.2,
-            "ACDP": 0.3,
-            "UFC": 0.1,
-            "SACP": -0.6,
-            "UDM": 0.2,
-            "Al Jama-ah": -0.1,
-            "COPE": 0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.7,
-            "EFF": -0.9,
-            "IFP": 0.1,
-            "MKP": -0.2,
-            "PA": 0.3,
-            "VF+": 0.9,
-            "ActionSA": 0.4,
-            "ACDP": 0.5,
-            "UFC": 0.3,
-            "SACP": -0.9,
-            "UDM": 0.4,
-            "Al Jama-ah": -0.2,
-            "COPE": 0.4
-          }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 14,
-      "text": "Rural development and agricultural support (including food gardens) should be a major focus of government policy.",
-      "category": "agriculture",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": -0.1,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.1,
-            "SACP": 0.8,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.0,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.4,
-            "PA": 0.1,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.1,
-            "EFF": -0.5,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": 0.0,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": -0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.3,
-            "EFF": -0.8,
-            "IFP": 0.2,
-            "MKP": -0.2,
-            "PA": 0.1,
-            "VF+": 0.5,
-            "ActionSA": 0.1,
-            "ACDP": -0.1,
-            "UFC": 0.2,
-            "SACP": -0.7,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": -0.4,
+          "EFF": 0.5,
+          "IFP": -0.1,
+          "MKP": -0.1,
+          "PA": -0.2,
+          "VF+": -0.3,
+          "ActionSA": -0.2,
+          "ACDP": -0.2,
+          "UFC": -0.1,
+          "SACP": 0.5,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 15,
-      "text": "Black Economic Empowerment (BEE) and affirmative action should remain central government policies.",
-      "category": "transformation",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.7,
-            "DA": 0.0,
-            "EFF": 0.8,
-            "IFP": 0.2,
-            "MKP": 0.6,
-            "PA": 0.3,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.2,
-            "UFC": 0.2,
-            "SACP": 0.9,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": 0.2,
-            "EFF": 0.6,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": -0.1,
-            "UFC": 0.2,
-            "SACP": 0.7,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": 0.2,
-            "EFF": -0.3,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": 0.0,
-            "VF+": 0.2,
-            "ActionSA": 0.1,
-            "ACDP": 0.1,
-            "UFC": 0.0,
-            "SACP": -0.3,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.6,
-            "DA": 0.3,
-            "EFF": -0.6,
-            "IFP": 0.1,
-            "MKP": -0.2,
-            "PA": 0.1,
-            "VF+": 0.4,
-            "ActionSA": 0.2,
-            "ACDP": 0.2,
-            "UFC": 0.1,
-            "SACP": -0.6,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": -0.7,
+          "EFF": 0.8,
+          "IFP": -0.2,
+          "MKP": -0.2,
+          "PA": -0.4,
+          "VF+": -0.6,
+          "ActionSA": -0.5,
+          "ACDP": -0.4,
+          "UFC": -0.3,
+          "SACP": 0.8,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
         }
-      ]
-    },
-    {
-      "id": 16,
-      "text": "Expropriation of private land without market-rate compensation should be permitted under law to accelerate land reform.",
-      "category": "land reform",
-      "weight": 2.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.4,
-            "EFF": 0.95,
-            "IFP": 0.0,
-            "MKP": 0.2,
-            "PA": 0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.2,
-            "UFC": 0.0,
-            "SACP": 0.9,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.7,
-            "COPE": -0.6
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.3,
-            "EFF": 0.8,
-            "IFP": -0.1,
-            "MKP": 0.2,
-            "PA": 0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": 0.0,
-            "SACP": 0.7,
-            "UDM": -0.3,
-            "Al Jama-ah": -0.4,
-            "COPE": -0.3
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.2,
-            "EFF": -0.6,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.6,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.4,
-            "EFF": -0.9,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": -0.2,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.95,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.7
-          }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "The state should introduce a universal basic income as a national policy.",
+    "category": "economy & fiscal",
+    "weight": 1.8,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.6,
+          "EFF": 0.9,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.2,
+          "VF+": -0.5,
+          "ActionSA": -0.2,
+          "ACDP": -0.6,
+          "UFC": 0.0,
+          "SACP": 0.95,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
         }
-      ]
-    },
-    {
-      "id": 17,
-      "text": "Public housing investment should take priority even if it means less investment in private housing development.",
-      "category": "housing",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": -0.25,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.3,
-            "PA": 0.2,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.1,
-            "SACP": 0.6,
-            "UDM": 0.3,
-            "Al Jama-ah": 0.5,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.25,
-            "EFF": 0.5,
-            "IFP": 0.0,
-            "MKP": 0.2,
-            "PA": 0.1,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.4,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.7,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.1,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.3,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.4,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": -0.2,
-            "EFF": -0.8,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.3,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.3,
-            "SACP": -0.6,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.7,
-            "COPE": 0.5
-          }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": -0.4,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.3,
+          "ActionSA": -0.1,
+          "ACDP": -0.4,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.1
         }
-      ]
-    },
-    {
-      "id": 18,
-      "text": "Strong action against corruption (even if it disrupts some government functions) is a priority.",
-      "category": "corruption",
-      "weight": 2.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.5,
-            "EFF": 0.9,
-            "IFP": 0.2,
-            "MKP": 0.7,
-            "PA": 0.3,
-            "VF+": 0.3,
-            "ActionSA": 0.6,
-            "ACDP": 0.5,
-            "UFC": 0.6,
-            "SACP": 0.9,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.3,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.2,
-            "ActionSA": 0.5,
-            "ACDP": 0.4,
-            "UFC": 0.5,
-            "SACP": 0.7,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": -0.3,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.0,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.6,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": -0.5,
-            "EFF": -0.8,
-            "IFP": -0.2,
-            "MKP": -0.4,
-            "PA": -0.3,
-            "VF+": 0.2,
-            "ActionSA": -0.3,
-            "ACDP": -0.3,
-            "UFC": -0.3,
-            "SACP": -0.9,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 19,
-      "text": "South Africa should implement stronger state capture reforms, even if it means upsetting some officials.",
-      "category": "state capture reform",
-      "weight": 2.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.5,
-            "EFF": 0.9,
-            "IFP": 0.1,
-            "MKP": 0.7,
-            "PA": 0.3,
-            "VF+": 0.2,
-            "ActionSA": 0.6,
-            "ACDP": 0.5,
-            "UFC": 0.6,
-            "SACP": 0.8,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.3,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.1,
-            "ActionSA": 0.5,
-            "ACDP": 0.4,
-            "UFC": 0.5,
-            "SACP": 0.7,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": -0.3,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.0,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.6,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": -0.5,
-            "EFF": -0.8,
-            "IFP": -0.2,
-            "MKP": -0.4,
-            "PA": -0.3,
-            "VF+": 0.2,
-            "ActionSA": -0.3,
-            "ACDP": -0.3,
-            "UFC": -0.3,
-            "SACP": -0.9,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.5,
+          "EFF": -0.5,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.2,
+          "VF+": 0.6,
+          "ActionSA": 0.3,
+          "ACDP": 0.4,
+          "UFC": 0.1,
+          "SACP": -0.5,
+          "UDM": 0.1,
+          "Al Jama-ah": -0.3,
+          "COPE": -0.1
         }
-      ]
-    },
-    {
-      "id": 20,
-      "text": "The independence of the judiciary and prosecuting authorities should be protected.",
-      "category": "institutions",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": 0.8,
-            "EFF": 0.9,
-            "IFP": 0.2,
-            "MKP": 0.7,
-            "PA": 0.3,
-            "VF+": 0.4,
-            "ActionSA": 0.5,
-            "ACDP": 0.6,
-            "UFC": 0.6,
-            "SACP": 0.9,
-            "UDM": 0.8,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.7
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.6,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.3,
-            "ActionSA": 0.4,
-            "ACDP": 0.5,
-            "UFC": 0.5,
-            "SACP": 0.7,
-            "UDM": 0.8,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.7
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": -0.2,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": 0.0,
-            "VF+": -0.2,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.6,
-            "UDM": -0.1,
-            "Al Jama-ah": -0.2,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": -0.4,
-            "EFF": -0.9,
-            "IFP": -0.2,
-            "MKP": -0.3,
-            "PA": -0.1,
-            "VF+": -0.4,
-            "ActionSA": -0.4,
-            "ACDP": -0.4,
-            "UFC": -0.4,
-            "SACP": -0.95,
-            "UDM": -0.4,
-            "Al Jama-ah": -0.5,
-            "COPE": -0.4
-          }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.8,
+          "EFF": -0.9,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.4,
+          "VF+": 0.9,
+          "ActionSA": 0.5,
+          "ACDP": 0.7,
+          "UFC": 0.3,
+          "SACP": -0.9,
+          "UDM": 0.2,
+          "Al Jama-ah": -0.5,
+          "COPE": -0.3
         }
-      ]
-    },
-    {
-      "id": 21,
-      "text": "The Constitution should be amended where necessary to allow economic growth.",
-      "category": "governance",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": -0.2,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.5,
-            "PA": 0.2,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.7,
-            "UDM": 0.4,
-            "Al Jama-ah": 0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.2,
-            "EFF": 0.6,
-            "IFP": 0.1,
-            "MKP": 0.5,
-            "PA": 0.1,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.4,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": 0.2,
-            "EFF": -0.3,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": 0.0,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": -0.2,
-            "UDM": -0.1,
-            "Al Jama-ah": -0.2,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.6,
-            "DA": 0.3,
-            "EFF": -0.6,
-            "IFP": 0.2,
-            "MKP": -0.2,
-            "PA": 0.0,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": -0.5,
-            "UDM": -0.4,
-            "Al Jama-ah": -0.5,
-            "COPE": 0.5
-          }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Public investment in job-rich public works programmes is a suitable short-term method to reduce unemployment.",
+    "category": "economy & fiscal",
+    "weight": 1.7,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.6,
+          "DA": -0.2,
+          "EFF": 0.95,
+          "IFP": 0.1,
+          "MKP": 0.6,
+          "PA": 0.3,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": 0.1,
+          "UFC": 0.1,
+          "SACP": 0.9,
+          "UDM": 0.6,
+          "Al Jama-ah": 0.6,
+          "COPE": 0.5
         }
-      ]
-    },
-    {
-      "id": 22,
-      "text": "Provinces and municipalities should have more power (and money) to make decisions.",
-      "category": "decentralization",
-      "weight": 0.7,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.0,
-            "EFF": 0.6,
-            "IFP": 0.8,
-            "MKP": 0.5,
-            "PA": 0.3,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": -0.1,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.4,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.1,
-            "EFF": 0.5,
-            "IFP": 0.7,
-            "MKP": 0.5,
-            "PA": 0.2,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": -0.1,
-            "UFC": 0.0,
-            "SACP": 0.5,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.5,
-            "COPE": 0.4
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": 0.4,
-            "EFF": -0.3,
-            "IFP": -0.2,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": 0.5,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.0,
-            "SACP": -0.2,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": 0.5,
-            "EFF": -0.6,
-            "IFP": -0.5,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": 0.7,
-            "ActionSA": 0.1,
-            "ACDP": 0.1,
-            "UFC": 0.1,
-            "SACP": -0.5,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.4
-          }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.1,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.4,
+          "PA": 0.2,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.4,
+          "COPE": 0.3
         }
-      ]
-    },
-    {
-      "id": 23,
-      "text": "To reduce crime, the government should focus more on harsher punishment rather than addressing social causes like poverty.",
-      "category": "crime",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.4,
-            "EFF": -0.6,
-            "IFP": 0.2,
-            "MKP": 0.1,
-            "PA": 0.0,
-            "VF+": 0.5,
-            "ActionSA": 0.3,
-            "ACDP": 0.2,
-            "UFC": 0.2,
-            "SACP": -0.7,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.1,
-            "DA": 0.3,
-            "EFF": -0.5,
-            "IFP": 0.2,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.4,
-            "ActionSA": 0.2,
-            "ACDP": 0.1,
-            "UFC": 0.1,
-            "SACP": -0.5,
-            "UDM": -0.1,
-            "Al Jama-ah": -0.2,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": -0.3,
-            "EFF": 0.6,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.1,
-            "VF+": -0.2,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": 0.4,
-            "UDM": 0.3,
-            "Al Jama-ah": 0.4,
-            "COPE": 0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": -0.5,
-            "EFF": 0.8,
-            "IFP": -0.2,
-            "MKP": -0.3,
-            "PA": -0.2,
-            "VF+": -0.4,
-            "ActionSA": -0.4,
-            "ACDP": -0.4,
-            "UFC": -0.4,
-            "SACP": 0.7,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.6,
-            "COPE": 0.4
-          }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 24,
-      "text": "Illegal immigrants should be deported and strict border controls enforced to protect jobs.",
-      "category": "immigration",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.7,
-            "EFF": 0.8,
-            "IFP": 0.4,
-            "MKP": 0.2,
-            "PA": 0.6,
-            "VF+": 0.5,
-            "ActionSA": 0.6,
-            "ACDP": 0.4,
-            "UFC": 0.5,
-            "SACP": -0.5,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.3,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.5,
-            "EFF": 0.6,
-            "IFP": 0.3,
-            "MKP": 0.2,
-            "PA": 0.5,
-            "VF+": 0.4,
-            "ActionSA": 0.4,
-            "ACDP": 0.3,
-            "UFC": 0.4,
-            "SACP": -0.2,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.4,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.1,
-            "EFF": -0.5,
-            "IFP": -0.2,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": -0.2,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": 0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.5,
-            "DA": -0.3,
-            "EFF": -0.8,
-            "IFP": -0.3,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": -0.4,
-            "ActionSA": -0.3,
-            "ACDP": -0.3,
-            "UFC": -0.3,
-            "SACP": 0.6,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.3,
+          "EFF": -0.5,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": -0.1,
+          "UFC": 0.0,
+          "SACP": -0.5,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.2
         }
-      ]
-    },
-    {
-      "id": 25,
-      "text": "Immigration policy should be significantly tightened including stronger border controls and stricter vetting.",
-      "category": "immigration",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.5,
-            "EFF": 0.6,
-            "IFP": 0.3,
-            "MKP": 0.2,
-            "PA": 0.4,
-            "VF+": 0.6,
-            "ActionSA": 0.5,
-            "ACDP": 0.2,
-            "UFC": 0.3,
-            "SACP": -0.6,
-            "UDM": 0.1,
-            "Al Jama-ah": -0.4,
-            "COPE": 0.2
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": 0.3,
-            "EFF": 0.4,
-            "IFP": 0.2,
-            "MKP": 0.1,
-            "PA": 0.3,
-            "VF+": 0.4,
-            "ActionSA": 0.3,
-            "ACDP": 0.1,
-            "UFC": 0.1,
-            "SACP": -0.4,
-            "UDM": 0.05,
-            "Al Jama-ah": -0.2,
-            "COPE": 0.1
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.2,
-            "EFF": -0.3,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.2,
-            "VF+": -0.3,
-            "ActionSA": -0.2,
-            "ACDP": -0.1,
-            "UFC": -0.2,
-            "SACP": 0.4,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": -0.5,
-            "EFF": -0.6,
-            "IFP": -0.2,
-            "MKP": -0.2,
-            "PA": -0.4,
-            "VF+": -0.6,
-            "ActionSA": -0.4,
-            "ACDP": -0.3,
-            "UFC": -0.4,
-            "SACP": 0.7,
-            "UDM": 0.1,
-            "Al Jama-ah": 0.6,
-            "COPE": -0.2
-          }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.6,
+          "EFF": -0.8,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.1,
+          "VF+": 0.5,
+          "ActionSA": 0.3,
+          "ACDP": -0.2,
+          "UFC": 0.2,
+          "SACP": -0.8,
+          "UDM": -0.4,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.4
         }
-      ]
-    },
-    {
-      "id": 26,
-      "text": "The government should strengthen legal protections against discrimination (e.g., on race, gender, sexual orientation).",
-      "category": "civil rights",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.6,
-            "DA": 0.5,
-            "EFF": 0.9,
-            "IFP": 0.4,
-            "MKP": 0.7,
-            "PA": 0.3,
-            "VF+": 0.2,
-            "ActionSA": 0.4,
-            "ACDP": 0.3,
-            "UFC": 0.4,
-            "SACP": 0.9,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": 0.4,
-            "EFF": 0.7,
-            "IFP": 0.3,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.1,
-            "ActionSA": 0.3,
-            "ACDP": 0.2,
-            "UFC": 0.2,
-            "SACP": 0.7,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": -0.2,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.2,
-            "VF+": -0.1,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.6,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.3,
-            "EFF": -0.8,
-            "IFP": -0.2,
-            "MKP": -0.2,
-            "PA": -0.3,
-            "VF+": -0.2,
-            "ActionSA": -0.3,
-            "ACDP": -0.3,
-            "UFC": -0.3,
-            "SACP": -0.9,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": -0.5
-          }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Healthcare should be universally publicly funded (basic services free at point of use).",
+    "category": "social welfare & services",
+    "weight": 1.9,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": -0.3,
+          "EFF": 0.95,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.2,
+          "VF+": -0.4,
+          "ActionSA": -0.1,
+          "ACDP": 0.0,
+          "UFC": 0.3,
+          "SACP": 0.9,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.5,
+          "COPE": 0.4
         }
-      ]
-    },
-    {
-      "id": 27,
-      "text": "Abortion should be legal, publicly funded where necessary, and available on request.",
-      "category": "reproductive rights",
-      "weight": 2.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.3,
-            "EFF": 0.6,
-            "IFP": -0.2,
-            "MKP": 0.2,
-            "PA": -0.1,
-            "VF+": -0.6,
-            "ActionSA": 0.0,
-            "ACDP": -0.9,
-            "UFC": 0.0,
-            "SACP": 0.7,
-            "UDM": 0.1,
-            "Al Jama-ah": -0.4,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.2,
-            "EFF": 0.5,
-            "IFP": -0.1,
-            "MKP": 0.1,
-            "PA": -0.1,
-            "VF+": -0.4,
-            "ActionSA": 0.0,
-            "ACDP": -0.7,
-            "UFC": 0.0,
-            "SACP": 0.5,
-            "UDM": 0.1,
-            "Al Jama-ah": -0.3,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.1,
-            "EFF": -0.4,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": 0.1,
-            "VF+": 0.3,
-            "ActionSA": 0.0,
-            "ACDP": 0.5,
-            "UFC": -0.1,
-            "SACP": -0.5,
-            "UDM": -0.1,
-            "Al Jama-ah": 0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.3,
-            "EFF": -0.7,
-            "IFP": 0.2,
-            "MKP": -0.2,
-            "PA": 0.2,
-            "VF+": 0.6,
-            "ActionSA": 0.1,
-            "ACDP": 0.9,
-            "UFC": -0.2,
-            "SACP": -0.8,
-            "UDM": -0.3,
-            "Al Jama-ah": 0.6,
-            "COPE": -0.2
-          }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.2,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.3,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.2,
+          "SACP": 0.7,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.4,
+          "COPE": 0.3
         }
-      ]
-    },
-    {
-      "id": 28,
-      "text": "The government should introduce specific legal protections and targeted support to preserve the rights and cultures of national minorities.",
-      "category": "minority rights",
-      "weight": 1.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.4,
-            "EFF": -0.3,
-            "IFP": 0.2,
-            "MKP": 0.3,
-            "PA": 0.4,
-            "VF+": 0.6,
-            "ActionSA": 0.2,
-            "ACDP": 0.1,
-            "UFC": 0.2,
-            "SACP": -0.2,
-            "UDM": 0.3,
-            "Al Jama-ah": 0.1,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.3,
-            "EFF": -0.2,
-            "IFP": 0.1,
-            "MKP": 0.2,
-            "PA": 0.3,
-            "VF+": 0.5,
-            "ActionSA": 0.1,
-            "ACDP": 0.0,
-            "UFC": 0.1,
-            "SACP": -0.1,
-            "UDM": 0.2,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.2
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.1,
-            "EFF": 0.2,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": -0.2,
-            "ActionSA": -0.1,
-            "ACDP": 0.0,
-            "UFC": -0.1,
-            "SACP": 0.2,
-            "UDM": -0.1,
-            "Al Jama-ah": 0.0,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.3,
-            "EFF": 0.4,
-            "IFP": -0.2,
-            "MKP": -0.2,
-            "PA": -0.3,
-            "VF+": -0.5,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": 0.4,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.1,
-            "COPE": -0.2
-          }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 29,
-      "text": "Government should provide more funding and support for minority languages and cultural programmes.",
-      "category": "language & culture",
-      "weight": 0.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.2,
-            "EFF": 0.8,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.3,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.0,
-            "SACP": 0.6,
-            "UDM": 0.4,
-            "Al Jama-ah": 0.3,
-            "COPE": 0.1
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.2,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.5,
-            "PA": 0.1,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.5,
-            "UDM": 0.5,
-            "Al Jama-ah": 0.4,
-            "COPE": 0.2
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": 0.0,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.1,
-            "VF+": -0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.2,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.1,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": -0.1,
-            "EFF": -0.8,
-            "IFP": -0.2,
-            "MKP": -0.2,
-            "PA": -0.2,
-            "VF+": -0.2,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.5,
-            "UDM": -0.4,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.3
-          }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.3,
+          "EFF": -0.6,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.4,
+          "ActionSA": 0.1,
+          "ACDP": -0.2,
+          "UFC": -0.1,
+          "SACP": -0.6,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
         }
-      ]
-    },
-    {
-      "id": 30,
-      "text": "The government should actively fund and protect Afrikaans language education and cultural programmes.",
-      "category": "language & culture",
-      "weight": 0.8,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.1,
-            "DA": 0.2,
-            "EFF": -0.4,
-            "IFP": 0.2,
-            "MKP": 0.3,
-            "PA": 0.5,
-            "VF+": 0.9,
-            "ActionSA": 0.4,
-            "ACDP": 0.3,
-            "UFC": 0.2,
-            "SACP": -0.5,
-            "UDM": 0.3,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.4
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.05,
-            "DA": 0.1,
-            "EFF": -0.2,
-            "IFP": 0.1,
-            "MKP": 0.2,
-            "PA": 0.3,
-            "VF+": 0.7,
-            "ActionSA": 0.2,
-            "ACDP": 0.2,
-            "UFC": 0.1,
-            "SACP": -0.3,
-            "UDM": 0.2,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.2
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": -0.1,
-            "EFF": 0.2,
-            "IFP": -0.1,
-            "MKP": -0.1,
-            "PA": -0.2,
-            "VF+": -0.3,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.2,
-            "SACP": 0.3,
-            "UDM": -0.1,
-            "Al Jama-ah": 0.0,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.2,
-            "EFF": 0.4,
-            "IFP": -0.2,
-            "MKP": -0.2,
-            "PA": -0.4,
-            "VF+": -0.6,
-            "ActionSA": -0.3,
-            "ACDP": -0.3,
-            "UFC": -0.4,
-            "SACP": 0.6,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.1,
-            "COPE": -0.3
-          }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.6,
+          "EFF": -0.9,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.3,
+          "VF+": 0.8,
+          "ActionSA": 0.4,
+          "ACDP": -0.4,
+          "UFC": -0.2,
+          "SACP": -0.9,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.5,
+          "COPE": -0.3
         }
-      ]
-    },
-    {
-      "id": 31,
-      "text": "Religious values and teachings should have a great influence on political decisions.",
-      "category": "religion & state",
-      "weight": 0.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": -0.3,
-            "EFF": 0.8,
-            "IFP": 0.0,
-            "MKP": 0.5,
-            "PA": 0.1,
-            "VF+": 0.1,
-            "ActionSA": -0.1,
-            "ACDP": 0.9,
-            "UFC": -0.3,
-            "SACP": -0.5,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.8,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.1,
-            "DA": -0.2,
-            "EFF": 0.6,
-            "IFP": 0.0,
-            "MKP": 0.4,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": -0.2,
-            "ACDP": 0.8,
-            "UFC": -0.2,
-            "SACP": -0.5,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": 0.1,
-            "EFF": -0.6,
-            "IFP": 0.0,
-            "MKP": -0.2,
-            "PA": -0.1,
-            "VF+": -0.2,
-            "ActionSA": 0.2,
-            "ACDP": -0.5,
-            "UFC": 0.1,
-            "SACP": 0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.3,
-            "EFF": -0.8,
-            "IFP": 0.0,
-            "MKP": -0.4,
-            "PA": -0.2,
-            "VF+": -0.4,
-            "ActionSA": 0.4,
-            "ACDP": -0.7,
-            "UFC": 0.2,
-            "SACP": 0.6,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.6,
-            "COPE": 0.0
-          }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Higher education should be free for all students, even if it requires higher taxes.",
+    "category": "social welfare & services",
+    "weight": 1.5,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.5,
+          "EFF": 0.95,
+          "IFP": 0.1,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.4,
+          "ActionSA": -0.2,
+          "ACDP": -0.5,
+          "UFC": 0.1,
+          "SACP": 0.95,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.4,
+          "COPE": 0.3
         }
-      ]
-    },
-    {
-      "id": 32,
-      "text": "Government should make active legal and practical accommodations for religious minorities, including Muslim practices and holidays.",
-      "category": "religion & state",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.1,
-            "EFF": 0.2,
-            "IFP": 0.0,
-            "MKP": 0.2,
-            "PA": 0.1,
-            "VF+": -0.2,
-            "ActionSA": 0.0,
-            "ACDP": -0.3,
-            "UFC": 0.0,
-            "SACP": 0.3,
-            "UDM": 0.1,
-            "Al Jama-ah": 0.9,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.05,
-            "EFF": 0.1,
-            "IFP": 0.0,
-            "MKP": 0.1,
-            "PA": 0.0,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": -0.2,
-            "UFC": 0.0,
-            "SACP": 0.1,
-            "UDM": 0.05,
-            "Al Jama-ah": 0.7,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.1,
-            "DA": -0.1,
-            "EFF": -0.2,
-            "IFP": 0.1,
-            "MKP": -0.1,
-            "PA": 0.1,
-            "VF+": 0.2,
-            "ActionSA": 0.0,
-            "ACDP": 0.4,
-            "UFC": -0.1,
-            "SACP": -0.1,
-            "UDM": -0.1,
-            "Al Jama-ah": -0.4,
-            "COPE": 0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.3,
-            "DA": -0.3,
-            "EFF": -0.5,
-            "IFP": 0.2,
-            "MKP": -0.2,
-            "PA": 0.2,
-            "VF+": 0.5,
-            "ActionSA": 0.1,
-            "ACDP": 0.8,
-            "UFC": -0.2,
-            "SACP": -0.4,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.7,
-            "COPE": 0.2
-          }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": -0.3,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.2,
+          "PA": 0.0,
+          "VF+": -0.3,
+          "ActionSA": -0.1,
+          "ACDP": -0.3,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.2
         }
-      ]
-    },
-    {
-      "id": 33,
-      "text": "South Africa should formally recognise and fund traditional leadership structures.",
-      "category": "traditional leadership",
-      "weight": 0.7,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.5,
-            "DA": -0.1,
-            "EFF": 0.7,
-            "IFP": 0.9,
-            "MKP": 0.6,
-            "PA": 0.3,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.0,
-            "SACP": 0.5,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.2,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.0,
-            "EFF": 0.6,
-            "IFP": 0.8,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.4,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.4,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.1,
-            "EFF": -0.3,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.1,
-            "VF+": 0.0,
-            "ActionSA": -0.1,
-            "ACDP": 0.0,
-            "UFC": -0.1,
-            "SACP": -0.2,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.1,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.5,
-            "DA": 0.2,
-            "EFF": -0.7,
-            "IFP": -0.3,
-            "MKP": -0.3,
-            "PA": -0.2,
-            "VF+": 0.1,
-            "ActionSA": -0.2,
-            "ACDP": 0.0,
-            "UFC": -0.2,
-            "SACP": -0.4,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.3,
-            "COPE": 0.5
-          }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
         }
-      ]
-    },
-    {
-      "id": 34,
-      "text": "South Africa should prioritise broad multilateral diplomacy and cooperation over aligning with any specific geopolitical bloc.",
-      "category": "foreign policy",
-      "weight": 1.0,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.6,
-            "EFF": 0.8,
-            "IFP": 0.1,
-            "MKP": 0.6,
-            "PA": 0.2,
-            "VF+": 0.4,
-            "ActionSA": 0.3,
-            "ACDP": 0.5,
-            "UFC": 0.4,
-            "SACP": 0.7,
-            "UDM": 0.6,
-            "Al Jama-ah": 0.3,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.2,
-            "DA": 0.5,
-            "EFF": 0.7,
-            "IFP": 0.1,
-            "MKP": 0.5,
-            "PA": 0.1,
-            "VF+": 0.3,
-            "ActionSA": 0.2,
-            "ACDP": 0.4,
-            "UFC": 0.3,
-            "SACP": 0.6,
-            "UDM": 0.7,
-            "Al Jama-ah": 0.4,
-            "COPE": 0.6
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": 0.2,
-            "EFF": -0.3,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.1,
-            "VF+": 0.3,
-            "ActionSA": -0.1,
-            "ACDP": -0.2,
-            "UFC": -0.1,
-            "SACP": -0.5,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.1,
-            "COPE": -0.2
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": 0.4,
-            "EFF": -0.6,
-            "IFP": -0.2,
-            "MKP": -0.4,
-            "PA": -0.2,
-            "VF+": 0.5,
-            "ActionSA": -0.2,
-            "ACDP": -0.4,
-            "UFC": -0.2,
-            "SACP": -0.7,
-            "UDM": -0.5,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.5
-          }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.4,
+          "EFF": -0.5,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.5,
+          "ActionSA": 0.2,
+          "ACDP": 0.2,
+          "UFC": -0.1,
+          "SACP": -0.6,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
         }
-      ]
-    },
-    {
-      "id": 35,
-      "text": "The government should expand surveillance and data collection to improve security and public safety.",
-      "category": "privacy & tech",
-      "weight": 0.5,
-      "options": [
-        {
-          "option": "Strongly agree",
-          "scores": {
-            "ANC": 0.4,
-            "DA": 0.2,
-            "EFF": 0.8,
-            "IFP": 0.2,
-            "MKP": 0.6,
-            "PA": 0.3,
-            "VF+": -0.1,
-            "ActionSA": 0.0,
-            "ACDP": 0.1,
-            "UFC": 0.0,
-            "SACP": 0.7,
-            "UDM": 0.2,
-            "Al Jama-ah": 0.2,
-            "COPE": 0.3
-          }
-        },
-        {
-          "option": "Agree",
-          "scores": {
-            "ANC": 0.3,
-            "DA": 0.1,
-            "EFF": 0.6,
-            "IFP": 0.1,
-            "MKP": 0.4,
-            "PA": 0.2,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.5,
-            "UDM": 0.4,
-            "Al Jama-ah": 0.3,
-            "COPE": 0.5
-          }
-        },
-        {
-          "option": "Neutral",
-          "scores": {
-            "ANC": 0.0,
-            "DA": 0.0,
-            "EFF": 0.0,
-            "IFP": 0.0,
-            "MKP": 0.0,
-            "PA": 0.0,
-            "VF+": 0.0,
-            "ActionSA": 0.0,
-            "ACDP": 0.0,
-            "UFC": 0.0,
-            "SACP": 0.0,
-            "UDM": 0.0,
-            "Al Jama-ah": 0.0,
-            "COPE": 0.0
-          }
-        },
-        {
-          "option": "Disagree",
-          "scores": {
-            "ANC": -0.2,
-            "DA": -0.1,
-            "EFF": -0.5,
-            "IFP": -0.1,
-            "MKP": -0.2,
-            "PA": -0.1,
-            "VF+": -0.1,
-            "ActionSA": -0.1,
-            "ACDP": -0.1,
-            "UFC": -0.1,
-            "SACP": -0.4,
-            "UDM": -0.2,
-            "Al Jama-ah": -0.3,
-            "COPE": -0.1
-          }
-        },
-        {
-          "option": "Strongly disagree",
-          "scores": {
-            "ANC": -0.4,
-            "DA": -0.3,
-            "EFF": -0.8,
-            "IFP": -0.2,
-            "MKP": -0.3,
-            "PA": -0.2,
-            "VF+": -0.2,
-            "ActionSA": -0.2,
-            "ACDP": -0.2,
-            "UFC": -0.2,
-            "SACP": -0.7,
-            "UDM": -0.4,
-            "Al Jama-ah": -0.5,
-            "COPE": -0.3
-          }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.7,
+          "EFF": -0.9,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.2,
+          "VF+": 0.8,
+          "ActionSA": 0.5,
+          "ACDP": 0.5,
+          "UFC": -0.2,
+          "SACP": -0.9,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
         }
-      ]
-    }
-  ]
-}
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "The state should provide strong subsidies for childcare to support working parents.",
+    "category": "social welfare & services",
+    "weight": 1.4,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.1,
+          "EFF": 0.8,
+          "IFP": 0.2,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": -0.2,
+          "UFC": 0.2,
+          "SACP": 0.8,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.0,
+          "EFF": 0.6,
+          "IFP": 0.1,
+          "MKP": 0.2,
+          "PA": 0.0,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": -0.1,
+          "UFC": 0.1,
+          "SACP": 0.6,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.2,
+          "EFF": -0.4,
+          "IFP": -0.1,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": 0.1,
+          "UFC": -0.1,
+          "SACP": -0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.4,
+          "EFF": -0.7,
+          "IFP": -0.2,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.5,
+          "ActionSA": 0.3,
+          "ACDP": 0.4,
+          "UFC": -0.2,
+          "SACP": -0.7,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.3,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Local government services should be professionally staffed and audited regularly to reduce corruption and service failure.",
+    "category": "social welfare & services",
+    "weight": 1.3,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.6,
+          "EFF": 0.6,
+          "IFP": 0.2,
+          "MKP": 0.5,
+          "PA": 0.6,
+          "VF+": 0.2,
+          "ActionSA": 0.8,
+          "ACDP": 0.5,
+          "UFC": 0.5,
+          "SACP": 0.4,
+          "UDM": 0.5,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.6
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.4,
+          "EFF": 0.4,
+          "IFP": 0.1,
+          "MKP": 0.3,
+          "PA": 0.4,
+          "VF+": 0.1,
+          "ActionSA": 0.6,
+          "ACDP": 0.3,
+          "UFC": 0.3,
+          "SACP": 0.3,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": -0.1,
+          "EFF": -0.3,
+          "IFP": -0.1,
+          "MKP": -0.1,
+          "PA": -0.2,
+          "VF": 0.0,
+          "ActionSA": -0.2,
+          "ACDP": -0.1,
+          "UFC": -0.1,
+          "SACP": -0.2,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": -0.3,
+          "EFF": -0.6,
+          "IFP": -0.2,
+          "MKP": -0.2,
+          "PA": -0.4,
+          "VF+": 0.1,
+          "ActionSA": -0.4,
+          "ACDP": -0.3,
+          "UFC": -0.3,
+          "SACP": -0.4,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Key public utilities (power, water, rail) should remain publicly owned and not be privatised.",
+    "category": "ownership & land",
+    "weight": 2.0,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.6,
+          "EFF": 0.95,
+          "IFP": 0.0,
+          "MKP": 0.5,
+          "PA": -0.1,
+          "VF+": -0.7,
+          "ActionSA": -0.2,
+          "ACDP": -0.5,
+          "UFC": 0.0,
+          "SACP": 0.95,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": -0.4,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.4,
+          "PA": -0.1,
+          "VF+": -0.5,
+          "ActionSA": -0.1,
+          "ACDP": -0.3,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.5,
+          "EFF": -0.6,
+          "IFP": 0.0,
+          "MKP": -0.1,
+          "PA": 0.2,
+          "VF+": 0.6,
+          "ActionSA": 0.1,
+          "ACDP": 0.2,
+          "UFC": 0.1,
+          "SACP": -0.6,
+          "UDM": 0.2,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.8,
+          "EFF": -0.9,
+          "IFP": 0.1,
+          "MKP": -0.2,
+          "PA": 0.4,
+          "VF+": 0.9,
+          "ActionSA": 0.4,
+          "ACDP": 0.6,
+          "UFC": 0.3,
+          "SACP": -0.9,
+          "UDM": 0.3,
+          "Al Jama-ah": -0.2,
+          "COPE": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Expropriation of land without market-rate compensation should be allowed to speed up land reform.",
+    "category": "ownership & land",
+    "weight": 2.0,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.25,
+          "DA": -0.6,
+          "EFF": 0.98,
+          "IFP": -0.1,
+          "MKP": 0.2,
+          "PA": 0.1,
+          "VF+": -0.3,
+          "ActionSA": -0.2,
+          "ACDP": -0.6,
+          "UFC": 0.0,
+          "SACP": 0.95,
+          "UDM": -0.4,
+          "Al Jama-ah": -0.7,
+          "COPE": -0.5
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.15,
+          "DA": -0.4,
+          "EFF": 0.8,
+          "IFP": -0.1,
+          "MKP": 0.15,
+          "PA": 0.05,
+          "VF+": -0.2,
+          "ActionSA": -0.1,
+          "ACDP": -0.4,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.5,
+          "COPE": -0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.5,
+          "EFF": -0.6,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.5,
+          "ActionSA": 0.1,
+          "ACDP": 0.3,
+          "UFC": 0.1,
+          "SACP": -0.6,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.6,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.8,
+          "EFF": -0.95,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.2,
+          "VF+": 0.8,
+          "ActionSA": 0.4,
+          "ACDP": 0.6,
+          "UFC": 0.3,
+          "SACP": -0.95,
+          "UDM": 0.6,
+          "Al Jama-ah": 0.8,
+          "COPE": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Smallholder farming and communal land rights should receive priority policy support over large commercial agribusiness.",
+    "category": "ownership & land",
+    "weight": 1.4,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.1,
+          "EFF": 0.8,
+          "IFP": 0.2,
+          "MKP": 0.5,
+          "PA": 0.2,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": 0.1,
+          "UFC": 0.2,
+          "SACP": 0.8,
+          "UDM": 0.5,
+          "Al Jama-ah": 0.4,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.05,
+          "EFF": 0.6,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.1,
+          "SACP": 0.6,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.2,
+          "EFF": -0.4,
+          "IFP": -0.1,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": -0.1,
+          "UFC": -0.1,
+          "SACP": -0.3,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.4,
+          "EFF": -0.7,
+          "IFP": -0.2,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.5,
+          "ActionSA": 0.2,
+          "ACDP": -0.2,
+          "UFC": 0.0,
+          "SACP": -0.6,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.3,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Workers should have stronger rights to unionise and strike, with fewer restrictions.",
+    "category": "labour & workplace",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": -0.2,
+          "EFF": 0.95,
+          "IFP": 0.0,
+          "MKP": 0.6,
+          "PA": 0.2,
+          "VF+": -0.3,
+          "ActionSA": -0.1,
+          "ACDP": -0.4,
+          "UFC": 0.1,
+          "SACP": 0.95,
+          "UDM": 0.5,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.1,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": -0.2,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.3,
+          "EFF": -0.5,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.4,
+          "ActionSA": 0.2,
+          "ACDP": 0.3,
+          "UFC": 0.0,
+          "SACP": -0.5,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.6,
+          "EFF": -0.9,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.3,
+          "VF+": 0.7,
+          "ActionSA": 0.4,
+          "ACDP": 0.6,
+          "UFC": 0.2,
+          "SACP": -0.9,
+          "UDM": -0.4,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Minimum wages should be increased significantly to reduce in-work poverty, even if some small businesses struggle.",
+    "category": "labour & workplace",
+    "weight": 1.5,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.3,
+          "EFF": 0.95,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.4,
+          "ActionSA": -0.1,
+          "ACDP": -0.5,
+          "UFC": 0.1,
+          "SACP": 0.95,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.2,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.3,
+          "ActionSA": 0.0,
+          "ACDP": -0.3,
+          "UFC": 0.0,
+          "SACP": 0.7,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.4,
+          "EFF": -0.5,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.5,
+          "ActionSA": 0.2,
+          "ACDP": 0.2,
+          "UFC": -0.1,
+          "SACP": -0.5,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.7,
+          "EFF": -0.9,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.2,
+          "VF+": 0.8,
+          "ActionSA": 0.5,
+          "ACDP": 0.5,
+          "UFC": -0.2,
+          "SACP": -0.9,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "Labour market flexibility (easier hiring and firing) will increase investment and should be encouraged.",
+    "category": "labour & workplace",
+    "weight": 1.4,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.8,
+          "EFF": -0.7,
+          "IFP": 0.2,
+          "MKP": 0.3,
+          "PA": 0.5,
+          "VF+": 0.8,
+          "ActionSA": 0.6,
+          "ACDP": 0.4,
+          "UFC": 0.3,
+          "SACP": -0.8,
+          "UDM": 0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.6,
+          "EFF": -0.4,
+          "IFP": 0.1,
+          "MKP": 0.2,
+          "PA": 0.3,
+          "VF+": 0.6,
+          "ActionSA": 0.4,
+          "ACDP": 0.2,
+          "UFC": 0.2,
+          "SACP": -0.6,
+          "UDM": 0.1,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.3,
+          "EFF": 0.6,
+          "IFP": -0.1,
+          "MKP": 0.0,
+          "PA": -0.2,
+          "VF": -0.4,
+          "ActionSA": -0.2,
+          "ACDP": -0.2,
+          "UFC": -0.1,
+          "SACP": 0.5,
+          "UDM": -0.1,
+          "Al Jama-ah": 0.1,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": -0.6,
+          "EFF": 0.9,
+          "IFP": -0.2,
+          "MKP": -0.1,
+          "PA": -0.4,
+          "VF+": -0.7,
+          "ActionSA": -0.4,
+          "ACDP": -0.5,
+          "UFC": -0.3,
+          "SACP": 0.9,
+          "UDM": -0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Police should be given stronger powers and resources to tackle violent crime, even if it expands state authority.",
+    "category": "crime & institutions",
+    "weight": 1.8,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.6,
+          "EFF": -0.4,
+          "IFP": 0.5,
+          "MKP": 0.5,
+          "PA": 0.8,
+          "VF+": 0.9,
+          "ActionSA": 0.8,
+          "ACDP": 0.7,
+          "UFC": 0.3,
+          "SACP": -0.5,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.4,
+          "EFF": -0.2,
+          "IFP": 0.4,
+          "MKP": 0.4,
+          "PA": 0.6,
+          "VF+": 0.7,
+          "ActionSA": 0.6,
+          "ACDP": 0.5,
+          "UFC": 0.2,
+          "SACP": -0.3,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.2,
+          "EFF": 0.4,
+          "IFP": -0.1,
+          "MKP": -0.1,
+          "PA": -0.3,
+          "VF": -0.4,
+          "ActionSA": -0.2,
+          "ACDP": -0.3,
+          "UFC": -0.1,
+          "SACP": 0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.5,
+          "EFF": 0.8,
+          "IFP": -0.2,
+          "MKP": -0.2,
+          "PA": -0.6,
+          "VF+": -0.7,
+          "ActionSA": -0.5,
+          "ACDP": -0.6,
+          "UFC": -0.3,
+          "SACP": 0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Independent oversight institutions (judiciary, prosecution) should be protected even if it slows prosecutions of powerful officials.",
+    "category": "crime & institutions",
+    "weight": 1.7,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": 0.8,
+          "EFF": 0.7,
+          "IFP": 0.2,
+          "MKP": 0.6,
+          "PA": 0.3,
+          "VF+": 0.2,
+          "ActionSA": 0.6,
+          "ACDP": 0.5,
+          "UFC": 0.5,
+          "SACP": 0.8,
+          "UDM": 0.7,
+          "Al Jama-ah": 0.6,
+          "COPE": 0.6
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.6,
+          "EFF": 0.5,
+          "IFP": 0.1,
+          "MKP": 0.5,
+          "PA": 0.2,
+          "VF+": 0.1,
+          "ActionSA": 0.5,
+          "ACDP": 0.4,
+          "UFC": 0.4,
+          "SACP": 0.6,
+          "UDM": 0.6,
+          "Al Jama-ah": 0.5,
+          "COPE": 0.5
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": -0.3,
+          "EFF": -0.5,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.2,
+          "ActionSA": -0.2,
+          "ACDP": -0.2,
+          "UFC": -0.2,
+          "SACP": -0.6,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": -0.6,
+          "EFF": -0.8,
+          "IFP": -0.2,
+          "MKP": -0.3,
+          "PA": -0.4,
+          "VF+": 0.5,
+          "ActionSA": -0.4,
+          "ACDP": -0.4,
+          "UFC": -0.4,
+          "SACP": -0.9,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Corruption prosecutions should be fast and aggressive even if they cause short-term instability in government.",
+    "category": "crime & institutions",
+    "weight": 1.9,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.7,
+          "EFF": 0.9,
+          "IFP": 0.2,
+          "MKP": 0.7,
+          "PA": 0.4,
+          "VF+": 0.3,
+          "ActionSA": 0.8,
+          "ACDP": 0.6,
+          "UFC": 0.6,
+          "SACP": 0.8,
+          "UDM": 0.7,
+          "Al Jama-ah": 0.8,
+          "COPE": 0.6
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.25,
+          "DA": 0.5,
+          "EFF": 0.7,
+          "IFP": 0.15,
+          "MKP": 0.6,
+          "PA": 0.3,
+          "VF+": 0.2,
+          "ActionSA": 0.6,
+          "ACDP": 0.5,
+          "UFC": 0.5,
+          "SACP": 0.6,
+          "UDM": 0.6,
+          "Al Jama-ah": 0.6,
+          "COPE": 0.5
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": -0.3,
+          "EFF": -0.5,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.1,
+          "ActionSA": -0.2,
+          "ACDP": -0.2,
+          "UFC": -0.2,
+          "SACP": -0.5,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": -0.6,
+          "EFF": -0.8,
+          "IFP": -0.2,
+          "MKP": -0.3,
+          "PA": -0.4,
+          "VF+": 0.4,
+          "ActionSA": -0.4,
+          "ACDP": -0.4,
+          "UFC": -0.4,
+          "SACP": -0.7,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "Civil liberties such as freedom of expression and peaceful protest must be prioritised even if they complicate policing.",
+    "category": "rights & freedoms",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": 0.7,
+          "EFF": 0.8,
+          "IFP": 0.1,
+          "MKP": 0.2,
+          "PA": -0.2,
+          "VF+": -0.5,
+          "ActionSA": 0.3,
+          "ACDP": -0.6,
+          "UFC": 0.3,
+          "SACP": 0.7,
+          "UDM": 0.5,
+          "Al Jama-ah": -0.6,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.1,
+          "DA": 0.5,
+          "EFF": 0.6,
+          "IFP": 0.1,
+          "MKP": 0.1,
+          "PA": -0.1,
+          "VF+": -0.3,
+          "ActionSA": 0.2,
+          "ACDP": -0.4,
+          "UFC": 0.2,
+          "SACP": 0.5,
+          "UDM": 0.4,
+          "Al Jama-ah": -0.4,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.2,
+          "EFF": -0.4,
+          "IFP": 0.0,
+          "MKP": -0.1,
+          "PA": 0.2,
+          "VF+": 0.3,
+          "ActionSA": -0.1,
+          "ACDP": 0.3,
+          "UFC": -0.1,
+          "SACP": -0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": 0.3,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.5,
+          "EFF": -0.7,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": 0.5,
+          "VF+": 0.6,
+          "ActionSA": -0.3,
+          "ACDP": 0.6,
+          "UFC": -0.3,
+          "SACP": -0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": 0.7,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "The state should actively promote LGBTQ+ anti-discrimination protections and inclusion policies.",
+    "category": "rights & freedoms",
+    "weight": 1.5,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.6,
+          "DA": 0.4,
+          "EFF": 0.6,
+          "IFP": -0.2,
+          "MKP": -0.3,
+          "PA": -0.5,
+          "VF+": -0.8,
+          "ActionSA": 0.1,
+          "ACDP": -0.9,
+          "UFC": 0.3,
+          "SACP": 0.9,
+          "UDM": 0.4,
+          "Al Jama-ah": -0.9,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.3,
+          "EFF": 0.4,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.3,
+          "VF+": -0.6,
+          "ActionSA": 0.1,
+          "ACDP": -0.7,
+          "UFC": 0.2,
+          "SACP": 0.7,
+          "UDM": 0.3,
+          "Al Jama-ah": -0.7,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.2,
+          "EFF": -0.3,
+          "IFP": 0.2,
+          "MKP": 0.2,
+          "PA": 0.3,
+          "VF+": 0.5,
+          "ActionSA": -0.1,
+          "ACDP": 0.6,
+          "UFC": -0.1,
+          "SACP": -0.4,
+          "UDM": -0.2,
+          "Al Jama-ah": 0.6,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.4,
+          "EFF": -0.6,
+          "IFP": 0.4,
+          "MKP": 0.4,
+          "PA": 0.6,
+          "VF+": 0.8,
+          "ActionSA": -0.2,
+          "ACDP": 0.9,
+          "UFC": -0.3,
+          "SACP": -0.7,
+          "UDM": -0.4,
+          "Al Jama-ah": 0.9,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Freedom of the press and protection of journalists should be strengthened, even if critical reporting targets the government.",
+    "category": "rights & freedoms",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.7,
+          "EFF": 0.6,
+          "IFP": 0.1,
+          "MKP": 0.5,
+          "PA": -0.1,
+          "VF+": -0.3,
+          "ActionSA": 0.6,
+          "ACDP": -0.4,
+          "UFC": 0.5,
+          "SACP": 0.5,
+          "UDM": 0.6,
+          "Al Jama-ah": -0.5,
+          "COPE": 0.5
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": 0.5,
+          "EFF": 0.4,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": -0.05,
+          "VF+": -0.2,
+          "ActionSA": 0.4,
+          "ACDP": -0.3,
+          "UFC": 0.4,
+          "SACP": 0.4,
+          "UDM": 0.5,
+          "Al Jama-ah": -0.4,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.2,
+          "EFF": -0.3,
+          "IFP": 0.0,
+          "MKP": -0.1,
+          "PA": 0.2,
+          "VF+": 0.3,
+          "ActionSA": -0.2,
+          "ACDP": 0.2,
+          "UFC": -0.1,
+          "SACP": -0.3,
+          "UDM": -0.1,
+          "Al Jama-ah": 0.3,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.5,
+          "EFF": -0.6,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": 0.5,
+          "VF+": 0.6,
+          "ActionSA": -0.4,
+          "ACDP": 0.6,
+          "UFC": -0.4,
+          "SACP": -0.7,
+          "UDM": -0.3,
+          "Al Jama-ah": 0.7,
+          "COPE": -0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "South Africa should set legally binding national targets to cut greenhouse gas emissions and phase out coal power over time.",
+    "category": "environment & energy",
+    "weight": 1.7,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.6,
+          "DA": -0.2,
+          "EFF": 0.8,
+          "IFP": 0.0,
+          "MKP": 0.5,
+          "PA": 0.2,
+          "VF+": -0.1,
+          "ActionSA": 0.1,
+          "ACDP": -0.3,
+          "UFC": 0.2,
+          "SACP": 0.8,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.1,
+          "EFF": 0.6,
+          "IFP": 0.0,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.05,
+          "ActionSA": 0.0,
+          "ACDP": -0.2,
+          "UFC": 0.1,
+          "SACP": 0.6,
+          "UDM": 0.05,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.2,
+          "EFF": -0.4,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.3,
+          "ActionSA": 0.1,
+          "ACDP": 0.2,
+          "UFC": -0.1,
+          "SACP": -0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.5,
+          "EFF": -0.8,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": -0.3,
+          "VF+": 0.6,
+          "ActionSA": 0.3,
+          "ACDP": 0.5,
+          "UFC": -0.2,
+          "SACP": -0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.4,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "The state should prioritise investment in renewable energy and energy efficiency to reduce dependence on Eskom/coal.",
+    "category": "environment & energy",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.6,
+          "DA": -0.2,
+          "EFF": 0.9,
+          "IFP": 0.1,
+          "MKP": 0.5,
+          "PA": 0.2,
+          "VF+": -0.2,
+          "ActionSA": 0.1,
+          "ACDP": -0.2,
+          "UFC": 0.1,
+          "SACP": 0.85,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": -0.1,
+          "EFF": 0.7,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": -0.1,
+          "UFC": 0.05,
+          "SACP": 0.6,
+          "UDM": 0.05,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.2,
+          "EFF": -0.4,
+          "IFP": 0.0,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.3,
+          "ActionSA": 0.1,
+          "ACDP": 0.2,
+          "UFC": -0.1,
+          "SACP": -0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.5,
+          "EFF": -0.8,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": -0.3,
+          "VF+": 0.6,
+          "ActionSA": 0.3,
+          "ACDP": 0.5,
+          "UFC": -0.2,
+          "SACP": -0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.3,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "Environmental protection laws should take priority over new mineral and coal developments.",
+    "category": "environment & energy",
+    "weight": 1.5,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.1,
+          "EFF": 0.9,
+          "IFP": -0.1,
+          "MKP": 0.3,
+          "PA": -0.1,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": -0.3,
+          "UFC": 0.1,
+          "SACP": 0.9,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.0,
+          "EFF": 0.7,
+          "IFP": -0.05,
+          "MKP": 0.2,
+          "PA": -0.05,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": -0.2,
+          "UFC": 0.05,
+          "SACP": 0.7,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.2,
+          "EFF": -0.5,
+          "IFP": 0.05,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": 0.2,
+          "UFC": -0.05,
+          "SACP": -0.5,
+          "UDM": 0.0,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.4,
+          "EFF": -0.8,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.2,
+          "VF+": 0.5,
+          "ActionSA": 0.2,
+          "ACDP": 0.4,
+          "UFC": -0.1,
+          "SACP": -0.8,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "South Africa should prioritise export-led growth through stronger trade links with international markets.",
+    "category": "foreign policy & trade",
+    "weight": 1.2,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": 0.7,
+          "EFF": -0.4,
+          "IFP": 0.1,
+          "MKP": 0.5,
+          "PA": 0.4,
+          "VF+": 0.6,
+          "ActionSA": 0.5,
+          "ACDP": 0.3,
+          "UFC": 0.4,
+          "SACP": -0.5,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.1,
+          "DA": 0.5,
+          "EFF": -0.2,
+          "IFP": 0.0,
+          "MKP": 0.4,
+          "PA": 0.3,
+          "VF+": 0.4,
+          "ActionSA": 0.4,
+          "ACDP": 0.2,
+          "UFC": 0.3,
+          "SACP": -0.3,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.05,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.3,
+          "EFF": 0.4,
+          "IFP": -0.05,
+          "MKP": -0.1,
+          "PA": -0.2,
+          "VF+": -0.3,
+          "ActionSA": -0.2,
+          "ACDP": -0.1,
+          "UFC": -0.1,
+          "SACP": 0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.5,
+          "EFF": 0.7,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.4,
+          "VF+": -0.5,
+          "ActionSA": -0.4,
+          "ACDP": -0.3,
+          "UFC": -0.2,
+          "SACP": 0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "South Africa should prioritise building stronger strategic ties with other Global South countries over exclusive alignment with Western powers.",
+    "category": "foreign policy & trade",
+    "weight": 1.3,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.6,
+          "DA": -0.4,
+          "EFF": 0.9,
+          "IFP": 0.0,
+          "MKP": 0.5,
+          "PA": -0.1,
+          "VF+": -0.3,
+          "ActionSA": -0.2,
+          "ACDP": -0.5,
+          "UFC": 0.1,
+          "SACP": 0.9,
+          "UDM": -0.1,
+          "Al Jama-ah": 0.7,
+          "COPE": -0.2
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.2,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": -0.05,
+          "VF+": -0.2,
+          "ActionSA": -0.1,
+          "ACDP": -0.3,
+          "UFC": 0.05,
+          "SACP": 0.7,
+          "UDM": -0.05,
+          "Al Jama-ah": 0.5,
+          "COPE": -0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.3,
+          "EFF": -0.5,
+          "IFP": 0.05,
+          "MKP": -0.1,
+          "PA": 0.2,
+          "VF+": 0.3,
+          "ActionSA": 0.2,
+          "ACDP": 0.2,
+          "UFC": -0.05,
+          "SACP": -0.5,
+          "UDM": 0.1,
+          "Al Jama-ah": -0.3,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.6,
+          "EFF": -0.9,
+          "IFP": 0.1,
+          "MKP": -0.2,
+          "PA": 0.4,
+          "VF+": 0.5,
+          "ActionSA": 0.4,
+          "ACDP": 0.5,
+          "UFC": -0.1,
+          "SACP": -0.9,
+          "UDM": 0.2,
+          "Al Jama-ah": -0.5,
+          "COPE": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "Trade policy should prioritise protecting local industries through tariffs and local content rules.",
+    "category": "foreign policy & trade",
+    "weight": 1.2,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.2,
+          "EFF": 0.8,
+          "IFP": 0.1,
+          "MKP": 0.5,
+          "PA": 0.3,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.1,
+          "SACP": 0.8,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": -0.1,
+          "EFF": 0.6,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.2,
+          "VF+": -0.05,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.05,
+          "SACP": 0.6,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.3,
+          "EFF": -0.4,
+          "IFP": -0.05,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": -0.1,
+          "UFC": -0.05,
+          "SACP": -0.3,
+          "UDM": -0.05,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.5,
+          "EFF": -0.7,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.4,
+          "ActionSA": 0.2,
+          "ACDP": 0.2,
+          "UFC": -0.1,
+          "SACP": -0.6,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.1
+        }
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "Public investment should prioritise mass public transport (rail and bus rapid transit) over new highways.",
+    "category": "infrastructure & urban",
+    "weight": 1.4,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": -0.2,
+          "EFF": 0.8,
+          "IFP": 0.0,
+          "MKP": 0.4,
+          "PA": -0.1,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": -0.1,
+          "UFC": 0.1,
+          "SACP": 0.8,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.1,
+          "EFF": 0.6,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": -0.05,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": -0.05,
+          "UFC": 0.05,
+          "SACP": 0.6,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.2,
+          "EFF": -0.4,
+          "IFP": 0.05,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": 0.1,
+          "UFC": -0.05,
+          "SACP": -0.4,
+          "UDM": -0.05,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.4,
+          "EFF": -0.7,
+          "IFP": 0.2,
+          "MKP": -0.2,
+          "PA": 0.2,
+          "VF+": 0.5,
+          "ActionSA": 0.3,
+          "ACDP": 0.3,
+          "UFC": -0.1,
+          "SACP": -0.7,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "Affordable public housing projects should be prioritised over incentives for private housing developers.",
+    "category": "infrastructure & urban",
+    "weight": 1.5,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": -0.3,
+          "EFF": 0.9,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.1,
+          "SACP": 0.9,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.1,
+          "EFF": 0.7,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": 0.05,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.05,
+          "SACP": 0.7,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": 0.3,
+          "EFF": -0.5,
+          "IFP": -0.05,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": -0.1,
+          "UFC": -0.05,
+          "SACP": -0.5,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": 0.6,
+          "EFF": -0.8,
+          "IFP": 0.1,
+          "MKP": -0.2,
+          "PA": 0.1,
+          "VF+": 0.5,
+          "ActionSA": 0.3,
+          "ACDP": 0.3,
+          "UFC": -0.1,
+          "SACP": -0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "Urban planning should prioritise green public spaces, walkability and mixed-use development over car-centric sprawl.",
+    "category": "infrastructure & urban",
+    "weight": 1.2,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.1,
+          "EFF": 0.6,
+          "IFP": 0.0,
+          "MKP": 0.3,
+          "PA": -0.1,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": -0.1,
+          "UFC": 0.1,
+          "SACP": 0.6,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.0,
+          "EFF": 0.5,
+          "IFP": 0.0,
+          "MKP": 0.2,
+          "PA": -0.05,
+          "VF+": -0.05,
+          "ActionSA": 0.0,
+          "ACDP": -0.05,
+          "UFC": 0.05,
+          "SACP": 0.5,
+          "UDM": 0.15,
+          "Al Jama-ah": 0.05,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.1,
+          "EFF": -0.2,
+          "IFP": 0.0,
+          "MKP": -0.1,
+          "PA": 0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": 0.1,
+          "UFC": -0.05,
+          "SACP": -0.2,
+          "UDM": -0.05,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.3,
+          "EFF": -0.5,
+          "IFP": 0.1,
+          "MKP": -0.2,
+          "PA": 0.3,
+          "VF+": 0.4,
+          "ActionSA": 0.2,
+          "ACDP": 0.3,
+          "UFC": -0.1,
+          "SACP": -0.5,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "South Africa should adopt strong digital privacy laws limiting corporate and state surveillance.",
+    "category": "digital & tech",
+    "weight": 1.3,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.6,
+          "EFF": 0.5,
+          "IFP": 0.0,
+          "MKP": 0.2,
+          "PA": -0.1,
+          "VF+": -0.2,
+          "ActionSA": 0.4,
+          "ACDP": -0.3,
+          "UFC": 0.3,
+          "SACP": 0.6,
+          "UDM": 0.4,
+          "Al Jama-ah": -0.2,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.4,
+          "EFF": 0.3,
+          "IFP": 0.0,
+          "MKP": 0.1,
+          "PA": -0.05,
+          "VF+": -0.1,
+          "ActionSA": 0.3,
+          "ACDP": -0.2,
+          "UFC": 0.2,
+          "SACP": 0.4,
+          "UDM": 0.3,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.2,
+          "EFF": -0.2,
+          "IFP": 0.05,
+          "MKP": -0.05,
+          "PA": 0.1,
+          "VF+": 0.2,
+          "ActionSA": -0.1,
+          "ACDP": 0.1,
+          "UFC": -0.05,
+          "SACP": -0.3,
+          "UDM": -0.05,
+          "Al Jama-ah": 0.1,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.5,
+          "EFF": -0.4,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.3,
+          "VF+": 0.4,
+          "ActionSA": -0.3,
+          "ACDP": 0.4,
+          "UFC": -0.2,
+          "SACP": -0.6,
+          "UDM": -0.2,
+          "Al Jama-ah": 0.4,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "Government should regulate artificial intelligence to protect jobs and prevent biased automated decisions.",
+    "category": "digital & tech",
+    "weight": 1.2,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.1,
+          "EFF": 0.6,
+          "IFP": 0.0,
+          "MKP": 0.2,
+          "PA": 0.0,
+          "VF+": -0.1,
+          "ActionSA": 0.2,
+          "ACDP": -0.1,
+          "UFC": 0.1,
+          "SACP": 0.7,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.05,
+          "EFF": 0.4,
+          "IFP": 0.0,
+          "MKP": 0.15,
+          "PA": -0.05,
+          "VF+": -0.05,
+          "ActionSA": 0.1,
+          "ACDP": -0.05,
+          "UFC": 0.05,
+          "SACP": 0.5,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.05,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.2,
+          "EFF": -0.3,
+          "IFP": 0.05,
+          "MKP": -0.05,
+          "PA": 0.05,
+          "VF+": 0.15,
+          "ActionSA": -0.05,
+          "ACDP": 0.05,
+          "UFC": -0.05,
+          "SACP": -0.4,
+          "UDM": -0.05,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.4,
+          "EFF": -0.6,
+          "IFP": 0.1,
+          "MKP": -0.1,
+          "PA": 0.2,
+          "VF+": 0.3,
+          "ActionSA": -0.2,
+          "ACDP": 0.2,
+          "UFC": -0.1,
+          "SACP": -0.7,
+          "UDM": -0.2,
+          "Al Jama-ah": 0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "Science and research funding should be substantially increased to drive innovation and long-term growth.",
+    "category": "digital & tech",
+    "weight": 1.1,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": 0.2,
+          "EFF": 0.6,
+          "IFP": 0.1,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.1,
+          "ActionSA": 0.2,
+          "ACDP": 0.0,
+          "UFC": 0.2,
+          "SACP": 0.6,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.1,
+          "EFF": 0.4,
+          "IFP": 0.05,
+          "MKP": 0.3,
+          "PA": 0.05,
+          "VF+": -0.05,
+          "ActionSA": 0.1,
+          "ACDP": 0.0,
+          "UFC": 0.1,
+          "SACP": 0.4,
+          "UDM": 0.1,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.1,
+          "EFF": -0.2,
+          "IFP": 0.0,
+          "MKP": -0.05,
+          "PA": -0.05,
+          "VF+": 0.1,
+          "ActionSA": -0.05,
+          "ACDP": 0.1,
+          "UFC": -0.05,
+          "SACP": -0.2,
+          "UDM": -0.05,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.3,
+          "EFF": -0.4,
+          "IFP": 0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.3,
+          "ActionSA": 0.1,
+          "ACDP": 0.3,
+          "UFC": -0.1,
+          "SACP": -0.4,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "Food security should be achieved through a national strategy supporting local production, agroecology and community gardens.",
+    "category": "food & agriculture",
+    "weight": 1.3,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.45,
+          "DA": -0.1,
+          "EFF": 0.9,
+          "IFP": 0.1,
+          "MKP": 0.5,
+          "PA": 0.2,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": 0.1,
+          "UFC": 0.2,
+          "SACP": 0.9,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": -0.05,
+          "EFF": 0.7,
+          "IFP": 0.05,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.05,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.1,
+          "SACP": 0.7,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.2,
+          "EFF": -0.4,
+          "IFP": -0.05,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.1,
+          "ACDP": -0.1,
+          "UFC": -0.05,
+          "SACP": -0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.4,
+          "EFF": -0.8,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.4,
+          "ActionSA": 0.2,
+          "ACDP": -0.2,
+          "UFC": -0.1,
+          "SACP": -0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "Animal welfare regulations should be strengthened, including banning intensive factory farming practices.",
+    "category": "food & agriculture",
+    "weight": 1.0,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.3,
+          "DA": 0.1,
+          "EFF": 0.4,
+          "IFP": 0.0,
+          "MKP": 0.1,
+          "PA": -0.1,
+          "VF+": -0.2,
+          "ActionSA": 0.0,
+          "ACDP": -0.4,
+          "UFC": 0.1,
+          "SACP": 0.4,
+          "UDM": 0.1,
+          "Al Jama-ah": -0.2,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": 0.05,
+          "EFF": 0.3,
+          "IFP": 0.0,
+          "MKP": 0.05,
+          "PA": -0.05,
+          "VF+": -0.1,
+          "ActionSA": 0.0,
+          "ACDP": -0.3,
+          "UFC": 0.05,
+          "SACP": 0.3,
+          "UDM": 0.05,
+          "Al Jama-ah": -0.1,
+          "COPE": 0.05
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.1,
+          "EFF": -0.2,
+          "IFP": 0.05,
+          "MKP": -0.05,
+          "PA": 0.1,
+          "VF+": 0.2,
+          "ActionSA": 0.05,
+          "ACDP": 0.2,
+          "UFC": -0.05,
+          "SACP": -0.2,
+          "UDM": -0.05,
+          "Al Jama-ah": 0.2,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.3,
+          "EFF": -0.5,
+          "IFP": 0.1,
+          "MKP": -0.2,
+          "PA": 0.3,
+          "VF+": 0.5,
+          "ActionSA": 0.2,
+          "ACDP": 0.5,
+          "UFC": -0.1,
+          "SACP": -0.5,
+          "UDM": -0.2,
+          "Al Jama-ah": 0.6,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "Youth unemployment requires a dedicated national youth service and guaranteed apprenticeship schemes.",
+    "category": "youth & education",
+    "weight": 1.3,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": 0.1,
+          "EFF": 0.9,
+          "IFP": 0.1,
+          "MKP": 0.6,
+          "PA": 0.3,
+          "VF+": -0.1,
+          "ActionSA": 0.2,
+          "ACDP": 0.0,
+          "UFC": 0.3,
+          "SACP": 0.9,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.05,
+          "EFF": 0.7,
+          "IFP": 0.05,
+          "MKP": 0.4,
+          "PA": 0.2,
+          "VF+": -0.05,
+          "ActionSA": 0.15,
+          "ACDP": 0.0,
+          "UFC": 0.2,
+          "SACP": 0.7,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.2,
+          "DA": -0.1,
+          "EFF": -0.4,
+          "IFP": -0.05,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.1,
+          "ActionSA": -0.05,
+          "ACDP": -0.1,
+          "UFC": -0.05,
+          "SACP": -0.4,
+          "UDM": -0.1,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.4,
+          "DA": -0.3,
+          "EFF": -0.8,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.3,
+          "ActionSA": -0.2,
+          "ACDP": -0.3,
+          "UFC": -0.2,
+          "SACP": -0.8,
+          "UDM": -0.3,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "Special measures are required to improve accessibility and services for people with disabilities across government departments.",
+    "category": "social inclusion",
+    "weight": 1.2,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": 0.2,
+          "EFF": 0.6,
+          "IFP": 0.1,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.1,
+          "ActionSA": 0.2,
+          "ACDP": 0.0,
+          "UFC": 0.3,
+          "SACP": 0.7,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.15,
+          "EFF": 0.4,
+          "IFP": 0.05,
+          "MKP": 0.2,
+          "PA": 0.05,
+          "VF+": -0.05,
+          "ActionSA": 0.1,
+          "ACDP": 0.0,
+          "UFC": 0.2,
+          "SACP": 0.5,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.05,
+          "COPE": 0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.05,
+          "EFF": -0.2,
+          "IFP": -0.05,
+          "MKP": -0.05,
+          "PA": -0.05,
+          "VF+": 0.05,
+          "ActionSA": -0.05,
+          "ACDP": -0.05,
+          "UFC": -0.05,
+          "SACP": -0.2,
+          "UDM": -0.05,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.2,
+          "EFF": -0.5,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.2,
+          "ActionSA": -0.2,
+          "ACDP": -0.2,
+          "UFC": -0.2,
+          "SACP": -0.5,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "The state should introduce targeted subsidies and incentives to accelerate township and rural economies.",
+    "category": "economic inclusion",
+    "weight": 1.4,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.6,
+          "DA": -0.1,
+          "EFF": 0.9,
+          "IFP": 0.1,
+          "MKP": 0.5,
+          "PA": 0.2,
+          "VF+": -0.1,
+          "ActionSA": 0.1,
+          "ACDP": 0.0,
+          "UFC": 0.2,
+          "SACP": 0.9,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.3,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": 0.0,
+          "EFF": 0.7,
+          "IFP": 0.05,
+          "MKP": 0.3,
+          "PA": 0.1,
+          "VF+": -0.05,
+          "ActionSA": 0.05,
+          "ACDP": 0.0,
+          "UFC": 0.1,
+          "SACP": 0.7,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": 0.2,
+          "EFF": -0.4,
+          "IFP": -0.05,
+          "MKP": -0.1,
+          "PA": -0.1,
+          "VF+": 0.15,
+          "ActionSA": 0.05,
+          "ACDP": -0.05,
+          "UFC": -0.05,
+          "SACP": -0.4,
+          "UDM": -0.05,
+          "Al Jama-ah": -0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": 0.4,
+          "EFF": -0.8,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.4,
+          "ActionSA": 0.2,
+          "ACDP": -0.2,
+          "UFC": -0.1,
+          "SACP": -0.8,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.2,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "Cultural policy should support the diversity of South African languages and arts through stable public funding.",
+    "category": "culture & identity",
+    "weight": 1.0,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.5,
+          "DA": 0.0,
+          "EFF": 0.6,
+          "IFP": 0.2,
+          "MKP": 0.4,
+          "PA": 0.1,
+          "VF+": -0.1,
+          "ActionSA": 0.1,
+          "ACDP": -0.1,
+          "UFC": 0.2,
+          "SACP": 0.6,
+          "UDM": 0.3,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.4,
+          "DA": -0.05,
+          "EFF": 0.4,
+          "IFP": 0.15,
+          "MKP": 0.3,
+          "PA": 0.05,
+          "VF+": -0.05,
+          "ActionSA": 0.05,
+          "ACDP": -0.05,
+          "UFC": 0.1,
+          "SACP": 0.4,
+          "UDM": 0.2,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.2
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.1,
+          "EFF": -0.2,
+          "IFP": -0.05,
+          "MKP": -0.1,
+          "PA": -0.05,
+          "VF+": 0.1,
+          "ActionSA": -0.05,
+          "ACDP": 0.1,
+          "UFC": -0.05,
+          "SACP": -0.2,
+          "UDM": -0.05,
+          "Al Jama-ah": 0.05,
+          "COPE": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.3,
+          "EFF": -0.4,
+          "IFP": -0.1,
+          "MKP": -0.2,
+          "PA": -0.2,
+          "VF+": 0.3,
+          "ActionSA": -0.1,
+          "ACDP": 0.3,
+          "UFC": -0.1,
+          "SACP": -0.4,
+          "UDM": -0.2,
+          "Al Jama-ah": 0.4,
+          "COPE": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "Voters should weigh a party's track record on delivery and corruption more heavily than its ideological slogans.",
+    "category": "voting & behaviour",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "ANC": 0.2,
+          "DA": 0.5,
+          "EFF": -0.3,
+          "IFP": 0.2,
+          "MKP": 0.3,
+          "PA": 0.4,
+          "VF+": 0.1,
+          "ActionSA": 0.6,
+          "ACDP": 0.3,
+          "UFC": 0.4,
+          "SACP": -0.2,
+          "UDM": 0.5,
+          "Al Jama-ah": 0.2,
+          "COPE": 0.5
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "ANC": 0.1,
+          "DA": 0.4,
+          "EFF": -0.2,
+          "IFP": 0.1,
+          "MKP": 0.2,
+          "PA": 0.3,
+          "VF+": 0.05,
+          "ActionSA": 0.5,
+          "ACDP": 0.2,
+          "UFC": 0.3,
+          "SACP": -0.1,
+          "UDM": 0.4,
+          "Al Jama-ah": 0.1,
+          "COPE": 0.4
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "ANC": 0.0,
+          "DA": 0.0,
+          "EFF": 0.0,
+          "IFP": 0.0,
+          "MKP": 0.0,
+          "PA": 0.0,
+          "VF+": 0.0,
+          "ActionSA": 0.0,
+          "ACDP": 0.0,
+          "UFC": 0.0,
+          "SACP": 0.0,
+          "UDM": 0.0,
+          "Al Jama-ah": 0.0,
+          "COPE": 0.0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "ANC": -0.1,
+          "DA": -0.2,
+          "EFF": 0.4,
+          "IFP": -0.1,
+          "MKP": -0.1,
+          "PA": -0.2,
+          "VF+": -0.1,
+          "ActionSA": -0.3,
+          "ACDP": -0.1,
+          "UFC": -0.1,
+          "SACP": 0.3,
+          "UDM": -0.2,
+          "Al Jama-ah": -0.1,
+          "COPE": -0.2
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "ANC": -0.3,
+          "DA": -0.6,
+          "EFF": 0.8,
+          "IFP": -0.2,
+          "MKP": -0.2,
+          "PA": -0.4,
+          "VF+": -0.3,
+          "ActionSA": -0.6,
+          "ACDP": -0.4,
+          "UFC": -0.4,
+          "SACP": 0.6,
+          "UDM": -0.5,
+          "Al Jama-ah": -0.3,
+          "COPE": -0.5
+        }
+      }
+    ]
+  }
+]
