@@ -44,27 +44,6 @@ export interface QuizResult {
   timestamp: number;
 }
 
-function mapPartyKey(key: string): string {
-  const mapping: Record<string, string> = {
-    ANC: "anc",
-    DA: "da",
-    EFF: "eff",
-    IFP: "ifp",
-    MKP: "mk",
-    PA: "pa",
-    "VF+": "vfplus",
-    ActionSA: "actionsa",
-    ACDP: "acdp",
-    UFC: "ufc",
-    SACP: "sacp",
-    UDM: "udm",
-    "Al Jama-ah": "aljamah",
-    COPE: "cope",
-  };
-
-  return mapping[key] || key.toLowerCase();
-}
-
 export function computeScores(
   answers: Record<string, number>,
   parties: Party[]
@@ -84,8 +63,7 @@ export function computeScores(
       const scores = scoringQuestion.options[optionIndex].scores;
       const weight = scoringQuestion.weight;
 
-      Object.entries(scores).forEach(([partyKey, score]) => {
-        const partyId = mapPartyKey(partyKey);
+      Object.entries(scores).forEach(([partyId, score]) => {
         if (rawScores[partyId] !== undefined) {
           rawScores[partyId] += (score as number) * weight;
         }
@@ -132,7 +110,6 @@ export function computeScores(
     throw new Error("No party scores available");
   }
 
-  const tieMargin = 0.02;
   const alternatives: PartyScore[] = [];
 
   for (let i = 1; i < partyScores.length; i++) {
@@ -145,11 +122,7 @@ export function computeScores(
       break;
     }
 
-    if (Math.abs(score.normalizedScore - primary.normalizedScore) < tieMargin) {
-      alternatives.push(score);
-    } else {
-      alternatives.push(score);
-    }
+    alternatives.push(score);
   }
 
   let confidence: "high" | "medium" | "low" = "high";
