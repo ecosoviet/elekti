@@ -71,7 +71,10 @@ export function computeScores(
     }
   });
 
-  let theoreticalMax = 0;
+  const partyMaxScores: Record<string, number> = {};
+  parties.forEach((party) => {
+    partyMaxScores[party.id] = 0;
+  });
 
   Object.keys(answers).forEach((questionId) => {
     const qNum = parseInt(questionId.substring(1));
@@ -85,20 +88,28 @@ export function computeScores(
         Object.values(selectedOption.scores).some((s) => s !== 0);
 
       if (hasScores) {
-        const maxScoreForQuestion = Math.max(
-          ...scoringQuestion.options.flatMap((opt) => Object.values(opt.scores))
-        );
-        theoreticalMax += maxScoreForQuestion * scoringQuestion.weight;
+        parties.forEach((party) => {
+          const maxScoreForParty = Math.max(
+            ...scoringQuestion.options.map((opt) => opt.scores[party.id] || 0)
+          );
+          if (maxScoreForParty > 0) {
+            partyMaxScores[party.id] =
+              (partyMaxScores[party.id] || 0) +
+              maxScoreForParty * scoringQuestion.weight;
+          }
+        });
       }
     }
   });
 
   const partyScores: PartyScore[] = parties.map((party) => {
     const rawScore = rawScores[party.id];
+    const maxScore = partyMaxScores[party.id] || 0;
+
     let normalizedScore =
-      theoreticalMax > 0
+      maxScore > 0
         ? rawScore !== undefined
-          ? rawScore / theoreticalMax
+          ? rawScore / maxScore
           : 0
         : 0;
     normalizedScore = Math.max(0, Math.min(1, normalizedScore));
