@@ -20,7 +20,7 @@
     "short": "MK",
     "name": "uMkhonto we Sizwe Party",
     "descriptionKey": "party.mk.desc",
-    "colour": "#56aa48",
+    "colour": "#2f6b2f",
     "website": "https://mkparty.org.za/"
   },
   {
@@ -36,7 +36,7 @@
     "short": "IFP",
     "name": "Inkatha Freedom Party",
     "descriptionKey": "party.ifp.desc",
-    "colour": "#e20a17",
+    "colour": "#f4c300",
     "website": "https://ifp.org.za/"
   },
   {
@@ -44,7 +44,7 @@
     "short": "PA",
     "name": "Patriotic Alliance",
     "descriptionKey": "party.pa.desc",
-    "colour": "#198b0a",
+    "colour": "#39ff14",
     "website": "https://mypa.org.za/"
   },
   {
