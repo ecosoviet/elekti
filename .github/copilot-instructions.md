@@ -1,97 +1,41 @@
-# Elekti - AI Development Guide
+# Elekti – AI Guide
 
-## Project Overview
+## System Snapshot
 
-Elekti is a political quiz/matching application built with Vue 3, TypeScript, and Vite. Users answer questions about their political views and are matched with South African political parties based on a weighted scoring algorithm.
+- SPA: Landing → Quiz → Results (+ About) driven by Vue 3 + Pinia + vue-router (`src/views/*`).
+- Questions live exclusively in i18n translations (`src/data/translations/*.json`); `quizStore` enumerates ids `q1…q40` and throws if a locale is missing a key.
+- Answers are `Record<questionId, optionIndex>` with option indices 0-4 (Strongly Agree → Strongly Disagree); sharing uses comma-separated encoding (`encodeAnswersToUrl`).
+- `computeScores` consumes answers, `src/data/scoring.json`, and party metadata (`src/data/parties.json`) to normalize scores and surface top policies.
+- UI state (locale) sits in `uiStore`; changing languages reloads questions and persists the code to `localStorage`.
+- Styling is bespoke CSS variables in `src/styles/theme.css`; no utility framework, so reuse spacing/colour tokens.
 
-## Architecture
+## Critical Files & Flows
 
-### Data Flow & Core Components
+- `src/stores/quizStore.ts`: orchestrates navigation, answer storage, locale watchers, and guards like `canProceed`.
+- `src/utils/scoring.ts`: performs weighted scoring, max-score normalization, and confidence classification (gap to runner-up + min thresholds).
+- `src/router/index.ts` + `src/views/*.vue`: define the Landing → Quiz → Results flow; Results expect a fully computed `QuizResult`.
+- `src/components/*`: `QuizQuestion` and `QuizOption` expect `options` arrays in the store shape; `PartyCard` consumes `Party` objects directly from `parties.json`.
+- `vite.config.ts`: Rolldown-powered Vite build with manual chunks and Fontaine font metrics; respect the existing `@` alias when importing.
 
-1. **Question Loading**: Questions dynamically load from i18n translations (`src/data/translations/*.json`) based on selected locale
-2. **State Management**: Two Pinia stores handle app state:
-   - `quizStore` - quiz logic, answers, navigation, scoring computation
-   - `uiStore` - UI state (language selection, persists to localStorage)
-3. **Scoring Algorithm**: `src/utils/scoring.ts` computes party matches using `src/data/scoring.json` which maps question IDs → party scores per option
-4. **Router Structure**: Simple 4-page SPA (Landing → Quiz → Results, with About page)
+## Workflows
 
-### Key Patterns
+- `npm run dev` for local work; matches Rolldown setup, so avoid mixing with vanilla Vite plugins.
+- `npm run build` runs `vue-tsc --build` before bundling—fix type errors before expecting artifacts.
+- `npm run lint` executes `oxlint` (correctness, autofix) then ESLint with cache; keep both clean before PRs.
+- `npm run test` / `npm run test:ui` hit Vitest configured for `happy-dom` (`vitest.config.ts`); Pinia specs require `setActivePinia(createPinia())`.
+- `npm run format` runs Prettier with organize-imports and package.json sorting; rely on it when touching JSON or import-heavy files.
 
-**i18n Integration**: Questions load from translation files under `questions.q1`, `questions.q2`, etc. Each question has `text` and `category` fields. When locale changes, `quizStore` reloads questions via `loadQuestionsFromI18n()`. Question metadata (including scoring weights) is stored in `scoring.json`.
+## Patterns & Conventions
 
-**Party ID Mapping**: `scoring.json` uses display names (e.g., "ANC", "VF+"), but `parties.json` uses kebab-case IDs (e.g., "anc", "vfplus"). The `mapPartyKey()` function in `scoring.ts` handles this mapping. When adding parties, update both the mapping function and party data.
+- All stateful logic lives in Pinia stores; components stay lean and call store actions/computed refs via `<script setup>`.
+- When adding questions, update every locale translation, extend the `questionIds` array, and append scoring rows (weights + per-party scores) in lockstep.
+- Party additions require `src/data/parties.json`, scoring entries for each question, and new translation strings (`party.{id}.desc`).
+- Keep option ordering consistent—scoring assumes index 0 aligns with “Strongly Agree”. Mixing option orders per question will corrupt normalization.
+- For locale persistence, always go through `uiStore.setLang`; setting `i18n.global.locale` directly will skip storage + watchers.
+- Do not introduce new code comments unless a file already contains them and the change explicitly requires parity.
 
-**Answer State**: Answers stored as `Record<string, number>` where keys are question IDs ("q1", "q2") and values are option indices (0-4 for Strongly Agree → Strongly Disagree). URL encoding uses comma-separated string of indices.
+## Debugging Tips
 
-## Development Workflows
-
-### Essential Commands
-
-- `npm run dev` - Start dev server (uses Vite/Rolldown)
-- `npm run test` - Run Vitest unit tests
-- `npm run test:ui` - Launch Vitest UI
-- `npm run lint` - Run oxlint then eslint (order matters, defined in `lint:*` scripts)
-- `npm run build` - Type-check with vue-tsc, then build
-
-### Testing Conventions
-
-- Store tests mock i18n with sample question data (see `quizStore.test.ts`)
-- Use `beforeEach(() => setActivePinia(createPinia()))` for Pinia stores
-- Scoring tests use `mockParties` array with minimal party data
-- Tests run in happy-dom environment (configured in `vitest.config.ts`)
-
-### Linting & Formatting
-
-- **Dual linting**: oxlint runs first for correctness, then eslint for style
-- ESLint ignores JSON files except via `@eslint/json` plugin
-- `vue/multi-word-component-names` is disabled (allows single-word components like Quiz.vue)
-- Prettier with organize-imports plugin - run via `npm run format`
-
-## Adding Features
-
-### Adding Questions
-
-1. Add question to ALL translation files under `questions.qN` with `text` and `category`
-2. Add question ID to `questionIds` array in `quizStore.ts` (must be sequential)
-3. Add scoring data to `scoring.json` with party scores for each option (0.0-0.9 scale)
-
-### Adding Parties
-
-1. Add party to `src/data/parties.json` with kebab-case `id`
-2. Update `mapPartyKey()` in `scoring.ts` with display name → ID mapping
-3. Add party scores to every question in `scoring.json`
-4. Add party description to all translation files under `party.{id}.desc`
-
-### Adding Locales
-
-1. Create `src/data/translations/{code}.json` with ALL translation keys
-2. Import in `src/i18n.ts` and add to messages object
-3. Add locale to `availableLocales` array with code and native name
-4. Update locale type in `uiStore.ts` if using strict typing
-
-## Technical Details
-
-### Build Configuration
-
-- Uses `rolldown-vite` (Vite powered by Rolldown) for faster builds
-- Manual chunk splitting for Vue, Vue Router, Pinia, and vue-i18n (see `vite.config.ts`)
-- Fontaine plugin generates font metrics for FOUT reduction
-- `@` alias resolves to `./src`
-
-### Style System
-
-- CSS custom properties in `src/styles/theme.css` (e.g., `--color-primary`, `--space-lg`)
-- No CSS framework - custom utility classes
-- Consistent spacing scale: `--space-{xs,sm,md,lg,xl}`
-
-### Component Communication
-
-- Vue 3 Composition API with `<script setup>`
-- Props + emit pattern for parent-child communication (see `QuizQuestion.vue`)
-- i18n via `useI18n()` composable, accessed in templates as `$t('key')`
-
-### Deployment Considerations
-
-- Node 22.21.1+ required (see `engines` in package.json)
-- Vue Devtools plugin enabled in dev mode only
-- Results can be encoded in URL for sharing (`quizStore.encodeAnswersToUrl()`)
+- Issues with missing text usually mean the active locale lacks `questions.qN`—reproduce by switching `uiStore.lang` and watching the thrown error in `loadQuestionsFromI18n`.
+- If scoring outputs zeros, confirm party ids in `scoring.json` exactly match those in `parties.json`; normalization silently skips unknown ids.
+- Build-time warnings about `vue-i18n` imports are filtered in `vite.config.ts`; any other Rollup warnings should be treated as regressions.
