@@ -111,7 +111,7 @@
     "id": 32,
     "text": "Government should regulate artificial intelligence to protect jobs and prevent biased automated decisions.",
     "category": "digital & tech",
-    "weight": 1.2,
+    "weight": 1.0,
     "options": [
       {
         "option": "Strongly agree",
@@ -219,7 +219,7 @@
     "id": 33,
     "text": "Science and research funding should be substantially increased to drive innovation and long-term growth.",
     "category": "digital & tech",
-    "weight": 1.1,
+    "weight": 1.4,
     "options": [
       {
         "option": "Strongly agree",
