@@ -8,9 +8,9 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": -0.5,
+          "anc": -0.9,
           "da": 0.9,
-          "eff": -0.3,
+          "eff": -0.8,
           "ifp": 0.2,
           "mk": -0.4,
           "pa": 0.4,
@@ -27,9 +27,9 @@
       {
         "option": "Agree",
         "scores": {
-          "anc": -0.3,
+          "anc": -0.7,
           "da": 0.7,
-          "eff": -0.2,
+          "eff": -0.6,
           "ifp": 0.1,
           "mk": -0.2,
           "pa": 0.3,
@@ -65,9 +65,9 @@
       {
         "option": "Disagree",
         "scores": {
-          "anc": 0.2,
+          "anc": 0.5,
           "da": -0.4,
-          "eff": 0.4,
+          "eff": 0.7,
           "ifp": -0.1,
           "mk": 0.2,
           "pa": -0.2,
@@ -84,9 +84,9 @@
       {
         "option": "Strongly disagree",
         "scores": {
-          "anc": 0.4,
+          "anc": 0.9,
           "da": -0.8,
-          "eff": 0.8,
+          "eff": 1.0,
           "ifp": -0.2,
           "mk": 0.4,
           "pa": -0.4,
