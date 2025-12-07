@@ -108,7 +108,7 @@
           <p class="about__text">{{ $t("about.viewDataText") }}</p>
           <div class="about__data-links">
             <a
-              href="/src/data/scoring.json"
+              href="https://github.com/ecosoviet/elekti/tree/main/src/data/scoring"
               target="_blank"
               class="about__data-link"
             >
