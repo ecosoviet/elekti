@@ -65,39 +65,39 @@
       {
         "option": "Disagree",
         "scores": {
-          "anc": 0.5,
-          "da": -0.4,
-          "eff": 0.7,
-          "ifp": 0.1,
-          "mk": 0.6,
-          "pa": -0.3,
-          "vfplus": -0.3,
-          "actionsa": -0.4,
-          "acdp": -0.3,
-          "ufc": -0.5,
-          "sacp": 0.5,
-          "udm": -0.3,
-          "aljamah": -0.3,
-          "cope": -0.3
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
         }
       },
       {
         "option": "Strongly disagree",
         "scores": {
-          "anc": 0.9,
-          "da": -0.8,
-          "eff": 1.0,
-          "ifp": 0.2,
-          "mk": 0.8,
-          "pa": -0.6,
-          "vfplus": -0.6,
-          "actionsa": -0.8,
-          "acdp": -0.6,
-          "ufc": -0.9,
-          "sacp": 0.7,
-          "udm": -0.6,
-          "aljamah": -0.6,
-          "cope": -0.6
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
         }
       }
     ]
