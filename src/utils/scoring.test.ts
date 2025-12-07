@@ -116,7 +116,7 @@ describe("scoring.ts - computeScores", () => {
     });
   });
 
-  it("should set high confidence when primary score is above 0.4", () => {
+  it("should set high confidence when primary score is above 0.7 and gap is >= 0.1", () => {
     const answers = {
       q1: 0,
       q2: 0,
@@ -132,7 +132,11 @@ describe("scoring.ts - computeScores", () => {
 
     const result = computeScores(answers, mockParties);
 
-    if (result.primary.normalizedScore >= 0.4) {
+    const gapToSecond = result.alternatives[0]
+      ? result.primary.normalizedScore - result.alternatives[0].normalizedScore
+      : result.primary.normalizedScore;
+
+    if (result.primary.normalizedScore >= 0.7 && gapToSecond >= 0.1) {
       expect(result.confidence).toBe("high");
     }
   });
@@ -303,7 +307,7 @@ describe("scoring.ts - computeScores", () => {
         highResult.alternatives[0].normalizedScore
       : highResult.primary.normalizedScore;
 
-    if (highResult.primary.normalizedScore >= 0.5 && gapToSecond >= 0.05) {
+    if (highResult.primary.normalizedScore >= 0.7 && gapToSecond >= 0.1) {
       expect(highResult.confidence).toBe("high");
     }
   });

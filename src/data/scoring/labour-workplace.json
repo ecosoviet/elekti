@@ -1,0 +1,311 @@
+[
+  {
+    "id": 13,
+    "text": "Workers should have stronger rights to unionise and strike, with fewer restrictions.",
+    "category": "labour & workplace",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": 0.5,
+          "da": -0.2,
+          "eff": 0.95,
+          "ifp": 0,
+          "mk": 0.6,
+          "pa": 0.2,
+          "vfplus": -0.3,
+          "actionsa": -0.1,
+          "acdp": -0.4,
+          "ufc": 0.1,
+          "sacp": 0.95,
+          "udm": 0.5,
+          "aljamah": 0.2,
+          "cope": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0.3,
+          "da": -0.1,
+          "eff": 0.7,
+          "ifp": 0,
+          "mk": 0.4,
+          "pa": 0.1,
+          "vfplus": -0.2,
+          "actionsa": 0,
+          "acdp": -0.2,
+          "ufc": 0,
+          "sacp": 0.7,
+          "udm": 0.4,
+          "aljamah": 0.1,
+          "cope": 0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": -0.2,
+          "da": 0.3,
+          "eff": -0.5,
+          "ifp": 0.1,
+          "mk": -0.1,
+          "pa": 0.1,
+          "vfplus": 0.4,
+          "actionsa": 0.2,
+          "acdp": 0.3,
+          "ufc": 0,
+          "sacp": -0.5,
+          "udm": -0.2,
+          "aljamah": -0.2,
+          "cope": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": -0.4,
+          "da": 0.6,
+          "eff": -0.9,
+          "ifp": 0.2,
+          "mk": -0.2,
+          "pa": 0.3,
+          "vfplus": 0.7,
+          "actionsa": 0.4,
+          "acdp": 0.6,
+          "ufc": 0.2,
+          "sacp": -0.9,
+          "udm": -0.4,
+          "aljamah": -0.4,
+          "cope": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Minimum wages should be increased significantly to reduce in-work poverty, even if some small businesses struggle.",
+    "category": "labour & workplace",
+    "weight": 1.5,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": 0.4,
+          "da": -0.3,
+          "eff": 0.95,
+          "ifp": 0.1,
+          "mk": 0.65,
+          "pa": 0.1,
+          "vfplus": -0.4,
+          "actionsa": -0.1,
+          "acdp": -0.5,
+          "ufc": 0.1,
+          "sacp": 0.95,
+          "udm": 0.3,
+          "aljamah": 0.2,
+          "cope": 0.3
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0.3,
+          "da": -0.2,
+          "eff": 0.7,
+          "ifp": 0,
+          "mk": 0.5,
+          "pa": 0.1,
+          "vfplus": -0.3,
+          "actionsa": 0,
+          "acdp": -0.3,
+          "ufc": 0,
+          "sacp": 0.7,
+          "udm": 0.2,
+          "aljamah": 0.1,
+          "cope": 0.1
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": -0.2,
+          "da": 0.4,
+          "eff": -0.5,
+          "ifp": 0.1,
+          "mk": -0.1,
+          "pa": 0.1,
+          "vfplus": 0.5,
+          "actionsa": 0.2,
+          "acdp": 0.2,
+          "ufc": -0.1,
+          "sacp": -0.5,
+          "udm": -0.1,
+          "aljamah": -0.2,
+          "cope": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": -0.4,
+          "da": 0.7,
+          "eff": -0.9,
+          "ifp": 0.2,
+          "mk": -0.2,
+          "pa": 0.2,
+          "vfplus": 0.8,
+          "actionsa": 0.5,
+          "acdp": 0.5,
+          "ufc": -0.2,
+          "sacp": -0.9,
+          "udm": -0.3,
+          "aljamah": -0.4,
+          "cope": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "Labour market flexibility (easier hiring and firing) will increase investment and should be encouraged.",
+    "category": "labour & workplace",
+    "weight": 1.4,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": -0.1,
+          "da": 0.8,
+          "eff": -0.7,
+          "ifp": 0.2,
+          "mk": -0.3,
+          "pa": 0.5,
+          "vfplus": 0.8,
+          "actionsa": 0.6,
+          "acdp": 0.4,
+          "ufc": 0.3,
+          "sacp": -0.8,
+          "udm": 0.2,
+          "aljamah": -0.2,
+          "cope": 0.1
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0,
+          "da": 0.6,
+          "eff": -0.4,
+          "ifp": 0.1,
+          "mk": -0.1,
+          "pa": 0.3,
+          "vfplus": 0.6,
+          "actionsa": 0.4,
+          "acdp": 0.2,
+          "ufc": 0.2,
+          "sacp": -0.6,
+          "udm": 0.1,
+          "aljamah": -0.1,
+          "cope": 0
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": 0.3,
+          "da": -0.3,
+          "eff": 0.6,
+          "ifp": -0.1,
+          "mk": 0,
+          "pa": -0.2,
+          "vfplus": -0.4,
+          "actionsa": -0.2,
+          "acdp": -0.2,
+          "ufc": -0.1,
+          "sacp": 0.5,
+          "udm": -0.1,
+          "aljamah": 0.1,
+          "cope": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": 0.5,
+          "da": -0.6,
+          "eff": 0.9,
+          "ifp": -0.2,
+          "mk": -0.1,
+          "pa": -0.4,
+          "vfplus": -0.7,
+          "actionsa": -0.4,
+          "acdp": -0.5,
+          "ufc": -0.3,
+          "sacp": 0.9,
+          "udm": -0.3,
+          "aljamah": 0.2,
+          "cope": -0.2
+        }
+      }
+    ]
+  }
+]

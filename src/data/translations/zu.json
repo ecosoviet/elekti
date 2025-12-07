@@ -1,138 +1,138 @@
 {
   "app": {
     "title": "Elekti",
-    "tagline": "Thola iqembu lakho lezepolitiki"
+    "tagline": "Thola iqembu lakho kwezepolitiki"
   },
   "nav": {
     "home": "Ikhaya",
-    "quiz": "Imibuzo",
+    "quiz": "Uvivinyo",
     "results": "Imiphumela",
     "about": "Mayelana"
   },
   "landing": {
-    "title": "Thola Iqembu Lakho Lezepolitiki",
-    "subtitle": "Phendula imibuzo mayelana nemibono yakho yezepolitiki uthole ukuthi yiliphi iqembu laseNingizimu Afrika elihambisana nezindinganiso zakho.",
-    "startButton": "Qala Imibuzo",
-    "aboutLink": "Funda ngendlela yethu",
-    "privacy": "Izimpendulo zakho zigcinwa endaweni futhi azikaze zabiwe.",
+    "title": "Thola Iqembu Elikufanela Kwezepolitiki",
+    "subtitle": "Phendula imibuzo mayelana nemibono yakho yezepolitiki bese uthola ukuthi yiliphi iqembu laseNingizimu Afrika elihambisana nezimiso zakho.",
+    "startButton": "Qala Uvivinyo",
+    "aboutLink": "Funda ngendlela esisebenza ngayo",
+    "privacy": "Izimpendulo zakho zigcinwa kudivayisi yakho kuphela futhi azabelwanga.",
     "howItHelps": {
-      "title": "Indlela Leli Thuluzi Elisizayo",
-      "intro": "Yenza ivoti lakho libalwe ngokuqonda lapho umi khona ngempela. Qhathanisa imibono yakho nezikhundla zamaqembu wonke angempela.",
+      "title": "Indlela Leli Thuluzi Elikusizayo Ngayo",
+      "intro": "Qonda kahle ukuthi umephi ukuze uvote ngenhloso. Vumelanisa imibono yakho nezikhundla zamaqembu ngokusekelwe kwimininingwane.",
       "benefit1": {
-        "title": "Nquma Phakathi Komsindo",
-        "text": "Yeqa izithembiso zemikhankaso ubone amaqembu ahambisana nezinkolelo zakho ezindabeni zenqubomgomo yangempela."
+        "title": "Susa umsindo wezithembiso",
+        "text": "Gxila ezinhlanganisweni zenqubomgomo ezibonakala ezintweni ezenzekayo kunokulalela izithembiso zenkampani."
       },
       "benefit2": {
-        "title": "Thola Ukufanana Okungalindelekile",
-        "text": "Thola amaqembu ongase ungawabhekile ngokusekelwe ekuhambisaneni kwenqubomgomo yangempela, hhayi nje ukuthandwa."
+        "title": "Thola ukuvumelana ongakucabangela",
+        "text": "Bheka amaqembu ongase ungawabheki ngokusekelwe ekuhambisaneni kwawo nezinqubomgomo, hhayi udumo noma umbono nje."
       },
       "benefit3": {
-        "title": "Bona Konke Okufanayo Kwakho",
-        "text": "Thola uhlu oluhlelwe lwawo wonke amaqembu enamaphuzu okufanana, ukuze ubone izinketho zakho eziphezulu nezinye izindlela."
+        "title": "Bona wonke amathuba akho",
+        "text": "Thola uhlu oluhlelwe lwawo wonke amaqembu ngamanqampuna okulingana ukuze ubone izinketho zakho eziphambili nezinye ongazicabangela."
       },
       "benefit4": {
-        "title": "Vota Ngokuzethemba",
-        "text": "Yenza isinqumo esinolwazi esisekelwe edatheni, hhayi ekuqageleni. Izindinganiso zakho zifaniswe nezikhundla zamaqembu."
+        "title": "Vota uqiniseke",
+        "text": "Yenza isinqumo esinolwazi esisekelwe kudatha, imisebenzi yakho nezikhundla zamaqembu ziqhathanisiwe ukuze kukusize."
       }
     }
   },
   "quiz": {
-    "question": "Umbuzo {number} ku {total}",
-    "skip": "Yeqa",
+    "question": "Umbuzo {{number}} ku-{{total}}",
+    "skip": "Skipa",
     "back": "Emuva",
     "next": "Okulandelayo",
     "finish": "Qeda",
-    "progress": "{count} ku {total} kuphendulwe"
+    "progress": "{{count}} ku-{{total}} kuphenduliwe"
   },
   "results": {
     "title": "Imiphumela Yakho",
-    "primaryMatch": "Ukufanana Kwakho Okukhulu",
-    "alternativeMatch": "Okunye Okufanayo",
+    "primaryMatch": "Ukuvumelana Okuphambili",
+    "alternativeMatch": "Ezinye Izinketho Ezivumelanayo",
     "confidence": {
-      "high": "Ukufanana okuqinile",
-      "medium": "Ukufanana okuphakathi",
-      "low": "Ukufanana okubuthakathaka"
+      "high": "Ukuvumelana okuqinile",
+      "medium": "Ukuvumelana okuphakathi",
+      "low": "Ukuvumelana okubuthakathaka"
     },
-    "scoreBreakdown": "Ukuhlukaniswa Kwamaphuzu",
-    "allParties": "Wonke Amaqembu",
+    "scoreBreakdown": "Uhlukaniso Lamanqampuna",
+    "allParties": "Amanqampuna Awo Wonke Amaqembu",
     "copyResults": "Kopisha Imiphumela",
-    "resultsCopied": "Imiphumela ikopishiwe!",
-    "retakeQuiz": "Phinda Wenze Imibuzo",
-    "learnMore": "Funda kabanzi nge-{party}"
+    "resultsCopied": "Imiphumela isikopishiwe ebhodini lokunamathisela!",
+    "retakeQuiz": "Phinda Uvivinyo",
+    "learnMore": "Funda kabanzi ngo-{{party}}"
   },
   "about": {
     "title": "Mayelana ne-Elekti",
-    "methodology": "Indlela",
-    "methodologyText": "I-Elekti isebenzisa indlela ebanzi, esekelwe ebufakazini yokufanisa imibono yakho yezepolitiki namaqembu aseyipolitiki aseNingizimu Afrika. Uhlelo lwethu lwenzelwe ukuba nolungile, lusobala, futhi lungahlanganyeli kwezepolitiki.",
+    "methodology": "Indlela Esiyisebenzisayo",
+    "methodologyText": "I-Elekti isebenzisa indlela ebanzi, esekelweobufakazi, yokuhambanisa imibono yakho nezikhundla zamaqembu aseNingizimu Afrika. Uhlelo lwakhiwe ukuze lube nolungile, lusobala, futhi lungakhethi.",
     "howItWorks": "Indlela Esebenza Ngayo",
-    "howItWorksText": "Uphendula imibuzo engu-40 eyakhiwe ngokucophelela emboza izindawo ezinkulu zenqubomgomo kufaka phakathi ukunakekelwa kwempilo, imfundo, umnotho, ukuphatha, nezindaba zomphakathi. Umbuzo ngamunye wenzelwe ukuveza okokhetha kwakho kwezepolitiki ngaphandle kokuchema kwaqembu.",
-    "scoring": "Uhlelo Lwamaphuzu",
-    "scoringText": "Impendulo ngayinye oyinikayo ifaniswa nezikhundla zamaqembu ezibhaliwe ezivela emibhalweni yesemthethweni yamaqembu, emibhalweni yenqubomgomo, nezitatimende zomphakathi. Amaqembu athola amaphuzu alinganisiwe ngokuya ngokuhambisana kwezikhundla zawo ezikhulunywayo nezimpendulo zakho. Sisebenzisa i-algorithm yokulinganisa iqembu ngalinye, okusho ukuthi iqembu ngalinye lilinganiswa ngokufana kwalo okungcono kakhulu kwemibuzo oyiphendulile. Lokhu kuqinisekisa ukuphathwa ngokulinganayo kwamaqembu amaphakathi nalawo aqinile. La maphuzu alinganiswa esikalini esingu-0-100, nentando yakho ephezulu nezinye indlela kuchazwe kahle. Sikupha futhi isilinganiso sokwethemba ukusiza ukuqonda ukuthi ukufana kwakho kuqinile kangakanani.",
-    "transparency": "Isibophezelo Sethu Ekusobeni",
-    "transparencyText": "Zonke izikhundla zamaqembu nezisisindo samaphuzu zinqunywa ngocwaningo oluqinile lwemibhalo esemthethweni yamaqembu. Indlela yethu ivulelekile futhi ingabuyekezwa. Asikhethi noma yiliphi iqembu lezepolitiki noma isistimu yemibono - inhloso yethu kuphela ukusiza wenze izinqumo ezinolwazi ezisekelwe emibalweni yakho nezikhundla ezimenywe wamaqembu.",
-    "dataSources": "Imithombo Yocwaningo Lwethu",
-    "dataSourcesText": "Izikhundla zamaqembu zicutshungulwa ngokucophelela emibhalweni esemthethweni yamaqembu, emibhalweni yenqubomgomo, amarekhodi okuvota eparlamende, nezitatimende zomphakathi eziqinisekisiwe. Sibuyekeza idatha yethu njalo ukubonisa izinguquko zenqubomgomo. Zonke izinto zemithombo zivela kumashaneli asemthethweni wamaqembu noma izinhlangano zezindaba ezihloniphekile. Uma ukholelwa ukuthi noma iluphi olwazi alunembile, samukela izilungiso ngemibhalo efanele.",
-    "privacy": "Ubumfihlo & Idatha Yakho",
-    "privacyText": "Ubumfihlo bakho bubaluleke kakhulu. Sikholelwa ukuthi imibono yakho yezepolitiki ingokwakho kakhulu futhi ifanelwe izinga eliphezulu lokuvikelwa.",
-    "noTracking": "Akulandelwa Nhlobo",
-    "noTrackingText": "Asisebenzisi amakhukhi, ama-analytics pixels, noma noma yimuphi ubuchwepheshe bokulandelela. Asikwazi ukubona izimpendulo zakho, asikwazi ukukubona, futhi asinayo intshisekelo yokwenza njalo. Izimpendulo zakho zemibuzo azithunyelwa kumaseva ethu.",
-    "localOnly": "Isitoreji Sendawo Kuphela",
-    "localOnlyText": "Konke kwenzeka kusiphequluli sakho. Izimpendulo zakho zigcinwe kuphela kudivaysi yakho futhi kungekho kwenye indawo. Uma usula idatha yesiphequluli sakho, imiphumela yakho iyalahleka unomphelo - asinayo isibuyekezo ngoba asisikaze sibe nazo ekuqaleni.",
-    "sharing": "Indlela Yokwabelana Isebenza",
-    "sharingText": "Uma ushayela imiphumela, izimpendulo zakho zifakwa ngqo kwithu le-URL ngokwalo. Lokhu kusho ukuthi noma ubani onalelo link angabona imiphumela yakho, kodwa idatha ayithinti amaseva ethu. Ulawula ukuthi ubani obona imiphumela yakho ngokubeka ubani othola leyo link. Sula i-link, futhi imiphumela yakho ingokwakho futhi.",
-    "analytics": "Ama-Analytics Agcina Ubumfihlo",
-    "analyticsText": "Sisebenzisa i-Cloudflare Web Analytics, isevisi yama-analytics ebeka ubumfihlo kuqala engasebenzisi amakhukhi, engalandeli abantu ngabanye kumawebhusayithi, futhi engaqoqi noma iluphi ulwazi lomuntu oluhlonzekayo. Isinikeza izibalo eziyisisekelo ezihlanganisiwe (njengokubuka ikhasi eliphelele) ukusisiza siqonde ukuthi iwebhusayithi iyasetshenziswa yini, ngaphandle kokubeka ubumfihlo bakho engozini. I-Cloudflare ayikwazi ukubona izimpendulo zakho zemibuzo noma ukukubona wena mathupha.",
-    "parties": "Amaqembu Ahlanganisiwe",
-    "partiesText": "Sihlanganisa amaqembu amakhulu ayi-14 aseyipolitiki aseNingizimu Afrika amele imibono ehlukene kulo lonke uhla lwezepolitiki. Ukukhetha kwethu kusekelwe ekumelweni kweparlamende, ukubaluleka kokhetho, nokuhlukahluka kwemibono.",
+    "howItWorksText": "Uphendula imibuzo engu-40 ehleliwe eqoqa izinkinga ezinkulu zenqubomgomo ezifaka ukunakekelwa kwempilo, imfundo, umnotho, ukuphatha kanye nezindaba zomphakathi. Umbuzo ngamunye udizayinwe ukuveza izintandokazi zakho ngaphandle kokucwasa.",
+    "scoring": "Uhlelo Lokubala Amanqampuna",
+    "scoringText": "Impendulo yakho ngayinye iyalinganiswa nezikhundla ezibhaliwe zamaqembu ezitholakala kumamanifesto, imibhalo yenqubomgomo nezitatimende zomphakathi. Amaqembu athola amaphuzu ahlelwe ngokusondeleka kwezikhundla zawo neziphendulo zakho. Sisebenzisa i-normalisation ngamaqembu ngalinye ukuze iqembu ngalinye likalwe ngokulingana, kuqinisekiswe ukuhlinzekwa okulungile kumabhendi ahlukene. Amanqampuna aguqulwa abe isikali sika-0 kuya ku-100, futhi kukhona nesilinganiso sokuzethemba ukukusiza uqonde amandla okuvumelana.",
+    "transparency": "Isibopho Sethu Sokuba Sobala",
+    "transparencyText": "Izikhundla zamaqembu kanye nezisindo zokubala zinqunywa ngocwaningo olunzulu lwemibhalo esemthethweni. Indlela yethu ivulekile ukuze ibuyekezwe. Asisekeli noma yiliphi iqembu; inhloso wukukunika ulwazi oluthembekile noluzimele.",
+    "dataSources": "Imithombo Yocwaningo",
+    "dataSourcesText": "Sisebenzisa imibhalo esemthethweni yamaqembu, amarekhodi okuvota ephalamende nezitatimende ezihloniphekile. Sibuyekeza idatha njalo ukuze ibonise izinguquko zenqubomgomo. Uma ubona iphutha, wamukela izilungiso ezinemibhalo efanele.",
+    "privacy": "Ubumfihlo Nedatha Yakho",
+    "privacyText": "Ubumfihlo bakho bubalulekile. Sicabangela imibono yakho yezepolitiki njengento yobumfihlo efanelwe ukuvikelwa okuphezulu.",
+    "noTracking": "Akukho Ukulandelela",
+    "noTrackingText": "Asisebenzisi amakuki, ama-analytics pixels noma ubuchwepheshe bokulandelela. Asikwazi ukubona izimpendulo zakho noma ukukuhlonza. Izimpendulo zakho azithunyelwa kumaseva ethu.",
+    "localOnly": "Kugcinwa Kwedivayisi Kuphela",
+    "localOnlyText": "Konke kwenzeka kusiphequluli sakho. Izimpendulo zigcinwa kuphela kudivayisi yakho. Uma usula idatha yesiphequluli, imiphumela yakho iyalahlwa - asinaso isipele.",
+    "sharing": "Indlela Yokwabelana",
+    "sharingText": "Lapho wabelana, idatha yakho ifakwa ku-URL kuphela. Lokho kusho ukuthi noma ubani one-URL angabona imiphumela, kodwa idatha ayidluli kumaseva ethu. Ulawula ukuthi ubani ongayibona ngokusabalalisa noma ukususa i-link.",
+    "analytics": "Uhlaziyo Oluhlonipha Ubumfihlo",
+    "analyticsText": "Sisebenzisa i-Cloudflare Web Analytics, isevisi egxile ekucwengweni kobumfihlo engenziwanga amakuki futhi engalandeleli abasebenzisi. Sinikeza izibalo ezihlanganisiwe ezisisiza siqonde ukusetshenziswa ngaphandle kokudicilela ubumfihlo bakho.",
+    "parties": "Amaqembu Abandakanywayo",
+    "partiesText": "Sibandakanya amaqembu angama-14 abalulekile eNingizimu Afrika, abamele imibono ehlukene esilelayo. Ukukhethwa kusekelwe ekumelaneni kwephalamende, ukubaluleka emazweni okhetho kanye nokuhlukahluka kwemibono.",
     "disclaimer": "Isaziso Esibalulekile",
-    "disclaimerText": "I-Elekti iyithuluzi lemfundo, akusiyo indawo yocwaningo. Amaqembu ezepolitiki ayizinhlangano eziyinkimbinkimbi ezinemibono ethintana kakhulu eguquka ngokuhamba kwesikhathi. Sikukhuthaza kakhulu ukuthi ufunde imibhalo yamaqembu, uhambe emihlanganweni yomphakathi, futhi uqinisekise ulwazi lwethu ngokuzimele. Leli thuluzi likhombisa ukuvumelana okusekelwe ezikhundleni ezikhulunywayo - ukuphatha kwangempela kungahluka. Sebenzisa le miphumela njengokukuqala kokuhlola okujulile, hhayi njengesinqumo sakho sokugcina.",
-    "viewData": "Buka Idatha Engalungiswanga",
-    "viewDataText": "Ngomoya wokucaca ngokugcwele, ungahlola amafayela edatha yethu ngokwakho. La mafayela e-JSON aqukethe zonke izikhundla zamaqembu, isisindo samaphuzu, nemetadata yemibuzo esetshenziswa yi-algorithm yethu.",
-    "scoringData": "Idatha Yokuphointa (ihlanganisa imibuzo nezisindo)",
+    "disclaimerText": "I-Elekti iyithuluzi lemfundo. Amaqembu anezikhundla ezinzima neziguqukayo. Sincoma ukuthi ufunde ama-manifesto, uye emibuthanweni yomphakathi futhi uqinisekise ulwazi lwethu ngokwakho. Imiphumela ilinganisa ukuvumelana nezikhundla ezikhulunywayo — ukuphatha okusebenzayo kungahluka. Sebenzisa imiphumela njengethuluzi lokuQala, hhayi isinqumo sokugcina.",
+    "viewData": "Buka Idatha Engalungisiwe",
+    "viewDataText": "Ngokuzibophezela ekucaceni, ungabuka amafayela ethu e-JSON aqukethe izikhundla zamaqembu, izisindo, nemetadata yemibuzo esetshenzisiwe.",
+    "scoringData": "Idatha Yokubala (imibuzo nezisindo)",
     "partiesData": "Ulwazi Lwamaqembu"
   },
   "party": {
     "anc": {
-      "desc": "I-African National Congress iyiqembu elibusayo eNingizimu Afrika, elikhuthaza intando yeningi yomphakathi, uguquko, kanye nokubhekana nokungalingani ngokusebenzisa ukungenelela kukahulumeni."
+      "desc": "I-African National Congress yiqembu elibusayo eNingizimu Afrika elisekela intando yeningi, uguquko lomphakathi kanye nokunciphisa ukungalingani ngohlelo lukahulumeni."
     },
     "da": {
-      "desc": "I-Democratic Alliance ikhuthaza intando yeningi yenkululeko, ezomnotho zemakethe yamahhala, kanye nezepolitiki ezingenalo ubuhlanga ngokugcizelela ukubusa okuhle nokudala imisebenzi."
+      "desc": "I-Democratic Alliance iphakamisa ubuholi boluntu obusekwe inkululeko, umnotho wemakethe evulekile kanye nokugxila ekuphathweni okuhle nokudala imisebenzi."
     },
     "mk": {
-      "desc": "I-uMkhonto we Sizwe Party igxile ekuguquleni kwezomnotho ngokuqinile, ikhuthaza ukuthuthukiswa okuholwa uhulumeni kanye nokubhekana nokungalungi komlando."
+      "desc": "Iqembu uMkhonto weSizwe ligxile ekuguqulweni komnotho okusobala, lixhasa ukuthuthukiswa okuholwa ngurhulumente nokulungiswa kwezingozi zomlando."
     },
     "eff": {
-      "desc": "I-Economic Freedom Fighters iyiqembu elikwesokunxele kakhulu elikhuthaza uguquko lwezomnotho oluqinile, ukwenza kwezwe kanye nokwabiwana komhlaba ngaphandle kwenhlawulo."
+      "desc": "I-Economic Freedom Fighters yiqembu elisekela izinguquko ezinzima kwezomnotho, ukwenziwa kwesizwe kanye nokwabiwa komhlaba ngaphandle kwenkokhelo."
     },
     "ifp": {
-      "desc": "I-Inkatha Freedom Party ikhuthaza amasiko amaZulu, i-federalism, kanye nezomnotho zemakethe yamahhala ezinemibandela yomphakathi."
+      "desc": "I-Inkatha Freedom Party igxile ekugcinweni kwesiko lamaZulu, ubumbano bezifunda kanye nomnotho wemakethe onomthwalo wokuhlanganyela."
     },
     "pa": {
-      "desc": "I-Patriotic Alliance igxile ekubhekaneni nezindaba zokufuduka, ikhuthaza ubuntu bezwe laseNingizimu Afrika, kanye nokubeka phambili izidingo zezakhamuzi."
+      "desc": "I-Patriotic Alliance igxile ezindabeni zokufuduka, ukukhuthaza ikusasa lezakhamuzi zaseNingizimu Afrika nokubeka phambili izidingo zabahlali."
     },
     "vfplus": {
-      "desc": "I-Freedom Front Plus imele izintshisekelo zama-Afrikaner, ikhuthaza i-federalism, amalungelo encinyane, kanye nezindinganiso zokugcina."
+      "desc": "I-Freedom Front Plus imele izintshisekelo zoMzansi Afrika wama-Afrikaans, ikhulisa ubumbano bezifunda kanye namalungelo ezizathu."
     },
     "actionsa": {
-      "desc": "I-ActionSA iyiqembu elisemaphakathi eligxile ekubuseni okungokoqobo, ekulweni nenkohlakalo, kanye nokukhula kwezomnotho ngokubambisana nomkhakha wangasese."
+      "desc": "I-ActionSA ingaphakathi nendawo, igxile ekuphathweni okubhekele izixazululo, ukulwa nenkohlakalo nokukhuthaza ukukhula komnotho ngomkhakha ozimele."
     },
     "acdp": {
-      "desc": "I-African Christian Democratic Party ikhuthaza izindinganiso zobuKristu, izinqubomgomo zomphakathi ezigcinayo, kanye nentando yeningi yomthethosisekelo."
+      "desc": "I-African Christian Democratic Party isekela izindinganiso zobuKristu, izinqubomgomo zomphakathi ezibhekele phambili kanye nentando yeningi yomthethosisekelo."
     },
     "ufc": {
-      "desc": "I-Unite for Change igxile ekuhlanganiseni abantu ngaphansi kanye nokubhekana nezinkinga zemiphakathi yendawo ngezinqubomgomo eziqhubekayo."
+      "desc": "I-Unite for Change igxile ekuhlanganiseni abasebenzi nasemiphakathini yasendaweni nasekuhleleni izixazululo eziphumelelayo."
     },
     "sacp": {
-      "desc": "I-South African Communist Party ikhuthaza ubuntu, amalungelo abasebenzi, kanye nokuguqukela emphakathini wobuntu ngokuphatha kukahulumeni."
+      "desc": "I-South African Communist Party isekela ubusoshiyali, amalungelo abasebenzi kanye nokuthuthela komphakathi ekuphathweni kukahulumeni."
     },
     "udm": {
-      "desc": "I-United Democratic Movement ikhuthaza intando yeningi yomphakathi, ukubuyisana, kanye nezinqubomgomo ezingokoqobo zokuqeda ubumpofu nokungalingani."
+      "desc": "I-United Democratic Movement isekela intando yeningi, ukubuyisana kanye nezinqubomgomo eziwusizo zokulwa nobumpofu nokungalingani."
     },
     "aljamah": {
-      "desc": "I-Al Jama-ah imele izindinganiso zobuIslam futhi imele ubulungiswa bomphakathi, ukubusa okunokuziphatha, namalungelo emiphakathi ecindezelwe."
+      "desc": "I-Al Jama-ah imele izindinganiso zobuSulumane, ibheke ubulungisa bomphakathi, ukubusa okufanele kanye namalungelo ezindawo ezicindezelekile."
     },
     "cope": {
-      "desc": "I-Congress of the People ikhuthaza intando yeningi yomphakathi, ukubusa okuhle, kanye nezinqubomgomo zezomnotho ezilinganisa ukukhula nenhlalakahle yomphakathi."
+      "desc": "I-Congress of the People iphakamisa ubuholi obunobulungiswa, ukuphatha okuhle kanye nezindlela zomnotho ezihlanganisa ukukhula nenhlalakahle yomphakathi."
     }
   },
   "options": {
@@ -144,163 +144,163 @@
   },
   "questions": {
     "q1": {
-      "text": "Uhulumeni kufanele akhuphule izintela kubantu abanothileyo ukuxhasa izinhlelo zomphakathi ezingeziwe (ezempilo, imfundo nezibonelelo zomphakathi).",
+      "text": "Uhulumeni kufanele akhuphule intela kwabacebile ukuze exhase izinhlelo zomphakathi ezinde (ezempilo, imfundo, izibonelelo).",
       "category": "ezomnotho & ezezimali"
     },
     "q2": {
-      "text": "Uhulumeni kufanele abeke phambili ukukhokhwa kwezikweletu zomphakathi kanye nokuqinisekisa ukusimama kwezimali ngisho noma lokhu kukhawulela ukusetshenziswa kwemali entsha yezenhlalo.",
+      "text": "Ukuzinza kwezezimali nokwehliswa kwesikweletu kazwelonke kufanele kube phezulu ohlwini, noma lokhu kukhawulele izindleko ezintsha zenhlalo.",
       "category": "ezomnotho & ezezimali"
     },
     "q3": {
-      "text": "Uhulumeni kufanele asekele ngenkuthalo amabhizinisi amancane naphakathi ngezaphulelo zentela kanye nokunciphisa imithetho ukuze kukhuthazwe ukukhula.",
+      "text": "Uhulumeni kufanele asize amabhizinisi amancane naphakathi ngezikhuthazo zentela nokunciphisa imithetho ukuze akhule.",
       "category": "ezomnotho & ezezimali"
     },
     "q4": {
-      "text": "Uhulumeni kufanele asebenzise isibonelelo semali esingagunyaziwe kubo bonke izakhamuzi, ngisho noma kudinga izintela eziphezulu noma ukuboleka.",
+      "text": "Kufanele kusungulwe imali yomvuzo oyisisekelo kazwelonke (universal basic income).",
       "category": "ezomnotho & ezezimali"
     },
     "q5": {
-      "text": "Uhulumeni kufanele adale izinhlelo ezinkulu zemisebenzi yomphakathi kanye nezinhlelo zokuqinisekisa umsebenzi ukunciphisa ukungaqashwa.",
+      "text": "Utshalomali kuhlelo lomphakathi olunikeza imisebenzi olunothile kufanele lubhekwe njengendlela yesikhashana yokunciphisa ukungasebenzi.",
       "category": "ezomnotho & ezezimali"
     },
     "q6": {
-      "text": "Uhlelo lokunakekelwa kwempilo oluxhaswa ngumphakathi (uhlelo lwe-National Health Insurance) kufanele lusungulwe ukunikeza ukunakekelwa kwamahhala kubo bonke.",
+      "text": "Unakekelo lwezempilo oluxhaswa umphakathi kufanele lunikeze izinsizakalo eziyisisekelo mahhala lapho kudingeka.",
       "category": "inhlalakahle yomphakathi & izinsizakalo"
     },
     "q7": {
-      "text": "Imfundo ephakeme kufanele ibe mahhala kubo bonke abafundi (ayikho imali), hhayi nje usizo lwezimali oluhlolwayo.",
+      "text": "Imfundo ephakeme kufanele ibe mahhala kubo bonke abafundi, noma kudingeke ukunyuswa kwezintela.",
       "category": "inhlalakahle yomphakathi & izinsizakalo"
     },
     "q8": {
-      "text": "Umbuso kufanele unikeze uxhaso oluqinile lokunakekelwa kwezingane ukuze kusekelwe abazali abasebenzayo.",
+      "text": "Uhulumeni kufanele anikeze izibonelelo ezinqala zokunakekelwa kwezingane ukusekela abazali abasebenzayo.",
       "category": "inhlalakahle yomphakathi & izinsizakalo"
     },
     "q9": {
-      "text": "Izinsizakalo zohulumeni basekhaya kufanele ziqashwe ngabasebenzi abaqeqeshiwe futhi zihlolwe njalo ukuze kuncishiswe inkohlakalo nokuhluleka kwezinsizakalo.",
+      "text": "Izinsizakalo zikahulumeni wendawo kufanele ziqashwe ngobuchwepheshe futhi zihlolwe njalo ukuvimbela inkohlakalo nokwehluleka kwezinsizakalo.",
       "category": "inhlalakahle yomphakathi & izinsizakalo"
     },
     "q10": {
-      "text": "Uhulumeni kufanele agcine izinsizakalo eziyisisekelo zomphakathi (ugesi, amanzi, izitimela) kubunikazi bomphakathi kunokuzithengisa ezinkampanini ezizimele.",
+      "text": "Izinsiza ezisemqoka (amandla, amanzi, izitimela) kufanele zihlale zingaphansi kokuphathwa komphakathi kunokuthengiswa.",
       "category": "ubunikazi & umhlaba"
     },
     "q11": {
-      "text": "Ukuthathwa komhlaba wangasese ngaphandle kokukhokhelwa kwenani lemakethe kufanele kuvunyelwe ngaphansi komthetho ukusheshisa ukuguqulwa komhlaba.",
+      "text": "Ukuthathwa komhlaba ngaphandle kwenkokhelo yentengo yemakethe kufanele kuvunyelwe ngaphansi komthetho ukusheshisa ukulungiswa komhlaba.",
       "category": "ubunikazi & umhlaba"
     },
     "q12": {
-      "text": "Ukuthuthukiswa kwezindawo zasemakhaya nokusekela ezolimo (okuhlanganisa izibonelelo nezingqalasizinda zabalimi abancane) kufanele kuthole uxhaso olukhulu luka hulumeni.",
+      "text": "Ukuxhaswa kwezolimo ezincane kanye namalungelo omhlaba omphakathi kufanele kube futhi kusheshe kutholakale uxhaso.",
       "category": "ubunikazi & umhlaba"
     },
     "q13": {
-      "text": "Abasebenzi kufanele babe namalungelo aqinile okushayela nokuxoxisana ngqo nabaqashi ngaphandle kokungenelela kukahulumeni.",
+      "text": "Abasebenzi kufanele babe namandla okuhlanganisa amakilabhu nokuhlela ukuhoxa ukuze bavikele amalungelo abo.",
       "category": "abasebenzi & indawo yokusebenza"
     },
     "q14": {
-      "text": "Amaholo amancane kufanele akhuphulwe kakhulu ukuze kuncishiswe ubumpofu kubantu abasebenzayo, noma ngabe amabhizinisi amancane ethola ubunzima.",
+      "text": "Amaholide asemqoka okufanele enyuswe kakhulu ukuze kuncishiswe ubumpofu phakathi kwabasebenzi, noma lokhu kungase kuhluphe amabhizinisi amancane.",
       "category": "abasebenzi & indawo yokusebenza"
     },
     "q15": {
-      "text": "Ukuguquguquka kwemakethe yezabasebenzi (ukuqasha nokuxosha kalula) kuzokwandisa utshalomali futhi kufanele kukhuthazwe.",
+      "text": "Ukuvumela ukujikeleza okukhulu embonini yezabasebenzi (ukuqashwa nokuxoshwa okulula) kungakhuphula utshalomali futhi kufanele kucatshangelwe.",
       "category": "abasebenzi & indawo yokusebenza"
     },
     "q16": {
-      "text": "Amaphoyisa kufanele anikezwe amandla nezinsiza eziqinile zokulwa nobugebengu obunodlame, noma ngabe lokho kwandisa igunya lombuso.",
+      "text": "Amaphoyisa kufanele anikezwe amandla nezinsiza ezanele zokulwa ubugebengu obubulalayo, noma lokhu kungenza igunya likahulumeni likhule.",
       "category": "ubugebengu & izikhungo"
     },
     "q17": {
-      "text": "Ukuzimela kwezinkantolo kanye nezikhathi zokushushisa kufanele kuvikelwe ngokuqinile, ngisho noma lokho kunciphisa ukuguquguquka kwesigqila.",
+      "text": "Izikhungo ezizimele ezifana nezinkantolo kufanele zivikelwe ngokuqinile, ngisho noma lokhu kunciphisa ukuhamba okusheshayo kwezinkantolo.",
       "category": "ubugebengu & izikhungo"
     },
     "q18": {
-      "text": "Isenzo esinamandla esilwa nenkohlakalo (ngisho noma kuphazamisa abaholi bamanje) kubaluleke kunokugcina ukuzinza kwezepolitiki.",
+      "text": "Ukulandela izigwegwe zenkohlakalo kufanele kube ngokushesha nangokungaguquguquki ngisho noma kuhlanyisa uhlelo lukahulumeni okwamanje.",
       "category": "ubugebengu & izikhungo"
     },
     "q19": {
-      "text": "Inkululeko yomphakathi njengenkululeko yokukhuluma nokubhikisha ngokuthula kufanele ibekwe phambili noma ngabe yenza umsebenzi wamaphoyisa ube nzima.",
+      "text": "Amalungelo abantu afana nenkululeko yokukhuluma nokubhikisha ngokuthula kufanele abekwe phambili, nakuba lokhu kungakwenza kube nzima ukuphatha ubugebengu.",
       "category": "amalungelo & inkululeko"
     },
     "q20": {
-      "text": "Uhulumeni kufanele aqinise ukuvikelwa komthetho kwabantu be-LGBTQ+ futhi athuthukise amalungelo alinganayo asakhamuzi.",
+      "text": "Uhulumeni kufanele aqinise ukuvikelwa komthetho kwabantu be-LGBTQ+ futhi aqinisekise ukufakwa kwabo ngokulinganayo.",
       "category": "amalungelo & inkululeko"
     },
     "q21": {
-      "text": "Inkululeko yabezindaba nokuvikelwa kwezintatheli kufanele kuqiniswe, noma ngabe ukubika okugxekayo kubhekiswe kuhulumeni.",
+      "text": "Inkululeko yezindaba kanye nokuvikelwa kwezintatheli kufanele kuqinisekiswe, noma ngabe umbiko ogxekayo ubhekiswe kuhulumeni.",
       "category": "amalungelo & inkululeko"
     },
     "q22": {
-      "text": "INingizimu Afrika kufanele ibeke imigomo kazwelonke ebophayo ngokusemthethweni yokunciphisa ukukhishwa kwesisi esingcolisa umoya futhi iqede ukusetshenziswa kwamalahle ngokuhamba kwesikhathi.",
+      "text": "INingizimu Afrika kufanele ibeke imigomo ebophezela yokwehlisa ukukhishwa kwegesi elahlekisayo futhi igcine phambili ukuncishiswa kokusetshenziswa kwamalahle.",
       "category": "imvelo & amandla"
     },
     "q23": {
-      "text": "Izwe kufanele libeke phambili ukutshalwa kwezimali emandleni avuselelekayo (ilanga, umoya) kunokwandisa amandla amalahle.",
+      "text": "Izwe kufanele libeke phambili ukutshalwa kwezimali emandleni avuselelekayo nangokonga amandla ukuze linciphise ukuthembela kumalahle.",
       "category": "imvelo & amandla"
     },
     "q24": {
-      "text": "Imithetho yokuvikela imvelo kufanele ibekwe phambili kunokuthuthukiswa okusha kwezimbiwa namalahle.",
+      "text": "Imithetho yokuvikela imvelo kufanele ibekwe phambili kunokunikeza indawo yokuthuthukisa izimboni zezimbiwa namalahle.",
       "category": "imvelo & amandla"
     },
     "q25": {
-      "text": "INingizimu Afrika kufanele ibeke phambili ukukhula okuholwa ukuthunyelwa kwempahla kwamanye amazwe ngokwakha ubudlelwano obuqinile bezohwebo nezimakethe zamazwe ngamazwe.",
+      "text": "INingizimu Afrika kufanele igxile ekukhuliseni ukuthunyelwa kwempahla njengendlela yokukhula ngokwakha ubudlelwano bokuhweba bamazwe ngamazwe.",
       "category": "inqubomgomo yangaphandle & uhwebo"
     },
     "q26": {
-      "text": "INingizimu Afrika kufanele ibeke phambili ukwakha ubudlelwano obuqinile namanye amazwe ase-Global South kunokuzihlanganisa ngokukhethekile namazwe aseNtshonalanga.",
+      "text": "INingizimu Afrika kufanele igxile ekuqineni ubudlelwano namazwe ase-Global South kunokuxhumana kuphela namandla aseNtshonalanga.",
       "category": "inqubomgomo yangaphandle & uhwebo"
     },
     "q27": {
-      "text": "INingizimu Afrika kufanele ibeke phambili izivumelwano zohwebo ezivikela izimboni zasekhaya, ngisho noma kusho amanani aphezulu kubathengi.",
+      "text": "Imigomo yokuhweba kufanele ivikele imboni yasekhaya ngezintela nokuvunywa kwezinto zendalo ukuze kukhuthazwe ukukhiqiza kwangaphakathi.",
       "category": "inqubomgomo yangaphandle & uhwebo"
     },
     "q28": {
-      "text": "Utshalomali lomphakathi kufanele lubeke phambili ezokuthutha zomphakathi ezinkulu (izitimela namabhasi asheshayo) kunemigwaqo emikhulu emisha.",
+      "text": "Utshalomali lukahulumeni kufanele lugxile kwezokuhamba zomphakathi (izitimela namabhasi asheshayo) kunokwakhiwa kwemigwaqo emikhulu emisha.",
       "category": "ingqalasizinda & amadolobha"
     },
     "q29": {
-      "text": "Uhulumeni kufanele atshale kakhulu ezindlini zomphakathi zemindeni engenayo imali eningi.",
+      "text": "Ukuthuthukiswa kwezindlu ezishibhile kanye nezinhlelo zikahulumeni zifanele ukunikezwa inqubomgomo ephambili.",
       "category": "ingqalasizinda & amadolobha"
     },
     "q30": {
-      "text": "Ukuhlelwa kwamadolobha kufanele kubeke phambili izindawo zomphakathi eziluhlaza, ukuhamba ngezinyawo, kanye nokuthuthukiswa okuxubile kunokwanda kwamadolobha okugxile ezimotweni.",
+      "text": "Ukuhlelwa kwamadolobha kufanele kugxile ezindaweni ezilula ukuhamba ngezinyawo, izindawo eziluhlaza nokuxubana komsebenzi nezindawo zokuhlala kunokwanda kokugxila ezimotweni.",
       "category": "ingqalasizinda & amadolobha"
     },
     "q31": {
-      "text": "INingizimu Afrika kufanele yamukele imithetho eqinile yobumfihlo yedijithali enciphisa ukugadwa yizinkampani kanye nombuso.",
+      "text": "INingizimu Afrika kufanele yamukele imithetho eqinile yobumfihlo bedijithali evimbela ukugadwa yizinkampani nohulumeni.",
       "category": "idijithali & ubuchwepheshe"
     },
     "q32": {
-      "text": "Uhulumeni kufanele alawule ubuhlakani bokwenziwa (AI) ukuze kuvikelwe imisebenzi futhi kuvinjelwe izinqumo ezizenzakalelayo ezinobandlululo.",
+      "text": "Uhulumeni kufanele alawule i-AI ukuze kuqinisekiswe ukuvikelwa kwemisebenzi nokuvikelwa ezinqumweni ezizenzakalayo ezinobandlululo.",
       "category": "idijithali & ubuchwepheshe"
     },
     "q33": {
-      "text": "Uxhaso lwesayensi nocwaningo kufanele lukhuliswe kakhulu ukuze kuqhutshekiswe ukusungula izinto ezintsha nokukhula kwesikhathi eside.",
+      "text": "Uxhaso lwesayensi nocwaningo kufanele lwenyuswe ukuze kusheshiswe ukusungula izinto ezintsha nokukhula kwesikhathi eside.",
       "category": "idijithali & ubuchwepheshe"
     },
     "q34": {
-      "text": "Ukuphepha kokudla kufanele kuzuzwe ngesu likazwelonke elisekela ukukhiqizwa kwendawo, ezolimo zemvelo, kanye nezingadi zomphakathi.",
+      "text": "Ukuphepha kokudla kufanele kufezwe ngesicwangciso sikazwelonke esisekela ukukhiqiza kwendawo, indlela yezolimo enobungane bemvelo kanye nezindonga zomphakathi.",
       "category": "ukudla & ezolimo"
     },
     "q35": {
-      "text": "Imithetho yenhlalakahle yezilwane kufanele iqiniswe, kuhlanganise nokuvimbela izindlela zokufuya ezimbonini ezinkulu.",
+      "text": "Imithetho yokuphathwa kwezilwane kufanele iqinisiwe kuhlanganise nokuvinjelwa kwezindlela zokufuya ezinzima ezimbonini.",
       "category": "ukudla & ezolimo"
     },
     "q36": {
-      "text": "Ukungaqashwa kwentsha kudinga insizakalo yentsha kazwelonke ezinikele kanye nezinhlelo zokufundisa umsebenzi eziqinisekisiwe.",
+      "text": "Ukungabi namsebenzi kwentsha kudinga insiza kazwelonke yokusekela nokuqinisekisa izifundo zobuchwepheshe nokuqeqeshwa.",
       "category": "intsha & imfundo"
     },
     "q37": {
-      "text": "Izinyathelo ezikhethekile ziyadingeka ukuthuthukisa ukufinyelela nezinsizakalo zabantu abakhubazekile kuyo yonke iminyango kahulumeni.",
+      "text": "Kudingeka izinyathelo ezikhethekile zokuthuthukisa ukufinyelela nezinsizakalo kubantu abakhubazekile kuwo wonke amagatsha kahulumeni.",
       "category": "ukufakwa komphakathi"
     },
     "q38": {
-      "text": "Uhulumeni kufanele ungenise izibonelelo eziqondiswe ngqo kanye nokukhuthazwa ukusheshisa ezomnotho zasemadolobheni nasemakhaya.",
+      "text": "Uhulumeni kufanele anikeze izikhuthazo ezihlosiwe nezisombululo ezisheshayo zokusheshisa umnotho ezindaweni zasemakhaya nasemadolobheni.",
       "category": "ukufakwa kwezomnotho"
     },
     "q39": {
-      "text": "Inqubomgomo yamasiko kufanele isekele ukuhlukahluka kwezilimi nobuciko baseNingizimu Afrika ngokuxhaswa ngezimali zikahulumeni ezizinzile.",
+      "text": "Inqubomgomo yamasiko kufanele ixhase ukuhlukahluka kwezilimi nobuciko baseNingizimu Afrika ngezimali ezizinzile zikahulumeni.",
       "category": "amasiko nobuzwe"
     },
     "q40": {
-      "text": "Abavoti kufanele balinganise irekhodi leqembu lokunikezwa kwezinsizakalo nenkohlakalo ngokujulile kunezaga zalo zembono yezombusazwe.",
+      "text": "Abavoti kufanele banake irekhodi lokulethwa kwezinsizakalo nokuqondisa inkohlakalo kwamaqembu kunokugcina izisho zawo zembono.",
       "category": "ukuvota & ukuziphatha"
     }
   },

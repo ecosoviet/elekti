@@ -1,4 +1,4 @@
-import scoringData from "../data/scoring.json";
+import scoringData from "../data/scoring";
 
 export interface Party {
   id: string;

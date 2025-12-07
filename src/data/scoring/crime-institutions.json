@@ -1,0 +1,311 @@
+[
+  {
+    "id": 16,
+    "text": "Police should be given stronger powers and resources to tackle violent crime, even if it expands state authority.",
+    "category": "crime & institutions",
+    "weight": 1.8,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": 0.4,
+          "da": 0.6,
+          "eff": -0.4,
+          "ifp": 0.5,
+          "mk": 0.5,
+          "pa": 0.8,
+          "vfplus": 0.9,
+          "actionsa": 0.8,
+          "acdp": 0.7,
+          "ufc": 0.3,
+          "sacp": -0.5,
+          "udm": 0.4,
+          "aljamah": 0.2,
+          "cope": 0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0.3,
+          "da": 0.4,
+          "eff": -0.2,
+          "ifp": 0.4,
+          "mk": 0.4,
+          "pa": 0.6,
+          "vfplus": 0.7,
+          "actionsa": 0.6,
+          "acdp": 0.5,
+          "ufc": 0.2,
+          "sacp": -0.3,
+          "udm": 0.3,
+          "aljamah": 0.1,
+          "cope": 0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": -0.1,
+          "da": -0.2,
+          "eff": 0.4,
+          "ifp": -0.1,
+          "mk": -0.1,
+          "pa": -0.3,
+          "vfplus": -0.4,
+          "actionsa": -0.2,
+          "acdp": -0.3,
+          "ufc": -0.1,
+          "sacp": 0.4,
+          "udm": -0.1,
+          "aljamah": -0.2,
+          "cope": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": -0.3,
+          "da": -0.5,
+          "eff": 0.8,
+          "ifp": -0.2,
+          "mk": -0.2,
+          "pa": -0.6,
+          "vfplus": -0.7,
+          "actionsa": -0.5,
+          "acdp": -0.6,
+          "ufc": -0.3,
+          "sacp": 0.8,
+          "udm": -0.3,
+          "aljamah": -0.4,
+          "cope": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Independent oversight institutions (judiciary, prosecution) should be protected even if it slows prosecutions of powerful officials.",
+    "category": "crime & institutions",
+    "weight": 1.7,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": 0.5,
+          "da": 0.8,
+          "eff": 0.7,
+          "ifp": 0.2,
+          "mk": 0.6,
+          "pa": 0.3,
+          "vfplus": 0.2,
+          "actionsa": 0.6,
+          "acdp": 0.5,
+          "ufc": 0.5,
+          "sacp": 0.8,
+          "udm": 0.7,
+          "aljamah": 0.6,
+          "cope": 0.6
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0.3,
+          "da": 0.6,
+          "eff": 0.5,
+          "ifp": 0.1,
+          "mk": 0.5,
+          "pa": 0.2,
+          "vfplus": 0.1,
+          "actionsa": 0.5,
+          "acdp": 0.4,
+          "ufc": 0.4,
+          "sacp": 0.6,
+          "udm": 0.6,
+          "aljamah": 0.5,
+          "cope": 0.5
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": -0.2,
+          "da": -0.3,
+          "eff": -0.5,
+          "ifp": -0.1,
+          "mk": -0.2,
+          "pa": -0.2,
+          "vfplus": 0.2,
+          "actionsa": -0.2,
+          "acdp": -0.2,
+          "ufc": -0.2,
+          "sacp": -0.6,
+          "udm": -0.1,
+          "aljamah": -0.2,
+          "cope": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": -0.4,
+          "da": -0.6,
+          "eff": -0.8,
+          "ifp": -0.2,
+          "mk": -0.3,
+          "pa": -0.4,
+          "vfplus": 0.5,
+          "actionsa": -0.4,
+          "acdp": -0.4,
+          "ufc": -0.4,
+          "sacp": -0.9,
+          "udm": -0.3,
+          "aljamah": -0.4,
+          "cope": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Corruption prosecutions should be fast and aggressive even if they cause short-term instability in government.",
+    "category": "crime & institutions",
+    "weight": 1.9,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": 0.4,
+          "da": 0.7,
+          "eff": 0.9,
+          "ifp": 0.2,
+          "mk": 0.7,
+          "pa": 0.4,
+          "vfplus": 0.3,
+          "actionsa": 0.8,
+          "acdp": 0.6,
+          "ufc": 0.6,
+          "sacp": 0.8,
+          "udm": 0.7,
+          "aljamah": 0.8,
+          "cope": 0.6
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0.25,
+          "da": 0.5,
+          "eff": 0.7,
+          "ifp": 0.15,
+          "mk": 0.6,
+          "pa": 0.3,
+          "vfplus": 0.2,
+          "actionsa": 0.6,
+          "acdp": 0.5,
+          "ufc": 0.5,
+          "sacp": 0.6,
+          "udm": 0.6,
+          "aljamah": 0.6,
+          "cope": 0.5
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0,
+          "udm": 0,
+          "aljamah": 0,
+          "cope": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": -0.2,
+          "da": -0.3,
+          "eff": -0.5,
+          "ifp": -0.1,
+          "mk": -0.2,
+          "pa": -0.2,
+          "vfplus": 0.1,
+          "actionsa": -0.2,
+          "acdp": -0.2,
+          "ufc": -0.2,
+          "sacp": -0.5,
+          "udm": -0.1,
+          "aljamah": -0.2,
+          "cope": -0.1
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": -0.4,
+          "da": -0.6,
+          "eff": -0.8,
+          "ifp": -0.2,
+          "mk": -0.3,
+          "pa": -0.4,
+          "vfplus": 0.4,
+          "actionsa": -0.4,
+          "acdp": -0.4,
+          "ufc": -0.4,
+          "sacp": -0.7,
+          "udm": -0.3,
+          "aljamah": -0.4,
+          "cope": -0.3
+        }
+      }
+    ]
+  }
+]

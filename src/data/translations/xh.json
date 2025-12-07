@@ -1,0 +1,312 @@
+{
+  "app": {
+    "title": "Elekti",
+    "tagline": "Fumana iqela lezopolitiko elikufanela"
+  },
+  "nav": {
+    "home": "Ekhaya",
+    "quiz": "Uvavanyo",
+    "results": "Iziphumo",
+    "about": "Ngathi"
+  },
+  "landing": {
+    "title": "Fumana Iqela Elisondeleyo Kuwe",
+    "subtitle": "Phendula imibuzo ngezinto ozinikela ingqalelo kwezopolitiko uze ufumane ukuba liphi iqela laseMzantsi Afrika elihambelana neengcinga zakho.",
+    "startButton": "Qala Uvavanyo",
+    "aboutLink": "Funda indlela esisebenza ngayo",
+    "privacy": "Iimpendulo zakho zigcinwa kwisixhobo sakho kuphela kwaye azithunyelwa ndawo.",
+    "howItHelps": {
+      "title": "Indlela Eli sixhobo Likunceda Ngayo",
+      "intro": "Kucace kuwe ukuba ume phi ukuze uvote ngokuqonda. Sikubonisa ukuba ngawaphi amaqela ajongeka afana nesikhundla sakho ngokwenyani.",
+      "benefit1": {
+        "title": "Susa ingxolo yezithembiso",
+        "text": "Ungaphazamiseki ziinkqubo zokunyusa amagama. Jonga ngokuthe ngqo ukuba zeziphi iinkqubo zamaqela ezihambelana neembono zakho."
+      },
+      "benefit2": {
+        "title": "Fumana amaqela ongakhange uwacinge",
+        "text": "Ungazifumana unxulumene namaqela ongazange uwajonge kuba uthe waqwalasela imigaqo-nkqubo hayi udumo lwawo."
+      },
+      "benefit3": {
+        "title": "Bona Zonke Iziphumo Zakho",
+        "text": "Sikunika uluhlu olucwangcisiweyo lwawo onke amaqela ukuze ubone ezona zikufanela kunye nezinye iindlela."
+      },
+      "benefit4": {
+        "title": "Vota Ngokuqiniseka",
+        "text": "Yenza isigqibo esisekelwe kwidatha. Sibonisa indlela ixabiso lakho elihambelana ngayo nezikhundla zamaqela."
+      }
+    }
+  },
+  "quiz": {
+    "question": "Umbuzo {number} ku {total}",
+    "skip": "Tsiba",
+    "back": "Emva",
+    "next": "Okulandelayo",
+    "finish": "Gqiba",
+    "progress": "{count} ku {total} iphendulwe"
+  },
+  "results": {
+    "title": "Iziphumo Zakho",
+    "primaryMatch": "Iqela Elisondeleyo Kuwe",
+    "alternativeMatch": "Ezinye Iikhetho Ezisondeleyo",
+    "confidence": {
+      "high": "Ukufana okuqinileyo",
+      "medium": "Ukufana okumodareyithayo",
+      "low": "Ukufana okubuthathaka"
+    },
+    "scoreBreakdown": "Uhlalutyo Lweenqaku",
+    "allParties": "Amanqaku Awo Onke Amaqela",
+    "copyResults": "Kopa Iziphumo",
+    "resultsCopied": "Iziphumo zikopishwe!",
+    "retakeQuiz": "Phinda Uvavanyo",
+    "learnMore": "Funda ngakumbi ngo {party}"
+  },
+  "about": {
+    "title": "Ngathi: Elekti",
+    "methodology": "Indlela Esiyisebenzisa",
+    "methodologyText": "I-Elekti isebenzisa indlela ebanzi necacileyo yokuthelekisa iindlela zakho nezopolitiko namaqela aseMzantsi Afrika. Sisixhobo esingenacalucalulo nesisebenza ngokungafihlisiyo.",
+    "howItWorks": "Indlela Esisebenza Ngayo",
+    "howItWorksText": "Uphendula imibuzo engama-40 ejolise kwimpilo, uqoqosho, ulawulo, imfundo kunye nemicimbi yoluntu. Imibuzo yenziwe ukuze iveze izimvo zakho ngaphandle kokukhokela kwicala elithile.",
+    "scoring": "Indlela Yokubala Amanqaku",
+    "scoringText": "Iimpendulo zakho zithelekiswa neembono zamaqela ezisematheni. Amaqela afumana amanqaku axhomekeke ekubeni ahambelana kangakanani nezimvo zakho. Amanqaku alinganiswa kwinqanaba lika 0–100 ukukunika umfanekiso ocacileyo wokuba liphi iqela elikufanela.",
+    "transparency": "Ukuzibophelela Ekucaciseni",
+    "transparencyText": "Wonke umthombo esiwusebenzisayo uvela kwii-manifesto zamaqela, amaxwebhu asemthethweni kunye neengxelo ezithembekileyo. Asizukuxhasa naliphi iqela. Injongo yethu kukukunceda ube nolwazi oluqinileyo.",
+    "dataSources": "Imithombo Yophando",
+    "dataSourcesText": "Sisebenzisa amaxwebhu asemthethweni, iirekhodi zePalamente kunye nezibhengezo ezithembekileyo. Siyahlaziya rhoqo xa kutshintsha imigaqo-nkqubo.",
+    "privacy": "Imfihlo Yakho",
+    "privacyText": "Siyibona imfihlo yakho njengento ebaluleke kakhulu. Iimpendulo zakho zihlala kwisixhobo sakho kuphela.",
+    "noTracking": "Asikulandeleli",
+    "noTrackingText": "Asisebenzisi ii-cookies okanye naluphi na uhlobo lokulandela. Asikwazi ukubona iimpendulo zakho.",
+    "localOnly": "Gcina Kwisixhobo Sakho Kuphela",
+    "localOnlyText": "Yonke into yenzeka kwibhrawuza yakho. Xa ucima idatha yebhrawuza yakho, iziphumo ziyanyamalala kuba asizigcinanga.",
+    "sharing": "Indlela Yokwabelana",
+    "sharingText": "Xa wabelana, idatha yakho ifakwa kwi-URL kuphela. Asiyifumani, kwaye wena unolawulo ngokupheleleyo.",
+    "analytics": "Uhlalutyo Olukhusela Imfihlo",
+    "analyticsText": "Sisebenzisa uhlalutyo lweCloudflare olungasebenzisi ii-cookies kwaye olungakukhangeli. Lusinika inani lokusetyenziswa kuphela, hayi idatha yakho yobuqu.",
+    "parties": "Amaqela Asesixhobeni",
+    "partiesText": "Sibandakanya amaqela angama-14 ahlukeneyo ukuze kumelwe yonke imigca yezopolitiko eMzantsi Afrika.",
+    "disclaimer": "Isibhengezo Esibalulekileyo",
+    "disclaimerText": "I-Elekti sisixhobo semfundo. Kufuneka usafunda ii-manifesto zamaqela kwaye uqhube uphando lwakho. Amaqela ayatshintsha, ngoko iziphumo zethu mazithathwe njengesikhokelo, hayi isigqibo sokugqibela.",
+    "viewData": "Jonga Idatha Engekacutshulwa",
+    "viewDataText": "Ungajonga iifayile zedatha ukuze ubone indlela amanqaku abaliwe ngayo.",
+    "scoringData": "Idatha Yamanqaku (imibuzo kunye nobunzima)",
+    "partiesData": "Ulwazi Ngamaqela"
+  },
+  "party": {
+    "anc": {
+      "desc": "I-African National Congress ligqiza likarhulumente elijolise kutshintsho lwezentlalo kunye nokulwa ukungalingani ngokusebenzisa urhulumente."
+    },
+    "da": {
+      "desc": "I-Democratic Alliance ikhokela imigaqo yenkululeko, uqoqosho oluxhasayo iyimarike kunye nolawulo olungacimiyo."
+    },
+    "mk": {
+      "desc": "Iqela uMkhonto weSizwe lijolise kutshintsho olunzulu noqoqosho oluqhutywa ngurhulumente."
+    },
+    "eff": {
+      "desc": "I-Economic Freedom Fighters ligqiza lasekhohlo elijolise kuqoqosho oluphantsi kokonakala, ukwenziwa kwesizwe kunye nokubuyiswa komhlaba ngaphandle kwentlawulo."
+    },
+    "ifp": {
+      "desc": "I-Inkatha Freedom Party igxininisa amaxabiso esiZulu, ulawulo olwahlukeneyo kunye noqoqosho lwemarike olunesazela."
+    },
+    "pa": {
+      "desc": "I-Patriotic Alliance ijolise kwimicimbi yokufudukela nokukhusela iimfuno zabemi baseMzantsi Afrika."
+    },
+    "vfplus": {
+      "desc": "I-Freedom Front Plus imela iminqweno yama-Afrikaans, ixhasa ulawulo olwahlukeneyo kunye namalungelo oluntu."
+    },
+    "actionsa": {
+      "desc": "I-ActionSA lijolise kulawulo olusebenzayo, ukulwa ukurhwaphilizo kunye nophuhliso noqoqosho."
+    },
+    "acdp": {
+      "desc": "I-African Christian Democratic Party ixhasa amaxabiso obuKristu kunye neenkqubo zoluntu ezilondolozayo."
+    },
+    "ufc": {
+      "desc": "I-Unite for Change ijolise kuluntu, iphakamisa imigaqo-nkqubo ehlangabezana neemfuno zabahlali."
+    },
+    "sacp": {
+      "desc": "I-South African Communist Party ixhasa ubusoshiyali kunye namalungelo abasebenzi."
+    },
+    "udm": {
+      "desc": "I-United Democratic Movement ixhasa intlalontle, ukuzola kunye neenkqubo ezisebenzayo zokulwa intlupheko."
+    },
+    "aljamah": {
+      "desc": "I-Al Jama-ah ixhasa amaxabiso obuSilamsi, ubulungisa kunye nokukhusela abo baxhaphazekileyo."
+    },
+    "cope": {
+      "desc": "I-Congress of the People ijolise kulawulo oluthembekileyo, uqoqosho olulinganisayo noluxhasa abathathi-nxaxheba abaninzi."
+    }
+  },
+  "options": {
+    "stronglyAgree": "Ndiyavuma kakhulu",
+    "agree": "Ndiyavuma",
+    "neutral": "Phakathi",
+    "disagree": "Andivumi",
+    "stronglyDisagree": "Andivumi kwaphela"
+  },
+  "questions": {
+    "q1": {
+      "text": "Urhulumente kufuneka anyuse irhafu kubo bakwizinga eliphezulu ukuze axhase iinkqubo zentlalo.",
+      "category": "economy & fiscal"
+    },
+    "q2": {
+      "text": "Ukunciphisa ityala likarhulumente kufuneka kuqwalaselwe nangona kunciphisa inkxaso yesocial.",
+      "category": "economy & fiscal"
+    },
+    "q3": {
+      "text": "Urhulumente kufanele axhase amashishini amancinci naphakathi ukuze akhule.",
+      "category": "economy & fiscal"
+    },
+    "q4": {
+      "text": "Kufuneka kuqaliswe umvuzo-sisiseko wesizwe.",
+      "category": "economy & fiscal"
+    },
+    "q5": {
+      "text": "Imisebenzi yoluntu enabasebenzi abaninzi yindlela efanelekileyo yokunciphisa ukungasebenzi.",
+      "category": "economy & fiscal"
+    },
+    "q6": {
+      "text": "Impilo kufuneka ihlawulelwe ngurhulumente ukuze wonke umntu afumane inkonzo.",
+      "category": "social welfare & services"
+    },
+    "q7": {
+      "text": "Imfundo ephakamileyo kufuneka ibe simahla kubo bonke abafundi.",
+      "category": "social welfare & services"
+    },
+    "q8": {
+      "text": "Urhulumente kufuneka axhase iintsapho ngenkxaso-mali yokunyamekela abantwana.",
+      "category": "social welfare & services"
+    },
+    "q9": {
+      "text": "Urhulumente wasekuhlaleni kufuneka ulawulwe ngobuchule kwaye uhlolwe rhoqo.",
+      "category": "social welfare & services"
+    },
+    "q10": {
+      "text": "Iinkonzo ezifana nombane namanzi kufuneka zihlale zikwirhulumente.",
+      "category": "ownership & land"
+    },
+    "q11": {
+      "text": "Umthetho kufuneka uvumele ukubuyiswa komhlaba ngaphandle kwentlawulo epheleleyo.",
+      "category": "ownership & land"
+    },
+    "q12": {
+      "text": "Amasimi amancinci noluntu kufuneka axhaswe ngakumbi.",
+      "category": "ownership & land"
+    },
+    "q13": {
+      "text": "Abasebenzi kufuneka banikwe amandla ngakumbi okuseka iinyunyana nokugwayimba.",
+      "category": "labour & workplace"
+    },
+    "q14": {
+      "text": "Umvuzo omncinci kufuneka unyuswe ukuze kuncitshiswe intlupheko yomsebenzi.",
+      "category": "labour & workplace"
+    },
+    "q15": {
+      "text": "Ukululaokuqesha nokugxotha kunokukhuthaza utyalo-mali.",
+      "category": "labour & workplace"
+    },
+    "q16": {
+      "text": "Amapolisa kufuneka afumane amandla ngakumbi okulwa ulwaphulo-mthetho.",
+      "category": "crime & institutions"
+    },
+    "q17": {
+      "text": "Iijaji kunye neenkundla kufuneka zikhuselwe kuhlaselo kwezopolitiko.",
+      "category": "crime & institutions"
+    },
+    "q18": {
+      "text": "Ukurhwaphilizo kufuneka kugwetywe ngokukhawuleza nangokungagungqiyo.",
+      "category": "crime & institutions"
+    },
+    "q19": {
+      "text": "Amalungelo oluntu kufuneka akhuseleke ngalo lonke ixesha.",
+      "category": "rights & freedoms"
+    },
+    "q20": {
+      "text": "Urhulumente kufuneka akhuthaze ukhuseleko lwe-LGBTQ+.",
+      "category": "rights & freedoms"
+    },
+    "q21": {
+      "text": "Inkxaso kumajelo eendaba azimeleyo kufuneka yomelezwe.",
+      "category": "rights & freedoms"
+    },
+    "q22": {
+      "text": "UMzantsi Afrika kufuneka unciphise ukukhutshwa kweegesi ezitshabalalisayo.",
+      "category": "environment & energy"
+    },
+    "q23": {
+      "text": "Kufuneka kutyalo-mali kumandla ahlaziyekayo.",
+      "category": "environment & energy"
+    },
+    "q24": {
+      "text": "Umthetho wokukhusela indalo kufuneka uzingwe ngaphezu kweminye imisebenzi yezimbiwa.",
+      "category": "environment & energy"
+    },
+    "q25": {
+      "text": "UMzantsi Afrika kufuneka unyuse urhwebo lwamazwe ngamazwe.",
+      "category": "foreign policy & trade"
+    },
+    "q26": {
+      "text": "Kufuneka kuqinisekiswe ubudlelwane obomeleleyo namazwe eGlobal South.",
+      "category": "foreign policy & trade"
+    },
+    "q27": {
+      "text": "Kufuneka kukhuselwe amashishini asekhaya.",
+      "category": "foreign policy & trade"
+    },
+    "q28": {
+      "text": "Izithuthi zikawonkewonke kufuneka zikhutshwe phambili kunendlela ezingaphezulu.",
+      "category": "infrastructure & urban"
+    },
+    "q29": {
+      "text": "Izindlu zikawonkewonke kufuneka zixhaswe ngakumbi.",
+      "category": "infrastructure & urban"
+    },
+    "q30": {
+      "text": "Izixeko kufuneka zibe noluntu oluhambayo, iindawo eziluhlaza kunye nokuxubana kweendawo.",
+      "category": "infrastructure & urban"
+    },
+    "q31": {
+      "text": "Imithetho yabucala edijithali kufuneka iqiniswe.",
+      "category": "digital & tech"
+    },
+    "q32": {
+      "text": "Urhulumente kufuneka alawule i-AI ukuze akhusele imisebenzi.",
+      "category": "digital & tech"
+    },
+    "q33": {
+      "text": "Imali yophando kufuneka inyuswe ukuze kuqhutyekwe uphuhliso.",
+      "category": "digital & tech"
+    },
+    "q34": {
+      "text": "Ukutya kufuneka kukhuselwe ngemigaqo-nkqubo exhasa ukuvelisa kwasekhaya.",
+      "category": "food & agriculture"
+    },
+    "q35": {
+      "text": "Amaqela okufuywa kwezilwanyana kufuneka alawulwe ngakumbi.",
+      "category": "food & agriculture"
+    },
+    "q36": {
+      "text": "Ukwenzeka kwemisebenzi yabantu abancinci kufuna iinkqubo ezikhethekileyo zesizwe.",
+      "category": "youth & education"
+    },
+    "q37": {
+      "text": "Abantu abaphila nokukhubazeka kufuneka baxhaswe ngendlela engcono kuzo zonke iinkonzo.",
+      "category": "social inclusion"
+    },
+    "q38": {
+      "text": "Kufuneka kubekho inkxaso kwiimarike zasezilalini nasezidolophini.",
+      "category": "economic inclusion"
+    },
+    "q39": {
+      "text": "Ulwimi kunye nobugcisa baseMzantsi Afrika kufuneka baxhaswe ngemali karhulumente.",
+      "category": "culture & identity"
+    },
+    "q40": {
+      "text": "Abavoti kufuneka bajonge indlela amaqela aqhube ngayo kunokuba bajonge izithethanthemba.",
+      "category": "voting & behaviour"
+    }
+  },
+  "footer": {
+    "about": "Ngathi",
+    "privacy": "Imfihlo",
+    "contact": "Qhagamshelana"
+  }
+}

@@ -1,138 +1,138 @@
 {
   "app": {
     "title": "Elekti",
-    "tagline": "Vind jou politieke passing"
+    "tagline": "Vind jou politieke ooreenkoms"
   },
   "nav": {
     "home": "Tuis",
-    "quiz": "Vasvra",
+    "quiz": "Toets",
     "results": "Resultate",
     "about": "Oor"
   },
   "landing": {
-    "title": "Vind Jou Politieke Passing",
-    "subtitle": "Beantwoord vrae oor jou politieke sienings en ontdek watter Suid-Afrikaanse party ooreenstem met jou waardes.",
-    "startButton": "Begin Vasvra",
-    "aboutLink": "Leer oor ons metodologie",
-    "privacy": "Jou antwoorde word plaaslik gestoor en word nooit gedeel nie.",
+    "title": "Vind Jou Politieke Ooreenkoms",
+    "subtitle": "Beantwoord vrae oor jou politieke sienings en ontdek watter Suid-Afrikaanse party met jou waardes ooreenstem.",
+    "startButton": "Begin Toets",
+    "aboutLink": "Lees oor ons metodologie",
+    "privacy": "Jou antwoorde word plaaslik gestoor en nooit gedeel nie.",
     "howItHelps": {
-      "title": "Hoe Hierdie Instrument Help",
-      "intro": "Laat jou stem tel deur te verstaan waar jy werklik staan. Vergelyk jou sienings met elke party se werklike posisies.",
+      "title": "Hoe hierdie instrument help",
+      "intro": "Weet presies waar jy staan sodat jou stem tel. Vergelyk jou sienings met die werklike standpunte van partye.",
       "benefit1": {
-        "title": "Sny Deur die Geraas",
-        "text": "Slaan veldtogbeloftes oor en sien watter partye ooreenstem met jou oortuigings oor werklike beleidskwessies."
+        "title": "Sny deur die geraas",
+        "text": "Slaan veldtog-beloftes oor en kyk watter partye werklik met jou beleidsopvattings ooreenstem."
       },
       "benefit2": {
-        "title": "Ontdek Onverwagte Passings",
-        "text": "Vind partye wat jy dalk oorgesien het, gebaseer op werklike beleidsooreenkomste, nie net populariteit nie."
+        "title": "Ontdek onverwagte ooreenkomste",
+        "text": "Vind partye wat jy dalk oorgesien het op grond van beleidsooreenkoms, nie net populariteit nie."
       },
       "benefit3": {
-        "title": "Sien Al Jou Passings",
-        "text": "Kry 'n gerangskte lys van elke party met passingstellings, sodat jy jou topkeuses en alternatiewe kan sien."
+        "title": "Sien al jou ooreenkomste",
+        "text": "Kry 'n gerangskikte lys van partye met ooreenstemmingspunte, sodat jy topkeuses en alternatiewe sien."
       },
       "benefit4": {
-        "title": "Stem met Vertroue",
-        "text": "Maak 'n ingeligte besluit ondersteun deur data, nie raaiskote nie. Jou waardes word gepas met partyposisies."
+        "title": "Stem met vertroue",
+        "text": "Neem 'n ingeligte besluit gebaseer op data, nie raaiskote nie. Jou waardes word teen partyposisies gemeet."
       }
     }
   },
   "quiz": {
-    "question": "Vraag {number} van {total}",
+    "question": "Vraag {{number}} van {{total}}",
     "skip": "Slaan oor",
     "back": "Terug",
     "next": "Volgende",
     "finish": "Voltooi",
-    "progress": "{count} van {total} beantwoord"
+    "progress": "{{count}} van {{total}} beantwoord"
   },
   "results": {
-    "title": "Jou Resultate",
-    "primaryMatch": "Jou Primêre Passing",
-    "alternativeMatch": "Alternatiewe Passings",
+    "title": "Jou resultate",
+    "primaryMatch": "Hoof-ooreenkoms",
+    "alternativeMatch": "Alternatiewe ooreenkomste",
     "confidence": {
-      "high": "Sterk passing",
-      "medium": "Matige passing",
-      "low": "Swak passing"
+      "high": "Sterk ooreenkoms",
+      "medium": "Matige ooreenkoms",
+      "low": "Swak ooreenkoms"
     },
-    "scoreBreakdown": "Telling Uiteensetting",
-    "allParties": "Alle Party Tellings",
-    "copyResults": "Kopieer Resultate",
-    "resultsCopied": "Resultate gekopieer!",
-    "retakeQuiz": "Herdoen Vasvra",
-    "learnMore": "Leer meer oor {party}"
+    "scoreBreakdown": "Punt-uiteensetting",
+    "allParties": "Alle partypunte",
+    "copyResults": "Kopieer resultate",
+    "resultsCopied": "Resultate gekopieer na knipbord!",
+    "retakeQuiz": "Doen toets weer",
+    "learnMore": "Lees meer oor {{party}}"
   },
   "about": {
     "title": "Oor Elekti",
     "methodology": "Metodologie",
-    "methodologyText": "Elekti gebruik 'n omvattende, bewyse-gebaseerde benadering om jou politieke sienings met Suid-Afrikaanse politieke partye te pas. Ons stelsel is ontwerp om regverdig, deursigtig en nie-partydig te wees.",
-    "howItWorks": "Hoe Dit Werk",
-    "howItWorksText": "Jy beantwoord 40 noukeurig saamgestelde vrae wat groot beleidsareas dek, insluitend gesondheidsorg, onderwys, ekonomie, bestuur en sosiale kwessies. Elke vraag is ontwerp om jou politieke voorkeure te openbaar sonder vooroordeel teenoor enige party.",
+    "methodologyText": "Elekti gebruik 'n omvattende, bewysegebaseerde metode om jou politieke sienings teen Suid-Afrikaanse partye te meet. Die stelsel is ontwerp om regverdig, deursigtig en nie-partydig te wees.",
+    "howItWorks": "Hoe dit werk",
+    "howItWorksText": "Jy beantwoord 40 sorgvuldig saamgestelde vrae oor hoofbeleidsareas soos gesondheidsorg, onderwys, ekonomie, bestuur en sosiale sake. Elke vraag is ontwerp om jou voorkeur sonder vooroordeel te openbaar.",
     "scoring": "Puntestelsel",
-    "scoringText": "Elke antwoord wat jy gee word gepas teen gedokumenteerde party-posisies uit amptelike manifeste, beleidsdokumente en openbare verklarings. Partye ontvang geweegde punte gebaseer op hoe nou hul verklaarde posisies ooreenstem met jou antwoorde. Ons gebruik 'n per-party normaliseringsalgoritme, wat beteken elke party word gemeet teen sy eie beste moontlike passing vir die vrae wat jy beantwoord het. Dit verseker regverdige behandeling vir beide gematigde en radikale partye. Hierdie punte word genormaliseer op 'n 0-100 skaal, met jou topvonds en alternatiewe duidelik geïdentifiseer. Ons bied ook 'n vertrouensgradering om jou te help verstaan hoe sterk jou passing is.",
-    "transparency": "Ons Verbintenis tot Deursigtigheid",
-    "transparencyText": "Alle party-posisies en puntegewigte word bepaal deur deeglike navorsing van amptelike partydokumente. Ons metodologie is oop en hersienbaar. Ons bevoordeel geen politieke party of ideologie nie - ons enigste doel is om jou te help ingeligte besluite neem gebaseer op jou waardes en die partye se verklaarde posisies.",
-    "dataSources": "Ons Navorsingsbronne",
-    "dataSourcesText": "Party-posisies word noukeurig nagevors uit amptelike party-manifeste, beleidsdokumente, parlementêre stemrekords en geverifieerde openbare verklarings. Ons werk ons data gereeld op om beleidsveranderinge te weerspieël. Alle bronmateriaal is van amptelike partykanale of gerespekteerde nuusorganisasies. As jy glo enige inligting is onakkuraat, verwelkom ons regstellings met behoorlike dokumentasie.",
-    "privacy": "Privaatheid & Jou Data",
-    "privacyText": "Jou privaatheid is absoluut van die uiterste belang. Ons glo jou politieke sienings is diep persoonlik en verdien die hoogste vlak van beskerming.",
-    "noTracking": "Geen Nagvolging",
-    "noTrackingText": "Ons gebruik nie koekies, analitiese pixels, of enige nagvolgingstegnologieë nie. Ons kan nie jou antwoorde sien nie, kan jou nie identifiseer nie, en het geen belangstelling om dit te doen nie. Jou vasvraag-antwoorde word nooit na ons bedieners oorgedra nie.",
-    "localOnly": "Slegs Plaaslike Berging",
-    "localOnlyText": "Alles gebeur in jou blaaier. Jou antwoorde word slegs op jou toestel gestoor en nêrens anders nie. As jy jou blaaierdata uitvee, is jou resultate vir ewig weg - ons het geen rugsteun nie want ons het hulle nooit gehad in die eerste plek nie.",
-    "sharing": "Hoe Deel Werk",
-    "sharingText": "Wanneer jy resultate deel, word jou antwoorde direk in die URL-skakel self enkodeer. Dit beteken enigiemand met daardie skakel kan jou resultate sien, maar die data raak nooit ons bedieners nie. Jy beheer wie jou resultate sien deur te beheer wie daardie skakel kry. Vee die skakel uit, en jou resultate is werklik weer privaat.",
-    "analytics": "Privaatheid-Bewarende Analise",
-    "analyticsText": "Ons gebruik Cloudflare Web Analytics, 'n privaatheid-eerste analise diens wat nie koekies gebruik nie, nie individue oor webwerwe volg nie, en geen persoonlik identifiseerbare inligting versamel nie. Dit verskaf ons basiese saamgestelde statistieke (soos totale bladsyaansigte) om ons te help verstaan of die webwerf gebruik word, sonder om jou privaatheid in gevaar te stel. Cloudflare kan nie jou vasvraag-antwoorde sien of jou persoonlik identifiseer nie.",
-    "parties": "Partye Ingesluit",
-    "partiesText": "Ons sluit 14 groot Suid-Afrikaanse politieke partye in wat diverse standpunte oor die politieke spektrum verteenwoordig. Ons keuse is gebaseer op parlementêre verteenwoordiging, verkiesingsbelang en ideologiese diversiteit.",
-    "disclaimer": "Belangrike Vrywaring",
-    "disclaimerText": "Elekti is 'n opvoedkundige instrument, nie 'n plaasverving vir navorsing nie. Politieke partye is komplekse organisasies met genuanseerde posisies wat met verloop van tyd ontwikkel. Ons moedig jou sterk aan om party-manifeste te lees, openbare forums by te woon, en ons inligting onafhanklik te verifieer. Hierdie instrument toon belyning gebaseer op verklaarde posisies - werklike bestuur kan verskil. Gebruik hierdie resultate as 'n beginpunt vir dieper verkenning, nie as jou finale besluit nie.",
-    "viewData": "Bekyk Rou Data",
-    "viewDataText": "In die gees van volledige deursigtigheid, kan jy ons rou datalêers self ondersoek. Hierdie JSON-lêers bevat alle party-posisies, puntegewigte, en vraag-metadata wat deur ons algoritme gebruik word.",
-    "scoringData": "Telling Data (sluit vrae & gewigte in)",
-    "partiesData": "Party Inligting"
+    "scoringText": "Elke antwoord word vergelyk met gedokumenteerde partyposisies uit manifeste, beleidsdokumente en openbare verklarings. Partye kry geweegde punte op grond van hoe naby hul posisies aan jou antwoorde is. Ons normaliseer per party sodat elke party teen sy beste moontlike passing gemeet word. Die punte word op 'n 0–100-skaal uitgegee en 'n vertrouensvlak word aangedui om die sterkte van die ooreenkoms te verduidelik.",
+    "transparency": "Ons verbintenis tot deursigtigheid",
+    "transparencyText": "Partyposisies en gewigte word bepaal deur deeglike navorsing van amptelike dokumente. Ons metodologie is oop en hersienbaar. Ons bevoordeel geen party nie; doel is om jou te help om ingeligte besluite te neem.",
+    "dataSources": "Ons navorsingsbronne",
+    "dataSourcesText": "Posisies word nagevors uit amptelike manifeste, beleiddokumente, parlementêre stemrekords en geverifieerde verklarings. Ons werk die data gereeld by. Indien jy 'n fout sien, verwelkom ons korreksies met gepaste brondokumentasie.",
+    "privacy": "Privaatheid & jou data",
+    "privacyText": "Jou privaatheid is van kardinale belang. Jou politieke sienings is persoonlik en verdien die hoogste beskerming.",
+    "noTracking": "Geen nasporing",
+    "noTrackingText": "Ons gebruik nie koekies of spoortegnologieë wat jou kan identifiseer nie. Ons sien nie jou antwoorde en dit word nie na ons bedieners gestuur nie.",
+    "localOnly": "Slegs plaaslike berging",
+    "localOnlyText": "Alles gebeur in jou blaaier. Antwoorde word slegs op jou toestel gestoor. As jy blaaierdata uitvee, gaan jou resultate verlore — ons het geen rugsteun nie.",
+    "sharing": "Hoe deel werk",
+    "sharingText": "As jy resultate deel, word jou antwoorde in die URL enkodeer. Enigiemand met die skakel kan dit sien; die data raak nie ons bedieners nie. Jy beheer wie toegang het deur die skakel te deel of te verwyder.",
+    "analytics": "Privaatheidsvriendelike analytics",
+    "analyticsText": "Ons gebruik Cloudflare Web Analytics — 'n privaatheidsgefokusde diens wat geen persoonlike identifiseerbare data versamel nie en geen koekies gebruik nie. Dit gee ons net saamgestelde statistieke om gebruik te meet.",
+    "parties": "Ingeslote partye",
+    "partiesText": "Ons sluit 14 belangrike Suid-Afrikaanse partye in wat 'n wye spektrum van sienings verteenwoordig. Keuse is gebaseer op parlementsverteenwoordiging, verkiesingsbelang en ideologiese diversiteit.",
+    "disclaimer": "Belangrike vrywaringsparagraaf",
+    "disclaimerText": "Elekti is 'n opvoedkundige hulpmiddel, nie 'n vervanging vir onafhanklike navorsing nie. Partyposisies is kompleks en kan verander. Lees manifeste en verifieer inligting self. Gebruik resultate as 'n beginpunt, nie as finale besluit nie.",
+    "viewData": "Bekyk rou data",
+    "viewDataText": "Jy kan ons rou JSON-data inspekteer wat alle partyposisies, gewigte en vrametadata bevat.",
+    "scoringData": "Puntedata (vrae & gewigte ingesluit)",
+    "partiesData": "Party-inligting"
   },
   "party": {
     "anc": {
-      "desc": "Die African National Congress is Suid-Afrika se regerende party wat sosiale demokrasie, transformasie en die aanspreek van ongelykheid deur staatsingryping bepleit."
+      "desc": "Die African National Congress is die regerende party in Suid-Afrika wat sosiale demokrasie, transformasie en die aanspreek van ongelykheid deur staatsingryping bepleit."
     },
     "da": {
-      "desc": "Die Democratic Alliance bevorder liberale demokrasie, vryemark-ekonomie en nie-rassige politiek met klem op goeie bestuur en werkskepping."
+      "desc": "Die Democratic Alliance bevorder liberale demokrasie, vryemark-ekonomie en nie-rassige politiek met klem op goeie bestuur en werkcreasie."
     },
     "mk": {
-      "desc": "uMkhonto we Sizwe Party fokus op radikale ekonomiese transformasie en bepleit staat-geleide ontwikkeling en die aanspreek van historiese ongeregtighede."
+      "desc": "uMkhonto we Sizwe Party fokus op radikale ekonomiese transformasie en bevorder staatgelei ontwikkeling en die aanspreek van historiese ongeregtighede."
     },
     "eff": {
-      "desc": "Die Economic Freedom Fighters is 'n ver-linkse party wat radikale ekonomiese transformasie, nasionalisering en grondhervorming sonder vergoeding bepleit."
+      "desc": "Die Economic Freedom Fighters is 'n links-radikale party wat radikale ekonomiese hervorming, nasionalisering en grondhervorming sonder vergoeding bepleit."
     },
     "ifp": {
-      "desc": "Die Inkatha Freedom Party bevorder Zulu kulturele waardes, federalisme en vryemark-ekonomie met sosiale verantwoordelikheid."
+      "desc": "Die Inkatha Freedom Party bevorder Zulu-kulturele waardes, federalisme en 'n vryemarkbenadering met sosiale verantwoordelikheid."
     },
     "pa": {
-      "desc": "Die Patriotic Alliance fokus op die aanspreek van immigrasiekwessies, die bevordering van Suid-Afrikaanse nasionalisme en die prioritisering van burgers se behoeftes."
+      "desc": "Die Patriotic Alliance fokus op immigrasie-kwessies, nasionalisme en die bevordering van burgers se behoeftes."
     },
     "vfplus": {
-      "desc": "Vryheidsfront Plus verteenwoordig Afrikaner-belange en bepleit federalisme, minderheidsregte en konserwatiewe waardes."
+      "desc": "Freedom Front Plus verteenwoordig Afrikanerbelange en bepleit federalisme, minderheidsregte en konserwatiewe waardes."
     },
     "actionsa": {
-      "desc": "ActionSA is 'n sentristiese party gefokus op praktiese bestuur, anti-korrupsie en ekonomiese groei deur betrokkenheid van die privaat sektor."
+      "desc": "ActionSA is 'n sentrum-party gefokus op praktiese bestuur, anti-korrupsie en ekonomiese groei deur privaat-sektorbetrokkenheid."
     },
     "acdp": {
       "desc": "Die African Christian Democratic Party bevorder Christelike waardes, konserwatiewe sosiale beleide en grondwetlike demokrasie."
     },
     "ufc": {
-      "desc": "Unite for Change fokus op graswortelvlak mobilisasie en die aanspreek van plaaslike gemeenskapskwessies deur progressiewe beleide."
+      "desc": "Unite for Change fokus op grondvlak-mobilisering en die aanspreek van plaaslike gemeenskapskwessies deur progressiewe beleid."
     },
     "sacp": {
-      "desc": "Die South African Communist Party bepleit sosialisme, werkersregte en die oorgang na 'n sosialistiese samelewing deur staatsbeheer."
+      "desc": "Die South African Communist Party bepleit sosialisme, werkersregte en 'n oorgang na 'n sosialistiese samelewing deur staatsbeheer."
     },
     "udm": {
-      "desc": "Die United Democratic Movement bevorder sosiale demokrasie, versoening en praktiese beleide om armoede en ongelykheid aan te spreek."
+      "desc": "Die United Democratic Movement bevorder sosiale demokrasie, versoening en pragmatiese beleidsoptredes om armoede en ongelykheid te bekamp."
     },
     "aljamah": {
-      "desc": "Al Jama-ah verteenwoordig Islamitiese waardes en bepleit sosiale geregtigheid, etiese bestuur en die regte van gemarginaliseerde gemeenskappe."
+      "desc": "Al Jama-ah verteenwoordig Islamitiese waardes en pleit vir sosiale geregtigheid, etiese bestuur en die regte van gemarginaliseerde gemeenskappe."
     },
     "cope": {
-      "desc": "Die Congress of the People bevorder sosiale demokrasie, goeie bestuur en ekonomiese beleide wat groei met sosiale welsyn balanseer."
+      "desc": "Die Congress of the People bevorder sosiale demokrasie, goeie regeringsbestuur en ekonomiese beleide wat groei met sosiale welsyn balanseer."
     }
   },
   "options": {
@@ -144,27 +144,27 @@
   },
   "questions": {
     "q1": {
-      "text": "Die regering behoort belasting op die rykes te verhoog om uitgebreide sosiale programme (gesondheid, onderwys en sosiale toelaes) te befonds.",
+      "text": "Die regering behoort belasting op die rykes te verhoog om uitgebreide sosiale programme (gesondheid, onderwys, sosiale toelaes) te befonds.",
       "category": "ekonomie & fiskaal"
     },
     "q2": {
-      "text": "Die regering behoort die afbetaling van openbare skuld en die versekering van fiskale volhoubaarheid te prioritiseer, selfs as dit nuwe sosiale besteding beperk.",
+      "text": "Die afbetaling van openbare skuld en fiskale volhoubaarheid moet geprioritiseer word, selfs al beperk dit nuwe sosiale besteding.",
       "category": "ekonomie & fiskaal"
     },
     "q3": {
-      "text": "Die regering moet klein en medium besighede aktief ondersteun met belastingverligting en deregulering om groei aan te moedig.",
+      "text": "Die regering moet klein en medium ondernemings aktief ondersteun met belastingvermindering en deregulering om groei aan te moedig.",
       "category": "ekonomie & fiskaal"
     },
     "q4": {
-      "text": "Die staat moet 'n onvoorwaardelike basiese inkomste-toelae vir alle burgers implementeer.",
+      "text": "Die staat moet 'n onvoorwaardelike basiese inkomste vir alle burgers implementeer.",
       "category": "ekonomie & fiskaal"
     },
     "q5": {
-      "text": "Openbare belegging in werkryke openbare werke programme is 'n geskikte korttermyn metode om werkloosheid te verminder.",
+      "text": "Openbare belegging in werkryke openbare werksprogramme is 'n geskikte korttermynmetode om werkloosheid te verminder.",
       "category": "ekonomie & fiskaal"
     },
     "q6": {
-      "text": "Gesondheidsorg moet universeel publiek gefinansier word (basiese dienste gratis by die punt van gebruik).",
+      "text": "Gesondheidsorg moet universeel en publiek befonds word (basiese dienste gratis by gebruikspunt).",
       "category": "sosiale welsyn & dienste"
     },
     "q7": {
@@ -172,15 +172,15 @@
       "category": "sosiale welsyn & dienste"
     },
     "q8": {
-      "text": "Die staat moet sterk subsidies vir kindersorg verskaf om werkende ouers te ondersteun.",
+      "text": "Die staat moet sterk subsidies vir kinderopvoeding verskaf om werkende ouers te ondersteun.",
       "category": "sosiale welsyn & dienste"
     },
     "q9": {
-      "text": "Plaaslike regeringsdienste moet professioneel beman en gereeld geoudit word om korrupsie en diensmislukking te verminder.",
+      "text": "Plaaslike regeringdienste moet professioneel beman en gereeld geoudit word om korrupsie en diensmislukking te verminder.",
       "category": "sosiale welsyn & dienste"
     },
     "q10": {
-      "text": "Sleutel openbare nutsdienste (krag, water, spoor) moet in openbare eienaarskap bly en nie geprivatiseer word nie.",
+      "text": "Sleutel openbare nutsdienste (krag, water, spoor) moet in openbare besit bly en nie geprivatiseer word nie.",
       "category": "eienaarskap & grond"
     },
     "q11": {
@@ -188,43 +188,43 @@
       "category": "eienaarskap & grond"
     },
     "q12": {
-      "text": "Kleinskaalse boerdery en gemeenskaplike grondregte moet voorkeur beleidsondersteuning ontvang bo groot kommersiële landboubesighede.",
+      "text": "Kleinskaalse boerdery en gemeenskapsgrondregte moet voorkeur geniet bo groot kommersiële landbouondernemings.",
       "category": "eienaarskap & grond"
     },
     "q13": {
-      "text": "Werkers moet sterker regte hê om te vakbond en te staak, met minder beperkings.",
+      "text": "Werkers moet sterker regte hê om te vakbondeer en te staak, met minder beperkinge.",
       "category": "arbeid & werkplek"
     },
     "q14": {
-      "text": "Minimum lone moet aansienlik verhoog word om armoede onder werkendes te verminder, selfs as sommige klein besighede sukkel.",
+      "text": "Minimum lone moet aansienlik verhoog word om armoede onder werkers te verminder, selfs as sommige klein besighede sukkel.",
       "category": "arbeid & werkplek"
     },
     "q15": {
-      "text": "Arbeidsmark-buigsaamheid (makliker aanstelling en afdanking) sal belegging verhoog en moet aangemoedig word.",
+      "text": "Arbeidsmarkbuigbaarheid (makliker indiensneming en afdanking) sal belegging bevorder en moet aangemoedig word.",
       "category": "arbeid & werkplek"
     },
     "q16": {
-      "text": "Die polisie moet sterker magte en hulpbronne gegee word om gewelddadige misdaad te bekamp, selfs as dit staatsgesag uitbrei.",
+      "text": "Die polisie moet sterker magte en hulpbronne kry om gewelddadige misdaad te bekamp, selfs al vergroot dit staatsgesag.",
       "category": "misdaad & instellings"
     },
     "q17": {
-      "text": "Onafhanklike toesiginstellings (regbank, vervolging) moet beskerm word, selfs as dit vervolgings van magtige amptenare vertraag.",
+      "text": "Onafhanklike toesigliggame (regbank, vervolging) moet beskerm word, selfs al vertraag dit vervolgings van magtige amptenare.",
       "category": "misdaad & instellings"
     },
     "q18": {
-      "text": "Korrupsievervolgings moet vinnig en aggressief wees, selfs as dit korttermyn onstabiliteit in die regering veroorsaak.",
+      "text": "Korrupsievervolgings moet vinnig en agresief wees, selfs al veroorsaak dit korttermynonstabiliteit in die regering.",
       "category": "misdaad & instellings"
     },
     "q19": {
-      "text": "Burgerlike vryhede soos vryheid van uitdrukking en vreedsame protes moet geprioritiseer word, selfs as dit polisiëring bemoeilik.",
+      "text": "Burgerlike vryhede soos spreek- en protestvryheid moet geprioritiseer word, selfs al bemoeilik dit polisieoptrede.",
       "category": "regte & vryhede"
     },
     "q20": {
-      "text": "Die staat moet LGBTQ+ anti-diskriminasie beskerming en insluitingsbeleide aktief bevorder.",
+      "text": "Die staat moet aktief LGBTQ+-anti-diskriminasiewette en inklusiwiteitsbeleid bevorder.",
       "category": "regte & vryhede"
     },
     "q21": {
-      "text": "Persvryheid en die beskerming van joernaliste moet versterk word, selfs as kritiese beriggewing die regering teiken.",
+      "text": "Persvryheid en die beskerming van joernaliste moet versterk word, selfs al beteken dit kritiese verslagdoening oor die regering.",
       "category": "regte & vryhede"
     },
     "q22": {
@@ -236,35 +236,35 @@
       "category": "omgewing & energie"
     },
     "q24": {
-      "text": "Omgewingsbeskermingswette moet voorkeur geniet bo nuwe mineraal- en steenkoolontwikkelings.",
+      "text": "Omgewingsbeskermingswette moet prioriteit geniet bo nuwe minerale- en steenkoolontwikkeling.",
       "category": "omgewing & energie"
     },
     "q25": {
-      "text": "Suid-Afrika moet uitvoer-geleide groei prioritiseer deur sterker handelsbande met internasionale markte.",
+      "text": "Suid-Afrika moet uitvoer-gedrewe groei prioritiseer deur sterker handelsbande met internasionale markte te bou.",
       "category": "buitelandse beleid & handel"
     },
     "q26": {
-      "text": "Suid-Afrika moet die bou van sterker strategiese bande met ander Global South-lande prioritiseer bo eksklusiewe belyning met Westerse moondhede.",
+      "text": "Suid-Afrika moet strategieë ontwikkel om sterker bande met ander Global South-lande te bou eerder as eksklusiewe belyning met Westerse moondhede.",
       "category": "buitelandse beleid & handel"
     },
     "q27": {
-      "text": "Handelsbeleid moet die beskerming van plaaslike nywerhede deur tariewe en plaaslike inhoudsreëls prioritiseer.",
+      "text": "Handelsbeleid moet plaaslike nywerhede beskerm deur tariewe en plaaslike inhoudsreëls te prioritiseer.",
       "category": "buitelandse beleid & handel"
     },
     "q28": {
-      "text": "Openbare belegging moet massa-openbare vervoer (spoor en bus-snelvervoer) prioritiseer bo nuwe hoofweë.",
+      "text": "Openbare belegging moet massa-openbare vervoer (spoor en BRT) prioritiseer bo nuwe hoofweë.",
       "category": "infrastruktuur & stedelik"
     },
     "q29": {
-      "text": "Bekostigbare openbare behuisingsprojekte moet geprioritiseer word bo aansporings vir private behuisingsontwikkelaars.",
+      "text": "Bekostigbare openbare behuising moet bo aansporings vir private ontwikkelaars geprioritiseer word.",
       "category": "infrastruktuur & stedelik"
     },
     "q30": {
-      "text": "Stadsbeplanning moet groen openbare ruimtes, loopbaarheid en gemengde gebruik-ontwikkeling prioritiseer bo motor-gesentreerde uitbreiding.",
+      "text": "Stadsbeplanning moet groen openbare ruimtes, loopbaarheid en gemengde gebruik bevorder bo motorgefokusde uitbreidings.",
       "category": "infrastruktuur & stedelik"
     },
     "q31": {
-      "text": "Suid-Afrika moet sterk digitale privaatheidswette aanneem wat korporatiewe en staatstoesig beperk.",
+      "text": "Suid-Afrika moet sterk digitale privaatheidswette aanvaar wat korporatiewe en staats toesig beperk.",
       "category": "digitaal & tegnologie"
     },
     "q32": {
@@ -276,23 +276,23 @@
       "category": "digitaal & tegnologie"
     },
     "q34": {
-      "text": "Voedselsekuriteit moet bereik word deur 'n nasionale strategie wat plaaslike produksie, agro-ekologie en gemeenskapstuine ondersteun.",
+      "text": "Voedselsekuriteit moet deur 'n nasionale strategie bereik word wat plaaslike produksie, agro-ekologie en gemeenskaps tuine ondersteun.",
       "category": "voedsel & landbou"
     },
     "q35": {
-      "text": "Dierewelsyn-regulasies moet versterk word, insluitend die verbod op intensiewe fabrieksboerdery-praktyke.",
+      "text": "Dierewelstand-regulasies moet versterk word, insluitend die verbod op intensiewe fabriekboerderypraktyke.",
       "category": "voedsel & landbou"
     },
     "q36": {
-      "text": "Jeugwerkloosheid vereis 'n toegewyde nasionale jeugdiens en gewaarborgde vakleerlingskap-skemas.",
+      "text": "Jeugwerkloosheid vereis 'n toegewyde nasionale jeugdiens en gewaarborgde leerlingskapskemas.",
       "category": "jeug & onderwys"
     },
     "q37": {
-      "text": "Spesiale maatreëls word vereis om toeganklikheid en dienste vir mense met gestremdhede regoor regeringsdepartemente te verbeter.",
+      "text": "Spesiale maatreëls is nodig om toeganklikheid en dienste vir mense met gestremdhede oor regeringsdepartemente te verbeter.",
       "category": "sosiale insluiting"
     },
     "q38": {
-      "text": "Die staat behoort geteikende subsidies en aansporings in te stel om township- en landelike ekonomieë te versnel.",
+      "text": "Die staat moet geteikende subsidies en aansporings instel om townships en landelike ekonomieë te versnel.",
       "category": "ekonomiese insluiting"
     },
     "q39": {
@@ -300,7 +300,7 @@
       "category": "kultuur & identiteit"
     },
     "q40": {
-      "text": "Kiesers behoort 'n party se rekord op dienslewering en korrupsie swaarder te weeg as sy ideologiese slagspreuke.",
+      "text": "Kiesers moet 'n party se rekord oor dienslewering en korrupsie swaarder weeg as ideologiese slagspreuke.",
       "category": "stemgedrag"
     }
   },
