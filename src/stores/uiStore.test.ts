@@ -2,7 +2,7 @@ import { createPinia, setActivePinia } from "pinia";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { useUiStore } from "./uiStore";
 
-vi.mock("../i18n", () => ({
+vi.mock("../i18n/i18n", () => ({
   i18n: {
     global: {
       locale: {
@@ -37,7 +37,7 @@ describe("uiStore", () => {
   beforeEach(async () => {
     setActivePinia(createPinia());
     localStorage.clear();
-    const { i18n } = await import("../i18n");
+    const { i18n } = await import("../i18n/i18n");
     i18n.global.locale.value = "en";
   });
 
@@ -87,7 +87,7 @@ describe("uiStore", () => {
   describe("i18n integration", () => {
     it("should update i18n locale when setting language", async () => {
       const store = useUiStore();
-      const { i18n } = await import("../i18n");
+      const { i18n } = await import("../i18n/i18n");
 
       store.setLang("af");
 
@@ -96,7 +96,7 @@ describe("uiStore", () => {
 
     it("should update i18n locale for all supported languages", async () => {
       const store = useUiStore();
-      const { i18n } = await import("../i18n");
+      const { i18n } = await import("../i18n/i18n");
       const languages: Array<"en" | "af"> = ["en", "af"];
 
       languages.forEach((lang) => {

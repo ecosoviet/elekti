@@ -1,6 +1,6 @@
 import { createI18n } from "vue-i18n";
-import af from "./data/translations/af.json";
-import en from "./data/translations/en.json";
+import af from "../data/translations/af.json";
+import en from "../data/translations/en.json";
 
 function getInitialLocale(): string {
   const stored = localStorage.getItem("lang");

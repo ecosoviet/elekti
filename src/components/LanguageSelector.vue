@@ -2,7 +2,7 @@
   import { ChevronDown, Globe } from "lucide-vue-next";
   import { computed, ref } from "vue";
   import { useI18n } from "vue-i18n";
-  import { availableLocales } from "../i18n";
+  import { availableLocales } from "../i18n/i18n";
   import { useUiStore } from "../stores/uiStore";
 
   const { locale } = useI18n();
