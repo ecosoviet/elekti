@@ -36,13 +36,15 @@
     axisScores?: Record<string, number>;
   }>();
 
-  const { t } = useI18n();
+  useI18n();
   const expanded = ref(false);
 
   const axes = computed(() => (axesData as { axes: Axis[] }).axes);
 
   const allAxisScores = computed(() => {
-    if (!props.axisScores) return [];
+    if (!props.axisScores) {
+      return [];
+    }
 
     return axes.value
       .map((axis) => {
@@ -57,10 +59,24 @@
   });
 
   const getAxisColor = (percentage: number): string => {
-    if (percentage >= 75) return "#10b981"; // Green - strong alignment
-    if (percentage >= 50) return "#f59e0b"; // Amber - moderate alignment
-    if (percentage >= 25) return "#ef4444"; // Red - weak alignment
-    return "#6b7280"; // Gray - very weak alignment
+    if (percentage >= 75) {
+      return "#10b981";
+    }
+    if (percentage >= 50) {
+      return "#f59e0b";
+    }
+    if (percentage >= 25) {
+      return "#ef4444";
+    }
+    return "#6b7280";
+  };
+
+  const formatPercentage = (score: number): string => {
+    const percentage = Math.max(0, score * 100);
+    if (percentage < 1) {
+      return percentage.toFixed(1);
+    }
+    return Math.round(percentage).toString();
   };
 </script>
 
@@ -111,13 +127,11 @@
           :style="{ width: `${Math.max(0, score * 100)}%` }"
         />
       </div>
-      <span class="party-card__score-text"
-        >{{ Math.max(0, Math.round(score * 100)) }}%</span
-      >
+      <span class="party-card__score-text">{{ formatPercentage(score) }}%</span>
     </div>
 
     <button
-      v-if="axisScores && allAxisScores.length > 0"
+      v-if="axisScores && allAxisScores.length > 0 && score && score > 0"
       class="party-card__expand-button"
       :class="{ 'party-card__expand-button--expanded': expanded }"
       @click="expanded = !expanded"
@@ -138,7 +152,9 @@
             <span class="party-card__axis-name">{{
               $t(axis.shortNameKey)
             }}</span>
-            <span class="party-card__axis-score">{{ axis.percentage }}%</span>
+            <span class="party-card__axis-score"
+              >{{ formatPercentage(axis.score) }}%</span
+            >
           </div>
           <div class="party-card__axis-bar">
             <div
@@ -350,21 +366,5 @@
     transition:
       width var(--transition-base),
       background-color var(--transition-base);
-  }
-
-  /* Color scale based on alignment strength */
-  .party-card__axis-item:nth-child(1) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(2) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(3) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(4) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(5) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(6) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(7) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(8) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(9) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(10) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(11) .party-card__axis-fill,
-  .party-card__axis-item:nth-child(12) .party-card__axis-fill {
-    /* Color determined by inline style based on percentage */
   }
 </style>
