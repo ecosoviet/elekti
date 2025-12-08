@@ -2,6 +2,7 @@
   "name": "elekti",
   "version": "0.0.0",
   "private": true,
+  "license": "CC0-1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
