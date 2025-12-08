@@ -10,7 +10,9 @@
   const isOpen = ref(false);
 
   const sortedLocales = computed(() => {
-    return [...availableLocales].sort((a, b) => a.name.localeCompare(b.name));
+    return [...availableLocales].toSorted((a, b) =>
+      a.name.localeCompare(b.name)
+    );
   });
 
   const currentLocale = computed(() => locale.value);

@@ -7,8 +7,8 @@ vi.mock("vue-i18n", () => ({
     t: (key: string) => {
       const parts = key.split(".");
       if (parts[0] === "questions" && parts[1]) {
-        const qNum = parts[1];
-        return `Question ${qNum.substring(1)} text`;
+        const qNumber = parts[1];
+        return `Question ${qNumber.slice(1)} text`;
       }
       return key;
     },
@@ -16,10 +16,10 @@ vi.mock("vue-i18n", () => ({
 }));
 
 vi.mock("../data/questions.json", () => {
-  const questions = Array.from({ length: 41 }, (_, i) => ({
-    id: `q${i + 1}`,
-    textKey: `questions.q${i + 1}.text`,
-    axis: `axis${(i % 12) + 1}`,
+  const questions = Array.from({ length: 41 }, (_, index) => ({
+    id: `q${index + 1}`,
+    textKey: `questions.q${index + 1}.text`,
+    axis: `axis${(index % 12) + 1}`,
     weight: 1.5,
     options: [
       { value: 1, label: "Strongly agree" },
@@ -102,7 +102,7 @@ describe("quizStore", () => {
     it("should mark as completed when reaching last question", () => {
       const store = useQuizStore();
 
-      for (let i = 0; i < 41; i++) {
+      for (let index = 0; index < 41; index++) {
         store.nextQuestion();
       }
       expect(store.completed).toBe(true);
@@ -116,7 +116,7 @@ describe("quizStore", () => {
       expect(store.progress).toBeGreaterThan(0);
       expect(store.progress).toBeLessThan(100);
 
-      for (let i = 1; i < 37; i++) {
+      for (let index = 1; index < 37; index++) {
         store.nextQuestion();
       }
       expect(store.progress).toBeGreaterThan(85);

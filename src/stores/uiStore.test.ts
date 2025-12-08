@@ -16,7 +16,7 @@ const localStorageMock = (() => {
   let store: Record<string, string> = {};
 
   return {
-    getItem: (key: string) => store[key] || null,
+    getItem: (key: string) => store[key] || undefined,
     setItem: (key: string, value: string) => {
       store[key] = value.toString();
     },
@@ -29,7 +29,7 @@ const localStorageMock = (() => {
   };
 })();
 
-Object.defineProperty(window, "localStorage", {
+Object.defineProperty(globalThis, "localStorage", {
   value: localStorageMock,
 });
 
@@ -99,10 +99,10 @@ describe("uiStore", () => {
       const { i18n } = await import("../i18n/i18n");
       const languages: Array<"en" | "af"> = ["en", "af"];
 
-      languages.forEach((lang) => {
+      for (const lang of languages) {
         store.setLang(lang);
         expect(i18n.global.locale.value).toBe(lang);
-      });
+      }
     });
   });
 
@@ -118,10 +118,10 @@ describe("uiStore", () => {
       const store = useUiStore();
       const languages: Array<"en" | "af"> = ["en", "af"];
 
-      languages.forEach((lang) => {
+      for (const lang of languages) {
         store.setLang(lang);
         expect(localStorage.getItem("lang")).toBe(lang);
-      });
+      }
     });
 
     it("should update localStorage when language changes", () => {
@@ -160,12 +160,12 @@ describe("uiStore", () => {
       const store = useUiStore();
       const validLocales: Array<"en" | "af"> = ["en", "af"];
 
-      validLocales.forEach((locale) => {
+      for (const locale of validLocales) {
         expect(() => {
           store.setLang(locale);
         }).not.toThrow();
         expect(store.lang).toBe(locale);
-      });
+      }
     });
   });
 

@@ -20,41 +20,41 @@ describe("Data Validation", () => {
     });
 
     it("should have valid text keys that match translation pattern", () => {
-      questions.questions.forEach((q) => {
+      for (const q of questions.questions) {
         expect(q.textKey).toMatch(/^questions\.[qQ]\d+\.text$/);
-      });
+      }
     });
 
     it("should reference existing axes", () => {
       const axisIds = new Set(axes.axes.map((a) => a.id));
-      questions.questions.forEach((q) => {
+      for (const q of questions.questions) {
         expect(axisIds.has(q.axis)).toBe(true);
-      });
+      }
     });
 
     it("should have valid weights", () => {
-      questions.questions.forEach((q) => {
+      for (const q of questions.questions) {
         expect(typeof q.weight).toBe("number");
         expect(q.weight).toBeGreaterThan(0);
-      });
+      }
     });
 
     it("should have valid options with numeric values", () => {
-      questions.questions.forEach((q) => {
+      for (const q of questions.questions) {
         expect(Array.isArray(q.options)).toBe(true);
         expect(q.options.length).toBeGreaterThan(0);
 
-        q.options.forEach((opt) => {
+        for (const opt of q.options) {
           expect(typeof opt.value).toBe("number");
           expect(opt.value).toBeGreaterThanOrEqual(-1);
           expect(opt.value).toBeLessThanOrEqual(1);
           expect(typeof opt.label).toBe("string");
-        });
-      });
+        }
+      }
     });
 
     it("should have all question text keys in both translations", () => {
-      questions.questions.forEach((q) => {
+      for (const q of questions.questions) {
         const enPath = q.textKey;
         const afPath = q.textKey;
 
@@ -66,7 +66,7 @@ describe("Data Validation", () => {
 
         expect(enQuestion).toBeDefined();
         expect(afQuestion).toBeDefined();
-      });
+      }
     });
   });
 
@@ -83,30 +83,30 @@ describe("Data Validation", () => {
     });
 
     it("should have required properties", () => {
-      axes.axes.forEach((a) => {
+      for (const a of axes.axes) {
         expect(a.id).toBeDefined();
         expect(typeof a.id).toBe("string");
         expect(a.name).toBeDefined();
         expect(typeof a.name).toBe("string");
         expect(a.shortNameKey).toBeDefined();
         expect(a.description).toBeDefined();
-      });
+      }
     });
 
     it("should have valid translation keys", () => {
-      axes.axes.forEach((a) => {
+      for (const a of axes.axes) {
         expect(a.shortNameKey).toMatch(/^axes\.[a-z_]+\.short$/);
-      });
+      }
     });
 
     it("should have all axis shortNames in both translations", () => {
-      axes.axes.forEach((a) => {
+      for (const a of axes.axes) {
         const enValue = getNestedValue(en, a.shortNameKey);
         const afValue = getNestedValue(af, a.shortNameKey);
 
         expect(enValue).toBeDefined();
         expect(afValue).toBeDefined();
-      });
+      }
     });
   });
 
@@ -123,7 +123,7 @@ describe("Data Validation", () => {
     });
 
     it("should have required properties", () => {
-      parties.forEach((p) => {
+      for (const p of parties) {
         expect(p.id).toBeDefined();
         expect(typeof p.id).toBe("string");
         expect(p.short).toBeDefined();
@@ -131,29 +131,29 @@ describe("Data Validation", () => {
         expect(p.descriptionKey).toBeDefined();
         expect(p.colour).toBeDefined();
         expect(p.website).toBeDefined();
-      });
+      }
     });
 
     it("should have valid colour hex codes", () => {
-      parties.forEach((p) => {
+      for (const p of parties) {
         expect(p.colour).toMatch(/^#[0-9A-F]{6}$/i);
-      });
+      }
     });
 
     it("should have valid website URLs", () => {
-      parties.forEach((p) => {
+      for (const p of parties) {
         expect(p.website).toMatch(/^https?:\/\//);
-      });
+      }
     });
 
     it("should have all party descriptions in both translations", () => {
-      parties.forEach((p) => {
+      for (const p of parties) {
         const enValue = getNestedValue(en, p.descriptionKey);
         const afValue = getNestedValue(af, p.descriptionKey);
 
         expect(enValue).toBeDefined();
         expect(afValue).toBeDefined();
-      });
+      }
     });
   });
 
@@ -165,34 +165,34 @@ describe("Data Validation", () => {
 
     it("should have positions for all parties", () => {
       const partyIds = new Set(parties.map((p) => p.id));
-      Object.keys(partyPositions.parties).forEach((partyId) => {
+      for (const partyId of Object.keys(partyPositions.parties)) {
         expect(partyIds.has(partyId)).toBe(true);
-      });
+      }
     });
 
     it("should have all parties from parties.json in positions", () => {
-      parties.forEach((p) => {
+      for (const p of parties) {
         expect(partyPositions.parties).toHaveProperty(p.id);
-      });
+      }
     });
 
     it("should have valid position values", () => {
-      Object.values(partyPositions.parties).forEach((positions) => {
-        Object.values(positions).forEach((value) => {
+      for (const positions of Object.values(partyPositions.parties)) {
+        for (const value of Object.values(positions)) {
           expect(typeof value).toBe("number");
           expect(value).toBeGreaterThanOrEqual(-1);
           expect(value).toBeLessThanOrEqual(1);
-        });
-      });
+        }
+      }
     });
 
     it("should reference existing axes", () => {
       const axisIds = new Set(axes.axes.map((a) => a.id));
-      Object.values(partyPositions.parties).forEach((positions) => {
-        Object.keys(positions).forEach((axisId) => {
+      for (const positions of Object.values(partyPositions.parties)) {
+        for (const axisId of Object.keys(positions)) {
           expect(axisIds.has(axisId)).toBe(true);
-        });
-      });
+        }
+      }
     });
 
     it("should have same axes for all parties", () => {
@@ -200,12 +200,12 @@ describe("Data Validation", () => {
       if (partyPositionsList.length > 0) {
         const firstParty = partyPositionsList[0];
         if (firstParty) {
-          const firstPartyAxes = Object.keys(firstParty).sort();
+          const firstPartyAxes = Object.keys(firstParty).toSorted();
 
-          partyPositionsList.forEach((positions) => {
-            const partyAxes = Object.keys(positions).sort();
+          for (const positions of partyPositionsList) {
+            const partyAxes = Object.keys(positions).toSorted();
             expect(partyAxes).toEqual(firstPartyAxes);
-          });
+          }
         }
       }
     });
@@ -213,8 +213,8 @@ describe("Data Validation", () => {
 
   describe("Translation Completeness", () => {
     it("should have same top-level keys in both translations", () => {
-      const enKeys = Object.keys(en).sort();
-      const afKeys = Object.keys(af).sort();
+      const enKeys = Object.keys(en).toSorted();
+      const afKeys = Object.keys(af).toSorted();
       expect(enKeys).toEqual(afKeys);
     });
 
@@ -250,12 +250,15 @@ describe("Data Validation", () => {
   });
 });
 
-function getNestedValue(obj: Record<string, unknown>, path: string): unknown {
+function getNestedValue(
+  object: Record<string, unknown>,
+  path: string
+): unknown {
   const keys = path.split(".");
-  let current: Record<string, unknown> | unknown = obj;
+  let current: Record<string, unknown> | unknown = object;
 
   for (const key of keys) {
-    if (current == null || typeof current !== "object") {
+    if (current == undefined || typeof current !== "object") {
       return undefined;
     }
     current = (current as Record<string, unknown>)[key];

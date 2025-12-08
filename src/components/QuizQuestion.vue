@@ -11,7 +11,7 @@
     options: Array<{ value: number; label: string }>;
   }
 
-  const props = defineProps<{
+  const properties = defineProps<{
     question: Question;
     modelValue?: number;
     disabled?: boolean;
@@ -22,7 +22,7 @@
   }>();
 
   const { t } = useI18n();
-  const selectedOption = ref<number | undefined>(props.modelValue);
+  const selectedOption = ref<number | undefined>(properties.modelValue);
 
   const optionLabels = computed(() => [
     t("options.stronglyAgree"),
@@ -33,14 +33,14 @@
   ]);
 
   watch(
-    () => props.modelValue,
+    () => properties.modelValue,
     (newValue) => {
       selectedOption.value = newValue;
     }
   );
 
   function selectOption(index: number) {
-    if (props.disabled) {
+    if (properties.disabled) {
       return;
     }
     selectedOption.value = index;

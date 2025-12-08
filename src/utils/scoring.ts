@@ -72,29 +72,29 @@ export function computeScores(
   const axisScoresPerParty: Record<string, Record<string, number>> = {};
   const axisWeightsPerParty: Record<string, Record<string, number>> = {};
 
-  parties.forEach((party) => {
+  for (const party of parties) {
     axisScoresPerParty[party.id] = {};
     axisWeightsPerParty[party.id] = {};
 
-    axes.forEach((axis) => {
+    for (const axis of axes) {
       axisScoresPerParty[party.id]![axis.id] = 0;
       axisWeightsPerParty[party.id]![axis.id] = 0;
-    });
-  });
+    }
+  }
 
-  Object.entries(answers).forEach(([questionId, optionIndex]) => {
+  for (const [questionId, optionIndex] of Object.entries(answers)) {
     const question = questionsMetadata.find((q) => q.id === questionId);
-    if (!question) return;
+    if (!question) continue;
 
     const userValue = question.options[optionIndex]?.value;
-    if (userValue === undefined) return;
+    if (userValue === undefined) continue;
 
     const axis = question.axis;
     const weight = question.weight;
 
-    parties.forEach((party) => {
+    for (const party of parties) {
       const partyPositionValue = partyPositions[party.id]?.[axis];
-      if (partyPositionValue === undefined) return;
+      if (partyPositionValue === undefined) continue;
 
       const similarity = 1 - Math.abs(userValue - partyPositionValue);
 
@@ -109,15 +109,15 @@ export function computeScores(
       if (partyAxisWeights && partyAxisWeights[axis] !== undefined) {
         partyAxisWeights[axis] += weight;
       }
-    });
-  });
+    }
+  }
 
   const partyScores: PartyScore[] = parties.map((party) => {
     const normalizedAxisScores: Record<string, number> = {};
     let totalWeightedScore = 0;
     let totalWeight = 0;
 
-    axes.forEach((axis) => {
+    for (const axis of axes) {
       const weightedSum = axisScoresPerParty[party.id]?.[axis.id];
       const totalWeight_ = axisWeightsPerParty[party.id]?.[axis.id];
 
@@ -130,7 +130,7 @@ export function computeScores(
         totalWeightedScore += weightedSum;
         totalWeight += totalWeight_;
       }
-    });
+    }
 
     const alignmentScore =
       totalWeight > 0 ? totalWeightedScore / totalWeight : 0;
@@ -143,7 +143,7 @@ export function computeScores(
         score: normalizedAxisScores[axis.id] ?? 0,
       }))
       .filter((item) => item.score > 0.5)
-      .sort((a, b) => b.score - a.score)
+      .toSorted((a, b) => b.score - a.score)
       .slice(0, 3);
 
     return {

@@ -4,7 +4,7 @@ const localStorageMock = (() => {
   let store: Record<string, string> = {};
 
   return {
-    getItem: (key: string) => store[key] || null,
+    getItem: (key: string) => store[key] || undefined,
     setItem: (key: string, value: string) => {
       store[key] = value.toString();
     },
@@ -17,7 +17,7 @@ const localStorageMock = (() => {
   };
 })();
 
-Object.defineProperty(window, "localStorage", {
+Object.defineProperty(globalThis, "localStorage", {
   value: localStorageMock,
   writable: true,
 });

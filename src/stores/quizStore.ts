@@ -4,7 +4,7 @@ import { useI18n } from "vue-i18n";
 
 import partiesData from "../data/parties.json";
 import {
-  computeScores as computeScoresUtil,
+  computeScores as computeScoresUtility,
   type Party,
   type Question,
   type QuizResult,
@@ -82,7 +82,7 @@ export const useQuizStore = defineStore("quiz", () => {
   }
 
   function computeScores(): QuizResult {
-    return computeScoresUtil(answers.value, parties);
+    return computeScoresUtility(answers.value, parties);
   }
 
   function reset() {
@@ -94,7 +94,7 @@ export const useQuizStore = defineStore("quiz", () => {
   function encodeAnswersToUrl(): string {
     const answerArray = questions.value.map((q) => {
       const answer = answers.value[q.id];
-      return answer !== undefined ? answer.toString() : "";
+      return answer === undefined ? "" : answer.toString();
     });
     return answerArray.join(",");
   }
@@ -105,16 +105,20 @@ export const useQuizStore = defineStore("quiz", () => {
       const newAnswers: Record<string, number> = {};
       let hasValidAnswers = false;
 
-      questions.value.forEach((q, index) => {
+      for (const [index, q] of questions.value.entries()) {
         const value = parts[index];
         if (value && value !== "") {
-          const numValue = parseInt(value);
-          if (!isNaN(numValue) && numValue >= 0 && numValue <= 4) {
-            newAnswers[q.id] = numValue;
+          const numberValue = Number.parseInt(value);
+          if (
+            !Number.isNaN(numberValue) &&
+            numberValue >= 0 &&
+            numberValue <= 4
+          ) {
+            newAnswers[q.id] = numberValue;
             hasValidAnswers = true;
           }
         }
-      });
+      }
 
       if (hasValidAnswers) {
         answers.value = newAnswers;

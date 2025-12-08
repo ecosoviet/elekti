@@ -315,9 +315,9 @@ describe("scoring.ts - computeScores (axis-based)", () => {
 
     const result = computeScores(answers, mockParties);
 
-    for (let i = 0; i < result.allScores.length - 1; i++) {
-      const current = result.allScores[i];
-      const next = result.allScores[i + 1];
+    for (let index = 0; index < result.allScores.length - 1; index++) {
+      const current = result.allScores[index];
+      const next = result.allScores[index + 1];
       expect(current).toBeDefined();
       expect(next).toBeDefined();
       if (current && next) {
@@ -350,9 +350,9 @@ describe("scoring.ts - computeScores (axis-based)", () => {
 
     const result = computeScores(answers, mockParties);
 
-    result.allScores.forEach((score: PartyScore) => {
+    for (const score of result.allScores) {
       expect(score.alignmentScore).toBeGreaterThanOrEqual(-0.1);
       expect(score.alignmentScore).toBeLessThanOrEqual(1.1);
-    });
+    }
   });
 });

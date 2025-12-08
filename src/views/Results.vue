@@ -41,12 +41,12 @@
 
   const router = useRouter();
   const quizStore = useQuizStore();
-  const result = ref<QuizResult | null>(null);
+  const result = ref<QuizResult | undefined>(undefined);
   const copied = ref(false);
 
   onMounted(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const encodedAnswers = urlParams.get("r");
+    const urlParameters = new URLSearchParams(globalThis.location.search);
+    const encodedAnswers = urlParameters.get("r");
 
     if (encodedAnswers) {
       const loaded = quizStore.loadAnswersFromUrl(encodedAnswers);
@@ -69,7 +69,7 @@
     }
 
     const encoded = quizStore.encodeAnswersToUrl();
-    const shareUrl = `${window.location.origin}/results?r=${encoded}`;
+    const shareUrl = `${globalThis.location.origin}/results?r=${encoded}`;
 
     const text = `My Elekti Results:
 Primary Match: ${result.value.primary.party.name} (${Math.round(result.value.primary.alignmentScore * 100)}%)
