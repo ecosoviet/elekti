@@ -1,6 +1,5 @@
 [
   {
-    "id": 24,
     "text": "South Africa should prioritise export-led growth through stronger trade links with international markets.",
     "category": "foreign policy & trade",
     "weight": 1.2,
@@ -85,10 +84,10 @@
           "sacp": 0.8
         }
       }
-    ]
+    ],
+    "qId": "q24"
   },
   {
-    "id": 25,
     "text": "South Africa should prioritise building stronger strategic ties with other Global South countries over exclusive alignment with Western powers.",
     "category": "foreign policy & trade",
     "weight": 1.3,
@@ -173,10 +172,10 @@
           "sacp": -0.9
         }
       }
-    ]
+    ],
+    "qId": "q25"
   },
   {
-    "id": 26,
     "text": "Trade policy should prioritise protecting local industries through tariffs and local content rules.",
     "category": "foreign policy & trade",
     "weight": 1.2,
@@ -261,6 +260,7 @@
           "sacp": -0.6
         }
       }
-    ]
+    ],
+    "qId": "q26"
   }
 ]

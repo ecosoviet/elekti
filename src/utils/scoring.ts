@@ -23,6 +23,7 @@ interface ScoringOption {
 
 interface ScoringQuestion {
   id: number;
+  qId: string;
   text: string;
   category: string;
   weight: number;
@@ -67,8 +68,7 @@ export function computeScores(
   const scoringQuestions = scoringData as unknown as ScoringQuestion[];
 
   Object.entries(answers).forEach(([questionId, optionIndex]) => {
-    const qNum = parseInt(questionId.substring(1));
-    const scoringQuestion = scoringQuestions.find((q) => q.id === qNum);
+    const scoringQuestion = scoringQuestions.find((q) => q.qId === questionId);
 
     if (scoringQuestion && scoringQuestion.options[optionIndex]) {
       const scores = scoringQuestion.options[optionIndex].scores;
@@ -97,8 +97,7 @@ export function computeScores(
   });
 
   Object.keys(answers).forEach((questionId) => {
-    const qNum = parseInt(questionId.substring(1));
-    const scoringQuestion = scoringQuestions.find((q) => q.id === qNum);
+    const scoringQuestion = scoringQuestions.find((q) => q.qId === questionId);
     const optionIndex = answers[questionId];
 
     if (scoringQuestion && optionIndex !== undefined) {

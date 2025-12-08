@@ -1,6 +1,5 @@
 [
   {
-    "id": 10,
     "text": "Key public utilities (power, water, rail) should remain publicly owned and not be privatised.",
     "category": "ownership & land",
     "weight": 2,
@@ -85,10 +84,10 @@
           "sacp": -0.9
         }
       }
-    ]
+    ],
+    "qId": "q10"
   },
   {
-    "id": 11,
     "text": "Expropriation of land without market-rate compensation should be allowed to speed up land reform.",
     "category": "ownership & land",
     "weight": 2,
@@ -173,10 +172,10 @@
           "sacp": -0.95
         }
       }
-    ]
+    ],
+    "qId": "q11"
   },
   {
-    "id": 12,
     "text": "Smallholder farming and communal land rights should receive priority policy support over large commercial agribusiness.",
     "category": "ownership & land",
     "weight": 1.6,
@@ -261,6 +260,7 @@
           "sacp": -0.6
         }
       }
-    ]
+    ],
+    "qId": "q12"
   }
 ]

@@ -1,6 +1,5 @@
 [
   {
-    "id": 16,
     "text": "Police should be given stronger powers and resources to tackle violent crime, even if it expands state authority.",
     "category": "crime & institutions",
     "weight": 2,
@@ -85,10 +84,10 @@
           "sacp": 0.8
         }
       }
-    ]
+    ],
+    "qId": "q16"
   },
   {
-    "id": 17,
     "text": "Independent oversight institutions (judiciary, prosecution) should be protected even if it slows prosecutions of powerful officials.",
     "category": "crime & institutions",
     "weight": 1.8,
@@ -173,10 +172,10 @@
           "sacp": -0.9
         }
       }
-    ]
+    ],
+    "qId": "q17"
   },
   {
-    "id": 18,
     "text": "Corruption prosecutions should be fast and aggressive even if they cause short-term instability in government.",
     "category": "crime & institutions",
     "weight": 1.9,
@@ -261,6 +260,7 @@
           "sacp": -0.7
         }
       }
-    ]
+    ],
+    "qId": "q18"
   }
 ]

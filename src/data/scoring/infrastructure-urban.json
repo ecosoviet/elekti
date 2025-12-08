@@ -1,6 +1,5 @@
 [
   {
-    "id": 27,
     "text": "Public funds for transport infrastructure should be allocated exclusively to mass public transit (rail and bus rapid transit), with a moratorium on new highway construction—even if this inconveniences motorists or slows economic growth in car-dependent regions.",
     "category": "infrastructure & urban",
     "weight": 1.4,
@@ -85,10 +84,10 @@
           "sacp": -0.4
         }
       }
-    ]
+    ],
+    "qId": "q27"
   },
   {
-    "id": 28,
     "text": "Affordable public housing projects should be prioritised over incentives for private housing developers.",
     "category": "infrastructure & urban",
     "weight": 1.5,
@@ -173,10 +172,10 @@
           "sacp": -0.8
         }
       }
-    ]
+    ],
+    "qId": "q28"
   },
   {
-    "id": 29,
     "text": "Cities should be required by law to restrict new low-density, car-dependent developments and enforce zoning rules that mandate walkable, mixed-use neighborhoods—even if this limits private property rights or increases housing costs.",
     "category": "infrastructure & urban",
     "weight": 1.2,
@@ -261,6 +260,7 @@
           "sacp": -0.2
         }
       }
-    ]
+    ],
+    "qId": "q29"
   }
 ]

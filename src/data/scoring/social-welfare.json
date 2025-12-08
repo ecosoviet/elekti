@@ -1,6 +1,5 @@
 [
   {
-    "id": 6,
     "text": "Healthcare should be universally publicly funded (basic services free at point of use).",
     "category": "social welfare & services",
     "weight": 1.9,
@@ -85,10 +84,10 @@
           "sacp": -0.9
         }
       }
-    ]
+    ],
+    "qId": "q6"
   },
   {
-    "id": 7,
     "text": "Higher education should be free for all students, even if it requires higher taxes.",
     "category": "social welfare & services",
     "weight": 1.5,
@@ -173,10 +172,10 @@
           "sacp": -0.9
         }
       }
-    ]
+    ],
+    "qId": "q7"
   },
   {
-    "id": 8,
     "text": "The state should provide strong subsidies for childcare to support working parents.",
     "category": "social welfare & services",
     "weight": 1.4,
@@ -261,10 +260,10 @@
           "sacp": -0.7
         }
       }
-    ]
+    ],
+    "qId": "q8"
   },
   {
-    "id": 9,
     "text": "Local government services should be professionally staffed and audited regularly to reduce corruption and service failure.",
     "category": "social welfare & services",
     "weight": 1.3,
@@ -349,6 +348,7 @@
           "sacp": -0.4
         }
       }
-    ]
+    ],
+    "qId": "q9"
   }
 ]
