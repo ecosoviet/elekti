@@ -55,6 +55,8 @@
     },
     "scoreBreakdown": "Score Breakdown",
     "allParties": "All Party Scores",
+    "showAxes": "Show All Axes",
+    "hideAxes": "Hide All Axes",
     "copyResults": "Copy Results",
     "resultsCopied": "Results copied to clipboard!",
     "retakeQuiz": "Retake Quiz",

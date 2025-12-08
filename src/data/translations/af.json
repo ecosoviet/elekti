@@ -54,7 +54,9 @@
       "low": "Swak ooreenkoms"
     },
     "scoreBreakdown": "Punt-uiteensetting",
-    "allParties": "Alle partypunte",
+    "allParties": "Alle Partypunte",
+    "showAxes": "Wys Alle Asse",
+    "hideAxes": "Verberg Alle Asse",
     "copyResults": "Kopieer resultate",
     "resultsCopied": "Resultate gekopieer na knipbord!",
     "retakeQuiz": "Doen toets weer",

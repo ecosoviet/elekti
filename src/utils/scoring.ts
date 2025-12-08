@@ -126,7 +126,8 @@ export function computeScores(
         totalWeight_ !== undefined &&
         totalWeight_ > 0
       ) {
-        normalizedAxisScores[axis.id] = weightedSum / totalWeight_;
+        const normalizedScore = weightedSum / totalWeight_;
+        normalizedAxisScores[axis.id] = Math.max(0, Math.min(1, normalizedScore));
         totalWeightedScore += weightedSum;
         totalWeight += totalWeight_;
       }

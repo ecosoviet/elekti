@@ -22,6 +22,7 @@
     partyId: string;
     alignmentScore: number;
     party: Party;
+    axisScores?: Record<string, number>;
     topAxes?: PolicyAlignment[];
   }
 
@@ -41,6 +42,7 @@
         :party="partyScore.party"
         :score="partyScore.alignmentScore"
         :top-axes="partyScore.topAxes"
+        :axis-scores="partyScore.axisScores"
       />
     </div>
   </div>

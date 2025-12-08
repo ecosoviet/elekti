@@ -28,6 +28,7 @@
     partyId: string;
     alignmentScore: number;
     party: Party;
+    axisScores?: Record<string, number>;
     topAxes?: PolicyAlignment[];
   }
 
@@ -120,6 +121,7 @@ View my results: ${shareUrl}`;
             :party="result.primary.party"
             :score="result.primary.alignmentScore"
             :top-axes="result.primary.topAxes"
+            :axis-scores="result.primary.axisScores"
           />
         </section>
 
@@ -135,6 +137,7 @@ View my results: ${shareUrl}`;
               :party="alt.party"
               :score="alt.alignmentScore"
               :top-axes="alt.topAxes"
+              :axis-scores="alt.axisScores"
             />
           </div>
         </section>
