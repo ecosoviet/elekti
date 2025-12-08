@@ -86,37 +86,5 @@
     "descriptionKey": "party.sacp.desc",
     "colour": "#B30000",
     "website": "https://www.sacp.org.za/"
-  },
-  {
-    "id": "udm",
-    "short": "UDM",
-    "name": "United Democratic Movement",
-    "descriptionKey": "party.udm.desc",
-    "colour": "#00755A",
-    "website": "https://udm.org.za/"
-  },
-  {
-    "id": "aljamah",
-    "short": "Al Jama-ah",
-    "name": "Al Jama-ah",
-    "descriptionKey": "party.aljamah.desc",
-    "colour": "#0F7A3D",
-    "website": "https://www.aljama.co.za/"
-  },
-  {
-    "id": "cope",
-    "short": "COPE",
-    "name": "Congress of the People",
-    "descriptionKey": "party.cope.desc",
-    "colour": "#E5A700",
-    "website": "https://www.copesa.org.za/"
-  },
-  {
-    "id": "ncc",
-    "short": "NCC",
-    "name": "National Coloured Congress",
-    "descriptionKey": "party.ncc.desc",
-    "colour": "#4a4440",
-    "website": "https://nationalcolouredcongress.org.za/"
   }
 ]

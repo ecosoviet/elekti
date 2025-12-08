@@ -37,12 +37,12 @@
     }
   },
   "quiz": {
-    "question": "Vraag {{number}} van {{total}}",
+    "question": "Vraag {number} van {total}",
     "skip": "Slaan oor",
     "back": "Terug",
     "next": "Volgende",
     "finish": "Voltooi",
-    "progress": "{{count}} van {{total}} beantwoord"
+    "progress": "{count} van {total} beantwoord"
   },
   "results": {
     "title": "Jou resultate",
@@ -58,7 +58,7 @@
     "copyResults": "Kopieer resultate",
     "resultsCopied": "Resultate gekopieer na knipbord!",
     "retakeQuiz": "Doen toets weer",
-    "learnMore": "Lees meer oor {{party}}"
+    "learnMore": "Lees meer oor {party}"
   },
   "about": {
     "title": "Oor Elekti",
@@ -83,7 +83,7 @@
     "analytics": "Privaatheidsvriendelike analytics",
     "analyticsText": "Ons gebruik Cloudflare Web Analytics — 'n privaatheidsgefokusde diens wat geen persoonlike identifiseerbare data versamel nie en geen koekies gebruik nie. Dit gee ons net saamgestelde statistieke om gebruik te meet.",
     "parties": "Ingeslote partye",
-    "partiesText": "Ons sluit 14 belangrike Suid-Afrikaanse partye in wat 'n wye spektrum van sienings verteenwoordig. Keuse is gebaseer op parlementsverteenwoordiging, verkiesingsbelang en ideologiese diversiteit.",
+    "partiesText": "Ons sluit 11 belangrike Suid-Afrikaanse partye in wat 'n wye spektrum van sienings verteenwoordig. Keuse is gebaseer op parlementsverteenwoordiging, verkiesingsbelang en ideologiese diversiteit.",
     "disclaimer": "Belangrike vrywaringsparagraaf",
     "disclaimerText": "Elekti is 'n opvoedkundige hulpmiddel, nie 'n vervanging vir onafhanklike navorsing nie. Partyposisies is kompleks en kan verander. Lees manifeste en verifieer inligting self. Gebruik resultate as 'n beginpunt, nie as finale besluit nie.",
     "viewData": "Bekyk rou data",
@@ -124,18 +124,6 @@
     },
     "sacp": {
       "desc": "Die South African Communist Party bepleit sosialisme, werkersregte en 'n oorgang na 'n sosialistiese samelewing deur staatsbeheer."
-    },
-    "udm": {
-      "desc": "Die United Democratic Movement bevorder sosiale demokrasie, versoening en pragmatiese beleidsoptredes om armoede en ongelykheid te bekamp."
-    },
-    "aljamah": {
-      "desc": "Al Jama-ah verteenwoordig hoofsaaklik Moslemgemeenskappe en bepleit Islamitiese waardes, sosiale geregtigheid en etiese bestuur. Beleids prioriteite weerspieël Moslemwaardes en die regte van gemarginaliseerde gemeenskappe."
-    },
-    "cope": {
-      "desc": "Die Congress of the People bevorder sosiale demokrasie, goeie bestuur en ekonomiese beleide wat groei en maatskaplike welvaart balanseer."
-    },
-    "ncc": {
-      "desc": "'n Party wat hoofsaaklik Kleurlinggemeenskappe verteenwoordig en pleit vir erkenning as Eerste Nasie-afstammelinge met 'n fokus op sosio-ekonomiese opheffing en 'n sterk standpunt teen misdaad en bendegeweld. Beleids prioriteite sentreer om kwessies wat Kleurling Suid-Afrikaners raak."
     }
   },
   "options": {

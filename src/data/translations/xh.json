@@ -17,31 +17,31 @@
     "privacy": "Iimpendulo zakho zigcinwa kwisixhobo sakho kuphela kwaye azithunyelwa ndawo.",
     "howItHelps": {
       "title": "Indlela Eli sixhobo Likunceda Ngayo",
-      "intro": "Kucace kuwe ukuba ume phi ukuze uvote ngokuqonda. Sikubonisa ukuba ngawaphi amaqela ajongeka afana nesikhundla sakho ngokwenyani.",
+      "intro": "Cace ukuba ngubani ukuze uvote ngenhloso. Sipakamisa amaqela amangqondo akho ngokucacileyo.",
       "benefit1": {
         "title": "Susa ingxolo yezithembiso",
-        "text": "Ungaphazamiseki ziinkqubo zokunyusa amagama. Jonga ngokuthe ngqo ukuba zeziphi iinkqubo zamaqela ezihambelana neembono zakho."
+        "text": "Umanele izithembiso zenkampani; jonga ngokuthe ngqo ixabiso lesikhundla samaqela ngumba nangumba."
       },
       "benefit2": {
-        "title": "Fumana amaqela ongakhange uwacinge",
-        "text": "Ungazifumana unxulumene namaqela ongazange uwajonge kuba uthe waqwalasela imigaqo-nkqubo hayi udumo lwawo."
+        "title": "Fumana amaqela ongaze uwacinge",
+        "text": "Fumana amaqela ongazange uwajonge nangaphambili ngokubheka imigaqo-nkqubo yabo eyaneleyo, hayi udumo okanye icebo."
       },
       "benefit3": {
-        "title": "Bona Zonke Iziphumo Zakho",
-        "text": "Sikunika uluhlu olucwangcisiweyo lwawo onke amaqela ukuze ubone ezona zikufanela kunye nezinye iindlela."
+        "title": "Bona Zonke Izinketho Zakho",
+        "text": "Thola uhlu oluhlelwe lwamaqela ali-11 alinganiswe ngeenqaku, ugxile kwezinketho zakho eziphambili nezinye ezikhethekayo."
       },
       "benefit4": {
-        "title": "Vota Ngokuqiniseka",
-        "text": "Yenza isigqibo esisekelwe kwidatha. Sibonisa indlela ixabiso lakho elihambelana ngayo nezikhundla zamaqela."
+        "title": "Vota Ngengenelelo",
+        "text": "Yenza isigqibo enolwazi esisekelwe kwidatha. Siqulathe ixabiso lakho nezikhundla zangempela zamaqela ukuze ubone owona ukufana."
       }
     }
   },
   "quiz": {
     "question": "Umbuzo {number} ku {total}",
-    "skip": "Tsiba",
+    "skip": "Tshiya",
     "back": "Emva",
     "next": "Okulandelayo",
-    "finish": "Gqiba",
+    "finish": "Qeda",
     "progress": "{count} ku {total} iphendulwe"
   },
   "results": {
@@ -83,7 +83,7 @@
     "analytics": "Uhlalutyo Olukhusela Imfihlo",
     "analyticsText": "Sisebenzisa uhlalutyo lweCloudflare olungasebenzisi ii-cookies kwaye olungakukhangeli. Lusinika inani lokusetyenziswa kuphela, hayi idatha yakho yobuqu.",
     "parties": "Amaqela Asesixhobeni",
-    "partiesText": "Sibandakanya amaqela angama-14 ahlukeneyo ukuze kumelwe yonke imigca yezopolitiko eMzantsi Afrika.",
+    "partiesText": "Sibandakanya amaqela angama-11 ahlukeneyo ukuze kumelwe yonke imigca yezopolitiko eMzantsi Afrika.",
     "disclaimer": "Isibhengezo Esibalulekileyo",
     "disclaimerText": "I-Elekti sisixhobo semfundo. Kufuneka usafunda ii-manifesto zamaqela kwaye uqhube uphando lwakho. Amaqela ayatshintsha, ngoko iziphumo zethu mazithathwe njengesikhokelo, hayi isigqibo sokugqibela.",
     "viewData": "Jonga Idatha Engekacutshulwa",
@@ -124,18 +124,6 @@
     },
     "sacp": {
       "desc": "I-South African Communist Party ixhasa ubusoshiyali kunye namalungelo abasebenzi."
-    },
-    "udm": {
-      "desc": "I-United Democratic Movement ixhasa intlalontle, ukuzola kunye neenkqubo ezisebenzayo zokulwa intlupheko."
-    },
-    "aljamah": {
-      "desc": "I-Al Jama-ah ingundoqo imela uluntu lwamaSilamsi, ixhasa amaxabiso obuSilamsi, ubulungisa kunye nolawulo olunobulungisa. Imigaqo-nkqubo ibonakalisa amaxabiso amaSilamsi kunye namalungelo oluntu oluxhaphazekileyo."
-    },
-    "cope": {
-      "desc": "I-Congress of the People ijolise kulawulo oluthembekileyo, uqoqosho olulinganisayo noluxhasa abathathi-nxaxheba abaninzi."
-    },
-    "ncc": {
-      "desc": "Iqela elingundoqo elimela uluntu lwamaColoured, libhekisa ekubeni bamkelwe njengemveli yeSizwe sokuQala kwaye ligxile ekuphuculweni kwezentlalo noqoqosho, linombono owomeleleyo wokulwa ulwaphulo-mthetho namaqela olwaphulo-mthetho. Imigaqo-nkqubo igxile kwimiba echaphazela amaColoured aseMzantsi Afrika."
     }
   },
   "options": {

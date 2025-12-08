@@ -17,32 +17,32 @@
     "privacy": "Izimpendulo zakho zigcinwa kudivayisi yakho kuphela futhi azabelwanga.",
     "howItHelps": {
       "title": "Indlela Leli Thuluzi Elikusizayo Ngayo",
-      "intro": "Qonda kahle ukuthi umephi ukuze uvote ngenhloso. Vumelanisa imibono yakho nezikhundla zamaqembu ngokusekelwe kwimininingwane.",
+      "intro": "Qonda imipela ukuthi umephi ukuze uvote engenhloso ethile. Qhathanisa imibono yakho nezikhundla ezibonakalayo zamaqembu.",
       "benefit1": {
         "title": "Susa umsindo wezithembiso",
-        "text": "Gxila ezinhlanganisweni zenqubomgomo ezibonakala ezintweni ezenzekayo kunokulalela izithembiso zenkampani."
+        "text": "Umanele izithembiso zenkampani; bheka imibono elinele yanoma iyiphi iqembu emicimbi yangempela."
       },
       "benefit2": {
-        "title": "Thola ukuvumelana ongakucabangela",
-        "text": "Bheka amaqembu ongase ungawabheki ngokusekelwe ekuhambisaneni kwawo nezinqubomgomo, hhayi udumo noma umbono nje."
+        "title": "Thola amaqembu angakubhekisili",
+        "text": "Thola amaqembu ongase ungawabheki rhoqo ngokubheka izinqubomgomo zawo zabonakalyo, hhayi udumo noma icebo enje."
       },
       "benefit3": {
-        "title": "Bona wonke amathuba akho",
-        "text": "Thola uhlu oluhlelwe lwawo wonke amaqembu ngamanqampuna okulingana ukuze ubone izinketho zakho eziphambili nezinye ongazicabangela."
+        "title": "Bona wonke izinketho zakho",
+        "text": "Thola uhlu oluhlelwe lwamaqembu engu-11 alinganiswe ngamanqampuna, ugxile kuzinketho zakho eziphambili nezinye ezikhethekayo."
       },
       "benefit4": {
-        "title": "Vota uqiniseke",
-        "text": "Yenza isinqumo esinolwazi esisekelwe kudatha, imisebenzi yakho nezikhundla zamaqembu ziqhathanisiwe ukuze kukusize."
+        "title": "Vota ngengenelelo",
+        "text": "Yenza isinqumo senolwazi esisekelwe ekudateni. Imibono yakho iqhathanisiwe nezikhundla zangempela zamaqembu ukuze ubone obubili."
       }
     }
   },
   "quiz": {
-    "question": "Umbuzo {{number}} ku-{{total}}",
-    "skip": "Skipa",
-    "back": "Emuva",
+    "question": "Umbuzo {number} ku {total}",
+    "skip": "Cela",
+    "back": "Emva",
     "next": "Okulandelayo",
     "finish": "Qeda",
-    "progress": "{{count}} ku-{{total}} kuphenduliwe"
+    "progress": "{count} ku {total} kuphenduliwe"
   },
   "results": {
     "title": "Imiphumela Yakho",
@@ -58,7 +58,7 @@
     "copyResults": "Kopisha Imiphumela",
     "resultsCopied": "Imiphumela isikopishiwe ebhodini lokunamathisela!",
     "retakeQuiz": "Phinda Uvivinyo",
-    "learnMore": "Funda kabanzi ngo-{{party}}"
+    "learnMore": "Funda kabanzi ngo-{party}"
   },
   "about": {
     "title": "Mayelana ne-Elekti",
@@ -83,7 +83,7 @@
     "analytics": "Uhlaziyo Oluhlonipha Ubumfihlo",
     "analyticsText": "Sisebenzisa i-Cloudflare Web Analytics, isevisi egxile ekucwengweni kobumfihlo engenziwanga amakuki futhi engalandeleli abasebenzisi. Sinikeza izibalo ezihlanganisiwe ezisisiza siqonde ukusetshenziswa ngaphandle kokudicilela ubumfihlo bakho.",
     "parties": "Amaqembu Abandakanywayo",
-    "partiesText": "Sibandakanya amaqembu angama-14 abalulekile eNingizimu Afrika, abamele imibono ehlukene esilelayo. Ukukhethwa kusekelwe ekumelaneni kwephalamende, ukubaluleka emazweni okhetho kanye nokuhlukahluka kwemibono.",
+    "partiesText": "Sibandakanya amaqembu angama-11 abalulekile eNingizimu Afrika, abamele imibono ehlukene esilelayo. Ukukhethwa kusekelwe ekumelaneni kwephalamende, ukubaluleka emazweni okhetho kanye nokuhlukahluka kwemibono.",
     "disclaimer": "Isaziso Esibalulekile",
     "disclaimerText": "I-Elekti iyithuluzi lemfundo. Amaqembu anezikhundla ezinzima neziguqukayo. Sincoma ukuthi ufunde ama-manifesto, uye emibuthanweni yomphakathi futhi uqinisekise ulwazi lwethu ngokwakho. Imiphumela ilinganisa ukuvumelana nezikhundla ezikhulunywayo — ukuphatha okusebenzayo kungahluka. Sebenzisa imiphumela njengethuluzi lokuQala, hhayi isinqumo sokugcina.",
     "viewData": "Buka Idatha Engalungisiwe",
@@ -124,18 +124,6 @@
     },
     "sacp": {
       "desc": "I-South African Communist Party isekela ubusoshiyali, amalungelo abasebenzi kanye nokuthuthela komphakathi ekuphathweni kukahulumeni."
-    },
-    "udm": {
-      "desc": "I-United Democratic Movement isekela intando yeningi, ukubuyisana kanye nezinqubomgomo eziwusizo zokulwa nobumpofu nokungalingani."
-    },
-    "aljamah": {
-      "desc": "I-Al Jama-ah ikhulu imele imiphakathi yamaSulumane, ibheke izindinganiso zobuSulumane, ubulungisa bomphakathi nokubusa okufanele. Izinqubomgomo zibonakalisa izindinganiso zamaSulumane namalungelo emiphakathi ecindezelekile."
-    },
-    "cope": {
-      "desc": "I-Congress of the People iphakamisa ubuholi obunobulungiswa, ukuphatha okuhle kanye nezindlela zomnotho ezihlanganisa ukukhula nenhlalakahle yomphakathi."
-    },
-    "ncc": {
-      "desc": "Iqembu elikhulu elimele imiphakathi yabantu abaColoured, libhekisa ekwamukelweni kwabo njengezizukulwane zeSizwe sokuQala, eligxile ekuthuthukisweni kwezenhlalo nomnotho, enesimo esiqinile sokulwa nobugebengu namagilebhesi. Izinqubomgomo zigxile ezindabeni ezithinta abantu abaColoured baseNingizimu Afrika."
     }
   },
   "options": {

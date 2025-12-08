@@ -83,7 +83,7 @@
     "analytics": "Privacy-Preserving Analytics",
     "analyticsText": "We use Cloudflare Web Analytics, a privacy-first analytics service that does not use cookies, does not track individuals across websites, and does not collect any personally identifiable information. It provides us with basic aggregated statistics (like total page views) to help us understand if the site is being used, without compromising your privacy. Cloudflare cannot see your quiz answers or identify you personally.",
     "parties": "Parties Included",
-    "partiesText": "We include 14 major South African political parties representing diverse viewpoints across the political spectrum. Our selection is based on parliamentary representation, electoral significance, and ideological diversity.",
+    "partiesText": "We include 11 major South African political parties representing diverse viewpoints across the political spectrum. Our selection is based on parliamentary representation, electoral significance, and ideological diversity.",
     "disclaimer": "Important Disclaimer",
     "disclaimerText": "Elekti is an educational tool, not a substitute for research. Political parties are complex organisations with nuanced positions that evolve over time. We strongly encourage you to read party manifestos, attend public forums, and verify our information independently. This tool shows alignment based on stated positions - actual governance may differ. Use these results as a starting point for deeper exploration, not as your final decision.",
     "viewData": "View Raw Data",
@@ -124,18 +124,6 @@
     },
     "sacp": {
       "desc": "The South African Communist Party advocates for socialism, workers' rights, and the transition to a socialist society through state control."
-    },
-    "udm": {
-      "desc": "The United Democratic Movement promotes social democracy, reconciliation, and pragmatic policies to address poverty and inequality."
-    },
-    "aljamah": {
-      "desc": "Al Jama-ah primarily represents Muslim communities, advocating for Islamic values, social justice, and ethical governance. Policy priorities reflect Muslim values and the rights of marginalised communities."
-    },
-    "cope": {
-      "desc": "The Congress of the People promotes social democracy, good governance, and economic policies that balance growth with social welfare."
-    },
-    "ncc": {
-      "desc": "A party primarily representing Coloured communities, advocating for recognition as First Nation descendants and focusing on socio-economic upliftment, with a strong stance against crime and gangsterism. Policy priorities center on issues affecting Coloured South Africans."
     }
   },
   "options": {

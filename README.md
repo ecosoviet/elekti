@@ -16,7 +16,7 @@ Elekti is a Vue 3 + Pinia single-page application that walks users through 42 po
 
 - **Views** – Landing, Quiz, Results, and About routes under `src/views/*` managed by `vue-router`.
 - **State** – `quizStore` handles answers, progress, sharing, and locale-triggered refreshes; `uiStore` persists the selected locale to `localStorage`.
-- **Data** – `parties.json` holds metadata; `scoring.json` links question ids → party scores; translations carry question text + categories.
+- **Data** – `parties.json` holds metadata for 11 parties; `scoring.json` links question ids → party scores; translations carry question text + categories.
 - **Scoring flow** – Answers feed into `computeScores`, which calculates raw + normalized scores, sorts parties, and determines confidence (`high|medium|low`).
 
 ```

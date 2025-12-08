@@ -18,11 +18,7 @@
           "actionsa": 0.6,
           "acdp": 0,
           "ufc": 0.3,
-          "sacp": 0.9,
-          "udm": 0.4,
-          "aljamah": 0.3,
-          "cope": 0.4,
-          "ncc": 0.55
+          "sacp": 0.9
         }
       },
       {
@@ -38,11 +34,7 @@
           "actionsa": 0.4,
           "acdp": 0,
           "ufc": 0.2,
-          "sacp": 0.7,
-          "udm": 0.3,
-          "aljamah": 0.2,
-          "cope": 0.2,
-          "ncc": 0.5
+          "sacp": 0.7
         }
       },
       {
@@ -58,11 +50,7 @@
           "actionsa": 0,
           "acdp": 0,
           "ufc": 0,
-          "sacp": 0,
-          "udm": 0,
-          "aljamah": 0,
-          "cope": 0,
-          "ncc": 0.0
+          "sacp": 0
         }
       },
       {
@@ -78,11 +66,7 @@
           "actionsa": -0.2,
           "acdp": -0.1,
           "ufc": -0.05,
-          "sacp": -0.4,
-          "udm": -0.1,
-          "aljamah": -0.05,
-          "cope": -0.05,
-          "ncc": -0.3
+          "sacp": -0.4
         }
       },
       {
@@ -98,11 +82,7 @@
           "actionsa": -0.4,
           "acdp": -0.3,
           "ufc": -0.2,
-          "sacp": -0.8,
-          "udm": -0.3,
-          "aljamah": -0.2,
-          "cope": -0.2,
-          "ncc": -0.5
+          "sacp": -0.8
         }
       }
     ]

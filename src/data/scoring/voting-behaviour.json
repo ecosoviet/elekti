@@ -3,7 +3,7 @@
     "id": 40,
     "text": "Voters should weigh a party's track record on delivery and corruption more heavily than its ideological slogans.",
     "category": "voting & behaviour",
-    "weight": 2.0,
+    "weight": 2,
     "options": [
       {
         "option": "Strongly agree",
@@ -18,11 +18,7 @@
           "actionsa": 0.8,
           "acdp": 0.6,
           "ufc": 0.9,
-          "sacp": -0.6,
-          "udm": 0.6,
-          "aljamah": 0.6,
-          "cope": 0.6,
-          "ncc": 0.6
+          "sacp": -0.6
         }
       },
       {
@@ -38,11 +34,7 @@
           "actionsa": 0.6,
           "acdp": 0.5,
           "ufc": 0.7,
-          "sacp": -0.5,
-          "udm": 0.5,
-          "aljamah": 0.5,
-          "cope": 0.5,
-          "ncc": 0.5
+          "sacp": -0.5
         }
       },
       {
@@ -58,11 +50,7 @@
           "actionsa": 0,
           "acdp": 0,
           "ufc": 0,
-          "sacp": 0,
-          "udm": 0,
-          "aljamah": 0,
-          "cope": 0,
-          "ncc": 0.0
+          "sacp": 0
         }
       },
       {
@@ -78,11 +66,7 @@
           "actionsa": -0.4,
           "acdp": -0.3,
           "ufc": -0.4,
-          "sacp": 0.6,
-          "udm": -0.2,
-          "aljamah": 0.3,
-          "cope": 0.2,
-          "ncc": 0.4
+          "sacp": 0.6
         }
       },
       {
@@ -98,11 +82,7 @@
           "actionsa": -0.6,
           "acdp": -0.5,
           "ufc": -0.6,
-          "sacp": 0.8,
-          "udm": -0.3,
-          "aljamah": 0.5,
-          "cope": 0.3,
-          "ncc": 0.6
+          "sacp": 0.8
         }
       }
     ]
