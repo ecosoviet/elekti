@@ -23,10 +23,10 @@ Elekti is a Vue 3 + Pinia single-page application that walks users through 50 po
 src/
 ├── components/          # QuizQuestion, PartyCard, ResultBreakdown, etc.
 ├── data/
-│   ├── axes.json        # 14 political axis definitions
+│   ├── axes.json        # 12 political axis definitions
 │   ├── parties.json     # 11 party metadata (names, colors, descriptions)
 │   ├── party_positions.json  # Party positions on each axis
-│   ├── questions.json   # 41 questions with textKey refs, axis, weight
+│   ├── questions.json   # 50 questions with textKey refs, axis, weight
 │   └── translations/
 │       ├── en.json      # English UI + question text
 │       └── af.json      # Afrikaans UI + question text
@@ -76,8 +76,8 @@ Visit `http://localhost:5173` (default Vite port).
 
    ```json
    {
-     "id": "q42",
-     "textKey": "questions.q42.text",
+     "id": "q51",
+     "textKey": "questions.q51.text",
      "axis": "economic_left_right",
      "weight": 1.5,
      "options": [
@@ -90,7 +90,7 @@ Visit `http://localhost:5173` (default Vite port).
    }
    ```
 
-   The `axis` must match one of the 14 defined axes in `src/data/axes.json`. Question IDs should be sequential (next available is q42).
+   The `axis` must match one of the 12 defined axes in `src/data/axes.json`. Question IDs should be sequential (next available is q51).
 
 3. **Add party positions** – Update `src/data/party_positions.json` to include position scores for all 11 parties on the relevant axis(es):
 
@@ -115,14 +115,14 @@ Visit `http://localhost:5173` (default Vite port).
 - **Text** – Update in both translation files (`en.json` and `af.json`) under `questions.q[N].text`.
 - **Axis/Weight** – Edit `src/data/questions.json`; axis determines which party positions affect scoring, weight scales the contribution.
 - **Party positions** – Modify `src/data/party_positions.json` if stance should change.
-- **Do not change** – The question `id` (e.g., `q42`); this is the stable identifier.
+- **Do not change** – The question `id` (e.g., `q51`); this is the stable identifier.
 
 ## Scoring Engine
 
 The axis-based alignment system replaces naive text matching:
 
-- **Axes** – 14 political dimensions from `axes.json`
-- **Questions** – 41 questions, each mapped to one axis with a weight (1.0–2.0)
+- **Axes** – 12 political dimensions from `axes.json`
+- **Questions** – 50 questions, each mapped to one axis with a weight (1.0–2.0)
 - **Party positions** – Each party's stance on all axes (range: -1 to +1)
 - **Similarity scoring** – For each axis: `1 - abs(user_answer - party_position)` weighted by question weight
 - **Top axes** – Show the 3 strongest alignment axes in results
