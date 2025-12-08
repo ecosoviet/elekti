@@ -1,6 +1,6 @@
 [
   {
-    "id": 36,
+    "id": 35,
     "text": "Youth unemployment requires a dedicated national youth service and guaranteed apprenticeship schemes.",
     "category": "youth & education",
     "weight": 1.8,
@@ -8,13 +8,13 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.5,
+          "anc": 0.55,
           "da": 0.3,
-          "eff": 0.9,
+          "eff": 0.85,
           "ifp": 0.1,
           "mk": 0.6,
           "pa": 0.3,
-          "vfplus": -0.1,
+          "vfplus": -0.05,
           "actionsa": 0.6,
           "acdp": 0,
           "ufc": 0.3,
@@ -24,13 +24,13 @@
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.4,
+          "anc": 0.45,
           "da": 0.2,
           "eff": 0.7,
           "ifp": 0.05,
           "mk": 0.4,
           "pa": 0.2,
-          "vfplus": -0.05,
+          "vfplus": 0,
           "actionsa": 0.4,
           "acdp": 0,
           "ufc": 0.2,

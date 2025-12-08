@@ -65,7 +65,7 @@
     "methodology": "Methodology",
     "methodologyText": "Elekti uses a comprehensive, evidence-based approach to match your political views with South African political parties. Our system is designed to be fair, transparent, and non-partisan.",
     "howItWorks": "How It Works",
-    "howItWorksText": "You answer 42 carefully crafted questions covering major policy areas including healthcare, education, economy, governance, and social issues. Each question is designed to reveal your political preferences without bias toward any party.",
+    "howItWorksText": "You answer 38 carefully crafted questions covering major policy areas including healthcare, education, economy, governance, and social issues. Each question is designed to reveal your political preferences without bias toward any party.",
     "scoring": "Scoring System",
     "scoringText": "Each answer you provide is matched against documented party positions from official manifestos, policy documents, and public statements. Parties receive weighted scores based on how closely their stated positions align with your responses. We use a per-party normalization algorithm, meaning each party is scored against its own best possible match for the questions you answered. This ensures fair treatment for both moderate and radical parties. These scores are normalized on a 0-100 scale, with your top match and alternatives clearly identified. We also provide a confidence rating to help you understand how strong your match is.",
     "transparency": "Our Commitment to Transparency",
@@ -243,7 +243,7 @@
       "category": "foreign policy & trade"
     },
     "q28": {
-      "text": "Public investment should prioritise mass public transport (rail and bus rapid transit) over new highways.",
+      "text": "Public funds for transport infrastructure should be allocated exclusively to mass public transit (rail and bus rapid transit), with a moratorium on new highway construction—even if this inconveniences motorists or slows economic growth in car-dependent regions.",
       "category": "infrastructure & urban"
     },
     "q29": {
@@ -251,7 +251,7 @@
       "category": "infrastructure & urban"
     },
     "q30": {
-      "text": "Urban planning should prioritise green public spaces, walkability and mixed-use development over car-centric sprawl.",
+      "text": "Cities should be required by law to restrict new low-density, car-dependent developments and enforce zoning rules that mandate walkable, mixed-use neighborhoods—even if this limits private property rights or increases housing costs.",
       "category": "infrastructure & urban"
     },
     "q31": {
@@ -271,36 +271,20 @@
       "category": "food & agriculture"
     },
     "q35": {
-      "text": "Animal welfare regulations should be strengthened, including banning intensive factory farming practices.",
-      "category": "food & agriculture"
-    },
-    "q36": {
       "text": "Youth unemployment requires a dedicated national youth service and guaranteed apprenticeship schemes.",
       "category": "youth & education"
     },
-    "q37": {
-      "text": "Special measures are required to improve accessibility and services for people with disabilities across government departments.",
+    "q36": {
+      "text": "Government departments should be legally required to meet strict accessibility standards for people with disabilities, even if this means diverting funds from other public services or increasing regulatory burdens.",
       "category": "social inclusion"
     },
-    "q38": {
+    "q37": {
       "text": "The state should introduce targeted subsidies and incentives to accelerate township and rural economies.",
       "category": "economic inclusion"
     },
-    "q39": {
-      "text": "Cultural policy should support the diversity of South African languages and arts through stable public funding.",
-      "category": "culture & identity"
-    },
-    "q40": {
+    "q38": {
       "text": "Voters should weigh a party's track record on delivery and corruption more heavily than its ideological slogans.",
       "category": "voting & behaviour"
-    },
-    "q41": {
-      "text": "Political parties should specifically prioritise policies that address the unique challenges and historical experiences of my cultural or ethnic community.",
-      "category": "culture & identity"
-    },
-    "q42": {
-      "text": "I prefer voting for parties that explicitly focus on representing and uplifting my specific demographic or community group.",
-      "category": "culture & identity"
     }
   },
   "footer": {

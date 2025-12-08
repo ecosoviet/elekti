@@ -65,7 +65,7 @@
     "methodology": "Indlela Esiyisebenzisa",
     "methodologyText": "I-Elekti isebenzisa indlela ebanzi necacileyo yokuthelekisa iindlela zakho nezopolitiko namaqela aseMzantsi Afrika. Sisixhobo esingenacalucalulo nesisebenza ngokungafihlisiyo.",
     "howItWorks": "Indlela Esisebenza Ngayo",
-    "howItWorksText": "Uphendula imibuzo engama-42 ejolise kwimpilo, uqoqosho, ulawulo, imfundo kunye nemicimbi yoluntu. Imibuzo yenziwe ukuze iveze izimvo zakho ngaphandle kokukhokela kwicala elithile.",
+    "howItWorksText": "Uphendula imibuzo engama-38 ejolise kwimpilo, uqoqosho, ulawulo, imfundo kunye nemicimbi yoluntu. Imibuzo yenziwe ukuze iveze izimvo zakho ngaphandle kokukhokela kwicala elithile.",
     "scoring": "Indlela Yokubala Amanqaku",
     "scoringText": "Iimpendulo zakho zithelekiswa neembono zamaqela ezisematheni. Amaqela afumana amanqaku axhomekeke ekubeni ahambelana kangakanani nezimvo zakho. Amanqaku alinganiswa kwinqanaba lika 0–100 ukukunika umfanekiso ocacileyo wokuba liphi iqela elikufanela.",
     "transparency": "Ukuzibophelela Ekucaciseni",
@@ -243,7 +243,7 @@
       "category": "foreign policy & trade"
     },
     "q28": {
-      "text": "Izithuthi zikawonkewonke kufuneka zikhutshwe phambili kunendlela ezingaphezulu.",
+      "text": "Imali kawonke-wonke yeziseko zothutho kufuneka ibekelwe kuphela kwizithuthi zikawonke-wonke (uloliwe kunye ne-BRT), kunye nokumiselwa kokunqandwa kokwakhiwa kweendlela ezintsha—nokuba oko kuphazamisa abaqhubi beemoto okanye kucothise ukukhula koqoqosho kwimimandla exhomekeke kwiimoto.",
       "category": "infrastructure & urban"
     },
     "q29": {
@@ -251,7 +251,7 @@
       "category": "infrastructure & urban"
     },
     "q30": {
-      "text": "Izixeko kufuneka zibe noluntu oluhambayo, iindawo eziluhlaza kunye nokuxubana kweendawo.",
+      "text": "Izixeko kufuneka zinyanzeliswe ngumthetho ukuba zinqande uphuhliso olutsha olunoxinzelelo oluphantsi, oluxhomekeke kwiimoto kwaye zinyanzelise imithetho yezoning enyanzelisa iindawo ezihambeka ngeenyawo, ezixubileyo—nokuba oko kuthintela amalungelo epropathi yabucala okanye kwandise iindleko zezindlu.",
       "category": "infrastructure & urban"
     },
     "q31": {
@@ -271,36 +271,20 @@
       "category": "food & agriculture"
     },
     "q35": {
-      "text": "Amaqela okufuywa kwezilwanyana kufuneka alawulwe ngakumbi.",
-      "category": "food & agriculture"
-    },
-    "q36": {
       "text": "Ukwenzeka kwemisebenzi yabantu abancinci kufuna iinkqubo ezikhethekileyo zesizwe.",
       "category": "youth & education"
     },
-    "q37": {
-      "text": "Abantu abaphila nokukhubazeka kufuneka baxhaswe ngendlela engcono kuzo zonke iinkonzo.",
+    "q36": {
+      "text": "Amasebe karhulumente kufuneka anyanzeliswe ngumthetho ukuba ahlangabezane nemigangatho engqongqo yokufikeleleka yabantu abakhubazekileyo, nokuba oku kuthetha ukuguqula imali ukusuka kwezinye iinkonzo zikawonke-wonke okanye ukwandisa imithwalo yolawulo.",
       "category": "social inclusion"
     },
-    "q38": {
+    "q37": {
       "text": "Kufuneka kubekho inkxaso kwiimarike zasezilalini nasezidolophini.",
       "category": "economic inclusion"
     },
-    "q39": {
-      "text": "Ulwimi kunye nobugcisa baseMzantsi Afrika kufuneka baxhaswe ngemali karhulumente.",
-      "category": "culture & identity"
-    },
-    "q40": {
+    "q38": {
       "text": "Abavoti kufuneka bajonge indlela amaqela aqhube ngayo kunokuba bajonge izithethanthemba.",
       "category": "voting & behaviour"
-    },
-    "q41": {
-      "text": "Amaqela ezopolitiko kufuneka enze imigaqo-nkqubo ekhethekileyo ejolise kwimingeni kunye namava embali oluntu lwam.",
-      "category": "culture & identity"
-    },
-    "q42": {
-      "text": "Ndikhethela ukuvotela amaqela agxininisa ekumeleni nasekuphuculeni iqela lam lomntu okanye uluntu.",
-      "category": "culture & identity"
     }
   },
   "footer": {

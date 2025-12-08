@@ -8,9 +8,9 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.4,
-          "da": -0.6,
-          "eff": 0.95,
+          "anc": 0.45,
+          "da": -0.55,
+          "eff": 0.9,
           "ifp": 0.1,
           "mk": 0.75,
           "pa": -0.1,
@@ -18,14 +18,14 @@
           "actionsa": -0.2,
           "acdp": -0.5,
           "ufc": 0,
-          "sacp": 0.95
+          "sacp": 0.9
         }
       },
       {
         "option": "Agree",
         "scores": {
           "anc": 0.2,
-          "da": -0.4,
+          "da": -0.35,
           "eff": 0.7,
           "ifp": 0,
           "mk": 0.6,
@@ -96,17 +96,17 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.45,
+          "anc": 0.4,
           "da": -0.6,
-          "eff": 0.98,
+          "eff": 0.9,
           "ifp": -0.4,
-          "mk": 0.95,
+          "mk": 0.9,
           "pa": 0.1,
-          "vfplus": -0.9,
+          "vfplus": -0.85,
           "actionsa": -0.2,
           "acdp": -0.8,
           "ufc": 0.2,
-          "sacp": 0.95
+          "sacp": 0.9
         }
       },
       {
@@ -184,8 +184,8 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.4,
-          "da": -0.1,
+          "anc": 0.45,
+          "da": 0,
           "eff": 0.8,
           "ifp": 0.2,
           "mk": 0.5,
@@ -200,8 +200,8 @@
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.3,
-          "da": -0.05,
+          "anc": 0.35,
+          "da": 0,
           "eff": 0.6,
           "ifp": 0.1,
           "mk": 0.4,

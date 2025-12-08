@@ -1,6 +1,6 @@
 [
   {
-    "id": 40,
+    "id": 38,
     "text": "Voters should weigh a party's track record on delivery and corruption more heavily than its ideological slogans.",
     "category": "voting & behaviour",
     "weight": 2,
@@ -8,8 +8,8 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": -0.6,
-          "da": 0.9,
+          "anc": -0.65,
+          "da": 0.85,
           "eff": -0.5,
           "ifp": -0.1,
           "mk": -0.5,

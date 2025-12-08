@@ -1,40 +1,40 @@
 [
   {
-    "id": 37,
-    "text": "Special measures are required to improve accessibility and services for people with disabilities across government departments.",
+    "id": 36,
+    "text": "Government departments should be legally required to meet strict accessibility standards for people with disabilities, even if this means diverting funds from other public services or increasing regulatory burdens.",
     "category": "social inclusion",
     "weight": 1.2,
     "options": [
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.5,
-          "da": 0.5,
-          "eff": 0.6,
+          "anc": 0.35,
+          "da": 0.2,
+          "eff": 0.4,
           "ifp": 0.1,
-          "mk": 0.3,
-          "pa": 0.1,
-          "vfplus": 0.3,
-          "actionsa": 0.2,
+          "mk": 0.2,
+          "pa": -0.1,
+          "vfplus": -0.15,
+          "actionsa": 0.1,
           "acdp": 0,
-          "ufc": 0.3,
-          "sacp": 0.7
+          "ufc": 0.1,
+          "sacp": 0.55
         }
       },
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.4,
-          "da": 0.4,
-          "eff": 0.4,
+          "anc": 0.25,
+          "da": 0.1,
+          "eff": 0.2,
           "ifp": 0.05,
-          "mk": 0.2,
-          "pa": 0.05,
-          "vfplus": 0.2,
-          "actionsa": 0.1,
+          "mk": 0.1,
+          "pa": 0,
+          "vfplus": -0.05,
+          "actionsa": 0.05,
           "acdp": 0,
-          "ufc": 0.2,
-          "sacp": 0.5
+          "ufc": 0.05,
+          "sacp": 0.35
         }
       },
       {
@@ -61,8 +61,8 @@
           "eff": -0.2,
           "ifp": -0.05,
           "mk": -0.05,
-          "pa": -0.05,
-          "vfplus": -0.1,
+          "pa": 0.1,
+          "vfplus": 0.1,
           "actionsa": -0.05,
           "acdp": -0.05,
           "ufc": -0.05,
@@ -73,16 +73,16 @@
         "option": "Strongly disagree",
         "scores": {
           "anc": -0.3,
-          "da": -0.3,
-          "eff": -0.5,
+          "da": -0.2,
+          "eff": -0.4,
           "ifp": -0.1,
           "mk": -0.2,
-          "pa": -0.2,
-          "vfplus": -0.2,
-          "actionsa": -0.2,
-          "acdp": -0.2,
-          "ufc": -0.2,
-          "sacp": -0.5
+          "pa": 0.2,
+          "vfplus": 0.3,
+          "actionsa": -0.1,
+          "acdp": -0.1,
+          "ufc": -0.1,
+          "sacp": -0.4
         }
       }
     ]

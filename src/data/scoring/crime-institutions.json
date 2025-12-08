@@ -8,13 +8,13 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.4,
+          "anc": 0.5,
           "da": 0.6,
-          "eff": 0.1,
+          "eff": 0.4,
           "ifp": 0.5,
-          "mk": 0.5,
+          "mk": 0.7,
           "pa": 0.8,
-          "vfplus": 0.3,
+          "vfplus": 0.6,
           "actionsa": 0.8,
           "acdp": 0.7,
           "ufc": 0.3,
@@ -24,13 +24,13 @@
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.3,
+          "anc": 0.35,
           "da": 0.4,
-          "eff": 0.05,
+          "eff": 0.25,
           "ifp": 0.4,
-          "mk": 0.4,
+          "mk": 0.5,
           "pa": 0.6,
-          "vfplus": 0.2,
+          "vfplus": 0.4,
           "actionsa": 0.6,
           "acdp": 0.5,
           "ufc": 0.2,
@@ -96,9 +96,9 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.5,
+          "anc": 0.4,
           "da": 0.8,
-          "eff": 0.7,
+          "eff": 0.2,
           "ifp": 0.2,
           "mk": 0.3,
           "pa": 0.3,
@@ -112,9 +112,9 @@
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.3,
+          "anc": 0.25,
           "da": 0.6,
-          "eff": 0.5,
+          "eff": 0.1,
           "ifp": 0.1,
           "mk": 0.2,
           "pa": 0.2,
@@ -184,14 +184,14 @@
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.4,
-          "da": 0.7,
-          "eff": 0.9,
+          "anc": 0.2,
+          "da": 0.8,
+          "eff": 0.4,
           "ifp": 0.2,
-          "mk": 0.7,
+          "mk": 0.3,
           "pa": 0.4,
-          "vfplus": 0.3,
-          "actionsa": 0.8,
+          "vfplus": 0.6,
+          "actionsa": 0.9,
           "acdp": 0.6,
           "ufc": 0.6,
           "sacp": 0.8
@@ -200,14 +200,14 @@
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.25,
-          "da": 0.5,
-          "eff": 0.7,
+          "anc": 0.1,
+          "da": 0.6,
+          "eff": 0.2,
           "ifp": 0.15,
-          "mk": 0.6,
+          "mk": 0.15,
           "pa": 0.3,
-          "vfplus": 0.2,
-          "actionsa": 0.6,
+          "vfplus": 0.4,
+          "actionsa": 0.7,
           "acdp": 0.5,
           "ufc": 0.5,
           "sacp": 0.6

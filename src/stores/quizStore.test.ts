@@ -50,10 +50,6 @@ vi.mock("../i18n", () => ({
               q36: { text: "Question 36?", category: "category36" },
               q37: { text: "Question 37?", category: "category37" },
               q38: { text: "Question 38?", category: "category38" },
-              q39: { text: "Question 39?", category: "category39" },
-              q40: { text: "Question 40?", category: "category40" },
-              q41: { text: "Question 41?", category: "category41" },
-              q42: { text: "Question 42?", category: "category42" },
             },
           },
         },
@@ -83,9 +79,9 @@ describe("quizStore", () => {
       expect(store.completed).toBe(false);
     });
 
-    it("should load 42 questions", () => {
+    it("should load 38 questions", () => {
       const store = useQuizStore();
-      expect(store.questions.length).toBe(42);
+      expect(store.questions.length).toBe(38);
     });
     it("should have all parties loaded", () => {
       const store = useQuizStore();
@@ -127,7 +123,7 @@ describe("quizStore", () => {
     it("should mark as completed when reaching last question", () => {
       const store = useQuizStore();
 
-      for (let i = 0; i < 42; i++) {
+      for (let i = 0; i < 38; i++) {
         store.nextQuestion();
       }
       expect(store.completed).toBe(true);
@@ -141,7 +137,7 @@ describe("quizStore", () => {
       expect(store.progress).toBeGreaterThan(0);
       expect(store.progress).toBeLessThan(100);
 
-      for (let i = 1; i < 39; i++) {
+      for (let i = 1; i < 35; i++) {
         store.nextQuestion();
       }
       expect(store.progress).toBeGreaterThan(90);
@@ -210,7 +206,7 @@ describe("quizStore", () => {
 
       const encoded = store.encodeAnswersToUrl();
       const parts = encoded.split(",");
-      expect(parts.length).toBe(42);
+      expect(parts.length).toBe(38);
       expect(parts[0]).toBe("0");
       expect(parts[1]).toBe("1");
     });

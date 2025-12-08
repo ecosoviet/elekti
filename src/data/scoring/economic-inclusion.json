@@ -1,6 +1,6 @@
 [
   {
-    "id": 38,
+    "id": 37,
     "text": "The state should introduce targeted subsidies and incentives to accelerate township and rural economies.",
     "category": "economic inclusion",
     "weight": 1.4,
@@ -9,13 +9,13 @@
         "option": "Strongly agree",
         "scores": {
           "anc": 0.6,
-          "da": -0.1,
+          "da": 0,
           "eff": 0.9,
           "ifp": 0.1,
-          "mk": 0.5,
+          "mk": 0.7,
           "pa": 0.2,
           "vfplus": -0.1,
-          "actionsa": 0.1,
+          "actionsa": 0.2,
           "acdp": 0,
           "ufc": 0.2,
           "sacp": 0.9
@@ -28,10 +28,10 @@
           "da": 0,
           "eff": 0.7,
           "ifp": 0.05,
-          "mk": 0.3,
+          "mk": 0.5,
           "pa": 0.1,
           "vfplus": -0.05,
-          "actionsa": 0.05,
+          "actionsa": 0.15,
           "acdp": 0,
           "ufc": 0.1,
           "sacp": 0.7

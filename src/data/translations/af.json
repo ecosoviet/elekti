@@ -65,7 +65,7 @@
     "methodology": "Metodologie",
     "methodologyText": "Elekti gebruik 'n omvattende, bewysegebaseerde metode om jou politieke sienings teen Suid-Afrikaanse partye te meet. Die stelsel is ontwerp om regverdig, deursigtig en nie-partydig te wees.",
     "howItWorks": "Hoe dit werk",
-    "howItWorksText": "Jy beantwoord 42 sorgvuldig saamgestelde vrae oor hoofbeleidsareas soos gesondheidsorg, onderwys, ekonomie, bestuur en sosiale sake. Elke vraag is ontwerp om jou voorkeur sonder vooroordeel te openbaar.",
+    "howItWorksText": "Jy beantwoord 38 sorgvuldig saamgestelde vrae oor hoofbeleidsareas soos gesondheidsorg, onderwys, ekonomie, bestuur en sosiale sake. Elke vraag is ontwerp om jou voorkeur sonder vooroordeel te openbaar.",
     "scoring": "Puntestelsel",
     "scoringText": "Elke antwoord word vergelyk met gedokumenteerde partyposisies uit manifeste, beleidsdokumente en openbare verklarings. Partye kry geweegde punte op grond van hoe naby hul posisies aan jou antwoorde is. Ons normaliseer per party sodat elke party teen sy beste moontlike passing gemeet word. Die punte word op 'n 0–100-skaal uitgegee en 'n vertrouensvlak word aangedui om die sterkte van die ooreenkoms te verduidelik.",
     "transparency": "Ons verbintenis tot deursigtigheid",
@@ -243,7 +243,7 @@
       "category": "buitelandse beleid & handel"
     },
     "q28": {
-      "text": "Openbare belegging moet massa-openbare vervoer (spoor en BRT) prioritiseer bo nuwe hoofweë.",
+      "text": "Openbare fondse vir vervoerinfrastruktuur moet eksklusief aan massa-openbare vervoer (spoor en snelbusvervoer) toegewys word, met 'n moratorium op nuwe hoofweëkonstruksie—selfs al ongerief dit motoriste of vertraag ekonomiese groei in motorafhanklike streke.",
       "category": "infrastruktuur & stedelik"
     },
     "q29": {
@@ -251,7 +251,7 @@
       "category": "infrastruktuur & stedelik"
     },
     "q30": {
-      "text": "Stadsbeplanning moet groen openbare ruimtes, loopbaarheid en gemengde gebruik bevorder bo motorgefokusde uitbreidings.",
+      "text": "Stede moet wetlik verplig word om nuwe lae-digtheid, motorafhanklike ontwikkelings te beperk en soneringswette af te dwing wat loopbare, gemengde-gebruik buurte mandateer—selfs al beperk dit private eiendomsregte of verhoog dit behuisingskoste.",
       "category": "infrastruktuur & stedelik"
     },
     "q31": {
@@ -271,36 +271,20 @@
       "category": "voedsel & landbou"
     },
     "q35": {
-      "text": "Dierewelstand-regulasies moet versterk word, insluitend die verbod op intensiewe fabriekboerderypraktyke.",
-      "category": "voedsel & landbou"
-    },
-    "q36": {
       "text": "Jeugwerkloosheid vereis 'n toegewyde nasionale jeugdiens en gewaarborgde leerlingskapskemas.",
       "category": "jeug & onderwys"
     },
-    "q37": {
-      "text": "Spesiale maatreëls is nodig om toeganklikheid en dienste vir mense met gestremdhede oor regeringsdepartemente te verbeter.",
+    "q36": {
+      "text": "Regeringsdepartemente moet wetlik verplig word om streng toeganklikheidstandaarde vir mense met gestremdhede na te kom, selfs as dit beteken dat fondse van ander openbare dienste afgewentel word of regulêre laste verhoog word.",
       "category": "sosiale insluiting"
     },
-    "q38": {
+    "q37": {
       "text": "Die staat moet geteikende subsidies en aansporings instel om townships en landelike ekonomieë te versnel.",
       "category": "ekonomiese insluiting"
     },
-    "q39": {
-      "text": "Kultuurbeleid moet die diversiteit van Suid-Afrikaanse tale en kunste ondersteun deur stabiele openbare befondsing.",
-      "category": "kultuur & identiteit"
-    },
-    "q40": {
+    "q38": {
       "text": "Kiesers moet 'n party se rekord oor dienslewering en korrupsie swaarder weeg as ideologiese slagspreuke.",
       "category": "stemgedrag"
-    },
-    "q41": {
-      "text": "Politieke partye moet spesifiek prioriteit gee aan beleide wat die unieke uitdagings en historiese ervarings van my kulturele of etniese gemeenskap aanspreek.",
-      "category": "kultuur & identiteit"
-    },
-    "q42": {
-      "text": "Ek verkies om te stem vir partye wat eksplisiet fokus op die verteenwoordiging en opheffing van my spesifieke demografiese of gemeenskapsgroep.",
-      "category": "kultuur & identiteit"
     }
   },
   "footer": {

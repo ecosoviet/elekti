@@ -1,40 +1,40 @@
 [
   {
     "id": 28,
-    "text": "Public investment should prioritise mass public transport (rail and bus rapid transit) over new highways.",
+    "text": "Public funds for transport infrastructure should be allocated exclusively to mass public transit (rail and bus rapid transit), with a moratorium on new highway construction—even if this inconveniences motorists or slows economic growth in car-dependent regions.",
     "category": "infrastructure & urban",
     "weight": 1.4,
     "options": [
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.5,
-          "da": 0.4,
-          "eff": 0.8,
-          "ifp": 0,
-          "mk": 0.4,
-          "pa": -0.1,
-          "vfplus": -0.2,
+          "anc": 0.4,
+          "da": 0.2,
+          "eff": 0.6,
+          "ifp": -0.1,
+          "mk": 0.2,
+          "pa": -0.3,
+          "vfplus": -0.4,
           "actionsa": 0,
-          "acdp": -0.1,
+          "acdp": -0.2,
           "ufc": 0.1,
-          "sacp": 0.8
+          "sacp": 0.7
         }
       },
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.4,
-          "da": 0.3,
-          "eff": 0.6,
-          "ifp": 0,
-          "mk": 0.3,
-          "pa": -0.05,
-          "vfplus": -0.1,
+          "anc": 0.3,
+          "da": 0.1,
+          "eff": 0.3,
+          "ifp": -0.05,
+          "mk": 0.1,
+          "pa": -0.1,
+          "vfplus": -0.15,
           "actionsa": 0,
-          "acdp": -0.05,
+          "acdp": -0.1,
           "ufc": 0.05,
-          "sacp": 0.6
+          "sacp": 0.4
         }
       },
       {
@@ -57,32 +57,32 @@
         "option": "Disagree",
         "scores": {
           "anc": -0.1,
-          "da": -0.2,
-          "eff": -0.4,
+          "da": -0.1,
+          "eff": -0.2,
           "ifp": 0.05,
-          "mk": -0.1,
+          "mk": -0.05,
           "pa": 0.1,
-          "vfplus": 0.2,
-          "actionsa": 0.1,
+          "vfplus": 0.15,
+          "actionsa": 0.05,
           "acdp": 0.1,
           "ufc": -0.05,
-          "sacp": -0.4
+          "sacp": -0.2
         }
       },
       {
         "option": "Strongly disagree",
         "scores": {
-          "anc": -0.3,
-          "da": -0.4,
-          "eff": -0.7,
-          "ifp": 0.2,
-          "mk": -0.2,
+          "anc": -0.2,
+          "da": -0.2,
+          "eff": -0.4,
+          "ifp": 0.1,
+          "mk": -0.1,
           "pa": 0.2,
-          "vfplus": 0.5,
-          "actionsa": 0.3,
-          "acdp": 0.3,
+          "vfplus": 0.3,
+          "actionsa": 0.1,
+          "acdp": 0.2,
           "ufc": -0.1,
-          "sacp": -0.7
+          "sacp": -0.4
         }
       }
     ]
@@ -97,8 +97,8 @@
         "option": "Strongly agree",
         "scores": {
           "anc": 0.5,
-          "da": -0.3,
-          "eff": 0.9,
+          "da": -0.05,
+          "eff": 0.85,
           "ifp": 0.1,
           "mk": 0.4,
           "pa": 0.1,
@@ -177,40 +177,40 @@
   },
   {
     "id": 30,
-    "text": "Urban planning should prioritise green public spaces, walkability and mixed-use development over car-centric sprawl.",
+    "text": "Cities should be required by law to restrict new low-density, car-dependent developments and enforce zoning rules that mandate walkable, mixed-use neighborhoods—even if this limits private property rights or increases housing costs.",
     "category": "infrastructure & urban",
     "weight": 1.2,
     "options": [
       {
         "option": "Strongly agree",
         "scores": {
-          "anc": 0.4,
-          "da": 0.1,
-          "eff": 0.6,
+          "anc": 0.2,
+          "da": 0.15,
+          "eff": 0.4,
           "ifp": 0,
-          "mk": 0.3,
-          "pa": -0.1,
-          "vfplus": -0.1,
+          "mk": 0.2,
+          "pa": -0.2,
+          "vfplus": -0.3,
           "actionsa": 0,
-          "acdp": -0.1,
+          "acdp": -0.2,
           "ufc": 0.1,
-          "sacp": 0.6
+          "sacp": 0.4
         }
       },
       {
         "option": "Agree",
         "scores": {
-          "anc": 0.3,
-          "da": 0,
-          "eff": 0.5,
+          "anc": 0.1,
+          "da": 0.1,
+          "eff": 0.2,
           "ifp": 0,
-          "mk": 0.2,
-          "pa": -0.05,
-          "vfplus": -0.05,
+          "mk": 0.1,
+          "pa": -0.1,
+          "vfplus": -0.15,
           "actionsa": 0,
-          "acdp": -0.05,
+          "acdp": -0.1,
           "ufc": 0.05,
-          "sacp": 0.5
+          "sacp": 0.2
         }
       },
       {
@@ -233,32 +233,32 @@
         "option": "Disagree",
         "scores": {
           "anc": -0.1,
-          "da": -0.1,
-          "eff": -0.2,
-          "ifp": 0,
-          "mk": -0.1,
-          "pa": 0.1,
-          "vfplus": 0.2,
-          "actionsa": 0.1,
+          "da": -0.05,
+          "eff": -0.1,
+          "ifp": 0.05,
+          "mk": -0.05,
+          "pa": 0.2,
+          "vfplus": 0.25,
+          "actionsa": 0.05,
           "acdp": 0.1,
           "ufc": -0.05,
-          "sacp": -0.2
+          "sacp": -0.1
         }
       },
       {
         "option": "Strongly disagree",
         "scores": {
-          "anc": -0.3,
-          "da": -0.3,
-          "eff": -0.5,
+          "anc": -0.2,
+          "da": -0.1,
+          "eff": -0.2,
           "ifp": 0.1,
-          "mk": -0.2,
-          "pa": 0.3,
-          "vfplus": 0.4,
-          "actionsa": 0.2,
-          "acdp": 0.3,
+          "mk": -0.1,
+          "pa": 0.35,
+          "vfplus": 0.45,
+          "actionsa": 0.1,
+          "acdp": 0.2,
           "ufc": -0.1,
-          "sacp": -0.5
+          "sacp": -0.2
         }
       }
     ]
