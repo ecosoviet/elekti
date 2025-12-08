@@ -121,35 +121,27 @@ Visit `http://localhost:5173` (default Vite port).
 
 The axis-based alignment system replaces naive text matching:
 
-| Component                                    | Role                                                                         |
-| -------------------------------------------- | ---------------------------------------------------------------------------- | ------ | ----------------------------------------------------------- |
-| **Axes** (`axes.json`)                       | 14 political dimensions (economic left↔right, state↔market, etc.)            |
-| **Questions** (`questions.json`)             | 41 questions, each mapped to one axis with a weight (1.0–2.0)                |
-| **Party positions** (`party_positions.json`) | Each party's stance on all 14 axes (range: -1 to +1)                         |
-| **Similarity scoring**                       | For each axis, compute `1 - abs(user_answer - party_position)` and weight it |
-| **Top axes**                                 | Rank the 3 axes where alignment is strongest, expose them in results         |
-| **Confidence**                               | Determine `high                                                              | medium | low` based on score spread between primary and alternatives |
+- **Axes** – 14 political dimensions from `axes.json`
+- **Questions** – 41 questions, each mapped to one axis with a weight (1.0–2.0)
+- **Party positions** – Each party's stance on all axes (range: -1 to +1)
+- **Similarity scoring** – For each axis: `1 - abs(user_answer - party_position)` weighted by question weight
+- **Top axes** – Show the 3 strongest alignment axes in results
+- **Confidence** – `high` / `medium` / `low` based on score spread
 
-**Localization flow:** Translation files (`en.json`, `af.json`) contain all question text. The quiz store uses `useI18n()` to resolve `textKey` references at runtime, enabling seamless locale switching.
+Translation files contain all UI and question text. Locale switching persists to `localStorage` and resets the quiz.
 
-**Locale switching:** Use `uiStore.setLang()` to change locale, which persists to `localStorage` and triggers a quiz reset. The store re-fetches question text in the new locale.
+## Testing
 
-## Testing & QA
+- Run tests with `npm run test` or `npm run test:ui`.
+- Tests cover scoring logic, stores, router, i18n setup, and data validation.
+- Vitest uses `happy-dom` environment.
 
-- Run tests with `npm run test` or `npm run test:ui` (opens inspector).
-- Stores require `setActivePinia(createPinia())` in unit tests (`src/stores/*.test.ts`).
-- Scoring tests use lightweight axis and party fixtures (`src/utils/scoring.test.ts`).
-- Quiz store tests mock `vue-i18n` and `questions.json` to verify i18n loading and state management.
-- Vitest uses `happy-dom`; browser-only APIs may need shims/mocks.
-- Tests cover scoring, state management, URL encoding/decoding, and locale handling.
+## Tooling
 
-## Tooling Notes
-
-- **TypeScript** – Full type coverage required; `npm run build` fails on type errors.
-- **Linting** – `oxlint` + ESLint with autofix; `npm run lint` enforces code quality.
-- **Vite config** – Uses Rolldown for fast bundling; CSS variables in `src/styles/theme.css` define the design system.
-- **vue-i18n** – Configured with fallback locale `en`; new locales must provide all message keys or loading will fail.
-- **Pinia** – Centralized state for quiz answers and UI preferences; hydrate on app init in `main.ts`.
+- **TypeScript** – Full type coverage; build fails on type errors.
+- **Linting** – `oxlint` + ESLint with autofix.
+- **Bundler** – Rolldown-powered Vite for fast builds.
+- **i18n** – Fallback locale is `en`; all locales must provide complete translations.
 
 ## Contributing
 
