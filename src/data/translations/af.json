@@ -136,167 +136,167 @@
   "questions": {
     "q1": {
       "text": "Die regering behoort belasting op die rykes te verhoog om uitgebreide sosiale programme (gesondheid, onderwys, sosiale toelaes) te befonds.",
-      "category": "ekonomie & fiskaal"
+      "axis": "economic_left_right"
     },
     "q2": {
       "text": "Die afbetaling van openbare skuld en fiskale volhoubaarheid moet geprioritiseer word, selfs al beperk dit nuwe sosiale besteding.",
-      "category": "ekonomie & fiskaal"
+      "axis": "economic_left_right"
     },
     "q3": {
       "text": "Die regering moet klein en medium ondernemings aktief ondersteun met belastingvermindering en deregulering om groei aan te moedig.",
-      "category": "ekonomie & fiskaal"
+      "axis": "state_vs_market"
     },
     "q4": {
       "text": "Die staat moet 'n onvoorwaardelike basiese inkomste vir alle burgers implementeer.",
-      "category": "ekonomie & fiskaal"
+      "axis": "economic_left_right"
     },
     "q5": {
       "text": "Openbare belegging in werkryke openbare werksprogramme is 'n geskikte korttermynmetode om werkloosheid te verminder.",
-      "category": "ekonomie & fiskaal"
+      "axis": "economic_left_right"
     },
     "q6": {
       "text": "Gesondheidsorg moet universeel en publiek befonds word (basiese dienste gratis by gebruikspunt).",
-      "category": "sosiale welsyn & dienste"
+      "axis": "economic_left_right"
     },
     "q7": {
       "text": "Hoër onderwys moet gratis wees vir alle studente, selfs as dit hoër belasting vereis.",
-      "category": "sosiale welsyn & dienste"
+      "axis": "economic_left_right"
     },
     "q8": {
       "text": "Die staat moet sterk subsidies vir kinderopvoeding verskaf om werkende ouers te ondersteun.",
-      "category": "sosiale welsyn & dienste"
+      "axis": "economic_left_right"
     },
     "q9": {
       "text": "Plaaslike regering moet professioneel beman en onafhanklik geoudit word om chroniese munisipale mislukkings aan te spreek en korrupsie te verminder, selfs al beperk dit politieke aanstellings of veroorsaak nasionale ingryping.",
-      "category": "sosiale welsyn & dienste"
+      "axis": "democratic_institutions"
     },
     "q10": {
       "text": "Sleutel openbare nutsdienste (krag, water, spoor) moet in openbare besit bly en nie geprivatiseer word nie.",
-      "category": "eienaarskap & grond"
+      "axis": "state_vs_market"
     },
     "q11": {
       "text": "Onteiening van grond sonder markwaarde-vergoeding moet toegelaat word om grondhervorming te versnel.",
-      "category": "eienaarskap & grond"
+      "axis": "land_and_ownership"
     },
     "q12": {
       "text": "Kleinskaalse boerdery en gemeenskapsgrondregte moet voorkeur geniet bo groot kommersiële landbouondernemings.",
-      "category": "eienaarskap & grond"
+      "axis": "land_and_ownership"
     },
     "q13": {
       "text": "Werkers moet sterker regte hê om te vakbondeer en te staak, met minder beperkinge.",
-      "category": "arbeid & werkplek"
+      "axis": "labour_rights"
     },
     "q14": {
       "text": "Minimum lone moet aansienlik verhoog word om armoede onder werkers te verminder, selfs as sommige klein besighede sukkel.",
-      "category": "arbeid & werkplek"
+      "axis": "labour_rights"
     },
     "q15": {
       "text": "Arbeidsmarkbuigbaarheid (makliker indiensneming en afdanking) sal belegging bevorder en moet aangemoedig word.",
-      "category": "arbeid & werkplek"
+      "axis": "labour_rights"
     },
     "q16": {
       "text": "Die polisie moet sterker magte en hulpbronne kry om gewelddadige misdaad te bekamp, selfs al vergroot dit staatsgesag.",
-      "category": "misdaad & instellings"
+      "axis": "law_order_vs_liberty"
     },
     "q17": {
       "text": "Onafhanklike toesigliggame (regbank, vervolging) moet beskerm word, selfs al vertraag dit vervolgings van magtige amptenare.",
-      "category": "misdaad & instellings"
+      "axis": "democratic_institutions"
     },
     "q18": {
       "text": "Korrupsievervolgings moet vinnig en agresief wees, selfs al veroorsaak dit korttermynonstabiliteit in die regering.",
-      "category": "misdaad & instellings"
+      "axis": "democratic_institutions"
     },
     "q19": {
       "text": "Burgerlike vryhede soos vryheid van uitdrukking en vreedsame protesaksie moet geprioritiseer word, selfs wanneer demonstrasies verkeer of ekonomiese aktiwiteit ontwrig en polisie-operasies bemoeilik.",
-      "category": "regte & vryhede"
+      "axis": "law_order_vs_liberty"
     },
     "q20": {
       "text": "Die staat moet aktief LGBTQ+-anti-diskriminasiewette en inklusiwiteitsbeleid bevorder.",
-      "category": "regte & vryhede"
+      "axis": "social_progressivism"
     },
     "q21": {
       "text": "Suid-Afrika moet wetlik bindende nasionale teikens stel om kweekhuisgasvrystellings te sny en steenkoolkrag oor tyd uit te faseer.",
-      "category": "omgewing & energie"
+      "axis": "environment_energy"
     },
     "q22": {
       "text": "Die staat moet belegging in hernubare energie en energiedoeltreffendheid prioritiseer om afhanklikheid van Eskom/steenkool te verminder.",
-      "category": "omgewing & energie"
+      "axis": "environment_energy"
     },
     "q23": {
       "text": "Omgewingsbeskermingswette moet prioriteit geniet bo nuwe minerale- en steenkoolontwikkeling.",
-      "category": "omgewing & energie"
+      "axis": "environment_energy"
     },
     "q24": {
       "text": "Suid-Afrika moet uitvoer-gedrewe groei prioritiseer deur sterker handelsbande met internasionale markte te bou.",
-      "category": "buitelandse beleid & handel"
+      "axis": "global_vs_local"
     },
     "q25": {
-      "text": "Suid-Afrika moet strategieë ontwikkel om sterker bande met ander Global South-lande te bou eerder as eksklusiewe belyning met Westerse moondhede.",
-      "category": "buitelandse beleid & handel"
+      "text": "Suid-Afrika moet strategiee ontwikkel om sterker bande met ander Global South-lande te bou eerder as eksklusiewe belyning met Westerse moondhede.",
+      "axis": "global_vs_local"
     },
     "q26": {
       "text": "Handelsbeleid moet plaaslike nywerhede beskerm deur tariewe en plaaslike inhoudsreëls te prioritiseer.",
-      "category": "buitelandse beleid & handel"
+      "axis": "global_vs_local"
     },
     "q27": {
-      "text": "Openbare fondse vir vervoerinfrastruktuur moet massa-openbare vervoer (spoor en BRT) prioritiseer bo nuwe hoofweë-konstruksie, insluitend groot uitbreidings in Gauteng, selfs al ongerief dit motoriste of vertraag groei in motorafhanklike gebiede.",
-      "category": "infrastruktuur & stedelik"
+      "text": "Openbare fondse vir vervoerinfrastruktuur moet massa-openbare vervoer (spoor en BRT) prioritiseer bo nuwe hoofwee-konstruksie, insluitend groot uitbreidings in Gauteng, selfs al ongerief dit motoriste of vertraag groei in motorafhanklike gebiede.",
+      "axis": "urban_development"
     },
     "q28": {
       "text": "Bekostigbare openbare behuising moet bo aansporings vir private ontwikkelaars geprioritiseer word.",
-      "category": "infrastruktuur & stedelik"
+      "axis": "urban_development"
     },
     "q29": {
       "text": "Stede moet wetlik verplig word om nuwe lae-digtheid, motorafhanklike ontwikkelings te beperk en soneringswette af te dwing wat loopbare, gemengde-gebruik buurte mandateer—selfs al beperk dit private eiendomsregte of verhoog dit behuisingskoste.",
-      "category": "infrastruktuur & stedelik"
+      "axis": "urban_development"
     },
     "q30": {
       "text": "Suid-Afrika moet sterk digitale privaatheidswette aanvaar wat korporatiewe en staats toesig beperk.",
-      "category": "digitaal & tegnologie"
+      "axis": "law_order_vs_liberty"
     },
     "q31": {
       "text": "Voedselsekuriteit moet deur 'n nasionale strategie bereik word wat plaaslike produksie, agro-ekologie en gemeenskaps tuine ondersteun.",
-      "category": "voedsel & landbou"
+      "axis": "transformation_vs_continuity"
     },
     "q32": {
-      "text": "Regeringsdepartemente moet wetlik verplig word om streng toeganklikheidstandaarde vir mense met gestremdhede na te kom, selfs as dit beteken dat fondse van ander openbare dienste afgewentel word of regulêre laste verhoog word.",
-      "category": "sosiale insluiting"
+      "text": "Regeringsdepartemente moet wetlik verplig word om streng toeganklikheidstandaarde vir mense met gestremdhede na te kom, selfs as dit beteken dat fondse van ander openbare dienste afgewentel word of regulere laste verhoog word.",
+      "axis": "equity_and_inclusion"
     },
     "q33": {
       "text": "Die staat moet geteikende subsidies en aansporings instel om townships en landelike ekonomieë te versnel.",
-      "category": "ekonomiese insluiting"
+      "axis": "equity_and_inclusion"
     },
     "q34": {
       "text": "Suid-Afrika moet aansienlik strenger immigrasie- en grenstoesigbeleide aanvaar, selfs al span dit betrekkinge met buurlande of verminder arbeidsverskaffing in sekere sektore.",
-      "category": "buitelandse beleid & handel"
+      "axis": "global_vs_local"
     },
     "q35": {
       "text": "Regering moet die indiensneming van ongedokumenteerde buitelandse burgers meer aggressief reguleer, selfs al ontwrig dit nywerhede wat op migrantarbeid staatmaak.",
-      "category": "arbeid & werksplek"
+      "axis": "global_vs_local"
     },
     "q36": {
       "text": "Politieke partye moet kompromieë maak oor hul ideologiese standpunte om stabiele koalisieregerings te vorm, selfs al teleurstel dit sommige ondersteuners.",
-      "category": "misdaad & instellings"
+      "axis": "democratic_institutions"
     },
     "q37": {
       "text": "Beleide soos Gelyke Indiensneming en BEE moet sentrale instrumente bly om rasse-ongelykheid aan te spreek, selfs al beperk dit buigsaamheid vir besighede.",
-      "category": "ekonomiese insluiting"
+      "axis": "equity_and_inclusion"
     },
     "q38": {
       "text": "Private maatskappye moet toegelaat word om elektrisiteit wyd te genereer en te verkoop om beurtkrag te beëindig, selfs al verminder dit Eskom se sentrale rol in die energiesektor.",
-      "category": "omgewing & energie"
+      "axis": "state_vs_market"
     },
     "q39": {
       "text": "Nasionale regering moet meer aggressief ingryp in falende munisipaliteite, selfs al beperk dit plaaslike demokratiese outonomie.",
-      "category": "sosiale welsyn & dienste"
+      "axis": "democratic_institutions"
     },
     "q40": {
       "text": "Ontwrigtende proteste en afsluitings moet sterker wetlike beperkings in die gesig staar, selfs al beperk dit sekere vorme van politieke uitdrukking.",
-      "category": "regte & vryhede"
+      "axis": "law_order_vs_liberty"
     },
     "q41": {
       "text": "Politieke leiers wat die regbank, verkiesingsliggame, of die Grondwet openlik ondermyn, moet formele gevolge in die gesig staar, selfs al is hul stellings as politieke spraak geraam.",
-      "category": "misdaad & instellings"
+      "axis": "democratic_institutions"
     }
   },
   "footer": {

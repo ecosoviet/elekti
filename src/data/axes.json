@@ -1,0 +1,64 @@
+{
+  "axes": [
+    {
+      "id": "economic_left_right",
+      "name": "Economic Left ↔ Right",
+      "description": "Taxation, redistribution, and social spending. Left: Progressive taxation, expanded social services. Right: Low taxation, minimal state intervention, market-led growth."
+    },
+    {
+      "id": "state_vs_market",
+      "name": "State Control ↔ Market Economics",
+      "description": "Role of the state in the economy. Left: State ownership of key utilities, active regulation. Right: Privatisation, deregulation, private sector leadership."
+    },
+    {
+      "id": "land_and_ownership",
+      "name": "Land & Property Rights",
+      "description": "Land expropriation, communal rights, and land reform pace. Left: Expropriation without compensation, communal precedence. Right: Market-rate transactions, private property rights, commercial agriculture."
+    },
+    {
+      "id": "labour_rights",
+      "name": "Labour Rights ↔ Market Flexibility",
+      "description": "Union power, minimum wages, and labour regulation. Left: Strong unionisation, wage floors, job protection. Right: Labour flexibility, minimal restrictions, lower wage floors."
+    },
+    {
+      "id": "law_order_vs_liberty",
+      "name": "Law & Order ↔ Civil Liberties",
+      "description": "State authority, policing, and protest. Left: Civil liberties prioritised, protest rights, scrutiny of state power. Right: Strong policing, order prioritised, limits on disruptive protest."
+    },
+    {
+      "id": "democratic_institutions",
+      "name": "Institutional Independence & Governance",
+      "description": "Independence of judiciary, electoral bodies, and oversight. Strong support for institutional autonomy, anti-corruption, good governance vs. political executive flexibility."
+    },
+    {
+      "id": "environment_energy",
+      "name": "Environmental Protection ↔ Energy Pragmatism",
+      "description": "Climate action and energy transition speed. Left: Aggressive climate targets, rapid renewable transition, restrictions on fossil fuels. Right: Pragmatic energy mix, coal flexibility, economic prioritisation."
+    },
+    {
+      "id": "social_progressivism",
+      "name": "Social Progressivism ↔ Conservatism",
+      "description": "LGBTQ+ rights, gender equality, and cultural liberalism. Left: Active promotion of progressive values. Right: Traditional/conservative values, minimal state intervention in social morality."
+    },
+    {
+      "id": "global_vs_local",
+      "name": "Global Integration ↔ Economic Nationalism",
+      "description": "Trade openness, international integration, and immigration. Left: Global cooperation, open borders, multilateral engagement. Right: Economic nationalism, border control, protectionism."
+    },
+    {
+      "id": "transformation_vs_continuity",
+      "name": "Radical Transformation ↔ Incremental Reform",
+      "description": "Speed and depth of systemic change. Left: Radical, rapid transformation addressing historical injustices. Right: Continuity, incremental reform, stability-focused."
+    },
+    {
+      "id": "urban_development",
+      "name": "Public Urban Planning ↔ Market-Led Development",
+      "description": "Urban form and transit priorities. Left: Public transport, mixed-use walkability, affordable housing. Right: Car-friendly, private property rights, market-led sprawl."
+    },
+    {
+      "id": "equity_and_inclusion",
+      "name": "Affirmative Action & BEE ↔ Meritocratic Neutrality",
+      "description": "Employment equity, BEE, and targeted economic support. Left: Active targeting to address inequality, protected minorities. Right: Minimal state-mandated targets, colour-blind approaches."
+    }
+  ]
+}

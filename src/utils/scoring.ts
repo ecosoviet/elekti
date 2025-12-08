@@ -1,4 +1,6 @@
-import scoringData from "../data/scoring";
+import axesData from "../data/axes.json";
+import partyPositionsData from "../data/party_positions.json";
+import questionsData from "../data/questions.json";
 
 export interface Party {
   id: string;
@@ -12,37 +14,29 @@ export interface Party {
 export interface Question {
   id: string;
   text: string;
-  category: string;
-  options: string[];
-}
-
-interface ScoringOption {
-  option: string;
-  scores: Record<string, number>;
-}
-
-interface ScoringQuestion {
-  id: number;
-  qId: string;
-  text: string;
-  category: string;
+  axis: string;
   weight: number;
-  options: ScoringOption[];
+  options: Array<{ value: number; label: string }>;
+}
+
+export interface Axis {
+  id: string;
+  name: string;
+  description: string;
 }
 
 export interface PolicyAlignment {
-  questionId: string;
-  questionText: string;
-  category: string;
+  axis: string;
+  axisName: string;
   score: number;
 }
 
 export interface PartyScore {
   partyId: string;
-  rawScore: number;
-  normalizedScore: number;
+  alignmentScore: number;
   party: Party;
-  topPolicies?: PolicyAlignment[];
+  axisScores?: Record<string, number>;
+  topAxes?: PolicyAlignment[];
 }
 
 export interface QuizResult {
@@ -57,147 +51,106 @@ export function computeScores(
   answers: Record<string, number>,
   parties: Party[]
 ): QuizResult {
-  const rawScores: Record<string, number> = {};
-  const categoryScores: Record<string, Record<string, number[]>> = {};
+  const axes = (axesData as { axes: Axis[] }).axes;
+  const partyPositions = (
+    partyPositionsData as { parties: Record<string, Record<string, number>> }
+  ).parties;
+  const questions = (questionsData as { questions: Question[] }).questions;
+
+  const axisScoresPerParty: Record<string, Record<string, number>> = {};
+  const axisWeightsPerParty: Record<string, Record<string, number>> = {};
 
   parties.forEach((party) => {
-    rawScores[party.id] = 0;
-    categoryScores[party.id] = {};
-  });
+    axisScoresPerParty[party.id] = {};
+    axisWeightsPerParty[party.id] = {};
 
-  const scoringQuestions = scoringData as unknown as ScoringQuestion[];
+    axes.forEach((axis) => {
+      axisScoresPerParty[party.id][axis.id] = 0;
+      axisWeightsPerParty[party.id][axis.id] = 0;
+    });
+  });
 
   Object.entries(answers).forEach(([questionId, optionIndex]) => {
-    const scoringQuestion = scoringQuestions.find((q) => q.qId === questionId);
+    const question = questions.find((q) => q.id === questionId);
+    if (!question) return;
 
-    if (scoringQuestion && scoringQuestion.options[optionIndex]) {
-      const scores = scoringQuestion.options[optionIndex].scores;
-      const weight = scoringQuestion.weight;
+    const userValue = question.options[optionIndex]?.value;
+    if (userValue === undefined) return;
 
-      Object.entries(scores).forEach(([partyId, score]) => {
-        if (rawScores[partyId] !== undefined) {
-          rawScores[partyId] += (score as number) * weight;
+    const axis = question.axis;
+    const weight = question.weight;
 
-          const category = scoringQuestion.category;
-          const partyCategories = categoryScores[partyId];
-          if (partyCategories) {
-            if (!partyCategories[category]) {
-              partyCategories[category] = [];
-            }
-            partyCategories[category].push(score as number);
-          }
-        }
-      });
-    }
-  });
+    parties.forEach((party) => {
+      const partyPositionValue = partyPositions[party.id]?.[axis];
+      if (partyPositionValue === undefined) return;
 
-  const partyMaxScores: Record<string, number> = {};
-  parties.forEach((party) => {
-    partyMaxScores[party.id] = 0;
-  });
+      const similarity = 1 - Math.abs(userValue - partyPositionValue);
 
-  Object.keys(answers).forEach((questionId) => {
-    const scoringQuestion = scoringQuestions.find((q) => q.qId === questionId);
-    const optionIndex = answers[questionId];
+      const weightedScore = similarity * weight;
 
-    if (scoringQuestion && optionIndex !== undefined) {
-      const selectedOption = scoringQuestion.options[optionIndex];
-      const hasScores =
-        selectedOption &&
-        Object.values(selectedOption.scores).some((s) => s !== 0);
-
-      if (hasScores) {
-        parties.forEach((party) => {
-          const maxScoreForParty = Math.max(
-            ...scoringQuestion.options.map((opt) => opt.scores[party.id] || 0)
-          );
-          if (maxScoreForParty > 0) {
-            partyMaxScores[party.id] =
-              (partyMaxScores[party.id] || 0) +
-              maxScoreForParty * scoringQuestion.weight;
-          }
-        });
-      }
-    }
+      axisScoresPerParty[party.id][axis] += weightedScore;
+      axisWeightsPerParty[party.id][axis] += weight;
+    });
   });
 
   const partyScores: PartyScore[] = parties.map((party) => {
-    const rawScore = rawScores[party.id];
-    const maxScore = partyMaxScores[party.id] || 0;
+    const normalizedAxisScores: Record<string, number> = {};
+    let totalWeightedScore = 0;
+    let totalWeight = 0;
 
-    let normalizedScore =
-      maxScore > 0 ? (rawScore !== undefined ? rawScore / maxScore : 0) : 0;
-    normalizedScore = Math.max(0, Math.min(1, normalizedScore));
+    axes.forEach((axis) => {
+      const weightedSum = axisScoresPerParty[party.id][axis.id];
+      const totalWeight_ = axisWeightsPerParty[party.id][axis.id];
 
-    const categoryAverages: Array<{ category: string; avgScore: number }> = [];
-    const partyCategoryScores = categoryScores[party.id];
-    if (partyCategoryScores) {
-      Object.entries(partyCategoryScores).forEach(([category, scores]) => {
-        const avgScore = scores.reduce((sum, s) => sum + s, 0) / scores.length;
-        categoryAverages.push({ category, avgScore });
-      });
-    }
+      if (totalWeight_ > 0) {
+        normalizedAxisScores[axis.id] = weightedSum / totalWeight_;
+        totalWeightedScore += weightedSum;
+        totalWeight += totalWeight_;
+      }
+    });
 
-    const topPolicies =
-      normalizedScore >= 0.15
-        ? categoryAverages
-            .filter((c) => c.avgScore >= 0.5)
-            .sort((a, b) => b.avgScore - a.avgScore)
-            .slice(0, 3)
-            .map((c) => ({
-              questionId: "",
-              questionText: "",
-              category: c.category,
-              score: c.avgScore,
-            }))
-        : [];
+    const alignmentScore =
+      totalWeight > 0 ? totalWeightedScore / totalWeight : 0;
+
+    const topAxes = axes
+      .map((axis) => ({
+        axis: axis.id,
+        axisName: axis.name,
+        score: normalizedAxisScores[axis.id] ?? 0,
+      }))
+      .filter((item) => item.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 3);
 
     return {
       partyId: party.id,
-      rawScore: rawScore !== undefined ? rawScore : 0,
-      normalizedScore,
+      alignmentScore,
       party,
-      topPolicies,
+      axisScores: normalizedAxisScores,
+      topAxes: topAxes.length > 0 ? topAxes : undefined,
     };
   });
 
-  partyScores.sort((a, b) => {
-    if (Math.abs(b.normalizedScore - a.normalizedScore) > 0.0001) {
-      return b.normalizedScore - a.normalizedScore;
-    }
-    return b.rawScore - a.rawScore;
-  });
+  partyScores.sort((a, b) => b.alignmentScore - a.alignmentScore);
 
   const primary = partyScores[0];
   if (!primary) {
     throw new Error("No party scores available");
   }
 
-  const alternatives: PartyScore[] = [];
-
-  for (let i = 1; i < partyScores.length; i++) {
-    const score = partyScores[i];
-    if (!score) {
-      continue;
-    }
-
-    if (alternatives.length >= 2) {
-      break;
-    }
-
-    alternatives.push(score);
-  }
+  const alternatives = partyScores.slice(1, 3);
 
   let confidence: "high" | "medium" | "low" = "high";
 
-  const gapToSecond =
-    alternatives.length > 0 && alternatives[0]
-      ? primary.normalizedScore - alternatives[0].normalizedScore
-      : primary.normalizedScore;
+  const topScore = primary.alignmentScore;
+  const scoreSpread =
+    alternatives.length > 0
+      ? topScore - alternatives[0].alignmentScore
+      : topScore;
 
-  if (primary.normalizedScore < 0.5) {
+  if (topScore < 0.2) {
     confidence = "low";
-  } else if (primary.normalizedScore < 0.7 && gapToSecond < 0.1) {
+  } else if (topScore < 0.5 || scoreSpread < 0.1) {
     confidence = "medium";
   }
 

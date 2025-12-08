@@ -136,167 +136,167 @@
   "questions": {
     "q1": {
       "text": "The government should raise taxes on the wealthy to fund expanded social programmes (health, education, social grants).",
-      "category": "economy & fiscal"
+      "axis": "economic_left_right"
     },
     "q2": {
       "text": "Fiscal discipline and reducing public debt should be prioritised even if it limits new social spending.",
-      "category": "economy & fiscal"
+      "axis": "economic_left_right"
     },
     "q3": {
       "text": "The government should actively support small and medium businesses with tax breaks and deregulation to spur growth.",
-      "category": "economy & fiscal"
+      "axis": "state_vs_market"
     },
     "q4": {
       "text": "The state should introduce a universal basic income as a national policy.",
-      "category": "economy & fiscal"
+      "axis": "economic_left_right"
     },
     "q5": {
       "text": "Public investment in job-rich public works programmes is a suitable short-term method to reduce unemployment.",
-      "category": "economy & fiscal"
+      "axis": "economic_left_right"
     },
     "q6": {
       "text": "Healthcare should be universally publicly funded (basic services free at point of use).",
-      "category": "social welfare & services"
+      "axis": "economic_left_right"
     },
     "q7": {
       "text": "Higher education should be free for all students, even if it requires higher taxes.",
-      "category": "social welfare & services"
+      "axis": "economic_left_right"
     },
     "q8": {
       "text": "The state should provide strong subsidies for childcare to support working parents.",
-      "category": "social welfare & services"
+      "axis": "economic_left_right"
     },
     "q9": {
       "text": "Local government should be professionally staffed and independently audited to address chronic municipal failures and reduce corruption, even if this limits political appointments or triggers national intervention.",
-      "category": "social welfare & services"
+      "axis": "democratic_institutions"
     },
     "q10": {
       "text": "Key public utilities (power, water, rail) should remain publicly owned and not be privatised.",
-      "category": "ownership & land"
+      "axis": "state_vs_market"
     },
     "q11": {
       "text": "Expropriation of land without market-rate compensation should be allowed to speed up land reform.",
-      "category": "ownership & land"
+      "axis": "land_and_ownership"
     },
     "q12": {
       "text": "Smallholder farming and communal land rights should receive priority policy support over large commercial agribusiness.",
-      "category": "ownership & land"
+      "axis": "land_and_ownership"
     },
     "q13": {
       "text": "Workers should have stronger rights to unionise and strike, with fewer restrictions.",
-      "category": "labour & workplace"
+      "axis": "labour_rights"
     },
     "q14": {
       "text": "Minimum wages should be increased significantly to reduce in-work poverty, even if some small businesses struggle.",
-      "category": "labour & workplace"
+      "axis": "labour_rights"
     },
     "q15": {
       "text": "Labour market flexibility (easier hiring and firing) will increase investment and should be encouraged.",
-      "category": "labour & workplace"
+      "axis": "labour_rights"
     },
     "q16": {
       "text": "Police should be given stronger powers and resources to tackle violent crime, even if it expands state authority.",
-      "category": "crime & institutions"
+      "axis": "law_order_vs_liberty"
     },
     "q17": {
       "text": "Independent oversight institutions (judiciary, prosecution) should be protected even if it slows prosecutions of powerful officials.",
-      "category": "crime & institutions"
+      "axis": "democratic_institutions"
     },
     "q18": {
       "text": "Corruption prosecutions should be fast and aggressive even if they cause short-term instability in government.",
-      "category": "crime & institutions"
+      "axis": "democratic_institutions"
     },
     "q19": {
       "text": "Civil liberties such as freedom of expression and peaceful protest should be prioritised even when demonstrations disrupt traffic or economic activity and complicate policing operations.",
-      "category": "rights & freedoms"
+      "axis": "law_order_vs_liberty"
     },
     "q20": {
       "text": "The state should actively promote LGBTQ+ anti-discrimination protections and inclusion policies.",
-      "category": "rights & freedoms"
+      "axis": "social_progressivism"
     },
     "q21": {
       "text": "South Africa should set legally binding national targets to cut greenhouse gas emissions and phase out coal power over time.",
-      "category": "environment & energy"
+      "axis": "environment_energy"
     },
     "q22": {
       "text": "The state should prioritise investment in renewable energy and energy efficiency to reduce dependence on Eskom/coal.",
-      "category": "environment & energy"
+      "axis": "environment_energy"
     },
     "q23": {
       "text": "Environmental protection laws should take priority over new mineral and coal developments.",
-      "category": "environment & energy"
+      "axis": "environment_energy"
     },
     "q24": {
       "text": "South Africa should prioritise export-led growth through stronger trade links with international markets.",
-      "category": "foreign policy & trade"
+      "axis": "global_vs_local"
     },
     "q25": {
       "text": "South Africa should prioritise building stronger strategic ties with other Global South countries over exclusive alignment with Western powers.",
-      "category": "foreign policy & trade"
+      "axis": "global_vs_local"
     },
     "q26": {
       "text": "Trade policy should prioritise protecting local industries through tariffs and local content rules.",
-      "category": "foreign policy & trade"
+      "axis": "global_vs_local"
     },
     "q27": {
       "text": "Public funds for transport infrastructure should prioritise mass public transit (rail and BRT) over new highway construction, including major expansions in Gauteng, even if this inconveniences motorists or slows growth in car-dependent areas.",
-      "category": "infrastructure & urban"
+      "axis": "urban_development"
     },
     "q28": {
       "text": "Affordable public housing projects should be prioritised over incentives for private housing developers.",
-      "category": "infrastructure & urban"
+      "axis": "urban_development"
     },
     "q29": {
       "text": "Cities should be required by law to restrict new low-density, car-dependent developments and enforce zoning rules that mandate walkable, mixed-use neighborhoods—even if this limits private property rights or increases housing costs.",
-      "category": "infrastructure & urban"
+      "axis": "urban_development"
     },
     "q30": {
       "text": "South Africa should adopt strong digital privacy laws limiting corporate and state surveillance.",
-      "category": "digital & tech"
+      "axis": "law_order_vs_liberty"
     },
     "q31": {
       "text": "Food security should be achieved through a national strategy supporting local production, agroecology and community gardens.",
-      "category": "food & agriculture"
+      "axis": "transformation_vs_continuity"
     },
     "q32": {
       "text": "Government departments should be legally required to meet strict accessibility standards for people with disabilities, even if this means diverting funds from other public services or increasing regulatory burdens.",
-      "category": "social inclusion"
+      "axis": "equity_and_inclusion"
     },
     "q33": {
       "text": "The state should introduce targeted subsidies and incentives to accelerate township and rural economies.",
-      "category": "economic inclusion"
+      "axis": "equity_and_inclusion"
     },
     "q34": {
       "text": "South Africa should adopt significantly stricter immigration and border enforcement policies, even if this strains relations with neighbouring countries or reduces labour supply in certain sectors.",
-      "category": "foreign policy & trade"
+      "axis": "global_vs_local"
     },
     "q35": {
       "text": "Government should more aggressively regulate the employment of undocumented foreign nationals, even if this disrupts industries that rely on migrant labour.",
-      "category": "labour & workplace"
+      "axis": "global_vs_local"
     },
     "q36": {
       "text": "Political parties should compromise on their ideological positions to form stable coalition governments, even if this disappoints some supporters.",
-      "category": "crime & institutions"
+      "axis": "democratic_institutions"
     },
     "q37": {
       "text": "Policies such as Employment Equity and BEE should remain central tools for addressing racial inequality, even if they limit flexibility for businesses.",
-      "category": "economic inclusion"
+      "axis": "equity_and_inclusion"
     },
     "q38": {
       "text": "Private companies should be allowed to generate and sell electricity widely to end load-shedding, even if this reduces Eskom's central role in the energy sector.",
-      "category": "environment & energy"
+      "axis": "state_vs_market"
     },
     "q39": {
       "text": "National government should intervene more aggressively in failing municipalities, even if this limits local democratic autonomy.",
-      "category": "social welfare & services"
+      "axis": "democratic_institutions"
     },
     "q40": {
       "text": "Disruptive protests and shutdowns should face stronger legal limits, even if this restricts certain forms of political expression.",
-      "category": "rights & freedoms"
+      "axis": "law_order_vs_liberty"
     },
     "q41": {
       "text": "Political leaders who publicly undermine the judiciary, electoral bodies, or the Constitution should face formal consequences, even if their statements are framed as political speech.",
-      "category": "crime & institutions"
+      "axis": "democratic_institutions"
     }
   },
   "footer": {

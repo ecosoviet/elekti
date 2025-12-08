@@ -1,8 +1,8 @@
 import { defineStore } from "pinia";
-import { computed, ref, watch } from "vue";
+import { computed, ref } from "vue";
+import { useI18n } from "vue-i18n";
 
 import partiesData from "../data/parties.json";
-import { i18n } from "../i18n";
 import {
   computeScores as computeScoresUtil,
   type Party,
@@ -18,55 +18,32 @@ export const useQuizStore = defineStore("quiz", () => {
   const parties = partiesData as Party[];
 
   function loadQuestionsFromI18n(): Question[] {
-    const locale = i18n.global.locale.value as string;
-    const allMessages = i18n.global.messages.value as unknown as Record<
-      string,
-      Record<string, unknown>
-    >;
-    const messages = allMessages[locale];
-    const questionsData = (messages?.questions ?? {}) as Record<
-      string,
-      { text: string; category: string }
-    >;
+    const { t } = useI18n();
 
-    // Generate question IDs dynamically from translation keys
-    // This makes the system flexible - questions are auto-discovered from translations
-    const questionIds = Object.keys(questionsData)
-      .filter((key) => key.match(/^q\d+$/))
-      .sort((a, b) => {
-        const numA = parseInt(a.substring(1));
-        const numB = parseInt(b.substring(1));
-        return numA - numB;
-      });
+    const questionsMetadata = import.meta.glob<{
+      questions: Array<{
+        id: string;
+        textKey: string;
+        axis: string;
+        weight: number;
+        options: Array<{ value: number; label: string }>;
+      }>;
+    }>("../data/questions.json", {
+      eager: true,
+      import: "default",
+    })["../data/questions.json"] as any;
 
-    return questionIds.map((id) => {
-      const qData = questionsData[id];
-      if (!qData) {
-        throw new Error(`Question ${id} not found in locale ${locale}`);
-      }
-      return {
-        id,
-        text: qData.text,
-        category: qData.category,
-        options: [
-          "Strongly Agree",
-          "Agree",
-          "Neutral",
-          "Disagree",
-          "Strongly Disagree",
-        ],
-      };
-    });
+    if (!questionsMetadata?.questions) {
+      throw new Error("Could not load questions from questions.json");
+    }
+
+    return questionsMetadata.questions.map((q: any) => ({
+      ...q,
+      text: t(q.textKey),
+    }));
   }
 
   const questions = ref<Question[]>(loadQuestionsFromI18n());
-
-  watch(
-    () => i18n.global.locale.value,
-    () => {
-      questions.value = loadQuestionsFromI18n();
-    }
-  );
 
   const currentQuestion = computed(
     () => questions.value[currentQuestionIndex.value]

@@ -1,109 +1,64 @@
-# Elekti AI Agent Instructions
+# Copilot Instructions for Elekti
 
 ## Project Overview
 
-Elekti is a multilingual political alignment quiz for South African voters built with Vue 3 + Pinia + TypeScript. The app matches users to 11 political parties via weighted scoring, with all content localized in 4 languages (en, af, xh, zu). The architecture prioritizes deterministic scoring, locale-driven content discovery, and shareable results via URL encoding.
+- **Elekti** is a Vue 3 + Pinia SPA for matching South African voters to parties via a weighted, axis-based scoring system.
+- All quiz content and UI text are strictly localized (English/Afrikaans) and managed via translation files.
+- Scoring is deterministic, axis-based, and normalized per party; results are shareable via URL encoding.
 
-## Critical Architecture
+## Architecture & Key Files
 
-### Data-Driven Question System
+- **Views**: Route-level components in `src/views/` (Landing, Quiz, Results, About).
+- **State Management**: Pinia stores in `src/stores/` (`quizStore`, `uiStore`).
+- **Data**:
+  - `src/data/questions.json`: Question metadata (id, axis, weight, textKey).
+  - `src/data/axes.json`: 14 axes definitions.
+  - `src/data/parties.json`: Party metadata.
+  - `src/data/party_positions.json`: Party stances per axis.
+  - `src/data/translations/{en,af}.json`: Localized UI and question text.
+- **Scoring**: `src/utils/scoring.ts` (core logic), tested in `scoring.test.ts`.
+- **Components**: Quiz UI in `src/components/` (QuizQuestion, PartyCard, etc.).
 
-Questions are **auto-discovered** from translation files, not hardcoded:
+## Developer Workflows
 
-- `src/stores/quizStore.ts` scans `i18n.global.messages.value[locale].questions` for keys matching `/^q\d+$/`
-- Questions are sorted numerically (q1, q2, ..., q42)
-- Throws if a question key exists in one locale but not another
-- Locale changes trigger `loadQuestionsFromI18n()` via a watcher
+- **Install & Run**:
+  - `npm install`
+  - `npm run dev` (local server at http://localhost:5173)
+- **Build**: `npm run build` (type errors fail build)
+- **Test**: `npm run test` (Vitest, happy-dom)
+- **Lint/Format**: `npm run lint` (oxlint + ESLint), `npm run format` (Prettier)
+- **Preview**: `npm run preview` (production build)
 
-**Implication**: Adding/removing questions requires updating ALL 4 translation files (`src/data/translations/*.json`) AND the corresponding scoring file in `src/data/scoring/*.json`.
+## Content & Localization
 
-### Scoring Architecture
+- **Add Question**:
+  1. Add to both `en.json` and `af.json` under `questions`.
+  2. Add metadata to `questions.json` (id, textKey, axis, weight, options).
+  3. Update `party_positions.json` for all parties on the axis.
+  4. Run tests to verify.
+- **Remove/Modify Question**: Update translation files and `questions.json`; keep question `id` stable.
+- **Localization**: All UI and quiz text must exist in both translation files. Locale switching uses `uiStore.setLang()` and persists to localStorage.
 
-1. **Scoring data** lives in category-specific JSON files (`src/data/scoring/*.json`)
-2. **Index aggregation** at `src/data/scoring/index.ts` concatenates all scoring arrays
-3. **Score computation** (`src/utils/scoring.ts`) performs:
-   - Weighted raw score calculation per party
-   - Normalization against theoretical max score (not fixed scale)
-   - Category-level average scoring for "top policies"
-   - Confidence classification (high/medium/low) based on score spread
+## Patterns & Conventions
 
-Party IDs are hardcoded: `anc`, `da`, `eff`, `ifp`, `mk`, `pa`, `vfplus`, `actionsa`, `acdp`, `ufc`, `sacp`. All scoring questions MUST include scores for all 11 parties.
+- **TypeScript strictness**: All code must pass type checks; build fails otherwise.
+- **Pinia**: Centralised state, hydrated in `main.ts`.
+- **vue-i18n**: Fallback locale is `en`; all keys must be present in new locales.
+- **Scoring**: Axis-based, not direct text matching. See `scoring.ts` for algorithm.
+- **Tests**: Stores and scoring logic are unit tested; use fixtures/mocks for i18n and data.
+- **Comments**: Do not add comments to code unless specifically requested.
+- **Language**: Use British English spelling and grammar throughout code and documentation.
 
-### State Management
+## CI/CD
 
-- **quizStore**: Quiz state, answers (Record<string, number>), progress, URL encoding/decoding
-- **uiStore**: Locale persistence to localStorage only
-- Both use Pinia setup stores (composition API style)
-- No shared state between stores—locale changes are observed via `i18n.global.locale.value` watchers
+- **GitHub Actions**: See `.github/workflows/node.js.yml` for Node-based CI.
+- **Contributing**: Keep lint, tests, and type checks passing before PRs.
 
-## Content & Localization Workflow
+## Examples
 
-### Adding a Question
+- Adding a question: update both translation files, `questions.json`, and `party_positions.json`.
+- Scoring: `computeScores()` in `scoring.ts` aligns user answers to party positions via axes.
 
-1. Add to ALL 4 translation files (`en.json`, `af.json`, `xh.json`, `zu.json`):
+---
 
-   ```json
-   "q43": {
-     "text": "Your question text",
-     "category": "economy & fiscal"
-   }
-   ```
-
-2. Add to the appropriate category file in `src/data/scoring/`:
-
-   ```json
-   {
-     "qId": "q43",
-     "text": "Your question text",
-     "category": "economy & fiscal",
-     "weight": 1.5,
-     "options": [
-       { "option": "Strongly agree", "scores": { "anc": 0.5, "da": -0.3, ...(all 11 parties) } },
-       { "option": "Agree", "scores": { ... } },
-       { "option": "Neutral", "scores": { ... } },
-       { "option": "Disagree", "scores": { ... } },
-       { "option": "Strongly disagree", "scores": { ... } }
-     ]
-   }
-   ```
-
-3. No code changes needed—question auto-discovered by `quizStore`
-
-### Removing a Question
-
-Delete from all 4 translation files AND the scoring file. No other changes required.
-
-## Build & Tooling
-
-- **Vite with Rolldown**: Uses `vite: "npm:rolldown-vite@latest"` for fast builds
-- **Lint workflow**: `npm run lint` runs oxlint (fast) then ESLint (with cache + autofix)
-- **Format**: Prettier with organize-imports + package.json sorting
-- **Test**: Vitest in happy-dom mode; stores and utils have full test coverage
-- **Type-check**: `vue-tsc --build` must pass before build succeeds
-
-### Manual Chunk Configuration
-
-`vite.config.ts` splits vendor libs (vue, vue-router, pinia, vue-i18n) into separate chunks to optimize caching. Touch this if adding heavy dependencies.
-
-## Testing Patterns
-
-- Use `vi.mock("../i18n")` to mock the i18n instance with test questions
-- Pinia stores require `setActivePinia(createPinia())` in `beforeEach`
-- Test files colocated with implementation: `*.test.ts` alongside `*.ts`
-- See `src/stores/quizStore.test.ts` for comprehensive store testing examples
-
-## Key Conventions
-
-- **Option indices**: Always 0-4 for [Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree]
-- **Party IDs**: Must match keys in `src/data/parties.json` exactly
-- **Translation keys**: Follow `q<number>` pattern strictly
-- **Scoring weights**: Default to 1.0; increase for "flagship" policy questions
-- **Category names**: Must match exactly between translations and scoring data
-- **Comments**: Never add code comments unless explicitly requested—code should be self-documenting
-
-## Common Pitfalls
-
-- Forgetting to update all 4 locale files when adding/modifying questions
-- Missing a party in scoring data (will cause undefined scores)
-- Changing question IDs breaks URL-encoded answer sharing
-- ESLint ignores JSON files—manually validate scoring data structure
+For unclear patterns or missing details, ask maintainers for clarification or review recent PRs/issues.

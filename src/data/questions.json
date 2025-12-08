@@ -1,0 +1,1152 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "textKey": "questions.q1.text",
+      "axis": "economic_left_right",
+      "weight": 2.0,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "textKey": "questions.q2.text",
+      "axis": "economic_left_right",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "textKey": "questions.q3.text",
+      "axis": "state_vs_market",
+      "weight": 1.6,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "textKey": "questions.q4.text",
+      "axis": "economic_left_right",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "textKey": "questions.q5.text",
+      "axis": "economic_left_right",
+      "weight": 1.4,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "textKey": "questions.q6.text",
+      "axis": "economic_left_right",
+      "weight": 1.9,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "textKey": "questions.q7.text",
+      "axis": "economic_left_right",
+      "weight": 1.7,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "textKey": "questions.q8.text",
+      "axis": "economic_left_right",
+      "weight": 1.3,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "textKey": "questions.q9.text",
+      "axis": "democratic_institutions",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "textKey": "questions.q10.text",
+      "axis": "state_vs_market",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "textKey": "questions.q11.text",
+      "axis": "land_and_ownership",
+      "weight": 2.0,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "textKey": "questions.q12.text",
+      "axis": "land_and_ownership",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "textKey": "questions.q13.text",
+      "axis": "labour_rights",
+      "weight": 1.6,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "textKey": "questions.q14.text",
+      "axis": "labour_rights",
+      "weight": 1.7,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "textKey": "questions.q15.text",
+      "axis": "labour_rights",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "textKey": "questions.q16.text",
+      "axis": "law_order_vs_liberty",
+      "weight": 1.6,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "textKey": "questions.q17.text",
+      "axis": "democratic_institutions",
+      "weight": 2.0,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "textKey": "questions.q18.text",
+      "axis": "democratic_institutions",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "textKey": "questions.q19.text",
+      "axis": "law_order_vs_liberty",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "textKey": "questions.q20.text",
+      "axis": "social_progressivism",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "textKey": "questions.q21.text",
+      "axis": "environment_energy",
+      "weight": 1.7,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "textKey": "questions.q22.text",
+      "axis": "environment_energy",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "textKey": "questions.q23.text",
+      "axis": "environment_energy",
+      "weight": 1.6,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "textKey": "questions.q24.text",
+      "axis": "global_vs_local",
+      "weight": 1.4,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "textKey": "questions.q25.text",
+      "axis": "global_vs_local",
+      "weight": 1.3,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "textKey": "questions.q26.text",
+      "axis": "global_vs_local",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "textKey": "questions.q27.text",
+      "axis": "urban_development",
+      "weight": 1.6,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "textKey": "questions.q28.text",
+      "axis": "urban_development",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "textKey": "questions.q29.text",
+      "axis": "urban_development",
+      "weight": 1.4,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "textKey": "questions.q30.text",
+      "axis": "law_order_vs_liberty",
+      "weight": 1.4,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "textKey": "questions.q31.text",
+      "axis": "transformation_vs_continuity",
+      "weight": 1.3,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "textKey": "questions.q32.text",
+      "axis": "equity_and_inclusion",
+      "weight": 1.4,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "textKey": "questions.q33.text",
+      "axis": "equity_and_inclusion",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "textKey": "questions.q34.text",
+      "axis": "global_vs_local",
+      "weight": 1.6,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "textKey": "questions.q35.text",
+      "axis": "global_vs_local",
+      "weight": 1.4,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "textKey": "questions.q36.text",
+      "axis": "democratic_institutions",
+      "weight": 1.3,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "textKey": "questions.q37.text",
+      "axis": "equity_and_inclusion",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "textKey": "questions.q38.text",
+      "axis": "state_vs_market",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "textKey": "questions.q39.text",
+      "axis": "democratic_institutions",
+      "weight": 1.3,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "textKey": "questions.q40.text",
+      "axis": "law_order_vs_liberty",
+      "weight": 1.5,
+      "options": [
+        {
+          "value": -1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": -0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": 0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": 1,
+          "label": "Strongly disagree"
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "textKey": "questions.q41.text",
+      "axis": "democratic_institutions",
+      "weight": 1.8,
+      "options": [
+        {
+          "value": 1,
+          "label": "Strongly agree"
+        },
+        {
+          "value": 0.5,
+          "label": "Agree"
+        },
+        {
+          "value": 0,
+          "label": "Neutral"
+        },
+        {
+          "value": -0.5,
+          "label": "Disagree"
+        },
+        {
+          "value": -1,
+          "label": "Strongly disagree"
+        }
+      ]
+    }
+  ]
+}

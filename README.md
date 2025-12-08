@@ -6,26 +6,33 @@ Elekti is a Vue 3 + Pinia single-page application that walks users through 42 po
 
 ## Highlights
 
-- 🎯 **Policy matching** – Option indices map directly to scoring weights defined in `src/data/scoring.json`.
-- 🌍 **Fully localized content** – All copy (including questions) lives in `src/data/translations/*.json`; the quiz store throws if a locale is missing data.
-- 🧠 **Deterministic scoring** – `src/utils/scoring.ts` normalizes per-party scores, tracks category confidence, and exposes top policies.
-- 🧭 **URL-shareable results** – Answers encode into a comma-delimited string, enabling sharable quiz states.
-- ⚙️ **Rolldown-powered Vite** – Fast local dev with manual chunks and Fontaine font metrics.
+- 🎯 **Policy matching** – 41 policy questions mapped to 14 political axes; each question has weighted impact on party alignment scores.
+- 🌍 **Fully localized content** – All questions live in `src/data/translations/{en,af}.json`; metadata references translations via `textKey`.
+- 🧠 **Deterministic scoring** – `src/utils/scoring.ts` uses axis-based alignment with similarity scoring, normalized per-party, and tracks top 3 policy axes.
+- 🧭 **URL-shareable results** – Answers encode into a comma-delimited string, enabling sharable quiz states across locales.
+- ⚙️ **Vite + Vue 3** – Fast local dev with TypeScript, Pinia state management, and vue-i18n multilingual support.
 
 ## Architecture Overview
 
 - **Views** – Landing, Quiz, Results, and About routes under `src/views/*` managed by `vue-router`.
-- **State** – `quizStore` handles answers, progress, sharing, and locale-triggered refreshes; `uiStore` persists the selected locale to `localStorage`.
-- **Data** – `parties.json` holds metadata for 11 parties; `scoring.json` links question ids → party scores; translations carry question text + categories.
-- **Scoring flow** – Answers feed into `computeScores`, which calculates raw + normalized scores, sorts parties, and determines confidence (`high|medium|low`).
+- **State** – `quizStore` loads questions from i18n and `questions.json` metadata, manages answers and quiz progress; `uiStore` handles locale persistence.
+- **Data** – `parties.json` defines 11 parties; `questions.json` contains 41 questions with metadata (axis, weight, textKey); `translations/{en,af}.json` hold all UI text and question content.
+- **Scoring flow** – `computeScores()` calculates axis-based similarity between user answers and party positions, returns ranked parties with top policy axes and confidence level.
 
 ```
 src/
-├── components/         # QuizQuestion, QuizOption, PartyCard, etc.
-├── data/               # parties.json, scoring.json, translations
-├── stores/             # Pinia stores (quiz + ui) and unit tests
-├── utils/              # scoring logic + tests
-└── views/              # Route-level components
+├── components/          # QuizQuestion, PartyCard, ResultBreakdown, etc.
+├── data/
+│   ├── axes.json        # 14 political axis definitions
+│   ├── parties.json     # 11 party metadata (names, colors, descriptions)
+│   ├── party_positions.json  # Party positions on each axis
+│   ├── questions.json   # 41 questions with textKey refs, axis, weight
+│   └── translations/
+│       ├── en.json      # English UI + question text
+│       └── af.json      # Afrikaans UI + question text
+├── stores/              # Pinia stores (quiz + ui) and unit tests
+├── utils/               # scoring logic + tests
+└── views/               # Route-level components
 ```
 
 ## Getting Started
@@ -54,85 +61,109 @@ Visit `http://localhost:5173` (default Vite port).
 
 ### Adding a New Question
 
-1. **Add to all 4 translation files** – Edit `src/data/translations/{en.json,af.json,xh.json,zu.json}` with:
+1. **Add to both translation files** – Edit `src/data/translations/en.json` and `src/data/translations/af.json` under the `questions` object:
 
    ```json
-   "q34": {
-     "text": "Your question text here",
-     "category": "your_category"
+   "q42": {
+     "text": "Your question text here (in English or Afrikaans)",
+     "axis": "economic_left_right"
    }
    ```
 
-   **Must add the same key to all 4 locales.**
+   **Add the same key with localized text to both en.json and af.json.**
 
-2. **Add scoring data** – Append to the appropriate scoring file in `src/data/scoring/`:
+2. **Add question metadata** – Append to `src/data/questions.json`:
 
    ```json
    {
-     "id": 34,
-     "qId": "q34",
-     "text": "Your question text here",
-     "category": "economy & fiscal",
+     "id": "q42",
+     "textKey": "questions.q42.text",
+     "axis": "economic_left_right",
      "weight": 1.5,
      "options": [
-       { "option": "Strongly agree", "scores": { "anc": 0.5, "da": -0.3, ... } },
-       { "option": "Agree", "scores": { ... } },
-       { "option": "Neutral", "scores": { "anc": 0, ... } },
-       { "option": "Disagree", "scores": { ... } },
-       { "option": "Strongly disagree", "scores": { ... } }
+       { "value": 1, "label": "Strongly agree" },
+       { "value": 0.5, "label": "Agree" },
+       { "value": 0, "label": "Neutral" },
+       { "value": -0.5, "label": "Disagree" },
+       { "value": -1, "label": "Strongly disagree" }
      ]
    }
    ```
 
-   Include scores for all 11 parties: `anc`, `da`, `eff`, `ifp`, `mk`, `pa`, `vfplus`, `actionsa`, `acdp`, `ufc`, `sacp`.
+   The `axis` must match one of the 14 defined axes in `src/data/axes.json`.
 
-3. **Verify** – The quiz store auto-discovers questions from translation keys (sorted numerically q1…qN), so no manual ID array updates needed.
+3. **Add party positions** – Update `src/data/party_positions.json` to include position scores for all 11 parties on the relevant axis(es):
+
+   ```json
+   "parties": {
+     "anc": { "economic_left_right": 0.3, ... },
+     "da": { "economic_left_right": -0.65, ... },
+     ...
+   }
+   ```
+
+4. **Verify** – Run `npm run test` to ensure no type errors; the quiz store auto-loads from translations.
 
 ### Removing a Question
 
-1. Delete the question from all 4 translation files.
-2. Delete the question object from the corresponding scoring file.
-3. Done—no other files need updates.
+1. Delete the question key from both `en.json` and `af.json` translation files.
+2. Remove the question object from `src/data/questions.json`.
+3. Done—no other files need updates. Question IDs remain stable.
 
 ### Modifying a Question
 
-- **Text** – Update in all 4 translation files and the scoring file's `text` field.
-- **Category/Weight** – Edit the scoring file; category determines policy alignment group, weight influences score impact.
-- **Do not change** – The `qId` or numeric `id`; these are fixed identifiers.
+- **Text** – Update in both translation files (`en.json` and `af.json`) under `questions.q[N].text`.
+- **Axis/Weight** – Edit `src/data/questions.json`; axis determines which party positions affect scoring, weight scales the contribution.
+- **Party positions** – Modify `src/data/party_positions.json` if stance should change.
+- **Do not change** – The question `id` (e.g., `q42`); this is the stable identifier.
 
-## System Architecture
+## Scoring Engine
 
-The refactored question system eliminates rigid hardcoding:
+The axis-based alignment system replaces naive text matching:
 
-| Component             | Role                                                                                     |
-| --------------------- | ---------------------------------------------------------------------------------------- |
-| **Translation files** | Single source of truth for questions; auto-discovered and sorted by store                |
-| **Scoring files**     | Each question has `qId` (string, for lookup) + `id` (numeric, for reference)             |
-| **Quiz store**        | Dynamically generates question list from translation keys instead of hardcoding `q1…q41` |
-| **Scoring logic**     | Looks up questions by `qId` string instead of parsing question IDs                       |
+| Component                                    | Role                                                                         |
+| -------------------------------------------- | ---------------------------------------------------------------------------- | ------ | ----------------------------------------------------------- |
+| **Axes** (`axes.json`)                       | 14 political dimensions (economic left↔right, state↔market, etc.)            |
+| **Questions** (`questions.json`)             | 41 questions, each mapped to one axis with a weight (1.0–2.0)                |
+| **Party positions** (`party_positions.json`) | Each party's stance on all 14 axes (range: -1 to +1)                         |
+| **Similarity scoring**                       | For each axis, compute `1 - abs(user_answer - party_position)` and weight it |
+| **Top axes**                                 | Rank the 3 axes where alignment is strongest, expose them in results         |
+| **Confidence**                               | Determine `high                                                              | medium | low` based on score spread between primary and alternatives |
 
-**Before:** Adding a question required editing 16 files + updating a hardcoded array.  
-**After:** Edit translations + scoring file, done. Questions are auto-discovered and validated on load.
+**Localization flow:** Translation files (`en.json`, `af.json`) contain all question text. The quiz store uses `useI18n()` to resolve `textKey` references at runtime, enabling seamless locale switching.
 
-Switching locales via `uiStore.setLang` reloads the quiz and persists the language code. Skipping this helper bypasses the watcher and leaves stale state.
+**Locale switching:** Use `uiStore.setLang()` to change locale, which persists to `localStorage` and triggers a quiz reset. The store re-fetches question text in the new locale.
 
 ## Testing & QA
 
+- Run tests with `npm run test` or `npm run test:ui` (opens inspector).
 - Stores require `setActivePinia(createPinia())` in unit tests (`src/stores/*.test.ts`).
-- Scoring tests use lightweight party fixtures (`src/utils/scoring.test.ts`).
+- Scoring tests use lightweight axis and party fixtures (`src/utils/scoring.test.ts`).
+- Quiz store tests mock `vue-i18n` and `questions.json` to verify i18n loading and state management.
 - Vitest uses `happy-dom`; browser-only APIs may need shims/mocks.
+- **All 63 tests passing** – covers scoring, state management, URL encoding/decoding, and locale handling.
 
 ## Tooling Notes
 
-- `vite.config.ts` manually splits vendor chunks and filters noisy vue-i18n warnings—treat new Rollup warnings as regressions.
-- CSS lives in `src/styles/theme.css` with bespoke variables; reuse existing tokens instead of introducing ad-hoc values.
+- **TypeScript** – Full type coverage required; `npm run build` fails on type errors.
+- **Linting** – `oxlint` + ESLint with autofix; `npm run lint` enforces code quality.
+- **Vite config** – Uses Rolldown for fast bundling; CSS variables in `src/styles/theme.css` define the design system.
+- **vue-i18n** – Configured with fallback locale `en`; new locales must provide all message keys or loading will fail.
+- **Pinia** – Centralized state for quiz answers and UI preferences; hydrate on app init in `main.ts`.
 
 ## Contributing
 
 1. Fork + branch from `main`.
-2. Keep lint, tests, and type checks green (`npm run lint && npm run test && npm run build`).
-3. Update translations/scoring/parties synchronously when adding content.
+2. Keep lint, tests, and type checks green:
+   ```sh
+   npm run lint && npm run test && npm run build
+   ```
+3. When adding questions:
+   - Add to **both** `en.json` and `af.json` translation files.
+   - Add metadata to `questions.json` (with matching `id` and `textKey`).
+   - Update `party_positions.json` if adding or modifying axis mappings.
+   - Run tests to verify no type errors.
 
 ---
 
-Have improvement ideas or new policy questions? Open an issue or start a discussion so we can expand Elekti’s reach.
+Have improvement ideas, new policy questions, or issues with party alignment? Open an issue or start a discussion so we can expand and refine Elekti.

@@ -1,6 +1,96 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import type { Party, PartyScore } from "./scoring";
 import { computeScores } from "./scoring";
+
+vi.mock("../data/axes.json", () => ({
+  default: {
+    axes: [
+      {
+        id: "economic_left_right",
+        name: "Economic Left ↔ Right",
+        description: "Test axis",
+      },
+      {
+        id: "state_vs_market",
+        name: "State ↔ Market",
+        description: "Test axis",
+      },
+      {
+        id: "labour_rights",
+        name: "Labour Rights ↔ Flexibility",
+        description: "Test axis",
+      },
+    ],
+  },
+}));
+
+vi.mock("../data/party_positions.json", () => ({
+  default: {
+    parties: {
+      anc: {
+        economic_left_right: 0.3,
+        state_vs_market: 0.2,
+        labour_rights: 0.45,
+      },
+      da: {
+        economic_left_right: -0.65,
+        state_vs_market: -0.7,
+        labour_rights: -0.55,
+      },
+      eff: {
+        economic_left_right: 0.95,
+        state_vs_market: 0.85,
+        labour_rights: 0.75,
+      },
+    },
+  },
+}));
+
+vi.mock("../data/questions.json", () => ({
+  default: {
+    questions: [
+      {
+        id: "q1",
+        text: "Test question 1",
+        axis: "economic_left_right",
+        weight: 1.5,
+        options: [
+          { value: 1, label: "Strongly agree" },
+          { value: 0.5, label: "Agree" },
+          { value: 0, label: "Neutral" },
+          { value: -0.5, label: "Disagree" },
+          { value: -1, label: "Strongly disagree" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Test question 2",
+        axis: "state_vs_market",
+        weight: 1.2,
+        options: [
+          { value: -1, label: "Strongly agree" },
+          { value: -0.5, label: "Agree" },
+          { value: 0, label: "Neutral" },
+          { value: 0.5, label: "Disagree" },
+          { value: 1, label: "Strongly disagree" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Test question 3",
+        axis: "labour_rights",
+        weight: 1.3,
+        options: [
+          { value: 1, label: "Strongly agree" },
+          { value: 0.5, label: "Agree" },
+          { value: 0, label: "Neutral" },
+          { value: -0.5, label: "Disagree" },
+          { value: -1, label: "Strongly disagree" },
+        ],
+      },
+    ],
+  },
+}));
 
 const mockParties: Party[] = [
   {
@@ -9,7 +99,6 @@ const mockParties: Party[] = [
     short: "ANC",
     descriptionKey: "party.anc.desc",
     colour: "#007A1C",
-    logo: "",
   },
   {
     id: "da",
@@ -17,7 +106,6 @@ const mockParties: Party[] = [
     short: "DA",
     descriptionKey: "party.da.desc",
     colour: "#007BFF",
-    logo: "",
   },
   {
     id: "eff",
@@ -25,32 +113,15 @@ const mockParties: Party[] = [
     short: "EFF",
     descriptionKey: "party.eff.desc",
     colour: "#D70022",
-    logo: "",
-  },
-  {
-    id: "mk",
-    name: "uMkhonto we Sizwe Party",
-    short: "MK",
-    descriptionKey: "party.mk.desc",
-    colour: "#1A1A1A",
-    logo: "",
-  },
-  {
-    id: "ifp",
-    name: "Inkatha Freedom Party",
-    short: "IFP",
-    descriptionKey: "party.ifp.desc",
-    colour: "#C00000",
-    logo: "",
   },
 ];
 
-describe("scoring.ts - computeScores", () => {
+describe("scoring.ts - computeScores (axis-based)", () => {
   it("should return a QuizResult with primary and alternatives", () => {
     const answers = {
       q1: 0,
-      q2: 1,
-      q3: 2,
+      q2: 4,
+      q3: 0,
     };
 
     const result = computeScores(answers, mockParties);
@@ -63,143 +134,161 @@ describe("scoring.ts - computeScores", () => {
     expect(result.timestamp).toBeDefined();
   });
 
-  it("should have primary party with highest normalized score", () => {
+  it("should have primary party with highest alignment score", () => {
     const answers = {
       q1: 0,
       q2: 0,
-      q3: 0,
     };
 
     const result = computeScores(answers, mockParties);
 
-    expect(result.primary.normalizedScore).toBeGreaterThanOrEqual(0);
-    expect(result.primary.normalizedScore).toBeLessThanOrEqual(1);
+    expect(result.primary.alignmentScore).toBeGreaterThanOrEqual(0);
+    expect(result.primary.alignmentScore).toBeLessThanOrEqual(1);
 
     const maxScore = Math.max(
-      ...result.allScores.map((s: PartyScore) => s.normalizedScore)
+      ...result.allScores.map((s: PartyScore) => s.alignmentScore)
     );
-    expect(result.primary.normalizedScore).toBe(maxScore);
+    expect(result.primary.alignmentScore).toBe(maxScore);
   });
 
-  it("should normalize scores between 0 and 1", () => {
+  it("should calculate similarity correctly: 1 - abs(user_value - party_position)", () => {
     const answers = {
       q1: 0,
-      q2: 1,
-      q3: 2,
-      q4: 3,
-      q5: 4,
     };
 
     const result = computeScores(answers, mockParties);
 
-    result.allScores.forEach((score: PartyScore) => {
-      expect(score.normalizedScore).toBeGreaterThanOrEqual(0);
-      expect(score.normalizedScore).toBeLessThanOrEqual(1);
-    });
+    const ancScore = result.allScores.find((s) => s.partyId === "anc");
+    const effScore = result.allScores.find((s) => s.partyId === "eff");
+
+    expect(effScore).toBeDefined();
+    expect(ancScore).toBeDefined();
+    if (effScore && ancScore) {
+      expect(effScore.alignmentScore).toBeGreaterThan(ancScore.alignmentScore);
+    }
   });
 
-  it("should have all parties with raw and normalized scores", () => {
+  it("should accumulate weighted scores across questions", () => {
     const answers = {
       q1: 0,
-      q2: 1,
-    };
-
-    const result = computeScores(answers, mockParties);
-
-    expect(result.allScores.length).toBe(mockParties.length);
-
-    result.allScores.forEach((score: PartyScore) => {
-      expect(score.partyId).toBeDefined();
-      expect(score.rawScore).toBeDefined();
-      expect(score.normalizedScore).toBeDefined();
-      expect(score.party).toBeDefined();
-    });
-  });
-
-  it("should set high confidence when primary score is above 0.7 and gap is >= 0.1", () => {
-    const answers = {
-      q1: 0,
-      q2: 0,
+      q2: 4,
       q3: 0,
-      q4: 0,
-      q5: 0,
-      q6: 0,
-      q7: 0,
-      q8: 0,
-      q9: 0,
-      q10: 0,
     };
 
     const result = computeScores(answers, mockParties);
 
-    const gapToSecond = result.alternatives[0]
-      ? result.primary.normalizedScore - result.alternatives[0].normalizedScore
-      : result.primary.normalizedScore;
-
-    if (result.primary.normalizedScore >= 0.7 && gapToSecond >= 0.1) {
-      expect(result.confidence).toBe("high");
-    }
+    expect(result.primary).toBeDefined();
+    expect(
+      result.allScores.every(
+        (s: PartyScore) => typeof s.alignmentScore === "number"
+      )
+    ).toBe(true);
   });
 
-  it("should set low confidence when primary score is below 0.15", () => {
-    const answers = {
-      q1: 2,
-      q2: 2,
-      q3: 2,
-      q4: 2,
-      q5: 2,
-      q6: 2,
-      q7: 2,
-      q8: 2,
-      q9: 2,
-      q10: 2,
-    };
-
-    const result = computeScores(answers, mockParties);
-
-    if (result.primary.normalizedScore < 0.15) {
-      expect(result.confidence).toBe("low");
-    }
-  });
-
-  it("should include alternatives with 2-party limit under normal conditions", () => {
+  it("should skip undefined answers gracefully", () => {
     const answers = {
       q1: 0,
-      q2: 1,
       q3: 2,
-      q4: 3,
     };
 
     const result = computeScores(answers, mockParties);
 
-    expect(result.alternatives.length).toBeLessThanOrEqual(
-      mockParties.length - 1
-    );
+    expect(result.primary).toBeDefined();
+    expect(result.allScores.length).toBe(mockParties.length);
+    expect(
+      result.allScores.every(
+        (s: PartyScore) => typeof s.alignmentScore === "number"
+      )
+    ).toBe(true);
   });
 
-  it("should handle empty answers gracefully", () => {
+  it("should handle empty answers without crashing", () => {
     const answers = {};
 
     const result = computeScores(answers, mockParties);
 
     expect(result.primary).toBeDefined();
     expect(result.allScores.length).toBe(mockParties.length);
-    expect(result.allScores.every((s: PartyScore) => s.rawScore === 0)).toBe(
-      true
-    );
   });
 
-  it("should handle partial answers", () => {
+  it("should calculate confidence as high when score spread > 0.15", () => {
     const answers = {
       q1: 0,
-      q3: 2,
-      q5: 4,
+      q2: 0,
+      q3: 0,
     };
 
     const result = computeScores(answers, mockParties);
 
-    expect(result.primary).toBeDefined();
-    expect(result.allScores.length).toBe(mockParties.length);
+    const spread =
+      result.primary.alignmentScore -
+      (result.alternatives[0]?.alignmentScore ?? 0);
+    if (result.primary.alignmentScore > 0.5 && spread > 0.1) {
+      expect(result.confidence).toBe("high");
+    }
+  });
+
+  it("should calculate confidence as low when alignment score < 0.2", () => {
+    const answers = {
+      q1: 2,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    if (result.primary.alignmentScore < 0.2) {
+      expect(result.confidence).toBe("low");
+    }
+  });
+
+  it("should calculate confidence as medium when alignment < 0.5 or spread < 0.1", () => {
+    const answers = {
+      q1: 1,
+      q2: 3,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    const spread =
+      result.primary.alignmentScore -
+      (result.alternatives[0]?.alignmentScore ?? 0);
+    if (
+      (result.primary.alignmentScore < 0.5 || spread < 0.1) &&
+      result.primary.alignmentScore >= 0.2
+    ) {
+      expect(result.confidence).toMatch(/^(medium|low)$/);
+    }
+  });
+
+  it("should include top 3 axes in topAxes field", () => {
+    const answers = {
+      q1: 0,
+      q2: 4,
+      q3: 0,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    const primary = result.primary;
+    if (primary.topAxes) {
+      expect(primary.topAxes.length).toBeLessThanOrEqual(3);
+      if (primary.topAxes[0]) {
+        expect(primary.topAxes[0].axisName).toBeDefined();
+        expect(primary.topAxes[0].score).toBeGreaterThan(0);
+      }
+    }
+  });
+
+  it("should provide axis scores for each axis", () => {
+    const answers = {
+      q1: 0,
+      q2: 4,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    const primary = result.primary;
+    expect(primary.axisScores).toBeDefined();
+    expect(primary.axisScores?.["economic_left_right"]).toBeDefined();
   });
 
   it("should throw error if no parties provided", () => {
@@ -217,11 +306,11 @@ describe("scoring.ts - computeScores", () => {
     expect(result.timestamp).toBeLessThanOrEqual(after);
   });
 
-  it("should sort all scores in descending order by normalized score", () => {
+  it("should sort all scores in descending order by alignment score", () => {
     const answers = {
       q1: 0,
-      q2: 1,
-      q3: 2,
+      q2: 4,
+      q3: 0,
     };
 
     const result = computeScores(answers, mockParties);
@@ -232,117 +321,38 @@ describe("scoring.ts - computeScores", () => {
       expect(current).toBeDefined();
       expect(next).toBeDefined();
       if (current && next) {
-        expect(current.normalizedScore).toBeGreaterThanOrEqual(
-          next.normalizedScore
+        expect(current.alignmentScore).toBeGreaterThanOrEqual(
+          next.alignmentScore
         );
       }
     }
   });
 
-  it("should handle negative raw scores by clamping normalized score to 0", () => {
+  it("should include up to 2 alternatives after primary", () => {
     const answers = {
-      q1: 4,
+      q1: 0,
       q2: 4,
-      q3: 4,
-      q4: 4,
-      q5: 4,
+      q3: 0,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    expect(result.alternatives.length).toBeLessThanOrEqual(2);
+    expect(result.alternatives[0]).toBeDefined();
+  });
+
+  it("should compute alignment scores between 0 and 1 (approximately)", () => {
+    const answers = {
+      q1: 0,
+      q2: 1,
+      q3: 2,
     };
 
     const result = computeScores(answers, mockParties);
 
     result.allScores.forEach((score: PartyScore) => {
-      expect(score.normalizedScore).toBeGreaterThanOrEqual(0);
-      expect(score.normalizedScore).toBeLessThanOrEqual(1);
+      expect(score.alignmentScore).toBeGreaterThanOrEqual(-0.1);
+      expect(score.alignmentScore).toBeLessThanOrEqual(1.1);
     });
-  });
-
-  it("should use absolute scoring not relative (scores reflect true alignment)", () => {
-    const answers = {
-      q1: 0,
-      q2: 1,
-      q3: 2,
-      q4: 3,
-      q5: 0,
-      q6: 1,
-      q7: 2,
-    };
-
-    const result = computeScores(answers, mockParties);
-    const topScore = result.primary.normalizedScore;
-    const secondScore = result.allScores[1]?.normalizedScore ?? 0;
-
-    expect(topScore).toBeGreaterThan(0);
-    expect(topScore).toBeLessThanOrEqual(1.0);
-    expect(secondScore).toBeGreaterThan(0);
-  });
-
-  it("should calculate confidence based on absolute score thresholds", () => {
-    const lowAnswers = {
-      q1: 2,
-      q2: 2,
-      q3: 2,
-    };
-    const lowResult = computeScores(lowAnswers, mockParties);
-
-    if (lowResult.primary.normalizedScore < 0.35) {
-      expect(lowResult.confidence).toBe("low");
-    }
-
-    const highAnswers = {
-      q1: 0,
-      q2: 0,
-      q3: 0,
-      q4: 0,
-      q5: 0,
-      q6: 0,
-      q7: 0,
-      q8: 0,
-      q9: 0,
-      q10: 0,
-    };
-    const highResult = computeScores(highAnswers, mockParties);
-
-    const gapToSecond = highResult.alternatives[0]
-      ? highResult.primary.normalizedScore -
-        highResult.alternatives[0].normalizedScore
-      : highResult.primary.normalizedScore;
-
-    if (highResult.primary.normalizedScore >= 0.7 && gapToSecond >= 0.1) {
-      expect(highResult.confidence).toBe("high");
-    }
-  });
-
-  it("should base theoretical max only on answered questions", () => {
-    const partialAnswers = {
-      q1: 0,
-      q5: 0,
-    };
-
-    const result = computeScores(partialAnswers, mockParties);
-
-    expect(result.primary.normalizedScore).toBeGreaterThan(0);
-    expect(
-      result.allScores.every(
-        (s: PartyScore) => s.normalizedScore >= 0 && s.normalizedScore <= 1
-      )
-    ).toBe(true);
-  });
-
-  it("should handle ties by including parties within tie margin in alternatives", () => {
-    const answers = {
-      q1: 2,
-      q2: 2,
-      q3: 2,
-    };
-
-    const result = computeScores(answers, mockParties);
-
-    if (result.alternatives.length > 0) {
-      result.alternatives.forEach((alt: PartyScore) => {
-        expect(alt.normalizedScore).toBeLessThanOrEqual(
-          result.primary.normalizedScore
-        );
-      });
-    }
   });
 });

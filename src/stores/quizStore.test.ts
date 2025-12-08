@@ -2,64 +2,40 @@ import { createPinia, setActivePinia } from "pinia";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { useQuizStore } from "../stores/quizStore";
 
-vi.mock("../i18n", () => ({
-  i18n: {
-    global: {
-      locale: {
-        value: "en",
-      },
-      messages: {
-        value: {
-          en: {
-            questions: {
-              q1: { text: "Question 1?", category: "category1" },
-              q2: { text: "Question 2?", category: "category2" },
-              q3: { text: "Question 3?", category: "category3" },
-              q4: { text: "Question 4?", category: "category4" },
-              q5: { text: "Question 5?", category: "category5" },
-              q6: { text: "Question 6?", category: "category6" },
-              q7: { text: "Question 7?", category: "category7" },
-              q8: { text: "Question 8?", category: "category8" },
-              q9: { text: "Question 9?", category: "category9" },
-              q10: { text: "Question 10?", category: "category10" },
-              q11: { text: "Question 11?", category: "category11" },
-              q12: { text: "Question 12?", category: "category12" },
-              q13: { text: "Question 13?", category: "category13" },
-              q14: { text: "Question 14?", category: "category14" },
-              q15: { text: "Question 15?", category: "category15" },
-              q16: { text: "Question 16?", category: "category16" },
-              q17: { text: "Question 17?", category: "category17" },
-              q18: { text: "Question 18?", category: "category18" },
-              q19: { text: "Question 19?", category: "category19" },
-              q20: { text: "Question 20?", category: "category20" },
-              q21: { text: "Question 21?", category: "category21" },
-              q22: { text: "Question 22?", category: "category22" },
-              q23: { text: "Question 23?", category: "category23" },
-              q24: { text: "Question 24?", category: "category24" },
-              q25: { text: "Question 25?", category: "category25" },
-              q26: { text: "Question 26?", category: "category26" },
-              q27: { text: "Question 27?", category: "category27" },
-              q28: { text: "Question 28?", category: "category28" },
-              q29: { text: "Question 29?", category: "category29" },
-              q30: { text: "Question 30?", category: "category30" },
-              q31: { text: "Question 31?", category: "category31" },
-              q32: { text: "Question 32?", category: "category32" },
-              q33: { text: "Question 33?", category: "category33" },
-              q34: { text: "Question 34?", category: "category34" },
-              q35: { text: "Question 35?", category: "category35" },
-              q36: { text: "Question 36?", category: "category36" },
-              q37: { text: "Question 37?", category: "category37" },
-              q38: { text: "Question 38?", category: "category38" },
-              q39: { text: "Question 39?", category: "category39" },
-              q40: { text: "Question 40?", category: "category40" },
-              q41: { text: "Question 41?", category: "category41" },
-            },
-          },
-        },
-      },
+vi.mock("vue-i18n", () => ({
+  useI18n: () => ({
+    t: (key: string) => {
+      const parts = key.split(".");
+      if (parts[0] === "questions" && parts[1]) {
+        const qNum = parts[1];
+        return `Question ${qNum.substring(1)} text`;
+      }
+      return key;
     },
-  },
+  }),
 }));
+
+vi.mock("../data/questions.json", () => {
+  const questions = Array.from({ length: 41 }, (_, i) => ({
+    id: `q${i + 1}`,
+    textKey: `questions.q${i + 1}.text`,
+    axis: `axis${(i % 12) + 1}`,
+    weight: 1.5,
+    options: [
+      { value: 1, label: "Strongly agree" },
+      { value: 0.5, label: "Agree" },
+      { value: 0, label: "Neutral" },
+      { value: -0.5, label: "Disagree" },
+      { value: -1, label: "Strongly disagree" },
+    ],
+  }));
+
+  return {
+    default: {
+      questions,
+    },
+  };
+});
 
 describe("quizStore", () => {
   beforeEach(() => {
