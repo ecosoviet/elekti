@@ -24,7 +24,7 @@
   }
 
   function selectLanguage(code: string) {
-    uiStore.setLang(code as "en" | "af" | "zu");
+    uiStore.setLang(code as "en" | "af");
     isOpen.value = false;
   }
 </script>
