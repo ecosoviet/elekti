@@ -262,5 +262,93 @@
       }
     ],
     "qId": "q15"
+  },
+  {
+    "text": "Government should more aggressively regulate the employment of undocumented foreign nationals, even if this disrupts industries that rely on migrant labour.",
+    "category": "labour & workplace",
+    "weight": 1.4,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": 0.1,
+          "da": 0.5,
+          "eff": -0.5,
+          "ifp": 0.4,
+          "mk": -0.3,
+          "pa": 0.9,
+          "vfplus": 0.7,
+          "actionsa": 0.8,
+          "acdp": 0.5,
+          "ufc": 0.4,
+          "sacp": -0.4
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0.05,
+          "da": 0.4,
+          "eff": -0.3,
+          "ifp": 0.3,
+          "mk": -0.2,
+          "pa": 0.7,
+          "vfplus": 0.5,
+          "actionsa": 0.6,
+          "acdp": 0.4,
+          "ufc": 0.3,
+          "sacp": -0.3
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": -0.05,
+          "da": -0.3,
+          "eff": 0.4,
+          "ifp": -0.2,
+          "mk": 0.3,
+          "pa": -0.7,
+          "vfplus": -0.5,
+          "actionsa": -0.6,
+          "acdp": -0.3,
+          "ufc": -0.2,
+          "sacp": 0.4
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": -0.1,
+          "da": -0.5,
+          "eff": 0.7,
+          "ifp": -0.3,
+          "mk": 0.5,
+          "pa": -0.9,
+          "vfplus": -0.7,
+          "actionsa": -0.8,
+          "acdp": -0.5,
+          "ufc": -0.3,
+          "sacp": 0.7
+        }
+      }
+    ],
+    "qId": "q35"
   }
 ]

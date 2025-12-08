@@ -45,6 +45,14 @@ vi.mock("../i18n", () => ({
               q31: { text: "Question 31?", category: "category31" },
               q32: { text: "Question 32?", category: "category32" },
               q33: { text: "Question 33?", category: "category33" },
+              q34: { text: "Question 34?", category: "category34" },
+              q35: { text: "Question 35?", category: "category35" },
+              q36: { text: "Question 36?", category: "category36" },
+              q37: { text: "Question 37?", category: "category37" },
+              q38: { text: "Question 38?", category: "category38" },
+              q39: { text: "Question 39?", category: "category39" },
+              q40: { text: "Question 40?", category: "category40" },
+              q41: { text: "Question 41?", category: "category41" },
             },
           },
         },
@@ -74,9 +82,9 @@ describe("quizStore", () => {
       expect(store.completed).toBe(false);
     });
 
-    it("should load 33 questions", () => {
+    it("should load 41 questions", () => {
       const store = useQuizStore();
-      expect(store.questions.length).toBe(33);
+      expect(store.questions.length).toBe(41);
     });
     it("should have all parties loaded", () => {
       const store = useQuizStore();
@@ -201,7 +209,7 @@ describe("quizStore", () => {
 
       const encoded = store.encodeAnswersToUrl();
       const parts = encoded.split(",");
-      expect(parts.length).toBe(33);
+      expect(parts.length).toBe(41);
       expect(parts[0]).toBe("0");
       expect(parts[1]).toBe("1");
     });

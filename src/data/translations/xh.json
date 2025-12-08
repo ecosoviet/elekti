@@ -65,7 +65,7 @@
     "methodology": "Indlela Esiyisebenzisa",
     "methodologyText": "I-Elekti isebenzisa indlela ebanzi necacileyo yokuthelekisa iindlela zakho nezopolitiko namaqela aseMzantsi Afrika. Sisixhobo esingenacalucalulo nesisebenza ngokungafihlisiyo.",
     "howItWorks": "Indlela Esisebenza Ngayo",
-    "howItWorksText": "Uphendula imibuzo engama-38 ejolise kwimpilo, uqoqosho, ulawulo, imfundo kunye nemicimbi yoluntu. Imibuzo yenziwe ukuze iveze izimvo zakho ngaphandle kokukhokela kwicala elithile.",
+    "howItWorksText": "Uphendula imibuzo engama-41 ejolise kwimpilo, uqoqosho, ulawulo, imfundo kunye nemicimbi yoluntu. Imibuzo yenziwe ukuze iveze izimvo zakho ngaphandle kokukhokela kwicala elithile.",
     "scoring": "Indlela Yokubala Amanqaku",
     "scoringText": "Iimpendulo zakho zithelekiswa neembono zamaqela ezisematheni. Amaqela afumana amanqaku axhomekeke ekubeni ahambelana kangakanani nezimvo zakho. Amanqaku alinganiswa kwinqanaba lika 0–100 ukukunika umfanekiso ocacileyo wokuba liphi iqela elikufanela.",
     "transparency": "Ukuzibophelela Ekucaciseni",
@@ -167,7 +167,7 @@
       "category": "social welfare & services"
     },
     "q9": {
-      "text": "Urhulumente wasekuhlaleni kufuneka ulawulwe ngobuchule kwaye uhlolwe rhoqo.",
+      "text": "Urhulumente wasekuhlaleni kufuneka ulawulwe ngobuchule kwaye uhlolwe ngokuzimeleyo ukuze kusonjululwe iingxaki zomasipala eziqhubekayo kunye nokunciphisa urhwaphilizo, nokuba oku kuthintela ukonyulwa kwezopolitiko okanye kubangela ukungenelela kukarhulumente wezwelonke.",
       "category": "social welfare & services"
     },
     "q10": {
@@ -207,7 +207,7 @@
       "category": "crime & institutions"
     },
     "q19": {
-      "text": "Amalungelo oluntu kufuneka akhuseleke ngalo lonke ixesha.",
+      "text": "Amalungelo oluntu anjengenkululeko yokuthetha kunye nokuqhankqalaza ngoxolo kufuneka abekwe phambili nangona imiboniso iphazamisa ugenduluko okanye ishishini kwaye yenza nzima imisebenzi yamapolisa.",
       "category": "rights & freedoms"
     },
     "q20": {
@@ -239,7 +239,7 @@
       "category": "foreign policy & trade"
     },
     "q27": {
-      "text": "Imali kawonke-wonke yeziseko zothutho kufuneka ibekelwe kuphela kwizithuthi zikawonke-wonke (uloliwe kunye ne-BRT), kunye nokumiselwa kokunqandwa kokwakhiwa kweendlela ezintsha—nokuba oko kuphazamisa abaqhubi beemoto okanye kucothise ukukhula koqoqosho kwimimandla exhomekeke kwiimoto.",
+      "text": "Imali kawonke-wonke yeziseko zothutho kufuneka ibeke phambili izithuthi zikawonke-wonke (uloliwe kunye ne-BRT) phezu kokwakhiwa kweendlela ezintsha, kubandakanywa ukwandiswa okukhulu eGauteng, nokuba oku kuphazamisa abaqhubi beemoto okanye kucothise ukukhula kwimimandla exhomekeke kwiimoto.",
       "category": "infrastructure & urban"
     },
     "q28": {
@@ -265,6 +265,38 @@
     "q33": {
       "text": "Kufuneka kubekho inkxaso kwiimarike zasezilalini nasezidolophini.",
       "category": "economic inclusion"
+    },
+    "q34": {
+      "text": "UMzantsi Afrika kufuneka wamkele imithetho engqongqo yabaphambukeli kunye nokulawulwa kwemida, nokuba oku kuphazamisa ubudlelwane namazwe angabamelwane okanye kunciphise ukubonelela ngabasebenzi kwicandelo elithile.",
+      "category": "foreign policy & trade"
+    },
+    "q35": {
+      "text": "Urhulumente kufuneka ulawule ngakumbi ukuqeshwa kwabantu abangaphandle abangenamaxwebhu, nokuba oku kuphazamisa amashishini axhomekeke kubasebenzi abaphambukayo.",
+      "category": "labour & workplace"
+    },
+    "q36": {
+      "text": "Amaqela ezopolitiko kufuneka avumelane ngezikhundla zawo zengcamango ukuze enze oorhulumente beqonga abahlala nzima, nokuba oku kuphoxisa abanye abaxhasi.",
+      "category": "crime & institutions"
+    },
+    "q37": {
+      "text": "Imigaqo-nkqubo efana ne-Employment Equity kunye ne-BEE kufuneka ihlale iyizixhobo eziphambili zokusingatha ukulingana kobuhlanga, nokuba oko kuthintela ukuguquguquka kwamashishini.",
+      "category": "economic inclusion"
+    },
+    "q38": {
+      "text": "Iinkampani zabucala kufuneka zivunyelwe ukuvelisa nokuthengisa umbane ngokubanzi ukuze kuphele ukucinywa kombane, nokuba oku kunciphisa indima ephambili ye-Eskom kwicandelo lamandla.",
+      "category": "environment & energy"
+    },
+    "q39": {
+      "text": "Urhulumente wezwelonke kufuneka angenelele ngakumbi koomasipala abangaphumeleliyo, nokuba oku kuthintela ukuzimela kwedemokhrasi yasekuhlaleni.",
+      "category": "social welfare & services"
+    },
+    "q40": {
+      "text": "Imiboniso ephazamisayo kunye nokuvala kufuneka ijongane nemida engqongqo yomthetho, nokuba oku kuthintela iindlela ezithile zokuvakalisa ezopolitiko.",
+      "category": "rights & freedoms"
+    },
+    "q41": {
+      "text": "Iinkokeli zezopolitiko ezityhola esidlangalaleni iinkundla zomthetho, amaqumrhu onyulo, okanye uMgaqo-siseko kufuneka bajongane neziphumo ezisesikweni, nokuba amazwi abo acwangciswe njengentetho yezopolitiko.",
+      "category": "crime & institutions"
     }
   },
   "footer": {

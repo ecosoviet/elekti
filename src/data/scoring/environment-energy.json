@@ -262,5 +262,93 @@
       }
     ],
     "qId": "q23"
+  },
+  {
+    "text": "Private companies should be allowed to generate and sell electricity widely to end load-shedding, even if this reduces Eskom's central role in the energy sector.",
+    "category": "environment & energy",
+    "weight": 1.9,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": -0.2,
+          "da": 0.9,
+          "eff": -0.8,
+          "ifp": 0.5,
+          "mk": -0.6,
+          "pa": 0.6,
+          "vfplus": 0.8,
+          "actionsa": 0.9,
+          "acdp": 0.6,
+          "ufc": 0.5,
+          "sacp": -0.9
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": -0.1,
+          "da": 0.7,
+          "eff": -0.6,
+          "ifp": 0.4,
+          "mk": -0.4,
+          "pa": 0.5,
+          "vfplus": 0.6,
+          "actionsa": 0.7,
+          "acdp": 0.5,
+          "ufc": 0.4,
+          "sacp": -0.7
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": 0.2,
+          "da": -0.6,
+          "eff": 0.7,
+          "ifp": -0.3,
+          "mk": 0.5,
+          "pa": -0.4,
+          "vfplus": -0.6,
+          "actionsa": -0.6,
+          "acdp": -0.4,
+          "ufc": -0.3,
+          "sacp": 0.8
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": 0.3,
+          "da": -0.9,
+          "eff": 0.9,
+          "ifp": -0.5,
+          "mk": 0.8,
+          "pa": -0.6,
+          "vfplus": -0.8,
+          "actionsa": -0.9,
+          "acdp": -0.6,
+          "ufc": -0.5,
+          "sacp": 0.95
+        }
+      }
+    ],
+    "qId": "q38"
   }
 ]

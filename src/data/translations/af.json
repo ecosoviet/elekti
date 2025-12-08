@@ -65,7 +65,7 @@
     "methodology": "Metodologie",
     "methodologyText": "Elekti gebruik 'n omvattende, bewysegebaseerde metode om jou politieke sienings teen Suid-Afrikaanse partye te meet. Die stelsel is ontwerp om regverdig, deursigtig en nie-partydig te wees.",
     "howItWorks": "Hoe dit werk",
-    "howItWorksText": "Jy beantwoord 38 sorgvuldig saamgestelde vrae oor hoofbeleidsareas soos gesondheidsorg, onderwys, ekonomie, bestuur en sosiale sake. Elke vraag is ontwerp om jou voorkeur sonder vooroordeel te openbaar.",
+    "howItWorksText": "Jy beantwoord 41 sorgvuldig saamgestelde vrae oor hoofbeleidsareas soos gesondheidsorg, onderwys, ekonomie, bestuur en sosiale sake. Elke vraag is ontwerp om jou voorkeur sonder vooroordeel te openbaar.",
     "scoring": "Puntestelsel",
     "scoringText": "Elke antwoord word vergelyk met gedokumenteerde partyposisies uit manifeste, beleidsdokumente en openbare verklarings. Partye kry geweegde punte op grond van hoe naby hul posisies aan jou antwoorde is. Ons normaliseer per party sodat elke party teen sy beste moontlike passing gemeet word. Die punte word op 'n 0–100-skaal uitgegee en 'n vertrouensvlak word aangedui om die sterkte van die ooreenkoms te verduidelik.",
     "transparency": "Ons verbintenis tot deursigtigheid",
@@ -167,7 +167,7 @@
       "category": "sosiale welsyn & dienste"
     },
     "q9": {
-      "text": "Plaaslike regeringdienste moet professioneel beman en gereeld geoudit word om korrupsie en diensmislukking te verminder.",
+      "text": "Plaaslike regering moet professioneel beman en onafhanklik geoudit word om chroniese munisipale mislukkings aan te spreek en korrupsie te verminder, selfs al beperk dit politieke aanstellings of veroorsaak nasionale ingryping.",
       "category": "sosiale welsyn & dienste"
     },
     "q10": {
@@ -207,7 +207,7 @@
       "category": "misdaad & instellings"
     },
     "q19": {
-      "text": "Burgerlike vryhede soos spreek- en protestvryheid moet geprioritiseer word, selfs al bemoeilik dit polisieoptrede.",
+      "text": "Burgerlike vryhede soos vryheid van uitdrukking en vreedsame protesaksie moet geprioritiseer word, selfs wanneer demonstrasies verkeer of ekonomiese aktiwiteit ontwrig en polisie-operasies bemoeilik.",
       "category": "regte & vryhede"
     },
     "q20": {
@@ -239,7 +239,7 @@
       "category": "buitelandse beleid & handel"
     },
     "q27": {
-      "text": "Openbare fondse vir vervoerinfrastruktuur moet eksklusief aan massa-openbare vervoer (spoor en snelbusvervoer) toegewys word, met 'n moratorium op nuwe hoofweëkonstruksie—selfs al ongerief dit motoriste of vertraag ekonomiese groei in motorafhanklike streke.",
+      "text": "Openbare fondse vir vervoerinfrastruktuur moet massa-openbare vervoer (spoor en BRT) prioritiseer bo nuwe hoofweë-konstruksie, insluitend groot uitbreidings in Gauteng, selfs al ongerief dit motoriste of vertraag groei in motorafhanklike gebiede.",
       "category": "infrastruktuur & stedelik"
     },
     "q28": {
@@ -265,6 +265,38 @@
     "q33": {
       "text": "Die staat moet geteikende subsidies en aansporings instel om townships en landelike ekonomieë te versnel.",
       "category": "ekonomiese insluiting"
+    },
+    "q34": {
+      "text": "Suid-Afrika moet aansienlik strenger immigrasie- en grenstoesigbeleide aanvaar, selfs al span dit betrekkinge met buurlande of verminder arbeidsverskaffing in sekere sektore.",
+      "category": "buitelandse beleid & handel"
+    },
+    "q35": {
+      "text": "Regering moet die indiensneming van ongedokumenteerde buitelandse burgers meer aggressief reguleer, selfs al ontwrig dit nywerhede wat op migrantarbeid staatmaak.",
+      "category": "arbeid & werksplek"
+    },
+    "q36": {
+      "text": "Politieke partye moet kompromieë maak oor hul ideologiese standpunte om stabiele koalisieregerings te vorm, selfs al teleurstel dit sommige ondersteuners.",
+      "category": "misdaad & instellings"
+    },
+    "q37": {
+      "text": "Beleide soos Gelyke Indiensneming en BEE moet sentrale instrumente bly om rasse-ongelykheid aan te spreek, selfs al beperk dit buigsaamheid vir besighede.",
+      "category": "ekonomiese insluiting"
+    },
+    "q38": {
+      "text": "Private maatskappye moet toegelaat word om elektrisiteit wyd te genereer en te verkoop om beurtkrag te beëindig, selfs al verminder dit Eskom se sentrale rol in die energiesektor.",
+      "category": "omgewing & energie"
+    },
+    "q39": {
+      "text": "Nasionale regering moet meer aggressief ingryp in falende munisipaliteite, selfs al beperk dit plaaslike demokratiese outonomie.",
+      "category": "sosiale welsyn & dienste"
+    },
+    "q40": {
+      "text": "Ontwrigtende proteste en afsluitings moet sterker wetlike beperkings in die gesig staar, selfs al beperk dit sekere vorme van politieke uitdrukking.",
+      "category": "regte & vryhede"
+    },
+    "q41": {
+      "text": "Politieke leiers wat die regbank, verkiesingsliggame, of die Grondwet openlik ondermyn, moet formele gevolge in die gesig staar, selfs al is hul stellings as politieke spraak geraam.",
+      "category": "misdaad & instellings"
     }
   },
   "footer": {

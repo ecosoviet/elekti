@@ -65,7 +65,7 @@
     "methodology": "Indlela Esiyisebenzisayo",
     "methodologyText": "I-Elekti isebenzisa indlela ebanzi, esekelweobufakazi, yokuhambanisa imibono yakho nezikhundla zamaqembu aseNingizimu Afrika. Uhlelo lwakhiwe ukuze lube nolungile, lusobala, futhi lungakhethi.",
     "howItWorks": "Indlela Esebenza Ngayo",
-    "howItWorksText": "Uphendula imibuzo engu-38 ehleliwe eqoqa izinkinga ezinkulu zenqubomgomo ezifaka ukunakekelwa kwempilo, imfundo, umnotho, ukuphatha kanye nezindaba zomphakathi. Umbuzo ngamunye udizayinwe ukuveza izintandokazi zakho ngaphandle kokucwasa.",
+    "howItWorksText": "Uphendula imibuzo engu-41 ehleliwe eqoqa izinkinga ezinkulu zenqubomgomo ezifaka ukunakekelwa kwempilo, imfundo, umnotho, ukuphatha kanye nezindaba zomphakathi. Umbuzo ngamunye udizayinwe ukuveza izintandokazi zakho ngaphandle kokucwasa.",
     "scoring": "Uhlelo Lokubala Amanqampuna",
     "scoringText": "Impendulo yakho ngayinye iyalinganiswa nezikhundla ezibhaliwe zamaqembu ezitholakala kumamanifesto, imibhalo yenqubomgomo nezitatimende zomphakathi. Amaqembu athola amaphuzu ahlelwe ngokusondeleka kwezikhundla zawo neziphendulo zakho. Sisebenzisa i-normalisation ngamaqembu ngalinye ukuze iqembu ngalinye likalwe ngokulingana, kuqinisekiswe ukuhlinzekwa okulungile kumabhendi ahlukene. Amanqampuna aguqulwa abe isikali sika-0 kuya ku-100, futhi kukhona nesilinganiso sokuzethemba ukukusiza uqonde amandla okuvumelana.",
     "transparency": "Isibopho Sethu Sokuba Sobala",
@@ -167,7 +167,7 @@
       "category": "inhlalakahle yomphakathi & izinsizakalo"
     },
     "q9": {
-      "text": "Izinsizakalo zikahulumeni wendawo kufanele ziqashwe ngobuchwepheshe futhi zihlolwe njalo ukuvimbela inkohlakalo nokwehluleka kwezinsizakalo.",
+      "text": "Uhulumeni wendawo kufanele uqashwe ngobuchwepheshe futhi uhlolwe ngokuzimela ukubhekana nezinkinga zikamaspala eziqhubekayo nokunciphisa inkohlakalo, ngisho noma lokhu kunqabela ukuqokwa kwezepolitiki noma kubangela ukungenelela kukahulumeni kazwelonke.",
       "category": "inhlalakahle yomphakathi & izinsizakalo"
     },
     "q10": {
@@ -207,7 +207,7 @@
       "category": "ubugebengu & izikhungo"
     },
     "q19": {
-      "text": "Amalungelo abantu afana nenkululeko yokukhuluma nokubhikisha ngokuthula kufanele abekwe phambili, nakuba lokhu kungakwenza kube nzima ukuphatha ubugebengu.",
+      "text": "Amalungelo abantu afana nenkululeko yokukhuluma nokubhikisha ngokuthula kufanele abekwe phambili ngisho noma izinkulumo ziphazamisa ukuhamba kwezimoto noma umsebenzi wezomnotho futhi zenza kube nzima imisebenzi yamaphoyisa.",
       "category": "amalungelo & inkululeko"
     },
     "q20": {
@@ -239,7 +239,7 @@
       "category": "inqubomgomo yangaphandle & uhwebo"
     },
     "q27": {
-      "text": "Izimali zikahulumeni zengqalasizinda yezokuthutha kufanele zanikelwe kuphela ezithuthweni zomphakathi (izitimela ne-BRT), ngokumiswa kokwakhiwa kwemigwaqo emikhulu emisha—ngisho noma lokhu kuphazamisa abashayeli bezimoto noma kunciphisa ukukhula komnotho ezindaweni ezithembele ezimotweni.",
+      "text": "Izimali zikahulumeni zengqalasizinda yezokuthutha kufanele zibeke phambili izithutha zomphakathi (izitimela ne-BRT) kunokwakhiwa kwemigwaqo emikhulu emisha, kufaka phakathi ukwandiswa okukhulu eGauteng, ngisho noma lokhu kuphazamisa abashayeli bezimoto noma kunciphisa ukukhula ezindaweni ezithembele ezimotweni.",
       "category": "ingqalasizinda & amadolobha"
     },
     "q28": {
@@ -265,6 +265,38 @@
     "q33": {
       "text": "Uhulumeni kufanele anikeze izikhuthazo ezihlosiwe nezisombululo ezisheshayo zokusheshisa umnotho ezindaweni zasemakhaya nasemadolobheni.",
       "category": "ukufakwa kwezomnotho"
+    },
+    "q34": {
+      "text": "INingizimu Afrika kufanele yamukele imithetho eqinile yokuphoqelela abokufika kanye nokulawula imingcele, ngisho noma lokhu kuphazamisa ubudlelwane namazwe omakhelwane noma kunciphisa ukubonelelwa ngabasebenzi ezinhlelweni ezithile.",
+      "category": "inqubomgomo yangaphandle & uhwebo"
+    },
+    "q35": {
+      "text": "Uhulumeni kufanele alawule kakhulu ukuqashwa kwabokufika abangenawo amadokhumenti, ngisho noma lokhu kuphazamisa izimboni ezithembele kubasebenzi abophambukayo.",
+      "category": "umsebenzi & indawo yokusebenza"
+    },
+    "q36": {
+      "text": "Amaqembu ezepolitiki kufanele avumelane ezikhundleni zawo zengcinga ukuze akhe ohulumeni beqonga abazinzile, ngisho noma lokhu kukhungathekisa abanye abasekeli.",
+      "category": "ubugebengu & izikhungo"
+    },
+    "q37": {
+      "text": "Izinqubomgomo ezifana ne-Employment Equity ne-BEE kufanele zihlale ziyizinsiza eziyinhloko zokubhekana nokungalingani ngokobuhlanga, ngisho noma lokhu kukhawulela ukuguquguquka kwamabhizinisi.",
+      "category": "ukufakwa kwezomnotho"
+    },
+    "q38": {
+      "text": "Izinkampani zangasese kufanele zivunyelwe ukukhiqiza nokuthengisa ugesi ngokubanzi ukuze kuqedwe ukucinywa kukagesi, ngisho noma lokhu kunciphisa indima ye-Eskom emkhakheni wamandla.",
+      "category": "imvelo & amandla"
+    },
+    "q39": {
+      "text": "Uhulumeni kazwelonke kufanele angenelele kakhulu kumasipala angaphumelelile, ngisho noma lokhu kukhawulela ukuzimela kwentando yeningi yendawo.",
+      "category": "inhlalakahle yomphakathi & izinsizakalo"
+    },
+    "q40": {
+      "text": "Izinkulumo eziphazamisayo kanye nokuvala kufanele zibhekane nemikhawulo enamandla yomthetho, ngisho noma lokhu kunqabela izinhlobo ezithile zokukhuluma kwezepolitiki.",
+      "category": "amalungelo & inkululeko"
+    },
+    "q41": {
+      "text": "Abaholi bezepolitiki abaphakamisa esidlangalaleni izinkantolo, izinhlaka zokhetho, noma uMthethosisekelo kufanele babhekane nemiphumela esemthethweni, ngisho noma amazwi abo enziwe njengenkulumo yezepolitiki.",
+      "category": "ubugebengu & izikhungo"
     }
   },
   "footer": {

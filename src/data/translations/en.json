@@ -65,7 +65,7 @@
     "methodology": "Methodology",
     "methodologyText": "Elekti uses a comprehensive, evidence-based approach to match your political views with South African political parties. Our system is designed to be fair, transparent, and non-partisan.",
     "howItWorks": "How It Works",
-    "howItWorksText": "You answer 33 carefully crafted questions covering major policy areas including healthcare, education, economy, governance, and social issues. Each question is designed to reveal your political preferences without bias toward any party.",
+    "howItWorksText": "You answer 41 carefully crafted questions covering major policy areas including healthcare, education, economy, governance, and social issues. Each question is designed to reveal your political preferences without bias toward any party.",
     "scoring": "Scoring System",
     "scoringText": "Each answer you provide is matched against documented party positions from official manifestos, policy documents, and public statements. Parties receive weighted scores based on how closely their stated positions align with your responses. We use a per-party normalization algorithm, meaning each party is scored against its own best possible match for the questions you answered. This ensures fair treatment for both moderate and radical parties. These scores are normalized on a 0-100 scale, with your top match and alternatives clearly identified. We also provide a confidence rating to help you understand how strong your match is.",
     "transparency": "Our Commitment to Transparency",
@@ -167,7 +167,7 @@
       "category": "social welfare & services"
     },
     "q9": {
-      "text": "Local government services should be professionally staffed and audited regularly to reduce corruption and service failure.",
+      "text": "Local government should be professionally staffed and independently audited to address chronic municipal failures and reduce corruption, even if this limits political appointments or triggers national intervention.",
       "category": "social welfare & services"
     },
     "q10": {
@@ -207,7 +207,7 @@
       "category": "crime & institutions"
     },
     "q19": {
-      "text": "Civil liberties such as freedom of expression and peaceful protest must be prioritised even if they complicate policing.",
+      "text": "Civil liberties such as freedom of expression and peaceful protest should be prioritised even when demonstrations disrupt traffic or economic activity and complicate policing operations.",
       "category": "rights & freedoms"
     },
     "q20": {
@@ -239,7 +239,7 @@
       "category": "foreign policy & trade"
     },
     "q27": {
-      "text": "Public funds for transport infrastructure should be allocated exclusively to mass public transit (rail and bus rapid transit), with a moratorium on new highway construction—even if this inconveniences motorists or slows economic growth in car-dependent regions.",
+      "text": "Public funds for transport infrastructure should prioritise mass public transit (rail and BRT) over new highway construction, including major expansions in Gauteng, even if this inconveniences motorists or slows growth in car-dependent areas.",
       "category": "infrastructure & urban"
     },
     "q28": {
@@ -265,6 +265,38 @@
     "q33": {
       "text": "The state should introduce targeted subsidies and incentives to accelerate township and rural economies.",
       "category": "economic inclusion"
+    },
+    "q34": {
+      "text": "South Africa should adopt significantly stricter immigration and border enforcement policies, even if this strains relations with neighbouring countries or reduces labour supply in certain sectors.",
+      "category": "foreign policy & trade"
+    },
+    "q35": {
+      "text": "Government should more aggressively regulate the employment of undocumented foreign nationals, even if this disrupts industries that rely on migrant labour.",
+      "category": "labour & workplace"
+    },
+    "q36": {
+      "text": "Political parties should compromise on their ideological positions to form stable coalition governments, even if this disappoints some supporters.",
+      "category": "crime & institutions"
+    },
+    "q37": {
+      "text": "Policies such as Employment Equity and BEE should remain central tools for addressing racial inequality, even if they limit flexibility for businesses.",
+      "category": "economic inclusion"
+    },
+    "q38": {
+      "text": "Private companies should be allowed to generate and sell electricity widely to end load-shedding, even if this reduces Eskom's central role in the energy sector.",
+      "category": "environment & energy"
+    },
+    "q39": {
+      "text": "National government should intervene more aggressively in failing municipalities, even if this limits local democratic autonomy.",
+      "category": "social welfare & services"
+    },
+    "q40": {
+      "text": "Disruptive protests and shutdowns should face stronger legal limits, even if this restricts certain forms of political expression.",
+      "category": "rights & freedoms"
+    },
+    "q41": {
+      "text": "Political leaders who publicly undermine the judiciary, electoral bodies, or the Constitution should face formal consequences, even if their statements are framed as political speech.",
+      "category": "crime & institutions"
     }
   },
   "footer": {

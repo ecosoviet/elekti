@@ -350,5 +350,93 @@
       }
     ],
     "qId": "q9"
+  },
+  {
+    "text": "National government should intervene more aggressively in failing municipalities, even if this limits local democratic autonomy.",
+    "category": "social welfare & services",
+    "weight": 1.6,
+    "options": [
+      {
+        "option": "Strongly agree",
+        "scores": {
+          "anc": 0.5,
+          "da": 0.8,
+          "eff": 0.3,
+          "ifp": 0.4,
+          "mk": 0.2,
+          "pa": 0.7,
+          "vfplus": 0.5,
+          "actionsa": 0.9,
+          "acdp": 0.6,
+          "ufc": 0.5,
+          "sacp": 0.1
+        }
+      },
+      {
+        "option": "Agree",
+        "scores": {
+          "anc": 0.4,
+          "da": 0.6,
+          "eff": 0.2,
+          "ifp": 0.3,
+          "mk": 0.1,
+          "pa": 0.5,
+          "vfplus": 0.4,
+          "actionsa": 0.7,
+          "acdp": 0.5,
+          "ufc": 0.4,
+          "sacp": 0.05
+        }
+      },
+      {
+        "option": "Neutral",
+        "scores": {
+          "anc": 0,
+          "da": 0,
+          "eff": 0,
+          "ifp": 0,
+          "mk": 0,
+          "pa": 0,
+          "vfplus": 0,
+          "actionsa": 0,
+          "acdp": 0,
+          "ufc": 0,
+          "sacp": 0
+        }
+      },
+      {
+        "option": "Disagree",
+        "scores": {
+          "anc": -0.3,
+          "da": -0.5,
+          "eff": -0.2,
+          "ifp": -0.2,
+          "mk": -0.1,
+          "pa": -0.4,
+          "vfplus": -0.3,
+          "actionsa": -0.6,
+          "acdp": -0.4,
+          "ufc": -0.3,
+          "sacp": -0.05
+        }
+      },
+      {
+        "option": "Strongly disagree",
+        "scores": {
+          "anc": -0.5,
+          "da": -0.8,
+          "eff": -0.4,
+          "ifp": -0.4,
+          "mk": -0.2,
+          "pa": -0.7,
+          "vfplus": -0.5,
+          "actionsa": -0.9,
+          "acdp": -0.6,
+          "ufc": -0.5,
+          "sacp": -0.1
+        }
+      }
+    ],
+    "qId": "q39"
   }
 ]

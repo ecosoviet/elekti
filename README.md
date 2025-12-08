@@ -108,7 +108,7 @@ The refactored question system eliminates rigid hardcoding:
 | --------------------- | ---------------------------------------------------------------------------------------- |
 | **Translation files** | Single source of truth for questions; auto-discovered and sorted by store                |
 | **Scoring files**     | Each question has `qId` (string, for lookup) + `id` (numeric, for reference)             |
-| **Quiz store**        | Dynamically generates question list from translation keys instead of hardcoding `q1…q33` |
+| **Quiz store**        | Dynamically generates question list from translation keys instead of hardcoding `q1…q41` |
 | **Scoring logic**     | Looks up questions by `qId` string instead of parsing question IDs                       |
 
 **Before:** Adding a question required editing 16 files + updating a hardcoded array.  
