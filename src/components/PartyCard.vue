@@ -219,7 +219,6 @@
     border-radius: var(--radius-sm);
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-medium);
-    text-transform: capitalize;
     cursor: help;
     transition: opacity var(--transition-fast);
     line-height: 1.3;
