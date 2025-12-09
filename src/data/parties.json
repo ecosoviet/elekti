@@ -81,6 +81,14 @@
     "website": "https://www.uniteforchangesa.org/"
   },
   {
+    "id": "udm",
+    "short": "UDM",
+    "name": "United Democratic Movement",
+    "descriptionKey": "party.udm.desc",
+    "colour": "#5B8C5A",
+    "website": "https://www.udm.org.za/"
+  },
+  {
     "id": "sacp",
     "short": "SACP",
     "name": "South African Communist Party",

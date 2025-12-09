@@ -140,6 +140,20 @@
       "urban_development": 0.2,
       "equity_and_inclusion": 0.3
     },
+    "udm": {
+      "economic_left_right": 0.1,
+      "state_vs_market": 0.0,
+      "land_and_ownership": 0.3,
+      "labour_rights": 0.1,
+      "law_order_vs_liberty": 0.3,
+      "democratic_institutions": 0.8,
+      "environment_energy": 0.3,
+      "social_progressivism": 0.3,
+      "global_vs_local": 0.2,
+      "transformation_vs_continuity": 0.2,
+      "urban_development": 0.2,
+      "equity_and_inclusion": 0.3
+    },
     "sacp": {
       "economic_left_right": 1.0,
       "state_vs_market": 1.0,

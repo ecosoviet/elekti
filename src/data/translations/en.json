@@ -125,8 +125,11 @@
     "ufc": {
       "desc": "Unite for Change focuses on grassroots mobilization and addressing local community concerns through progressive policies."
     },
+    "udm": {
+      "desc": "The United Democratic Movement is a social democratic party emphasising good governance, anti-corruption, and balanced economic policies with merit-based appointments."
+    },
     "sacp": {
-      "desc": "The South African Communist Party advocates for socialism, workers\u0027 rights, and the transition to a socialist society through state control."
+      "desc": "The South African Communist Party advocates for socialism, workers\u0027 rights and a transition to a socialist society through state control."
     }
   },
   "axes": {
