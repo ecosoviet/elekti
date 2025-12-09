@@ -22,17 +22,9 @@
     website?: string;
   }
 
-  interface PolicyAlignment {
-    axis: string;
-    axisName: string;
-    shortNameKey: string;
-    score: number;
-  }
-
   const props = defineProps<{
     party: Party;
     score?: number;
-    topAxes?: PolicyAlignment[];
     axisScores?: Record<string, number>;
   }>();
 

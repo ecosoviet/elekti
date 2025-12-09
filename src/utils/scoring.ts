@@ -35,13 +35,6 @@ export interface Axis {
   description: string;
 }
 
-export interface PolicyAlignment {
-  axis: string;
-  axisName: string;
-  shortNameKey: string;
-  score: number;
-}
-
 export interface PartyScore {
   partyId: string;
   alignmentScore: number;

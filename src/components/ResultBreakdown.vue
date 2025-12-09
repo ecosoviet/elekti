@@ -11,19 +11,11 @@
     logo?: string;
   }
 
-  interface PolicyAlignment {
-    axis: string;
-    axisName: string;
-    shortNameKey: string;
-    score: number;
-  }
-
   interface PartyScore {
     partyId: string;
     alignmentScore: number;
     party: Party;
     axisScores?: Record<string, number>;
-    topAxes?: PolicyAlignment[];
   }
 
   defineProps<{
@@ -41,7 +33,6 @@
         :key="partyScore.partyId"
         :party="partyScore.party"
         :score="partyScore.alignmentScore"
-        :top-axes="partyScore.topAxes"
         :axis-scores="partyScore.axisScores"
       />
     </div>
