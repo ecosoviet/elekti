@@ -47,7 +47,6 @@ export interface PartyScore {
   alignmentScore: number;
   party: Party;
   axisScores?: Record<string, number>;
-  topAxes?: PolicyAlignment[];
 }
 
 export interface QuizResult {
@@ -139,23 +138,11 @@ export function computeScores(
     const alignmentScore =
       totalWeight > 0 ? totalWeightedScore / totalWeight : 0;
 
-    const topAxes = axes
-      .map((axis) => ({
-        axis: axis.id,
-        axisName: axis.name,
-        shortNameKey: axis.shortNameKey,
-        score: normalizedAxisScores[axis.id] ?? 0,
-      }))
-      .filter((item) => item.score > 0.5)
-      .toSorted((a, b) => b.score - a.score)
-      .slice(0, 3);
-
     return {
       partyId: party.id,
       alignmentScore,
       party,
       axisScores: normalizedAxisScores,
-      topAxes: topAxes.length > 0 ? topAxes : undefined,
     };
   });
 

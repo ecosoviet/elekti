@@ -259,25 +259,6 @@ describe("scoring.ts - computeScores (axis-based)", () => {
     }
   });
 
-  it("should include top 3 axes in topAxes field", () => {
-    const answers = {
-      q1: 0,
-      q2: 4,
-      q3: 0,
-    };
-
-    const result = computeScores(answers, mockParties);
-
-    const primary = result.primary;
-    if (primary.topAxes) {
-      expect(primary.topAxes.length).toBeLessThanOrEqual(3);
-      if (primary.topAxes[0]) {
-        expect(primary.topAxes[0].axisName).toBeDefined();
-        expect(primary.topAxes[0].score).toBeGreaterThan(0);
-      }
-    }
-  });
-
   it("should provide axis scores for each axis", () => {
     const answers = {
       q1: 0,
