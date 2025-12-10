@@ -145,21 +145,21 @@
       "textKey": "questions.q21.text",
       "axis": "law_order_vs_liberty",
       "weight": 1.5,
-      "reverseScoring": false
+      "reverseScoring": true
     },
     {
       "id": "q22",
       "textKey": "questions.q22.text",
       "axis": "law_order_vs_liberty",
       "weight": 1.6,
-      "reverseScoring": true
+      "reverseScoring": false
     },
     {
       "id": "q23",
       "textKey": "questions.q23.text",
       "axis": "law_order_vs_liberty",
       "weight": 1.8,
-      "reverseScoring": true
+      "reverseScoring": false
     },
     {
       "id": "q24",
