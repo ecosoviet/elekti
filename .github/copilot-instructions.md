@@ -46,8 +46,8 @@
 - Pinia: Centralised state, hydrated in `main.ts`
 - vue-i18n: Fallback locale is `en`; all keys must be present in new locales
 - Scoring: Axis-based, not direct text matching. See `scoring.ts` for algorithm
-- Reverse Scoring: Questions may be phrased from different political viewpoints. Use `reverseScoring: true` in `questions.json` when a question's framing opposes the axis direction (e.g., right-wing phrasing on a left-wing axis)
-- Axis Direction: Each axis has a defined positive (+1) and negative (-1) direction. Most questions are phrased so "Strongly agree" = +1 direction. Questions with `reverseScoring: true` invert the user's answer value before scoring
+- Question Direction: Questions measure toward either the positive or negative direction of an axis. Use `direction: "negative"` in `questions.json` when a question is phrased from the opposing viewpoint (e.g., right-wing framing on a left-wing axis). Omit or use `direction: "positive"` for standard phrasing.
+- Axis Direction: Each axis has a defined positive (+1) and negative (-1) direction. The scoring algorithm inverts user answers to negative-direction questions so they're always compared to party positions on the same scale.
 - Tests: Stores and scoring logic are unit tested; use fixtures/mocks for i18n and data
 - Comments: Do not add comments to code unless specifically requested
 - Language: Use British English spelling and grammar throughout code and documentation
@@ -110,36 +110,38 @@ Each axis has a defined positive and negative direction:
 | `urban_development`            | Public transit, dense walkability | Car-friendly, sprawl            |
 | `equity_and_inclusion`         | Strong BEE/affirmative action     | Meritocratic/colour-blind       |
 
-### Question Phrasing & Reverse Scoring
+### Question Direction & Axis Alignment
 
 Questions can be phrased from two perspectives:
 
-1. **Direct phrasing** (`reverseScoring: false` or omitted)
+1. **Positive direction** (`direction: "positive"` or omitted)
    - Question statement aligns with the positive axis direction
    - "Strongly agree" (user value +1) maps to +1 on the axis
-   - Example: Q1 "The government should raise taxes..." (left-wing framing)
-   - User: Strongly agree (+1) → Aligns with economic_left_right +1 direction
+   - Example: Q1 "The government should raise taxes..." (left-wing framing on economic_left_right)
+   - User: Strongly agree (+1) → Directly aligns with economic_left_right positive direction
 
-2. **Reverse phrasing** (`reverseScoring: true`)
+2. **Negative direction** (`direction: "negative"`)
    - Question statement aligns with the negative axis direction
-   - User's answer must be inverted before scoring
-   - Example: Q11 "Private companies should generate electricity..." (market framing on state_vs_market axis)
-   - User: Strongly agree (value +1) → Inverted to -1 → Aligns with market position
-   - Example: Q19 "Labour flexibility will increase investment..." (anti-union framing on labour_rights axis)
-   - User: Strongly disagree (value -1) → Inverted to +1 → Aligns with pro-labour position
+   - User's answer is inverted before scoring
+   - Example: Q2 "Fiscal discipline and reducing public debt should be prioritised" (right-wing framing on economic_left_right)
+   - User: Strongly agree (value +1) → Inverted to -1 → Aligns with economic_left_right negative direction
 
-### Questions with Reverse Scoring (Current List)
+### Questions Measuring Negative Axis Direction
+
+The following 10 questions are phrased from the negative direction of their axis:
 
 - **q2**: "Fiscal discipline and reducing public debt should be prioritised" (right-wing framing on economic_left_right)
 - **q9**: "Government should support SMEs with tax breaks and deregulation" (market framing on state_vs_market)
 - **q11**: "Private companies should generate and sell electricity" (market framing on state_vs_market)
 - **q19**: "Labour market flexibility (easier hiring/firing) will increase investment" (anti-union framing on labour_rights)
-- **q22**: "Freedom of expression and protest should be prioritised" (liberty framing on law_order_vs_liberty)
-- **q23**: "South Africa should adopt strong digital privacy laws" (liberty framing on law_order_vs_liberty)
+- **q21**: "Police should be given stronger powers" (law & order framing on law_order_vs_liberty)
+- **q24**: "Disruptive protests should face stronger legal limits" (law & order framing on law_order_vs_liberty)
 - **q38**: "Trade policy should protect local industries through tariffs" (protectionist framing on global_vs_local)
 - **q39**: "South Africa should adopt stricter immigration policies" (protectionist framing on global_vs_local)
 - **q40**: "Regulate employment of undocumented foreign nationals" (protectionist framing on global_vs_local)
 - **q43**: "Apartheid legacy addressed through incremental reforms rather than systemic overhauls" (continuity framing on transformation_vs_continuity)
+
+These questions have `"direction": "negative"` in `questions.json`.
 
 ### Validating Party Positions
 
@@ -147,43 +149,82 @@ When reviewing or adjusting party positions in `party_positions.json`, think abo
 
 1. Read all questions for a given axis (check `questions.json` to find which questions map to which axis)
 2. For each question, consider: Would a typical supporter of this party agree or disagree?
-3. Factor in `reverseScoring` – if `true`, disagreement moves the party toward the positive axis direction
-4. The party's position should reflect the average stance across all questions on that axis
+3. **Factor in question direction** – if `direction: "negative"`, the algorithm inverts the user's answer before comparison:
+   - User "Strongly agrees" (+1) to a negative-direction question → becomes -1 for axis comparison
+   - User "Strongly disagrees" (-1) to a negative-direction question → becomes +1 for axis comparison
+4. Calculate the average stance across all questions on that axis
+5. The party's position should reflect this average
 
-Example: ANC on `democratic_institutions` axis
+#### Example 1: ANC on `democratic_institutions` (no negative direction questions)
 
-Questions include:
+Questions: q25, q26, q27, q28, q29, q30 (all direction: positive or omitted)
 
-- q25: "Local government should be professionally staffed... even if this limits political appointments" (reverseScoring: false)
-- q27: "Corruption prosecutions should be fast and aggressive" (reverseScoring: false)
-- q30: "Leaders who undermine judiciary should face consequences" (reverseScoring: false)
+- q25: "Local government should be professionally staffed... even if this limits political appointments" → ANC supporters likely **disagree** (prefer cadre deployment)
+- q27: "Corruption prosecutions should be fast and aggressive" → ANC supporters likely **disagree** (slow/selective approach)
+- q30: "Leaders who undermine judiciary should face consequences" → ANC supporters likely **disagree** (Zuma era tolerated this)
 
-ANC's actual behaviour: Cadre deployment, slow/selective prosecutions, limited consequences for institutional undermining.
+Since all questions use positive direction (or omitted), disagreement = negative values on the axis.
 
-Analysis:
+**Conclusion:** Position should be **negative (-0.5)**, reflecting weak institutional support.
 
-- ANC supporters would likely disagree with these pro-institution questions
-- Since reverseScoring is false on all these questions, disagreement = negative values on the axis
-- Conclusion: Position should be negative (around -0.3), not positive
+#### Example 2: MK on `law_order_vs_liberty` (with negative direction questions)
+
+Questions: q21 (NEGATIVE), q22, q23, q24 (NEGATIVE)
+
+Axis: Positive (+1) = civil liberties; Negative (-1) = law & order
+
+How MK supporters would answer:
+
+- **q21 (police powers, NEGATIVE)**: Would **agree** with stronger police powers
+  - User answer: +1 → Algorithm inverts to -1 → Party scores -1 (pro-law-and-order)
+- **q22 (protest rights)**: Would **disagree** (Zuma suppressed dissent)
+  - User answer: -0.5 → Not inverted → Party scores -0.5 (anti-liberty)
+- **q23 (privacy laws)**: Would **disagree** (Zuma expanded surveillance)
+  - User answer: -0.5 → Not inverted → Party scores -0.5 (anti-liberty)
+- **q24 (limit protests, NEGATIVE)**: Would **agree** (restrict disruption)
+  - User answer: +1 → Algorithm inverts to -1 → Party scores -1 (pro-law-and-order)
+
+**Average:** (-1 + -0.5 + -0.5 + -1) / 4 = **-0.75**
+
+**Conclusion:** Position should be around **-0.6**, reflecting authoritarianism and pro-law-and-order stance.
+
+#### Example 3: PAC on `law_order_vs_liberty` (with negative direction questions)
+
+Questions: q21 (NEGATIVE), q22, q23, q24 (NEGATIVE)
+
+How PAC supporters would answer:
+
+- **q21 (police powers, NEGATIVE)**: Would **disagree** (anti-police brutality)
+  - User answer: -0.5 → Algorithm inverts to +0.5 → Party scores +0.5 (pro-liberty)
+- **q22 (protest rights)**: Would **strongly agree** (revolutionary, pro-activism)
+  - User answer: +1 → Not inverted → Party scores +1 (pro-liberty)
+- **q23 (privacy laws)**: Would **agree** (against surveillance)
+  - User answer: +0.5 → Not inverted → Party scores +0.5 (pro-liberty)
+- **q24 (limit protests, NEGATIVE)**: Would **strongly disagree** (pro-protest)
+  - User answer: -1 → Algorithm inverts to +1 → Party scores +1 (pro-liberty)
+
+**Average:** (+0.5 + 1 + 0.5 + 1) / 4 = **+0.75**
+
+**Conclusion:** Position should be around **+0.4**, reflecting civil liberties and pro-protest stance.
 
 ### Adding New Questions
 
-When adding a question, determine its axis and phrasing direction:
+When adding a question, determine its axis and direction:
 
 1. **Decide the axis** – Choose from the 12 defined axes above
-2. **Decide the framing** – Will "Strongly agree" align with the positive (+1) or negative (-1) direction of the axis?
-3. **Set reverseScoring accordingly**:
-   - Positive direction framing → `"reverseScoring": false` (or omit)
-   - Negative direction framing → `"reverseScoring": true`
+2. **Decide the direction** – Will "Strongly agree" align with the positive (+1) or negative (-1) direction of the axis?
+3. **Set direction accordingly** in `questions.json`:
+   - Positive direction framing → omit `direction` field or set `"direction": "positive"`
+   - Negative direction framing → set `"direction": "negative"`
 
 Example: Adding a question about renewable energy transition
 
 - Axis: `environment_energy` (positive = climate action, negative = pragmatic energy)
 - Question: "South Africa should rapidly transition to 100% renewable energy" (climate action framing)
-- Answer: Agreeing = +1 direction → `"reverseScoring": false`
+- Answer: Agreeing = +1 direction → omit `direction` field
 
 Example: Adding a question about business deregulation
 
 - Axis: `state_vs_market` (positive = state control, negative = market/private)
 - Question: "Businesses should face lighter regulatory burdens to boost competitiveness" (market framing)
-- Answer: Agreeing = -1 direction → `"reverseScoring": true`
+- Answer: Agreeing = -1 direction → set `"direction": "negative"`

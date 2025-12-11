@@ -4,351 +4,311 @@
       "id": "q1",
       "textKey": "questions.q1.text",
       "axis": "economic_left_right",
-      "weight": 2.0,
-      "reverseScoring": false
+      "weight": 2.0
     },
     {
       "id": "q2",
       "textKey": "questions.q2.text",
       "axis": "economic_left_right",
       "weight": 1.8,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q3",
       "textKey": "questions.q3.text",
       "axis": "economic_left_right",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q4",
       "textKey": "questions.q4.text",
       "axis": "economic_left_right",
-      "weight": 1.4,
-      "reverseScoring": false
+      "weight": 1.4
     },
     {
       "id": "q5",
       "textKey": "questions.q5.text",
       "axis": "economic_left_right",
-      "weight": 1.9,
-      "reverseScoring": false
+      "weight": 1.9
     },
     {
       "id": "q6",
       "textKey": "questions.q6.text",
       "axis": "economic_left_right",
-      "weight": 1.7,
-      "reverseScoring": false
+      "weight": 1.7
     },
     {
       "id": "q7",
       "textKey": "questions.q7.text",
       "axis": "economic_left_right",
-      "weight": 1.3,
-      "reverseScoring": false
+      "weight": 1.3
     },
     {
       "id": "q8",
       "textKey": "questions.q8.text",
       "axis": "economic_left_right",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q9",
       "textKey": "questions.q9.text",
       "axis": "state_vs_market",
       "weight": 1.5,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q10",
       "textKey": "questions.q10.text",
       "axis": "state_vs_market",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q11",
       "textKey": "questions.q11.text",
       "axis": "state_vs_market",
       "weight": 1.8,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q12",
       "textKey": "questions.q12.text",
       "axis": "state_vs_market",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q13",
       "textKey": "questions.q13.text",
       "axis": "land_and_ownership",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q14",
       "textKey": "questions.q14.text",
       "axis": "land_and_ownership",
-      "weight": 2.0,
-      "reverseScoring": false
+      "weight": 2.0
     },
     {
       "id": "q15",
       "textKey": "questions.q15.text",
       "axis": "land_and_ownership",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q16",
       "textKey": "questions.q16.text",
       "axis": "land_and_ownership",
-      "weight": 1.7,
-      "reverseScoring": false
+      "weight": 1.7
     },
     {
       "id": "q17",
       "textKey": "questions.q17.text",
       "axis": "labour_rights",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q18",
       "textKey": "questions.q18.text",
       "axis": "labour_rights",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q19",
       "textKey": "questions.q19.text",
       "axis": "labour_rights",
       "weight": 1.7,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q20",
       "textKey": "questions.q20.text",
       "axis": "labour_rights",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q21",
       "textKey": "questions.q21.text",
       "axis": "law_order_vs_liberty",
       "weight": 1.5,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q22",
       "textKey": "questions.q22.text",
       "axis": "law_order_vs_liberty",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q23",
       "textKey": "questions.q23.text",
       "axis": "law_order_vs_liberty",
-      "weight": 1.8,
-      "reverseScoring": false
+      "weight": 1.8
     },
     {
       "id": "q24",
       "textKey": "questions.q24.text",
       "axis": "law_order_vs_liberty",
       "weight": 1.4,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q25",
       "textKey": "questions.q25.text",
       "axis": "democratic_institutions",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q26",
       "textKey": "questions.q26.text",
       "axis": "democratic_institutions",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q27",
       "textKey": "questions.q27.text",
       "axis": "democratic_institutions",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q28",
       "textKey": "questions.q28.text",
       "axis": "democratic_institutions",
-      "weight": 2.0,
-      "reverseScoring": false
+      "weight": 2.0
     },
     {
       "id": "q29",
       "textKey": "questions.q29.text",
       "axis": "democratic_institutions",
-      "weight": 1.8,
-      "reverseScoring": false
+      "weight": 1.8
     },
     {
       "id": "q30",
       "textKey": "questions.q30.text",
       "axis": "democratic_institutions",
-      "weight": 1.3,
-      "reverseScoring": false
+      "weight": 1.3
     },
     {
       "id": "q31",
       "textKey": "questions.q31.text",
       "axis": "environment_energy",
-      "weight": 1.3,
-      "reverseScoring": false
+      "weight": 1.3
     },
     {
       "id": "q32",
       "textKey": "questions.q32.text",
       "axis": "environment_energy",
-      "weight": 1.8,
-      "reverseScoring": false
+      "weight": 1.8
     },
     {
       "id": "q33",
       "textKey": "questions.q33.text",
       "axis": "environment_energy",
-      "weight": 1.3,
-      "reverseScoring": false
+      "weight": 1.3
     },
     {
       "id": "q34",
       "textKey": "questions.q34.text",
       "axis": "social_progressivism",
-      "weight": 1.7,
-      "reverseScoring": false
+      "weight": 1.7
     },
     {
       "id": "q35",
       "textKey": "questions.q35.text",
       "axis": "social_progressivism",
-      "weight": 1.8,
-      "reverseScoring": false
+      "weight": 1.8
     },
     {
       "id": "q36",
       "textKey": "questions.q36.text",
       "axis": "global_vs_local",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q37",
       "textKey": "questions.q37.text",
       "axis": "global_vs_local",
-      "weight": 1.8,
-      "reverseScoring": false
+      "weight": 1.8
     },
     {
       "id": "q38",
       "textKey": "questions.q38.text",
       "axis": "global_vs_local",
       "weight": 1.7,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q39",
       "textKey": "questions.q39.text",
       "axis": "global_vs_local",
       "weight": 1.4,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q40",
       "textKey": "questions.q40.text",
       "axis": "global_vs_local",
       "weight": 1.3,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q41",
       "textKey": "questions.q41.text",
       "axis": "transformation_vs_continuity",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q42",
       "textKey": "questions.q42.text",
       "axis": "transformation_vs_continuity",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q43",
       "textKey": "questions.q43.text",
       "axis": "transformation_vs_continuity",
       "weight": 1.4,
-      "reverseScoring": true
+      "direction": "negative"
     },
     {
       "id": "q44",
       "textKey": "questions.q44.text",
       "axis": "urban_development",
-      "weight": 1.3,
-      "reverseScoring": false
+      "weight": 1.3
     },
     {
       "id": "q45",
       "textKey": "questions.q45.text",
       "axis": "urban_development",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q46",
       "textKey": "questions.q46.text",
       "axis": "urban_development",
-      "weight": 1.4,
-      "reverseScoring": false
+      "weight": 1.4
     },
     {
       "id": "q47",
       "textKey": "questions.q47.text",
       "axis": "equity_and_inclusion",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     },
     {
       "id": "q48",
       "textKey": "questions.q48.text",
       "axis": "equity_and_inclusion",
-      "weight": 1.5,
-      "reverseScoring": false
+      "weight": 1.5
     },
     {
       "id": "q49",
       "textKey": "questions.q49.text",
       "axis": "equity_and_inclusion",
-      "weight": 1.4,
-      "reverseScoring": false
+      "weight": 1.4
     },
     {
       "id": "q50",
       "textKey": "questions.q50.text",
       "axis": "equity_and_inclusion",
-      "weight": 1.6,
-      "reverseScoring": false
+      "weight": 1.6
     }
   ]
 }

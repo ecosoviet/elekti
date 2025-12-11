@@ -15,8 +15,9 @@ export const useQuizStore = defineStore("quiz", () => {
   const currentQuestionIndex = ref(0);
   const completed = ref(false);
 
-  const parties = [...(partiesData as Party[])]
-    .sort((a, b) => a.name.localeCompare(b.name));
+  const parties = [...(partiesData as Party[])].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
 
   interface QuestionMetadata {
     id: string;

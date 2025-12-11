@@ -26,7 +26,7 @@ interface QuestionMetadata {
   textKey: string;
   axis: string;
   weight: number;
-  reverseScoring?: boolean;
+  direction?: "positive" | "negative";
 }
 
 export interface Axis {
@@ -82,8 +82,7 @@ export function computeScores(
     let userValue = STANDARD_OPTIONS[optionIndex]?.value;
     if (userValue === undefined) continue;
 
-    // Apply reverse scoring if needed
-    if (question.reverseScoring) {
+    if (question.direction === "negative") {
       userValue = -userValue;
     }
 

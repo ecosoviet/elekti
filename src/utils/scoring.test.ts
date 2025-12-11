@@ -51,42 +51,22 @@ vi.mock("../data/questions.json", () => ({
     questions: [
       {
         id: "q1",
-        text: "Test question 1",
+        textKey: "questions.q1.text",
         axis: "economic_left_right",
         weight: 1.5,
-        options: [
-          { value: 1, label: "Strongly agree" },
-          { value: 0.5, label: "Agree" },
-          { value: 0, label: "Neutral" },
-          { value: -0.5, label: "Disagree" },
-          { value: -1, label: "Strongly disagree" },
-        ],
       },
       {
         id: "q2",
-        text: "Test question 2",
+        textKey: "questions.q2.text",
         axis: "state_vs_market",
         weight: 1.2,
-        options: [
-          { value: -1, label: "Strongly agree" },
-          { value: -0.5, label: "Agree" },
-          { value: 0, label: "Neutral" },
-          { value: 0.5, label: "Disagree" },
-          { value: 1, label: "Strongly disagree" },
-        ],
+        direction: "negative",
       },
       {
         id: "q3",
-        text: "Test question 3",
+        textKey: "questions.q3.text",
         axis: "labour_rights",
         weight: 1.3,
-        options: [
-          { value: 1, label: "Strongly agree" },
-          { value: 0.5, label: "Agree" },
-          { value: 0, label: "Neutral" },
-          { value: -0.5, label: "Disagree" },
-          { value: -1, label: "Strongly disagree" },
-        ],
       },
     ],
   },
@@ -306,6 +286,24 @@ describe("scoring.ts - computeScores (axis-based)", () => {
           next.alignmentScore
         );
       }
+    }
+  });
+
+  it("should invert user answer for questions with direction: negative", () => {
+    const answers = {
+      q2: 0,
+    };
+
+    const result = computeScores(answers, mockParties);
+
+    expect(result.primary).toBeDefined();
+    expect(result.allScores).toBeDefined();
+
+    const daScore = result.allScores.find((s) => s.partyId === "da");
+
+    expect(daScore).toBeDefined();
+    if (daScore) {
+      expect(daScore.alignmentScore).toBeGreaterThan(0);
     }
   });
 
