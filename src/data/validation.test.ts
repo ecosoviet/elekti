@@ -1,4 +1,11 @@
 import { describe, expect, it } from "vitest";
+import {
+  validateAxes,
+  validateParties,
+  validatePartyPositions,
+  validateQuestions,
+  validateTranslation,
+} from "../validators/data";
 import axes from "./axes.json";
 import parties from "./parties.json";
 import partyPositions from "./party_positions.json";
@@ -7,6 +14,59 @@ import af from "./translations/af.json";
 import en from "./translations/en.json";
 
 describe("Data Validation", () => {
+  describe("Zod Schema Validation", () => {
+    it("should validate questions.json with Zod schema", () => {
+      const result = validateQuestions(questions);
+      expect(result.success).toBe(true);
+      if (!result.success) {
+        console.error("Questions validation errors:", result.errors);
+      }
+    });
+
+    it("should validate parties.json with Zod schema", () => {
+      const result = validateParties(parties);
+      expect(result.success).toBe(true);
+      if (!result.success) {
+        console.error("Parties validation errors:", result.errors);
+      }
+    });
+
+    it("should validate axes.json with Zod schema", () => {
+      const result = validateAxes(axes);
+      expect(result.success).toBe(true);
+      if (!result.success) {
+        console.error("Axes validation errors:", result.errors);
+      }
+    });
+
+    it("should validate party_positions.json with Zod schema", () => {
+      const result = validatePartyPositions(partyPositions);
+      expect(result.success).toBe(true);
+      if (!result.success) {
+        console.error("Party positions validation errors:", result.errors);
+      }
+    });
+
+    it("should validate en.json translation with Zod schema", () => {
+      const result = validateTranslation(en);
+      expect(result.success).toBe(true);
+      if (!result.success) {
+        console.error("English translation validation errors:", result.errors);
+      }
+    });
+
+    it("should validate af.json translation with Zod schema", () => {
+      const result = validateTranslation(af);
+      expect(result.success).toBe(true);
+      if (!result.success) {
+        console.error(
+          "Afrikaans translation validation errors:",
+          result.errors
+        );
+      }
+    });
+  });
+
   describe("Questions Data", () => {
     it("should have questions array", () => {
       expect(Array.isArray(questions.questions)).toBe(true);

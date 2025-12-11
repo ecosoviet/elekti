@@ -9,6 +9,7 @@ import {
   type Question,
   type QuizResult,
 } from "../utils/scoring";
+import { decodeAndValidateAnswers } from "../validators/answers";
 
 export const useQuizStore = defineStore("quiz", () => {
   const answers = ref<Record<string, number>>({});
@@ -103,37 +104,17 @@ export const useQuizStore = defineStore("quiz", () => {
   }
 
   function loadAnswersFromUrl(encoded: string): boolean {
-    try {
-      const decoded = atob(encoded);
-      const parts = decoded.split(",");
-      const newAnswers: Record<string, number> = {};
-      let hasValidAnswers = false;
+    const questionIds = questions.value.map((q) => q.id);
+    const result = decodeAndValidateAnswers(encoded, questionIds);
 
-      for (const [index, q] of questions.value.entries()) {
-        const value = parts[index];
-        if (value && value !== "") {
-          const numberValue = Number.parseInt(value);
-          if (
-            !Number.isNaN(numberValue) &&
-            numberValue >= 0 &&
-            numberValue <= 4
-          ) {
-            newAnswers[q.id] = numberValue;
-            hasValidAnswers = true;
-          }
-        }
-      }
-
-      if (hasValidAnswers) {
-        answers.value = newAnswers;
-        completed.value =
-          Object.keys(newAnswers).length === questions.value.length;
-        return true;
-      }
-      return false;
-    } catch {
-      return false;
+    if (result.success && result.answers) {
+      answers.value = result.answers;
+      completed.value =
+        Object.keys(result.answers).length === questions.value.length;
+      return true;
     }
+
+    return false;
   }
 
   return {
