@@ -395,12 +395,5 @@
     "about": "About",
     "privacy": "Privacy",
     "contact": "Contact"
-  },
-  "disclaimer": {
-    "title": "Important Notice",
-    "educational": "Elekti is an educational tool designed to help you explore political alignment. It is not a substitute for thorough research or critical thinking.",
-    "alpha": "This site is currently in alpha and under active development. Features may change, and data may be updated as we refine the methodology.",
-    "research": "We strongly encourage you to read party manifestos, verify information independently, and make informed decisions based on multiple sources.",
-    "understand": "I understand"
   }
 }

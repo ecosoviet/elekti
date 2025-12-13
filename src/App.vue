@@ -1,12 +1,9 @@
 <script setup lang="ts">
-  import DisclaimerModal from "./components/DisclaimerModal.vue";
   import LanguageSelector from "./components/LanguageSelector.vue";
 </script>
 
 <template>
   <div id="app">
-    <DisclaimerModal />
-
     <header class="app-header">
       <div class="app-header__container">
         <router-link to="/" class="app-header__brand">
