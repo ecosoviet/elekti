@@ -30,5 +30,5 @@ export const i18n = createI18n({
 export const availableLocales = [
   { code: "en", name: "English" },
   { code: "af", name: "Afrikaans" },
-  { code: "zu", name: "Zulu" },
+  // { code: "zu", name: "Zulu" },
 ];
