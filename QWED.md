@@ -1,4 +1,4 @@
-# Copilot Instructions for Elekti (AI Agents)
+# Qwen Instructions for Elekti (AI Agents)
 
 ## What This App Is
 
