@@ -207,15 +207,15 @@
   },
   "questions": {
     "q1": {
-      "text": "Die regering behoort belasting op die rykes te verhoog om uitgebreide sosiale programme (gesondheid, onderwys, sosiale toelaes) te befonds.",
+      "text": "Die regering behoort belasting op die rykes te verhoog om beter klinieke, skole en sosiale toelaes vir arm huishoudings te befonds.",
       "axis": "economic_left_right"
     },
     "q2": {
-      "text": "Die afbetaling van openbare skuld en fiskale volhoubaarheid moet geprioritiseer word, selfs al beperk dit nuwe sosiale besteding.",
+      "text": "Regering moet skuld afbetaal eerder as om nuwe programme te bekostig, selfs al beteken dit dienste uit te sny.",
       "axis": "economic_left_right"
     },
     "q3": {
-      "text": "Die staat moet 'n basiese inkomste vir alle burgers implementeer.",
+      "text": "Regering moet elke volwassene 'n maandelikse kontantbeurs gee, selfs al kos dit meer belasting.",
       "axis": "economic_left_right"
     },
     "q4": {
@@ -223,7 +223,7 @@
       "axis": "economic_left_right"
     },
     "q5": {
-      "text": "Gesondheidsorg moet universeel en publiek befonds word, met basiese dienste gratis by gebruikspunt.",
+      "text": "Gesondheidsorg moet gratis wees by klinieke en hospitale vir almal.",
       "axis": "economic_left_right"
     },
     "q6": {
@@ -235,11 +235,11 @@
       "axis": "economic_left_right"
     },
     "q8": {
-      "text": "Nywerheidsbeleid moet beskermingsmaatrëels en subsidies vir opkomende swart-eienaarskap en werker-eienaarskap-ondernemings insluit.",
+      "text": "Regering moet aktief groeiende swart-eienaarskap en werker-eienaarskap-ondernemings ondersteun deur lenings, belastingvermindering en opdragte.",
       "axis": "economic_left_right"
     },
     "q9": {
-      "text": "Die regering moet klein en medium ondernemings aktief ondersteun met belastingvermindering en deregulering.",
+      "text": "Regering moet rooi lint sny en belastingvermindering gee aan klein winkels en handelaars om hulle te help oorleef.",
       "axis": "state_vs_market"
     },
     "q10": {
@@ -251,23 +251,23 @@
       "axis": "state_vs_market"
     },
     "q12": {
-      "text": "Watervoorsiening- en sanitasiondienste moet hoofsaaklik staatbeheer bly in plaas van oopgestelde vir private operateurs.",
+      "text": "Water en toilette moet onder regeringsbeheer bly, nie deur private maatskappye bestuur word nie.",
       "axis": "state_vs_market"
     },
     "q13": {
-      "text": "Onteiening van grond sonder markwaarde-vergoeding moet toegelaat word om grondhervorming te versnel.",
+      "text": "Regering moet grond bekom sonder volle vergoeding om grondhervorming gou deur te druk.",
       "axis": "land_and_ownership"
     },
     "q14": {
-      "text": "Kleinskaalse boerdery en gemeenskapsgrondregte moet voorkeur geniet bo groot kommersiële landbouondernemings.",
+      "text": "Klein boere en gemeenskapsgrondregte moet meer regeringssteun kry as groot kommersiële plase.",
       "axis": "land_and_ownership"
     },
     "q15": {
-      "text": "Gemeenskapseiendom-landbou-inisiatiewe en koöperatiewe boerdery-modelle moet aktief deur regeringsbeleid en -befondsing ondersteun word.",
+      "text": "Regering moet gemeenskapstuin, koöperatiewe plase en groep-boerderyskema's befonds en beskerm.",
       "axis": "land_and_ownership"
     },
     "q16": {
-      "text": "Tradisionele en inheemse landregte moet wetlik erken en beskerm word, selfs al bots dit met bestaande eiendomstitel.",
+      "text": "Gemeenskappe se tradisionele grondeis moet wettig erken en beskerm word, selfs al verbreek dit huidige titel.",
       "axis": "land_and_ownership"
     },
     "q17": {
@@ -279,7 +279,7 @@
       "axis": "labour_rights"
     },
     "q19": {
-      "text": "Arbeidsmarkbuigbaarheid (makliker indiensneming en afdanking) sal belegging bevorder en moet aangemoedig word.",
+      "text": "Dit makliker maak vir base om werkers in diens te neem en af te dank sal belegging lok en werk skep.",
       "axis": "labour_rights"
     },
     "q20": {
@@ -287,75 +287,75 @@
       "axis": "labour_rights"
     },
     "q21": {
-      "text": "Die polisie moet sterker magte en hulpbronne kry om gewelddadige misdaad te bekamp, selfs al vergroot dit staatsgesag.",
+      "text": "Polisie het meer befondsing en magte nodig om gewelddadige misdaad soos huisinsluipings, geslaggebaseerde geweld en taximisdaad te bekamp, selfs al beteken dit meer polisiestopings.",
       "axis": "law_order_vs_liberty"
     },
     "q22": {
-      "text": "Vryheid van uitdrukking en vreedsame protesaksie moet geprioritiseer word, selfs wanneer demonstrasies ekonomiese aktiwiteit ontwrig.",
+      "text": "Mense moet vry wees om te protesteer en uit te spreek, selfs al ontwrig dit verkeer, besigheid of dienste.",
       "axis": "law_order_vs_liberty"
     },
     "q23": {
-      "text": "Suid-Afrika moet sterk digitale privaatheidswette aanvaar wat korporatiewe en staats toesig beperk.",
+      "text": "Regering en maatskappye mag nie spioneer wat mense aanlyn doen nie.",
       "axis": "law_order_vs_liberty"
     },
     "q24": {
-      "text": "Ontwrigtende proteste en afsluitings moet sterker wetlike beperkings in die gesig staar, selfs al beperk dit sekere vorme van politieke uitdrukking.",
+      "text": "Regering moet wet gebruik om ontwrigtende proteste en stakings te stop, selfs al beperk dit mense se regte om teen te staan.",
       "axis": "law_order_vs_liberty"
     },
     "q25": {
-      "text": "Plaaslike regering moet professioneel beman en onafhanklik geoudit word om munisipale mislukkings en korrupsie aan te spreek, selfs al beperk dit politieke aanstellings.",
+      "text": "Plaaslike rade het professionele bestuurders en onafhanklike ouditeure nodig om korrupsie en mors teen te hou, selfs al swak dit politieke beheer.",
       "axis": "democratic_institutions"
     },
     "q26": {
-      "text": "Onafhanklike toesigliggame (regbank, vervolging) moet beskerm word, selfs al vertraag dit vervolgings van magtige amptenare.",
+      "text": "Howe en vervolgingsliggame moet onafhanklik wees en beveilig teen politieke druk, selfs al vertraag dit geregtigheid.",
       "axis": "democratic_institutions"
     },
     "q27": {
-      "text": "Korrupsievervolgings moet vinnig en agresief wees, selfs al veroorsaak dit korttermynonstabiliteit in die regering.",
+      "text": "Korrupsiezake moet vinnig en aggressief vervolgd word, selfs al skep dit tydelike chaos in die regering.",
       "axis": "democratic_institutions"
     },
     "q28": {
-      "text": "Politieke partye moet kompromieë maak oor hul ideologiese standpunte om stabiele koalisieregerings te vorm, selfs al teleurstel dit sommige ondersteuners.",
+      "text": "Partye moet saamwerk in koalisies en kompromieë maak, selfs al verraai dit sommige ondersteuners se verwagtinge.",
       "axis": "democratic_institutions"
     },
     "q29": {
-      "text": "Nasionale regering moet meer aggressief ingryp in falende munisipaliteite, selfs al beperk dit plaaslike demokratiese outonomie.",
+      "text": "Nasionale regering moet falende rade oorneem en hulle regmaak, selfs al swak dit plaaslike demokrasie.",
       "axis": "democratic_institutions"
     },
     "q30": {
-      "text": "Politieke leiers wat die regbank, verkiesingsliggame, of die Grondwet openlik ondermyn, moet gevolge in die gesig staar.",
+      "text": "Politici wat die howe, stemmingstelsel of Grondwet aanval, moet vervolgd word.",
       "axis": "democratic_institutions"
     },
     "q31": {
-      "text": "Suid-Afrika moet wetlik bindende teikens stel om kweekhuisgasvrystellings te sny en steenkoolkrag uit te faseer.",
+      "text": "Suid-Afrika moet wetlike teikens stel om besoedeling te sny en steenkoolkragstasies te sluit.",
       "axis": "environment_energy"
     },
     "q32": {
-      "text": "Die staat moet belegging in hernubare energie prioritiseer om afhanklikheid van steenkoolkrag te verminder.",
+      "text": "Regering moet meer in son-, wind- en skoon energie belê in plaas van steenkool.",
       "axis": "environment_energy"
     },
     "q33": {
-      "text": "Omgewingsbeskermingswette moet prioriteit geniet bo nuwe minerale- en steenkoolontwikkeling.",
+      "text": "Omgewingswette moet nuwe myne en steenkoolprojekte stop wanneer hulle die natuur beskadig.",
       "axis": "environment_energy"
     },
     "q34": {
-      "text": "Die staat moet LGBTQ+-anti-diskriminasiewette en inklusiwiteitsbeleid afdwing.",
+      "text": "Regering moet LGBTQ+-mense beskerm teen diskriminasie op die werk en in winkels.",
       "axis": "social_progressivism"
     },
     "q35": {
-      "text": "Die staat moet aktief geslag-gelykheid bevorder deur verpligte ouersverlofbeleide en werkplek-antidiskriminasietoepassing.",
+      "text": "Regering moet maatskappye dwing om ouers betaalde verlof te gee en moeders en vroue op die werk te beskerm teen diskriminasie.",
       "axis": "social_progressivism"
     },
     "q36": {
-      "text": "Suid-Afrika moet uitvoer-gedrewe groei prioritiseer deur sterker handelsbande met internasionale markte te bou.",
+      "text": "Suid-Afrika moet fokus op die verkoop van goedere oorsee om die ekonomie te laat groei.",
       "axis": "global_vs_local"
     },
     "q37": {
-      "text": "Suid-Afrika moet aktief vrye handelsooreenkoms nastreef en handelsversperrings verminder om dieper in die wêreldekonomie te integreer.",
+      "text": "Suid-Afrika moet vryehandelsooreenkomste teken en handelsversperrings laat val om by die wêreldekonomie aan te sluit.",
       "axis": "global_vs_local"
     },
     "q38": {
-      "text": "Handelsbeleid moet plaaslike nywerhede beskerm deur tariewe en plaaslike inhoudsreëls te prioritiseer.",
+      "text": "Regering moet tariewe en plaaslike inhoudsreëls gebruik om Suid-Afrikaanse fabrieke en werk te beskerm.",
       "axis": "global_vs_local"
     },
     "q39": {
@@ -363,31 +363,31 @@
       "axis": "global_vs_local"
     },
     "q40": {
-      "text": "Regering moet die indiensneming van ongedokumenteerde buitelandse burgers meer aggressief reguleer, selfs al ontwrig dit nywerhede wat op migrantarbeid staatmaak.",
+      "text": "Regering moet werkgewers wat ongedokumenteerde migrante in diens neem hardhandig, selfs al skaad dit besighede wat van hulle afhang.",
       "axis": "global_vs_local"
     },
     "q41": {
-      "text": "Voedselsekuriteit moet deur 'n nasionale strategie bereik word wat plaaslike produksie, agro-ekologie en gemeenskaps tuine ondersteun.",
+      "text": "Regering moet plaaslike boerdery en gemeenskapstuin ondersteun om seker te maak mense het genoeg kos.",
       "axis": "transformation_vs_continuity"
     },
     "q42": {
-      "text": "Suid-Afrika moet radikale herstrukturering van die ekonomie en arbeidsmark prioritiseer bo stadige, markgedrewe hervormings.",
+      "text": "Suid-Afrika het vinnige, radikale veranderinge aan die ekonomie en arbeidsmark nodig, nie stadige hervormings nie.",
       "axis": "transformation_vs_continuity"
     },
     "q43": {
-      "text": "Die apartheid-erfenis moet deur stadige institusionele hervormings aangespreek word in plaas van radikale stelselveranderinge.",
+      "text": "Maak apartheid se nalatenskap reg deur stadige, bestendige veranderinge aan instellings, nie radikale omverwerpings nie.",
       "axis": "transformation_vs_continuity"
     },
     "q44": {
-      "text": "Vervoerinfrastruktuur-befondsing moet massa-openbare vervoer bo nuwe hoofwee-konstruksie prioritiseer, selfs al ongerief dit motoriste.",
+      "text": "Vervoerbefondsing moet minibus-taksiroetes, busisteme en plaaslike treine verbeter bo die bou van nuwe hoofwee.",
       "axis": "urban_development"
     },
     "q45": {
-      "text": "Bekostigbare openbare behuising moet bo aansporings vir private ontwikkelaars geprioritiseer word.",
+      "text": "Regering moet voorkeur gee aan die bou van bekostigbare openbare behuising in townships en informele nedersettings bo private ontwikkelingsuitstekende.",
       "axis": "urban_development"
     },
     "q46": {
-      "text": "Stede moet wetlik verplig word om lae-digtheid, motorafhanklike ontwikkelings te beperk en loopbare, gemengde-gebruik buurte te mandateer—selfs al beperk dit eiendomsregte.",
+      "text": "Stede moet uitgestrekte, motorafhanklike dorpies beperk en eerder loopbare, gemengde-gebruik townships met nêrby winkels, skole en klinieke ondersteun—selfs al verloor ontwikkelaars winste.",
       "axis": "urban_development"
     },
     "q47": {
@@ -395,15 +395,15 @@
       "axis": "equity_and_inclusion"
     },
     "q48": {
-      "text": "Die staat moet geteikende subsidies en aansporings instel om townships en landelike ekonomieë te versnel.",
+      "text": "Regering moet geld in township en landelike besigheid gooi om werk en ekonomiese groei te skep.",
       "axis": "equity_and_inclusion"
     },
     "q49": {
-      "text": "Beleide soos Gelyke Indiensneming en BEE moet sentrale instrumente bly om rasse-ongelykheid aan te spreek, selfs al beperk dit buigsaamheid vir besighede.",
+      "text": "Gelyke Indiensneming en BEE-reëls moet bly as gereedskap om rasgebaseerde ongelykheid reg te stel, selfs al kla besighede oor die koste.",
       "axis": "equity_and_inclusion"
     },
     "q50": {
-      "text": "Vaardigheidsontwikelingsprogramme moet op histories-benadeelde persone gerig word om ekonomiese deelname te versnel.",
+      "text": "Regering moet in werksopleiding vir histories-benadeelde mense investeer om hulle in werk te kry.",
       "axis": "equity_and_inclusion"
     }
   },

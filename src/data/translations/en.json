@@ -207,15 +207,15 @@
   },
   "questions": {
     "q1": {
-      "text": "The government should raise taxes on the wealthy to fund expanded social programmes (health, education, social grants).",
+      "text": "The government should raise taxes on the wealthy to fund better health clinics, schools, and social grants for poor households.",
       "axis": "economic_left_right"
     },
     "q2": {
-      "text": "Fiscal discipline and reducing public debt should be prioritised even if it limits new social spending.",
+      "text": "Government should pay down debt rather than spend on new programmes, even if it means cutting services.",
       "axis": "economic_left_right"
     },
     "q3": {
-      "text": "The state should introduce a universal basic income for all citizens.",
+      "text": "Government should give every adult a monthly cash grant, even if it costs more in taxes.",
       "axis": "economic_left_right"
     },
     "q4": {
@@ -223,7 +223,7 @@
       "axis": "economic_left_right"
     },
     "q5": {
-      "text": "Healthcare should be universally publicly funded, with basic services free at point of use.",
+      "text": "Healthcare should be free at clinics and hospitals for everyone.",
       "axis": "economic_left_right"
     },
     "q6": {
@@ -235,11 +235,11 @@
       "axis": "economic_left_right"
     },
     "q8": {
-      "text": "Industrial policy should include protective measures and subsidies for emerging black-owned and worker-owned enterprises.",
+      "text": "Government should actively support growing black-owned and worker-owned businesses through loans, tax breaks, and contracts.",
       "axis": "economic_left_right"
     },
     "q9": {
-      "text": "The government should actively support small and medium businesses with tax breaks and deregulation.",
+      "text": "Government should cut red tape and give tax breaks to small shops and traders to help them survive.",
       "axis": "state_vs_market"
     },
     "q10": {
@@ -251,23 +251,23 @@
       "axis": "state_vs_market"
     },
     "q12": {
-      "text": "Water supply and sanitation services should remain primarily state-controlled rather than be opened to private operators.",
+      "text": "Water and toilets should stay under government control, not be run by private companies.",
       "axis": "state_vs_market"
     },
     "q13": {
-      "text": "Expropriation of land without market-rate compensation should be allowed to speed up land reform.",
+      "text": "Government should seize land without paying full compensation to speed up land reform.",
       "axis": "land_and_ownership"
     },
     "q14": {
-      "text": "Smallholder farming and communal land rights should receive priority policy support over large commercial agribusiness.",
+      "text": "Small farmers and communal land rights should get more government support than big commercial farms.",
       "axis": "land_and_ownership"
     },
     "q15": {
-      "text": "Community-owned agricultural initiatives and cooperative farming models should be actively supported by government policy and funding.",
+      "text": "Government should fund and protect community gardens, cooperative farms, and group farming schemes.",
       "axis": "land_and_ownership"
     },
     "q16": {
-      "text": "Traditional and indigenous land rights should be legally recognised and protected, even if this conflicts with existing property titles.",
+      "text": "Communities' traditional land claims should be legally recognised and protected, even if it overrides current titles.",
       "axis": "land_and_ownership"
     },
     "q17": {
@@ -279,7 +279,7 @@
       "axis": "labour_rights"
     },
     "q19": {
-      "text": "Labour market flexibility (easier hiring and firing) will increase investment and should be encouraged.",
+      "text": "Making it easier for bosses to hire and fire workers will attract investment and create jobs.",
       "axis": "labour_rights"
     },
     "q20": {
@@ -287,75 +287,75 @@
       "axis": "labour_rights"
     },
     "q21": {
-      "text": "Police should be given stronger powers and resources to tackle violent crime, even if it expands state authority.",
+      "text": "Police need more funding and powers to tackle violent crime like home invasions, gender-based violence, and taxi violence, even if it means more police stops.",
       "axis": "law_order_vs_liberty"
     },
     "q22": {
-      "text": "Freedom of expression and peaceful protest should be prioritised even when demonstrations disrupt economic activity.",
+      "text": "People should be free to protest and speak out, even if it disrupts traffic, business, or services.",
       "axis": "law_order_vs_liberty"
     },
     "q23": {
-      "text": "South Africa should adopt strong digital privacy laws limiting corporate and state surveillance.",
+      "text": "Government and companies should not be allowed to spy on what people do online.",
       "axis": "law_order_vs_liberty"
     },
     "q24": {
-      "text": "Disruptive protests and shutdowns should face stronger legal limits, even if this restricts certain forms of political expression.",
+      "text": "Government should use law to stop disruptive protests and strikes, even if it limits people's right to resist.",
       "axis": "law_order_vs_liberty"
     },
     "q25": {
-      "text": "Local government should be professionally staffed and independently audited to address municipal failures and corruption, even if this limits political appointments.",
+      "text": "Local councils need professional managers and independent auditors to stop corruption and waste, even if it weakens political control.",
       "axis": "democratic_institutions"
     },
     "q26": {
-      "text": "Independent oversight institutions (judiciary, prosecution) should be protected even if it slows prosecutions of powerful officials.",
+      "text": "Courts and prosecutors must be independent and protected from political pressure, even if it slows justice.",
       "axis": "democratic_institutions"
     },
     "q27": {
-      "text": "Corruption prosecutions should be fast and aggressive even if they cause short-term instability in government.",
+      "text": "Corruption cases should be prosecuted fast and aggressively, even if it creates temporary chaos in government.",
       "axis": "democratic_institutions"
     },
     "q28": {
-      "text": "Political parties should compromise on their ideological positions to form stable coalition governments, even if this disappoints some supporters.",
+      "text": "Parties must work together in coalitions and compromise, even if they betray some of their supporters' expectations.",
       "axis": "democratic_institutions"
     },
     "q29": {
-      "text": "National government should intervene more aggressively in failing municipalities, even if this limits local democratic autonomy.",
+      "text": "National government should take over failing councils and fix them, even if it weakens local democracy.",
       "axis": "democratic_institutions"
     },
     "q30": {
-      "text": "Political leaders who publicly undermine the judiciary, electoral bodies, or the Constitution should face consequences.",
+      "text": "Politicians who attack the courts, voting system, or Constitution should face prosecution.",
       "axis": "democratic_institutions"
     },
     "q31": {
-      "text": "South Africa should set legally binding targets to cut greenhouse gas emissions and phase out coal power.",
+      "text": "South Africa should set legal targets to cut pollution and close coal power stations.",
       "axis": "environment_energy"
     },
     "q32": {
-      "text": "The state should prioritise investment in renewable energy to reduce dependence on coal power.",
+      "text": "Government should invest more in solar, wind, and clean energy instead of coal.",
       "axis": "environment_energy"
     },
     "q33": {
-      "text": "Environmental protection laws should take priority over new mineral and coal developments.",
+      "text": "Environmental laws should stop new mines and coal projects when they damage nature.",
       "axis": "environment_energy"
     },
     "q34": {
-      "text": "The state should enforce LGBTQ+ anti-discrimination protections and inclusion policies.",
+      "text": "Government must protect LGBTQ+ people from discrimination at work and in shops.",
       "axis": "social_progressivism"
     },
     "q35": {
-      "text": "The state should actively promote gender equality through mandatory parental leave policies and workplace anti-discrimination enforcement.",
+      "text": "Government should force companies to give parents paid leave and protect mothers and women from discrimination at work.",
       "axis": "social_progressivism"
     },
     "q36": {
-      "text": "South Africa should prioritise export-led growth through stronger trade links with international markets.",
+      "text": "South Africa should focus on selling goods abroad to grow the economy.",
       "axis": "global_vs_local"
     },
     "q37": {
-      "text": "South Africa should actively pursue free trade agreements and reduce trade barriers to integrate more deeply into the global economy.",
+      "text": "South Africa should sign free trade deals and drop trade barriers to join the global economy.",
       "axis": "global_vs_local"
     },
     "q38": {
-      "text": "Trade policy should prioritise protecting local industries through tariffs and local content rules.",
+      "text": "Government should use tariffs and local content rules to protect South African factories and jobs.",
       "axis": "global_vs_local"
     },
     "q39": {
@@ -363,31 +363,31 @@
       "axis": "global_vs_local"
     },
     "q40": {
-      "text": "Government should more aggressively regulate the employment of undocumented foreign nationals, even if this disrupts industries that rely on migrant labour.",
+      "text": "Government should crack down on employers hiring undocumented migrants, even if it hurts businesses that depend on them.",
       "axis": "global_vs_local"
     },
     "q41": {
-      "text": "Food security should be achieved through a national strategy supporting local production, agroecology and community gardens.",
+      "text": "Government should support local farming and community gardens to make sure people have enough food.",
       "axis": "transformation_vs_continuity"
     },
     "q42": {
-      "text": "South Africa should prioritise radical restructuring of the economy and labour market over gradual, market-driven reforms.",
+      "text": "South Africa needs rapid, radical changes to the economy and job market, not slow reforms.",
       "axis": "transformation_vs_continuity"
     },
     "q43": {
-      "text": "The apartheid-era legacy should be addressed through incremental institutional reforms rather than sweeping systemic overhauls.",
+      "text": "Fix apartheid's legacy through slow, steady changes to institutions, not radical overhauls.",
       "axis": "transformation_vs_continuity"
     },
     "q44": {
-      "text": "Transport infrastructure funding should prioritise mass public transit over new highway construction, even if this inconveniences motorists.",
+      "text": "Transport funding should prioritise improving minibus taxi routes, bus systems, and local trains over building new highways.",
       "axis": "urban_development"
     },
     "q45": {
-      "text": "Affordable public housing projects should be prioritised over incentives for private housing developers.",
+      "text": "Government should prioritise building affordable public housing in townships and informal settlements over private development projects.",
       "axis": "urban_development"
     },
     "q46": {
-      "text": "Cities should be legally required to restrict low-density, car-dependent developments and mandate walkable, mixed-use neighbourhoods—even if this limits property rights.",
+      "text": "Cities should limit sprawling, car-dependent suburbs and instead support walkable, mixed-use townships with shops, schools, and clinics nearby—even if developers lose profits.",
       "axis": "urban_development"
     },
     "q47": {
@@ -395,15 +395,15 @@
       "axis": "equity_and_inclusion"
     },
     "q48": {
-      "text": "The state should introduce targeted subsidies and incentives to accelerate township and rural economies.",
+      "text": "Government should pump money into township and rural businesses to create jobs and economic growth.",
       "axis": "equity_and_inclusion"
     },
     "q49": {
-      "text": "Policies such as Employment Equity and BEE should remain central tools for addressing racial inequality, even if they limit flexibility for businesses.",
+      "text": "Employment Equity and BEE rules must stay as tools to fix racial inequality, even if companies complain about the costs.",
       "axis": "equity_and_inclusion"
     },
     "q50": {
-      "text": "Skills development programmes should be targeted at historically disadvantaged individuals to accelerate economic participation.",
+      "text": "Government should invest in job training for historically disadvantaged people to get them into work.",
       "axis": "equity_and_inclusion"
     }
   },
