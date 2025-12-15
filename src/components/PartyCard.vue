@@ -232,6 +232,12 @@
     font-style: italic;
   }
 
+  @media (max-width: 640px) {
+    .party-card__ideology {
+      display: none;
+    }
+  }
+
   .party-card__description {
     margin: 0;
     color: var(--color-text-secondary);
