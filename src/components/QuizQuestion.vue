@@ -81,14 +81,15 @@
     font-size: var(--font-size-2xl);
     font-weight: var(--font-weight-bold);
     color: var(--color-text-primary);
-    margin-bottom: var(--space-lg);
-    line-height: var(--line-height-snug);
-    min-height: 6em;
-    max-height: 6em;
+    margin-bottom: var(--space-md);
+    line-height: var(--line-height-tight);
+    min-height: 4.5em;
+    max-height: 8em;
     overflow-y: auto;
     display: flex;
     align-items: center;
-    animation: fadeInUp 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+    letter-spacing: -0.01em;
   }
 
   @keyframes fadeInUp {
@@ -107,6 +108,8 @@
     flex-direction: column;
     gap: var(--space-sm);
     animation: fadeInUp 0.5s ease-out 0.1s both;
+    padding-top: var(--space-sm);
+    border-top: 2px solid var(--color-border);
   }
 
   .quiz-question__options--disabled {

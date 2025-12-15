@@ -32,7 +32,8 @@
     padding: var(--space-md) var(--space-lg);
     background-color: var(--color-surface);
     border: 2px solid var(--color-border);
-    border-radius: var(--radius-lg);
+    border-radius: 0;
+    position: relative;
     text-align: left;
     cursor: pointer;
     transition: all var(--transition-base);
@@ -51,30 +52,41 @@
   }
 
   .quiz-option:hover {
-    border-color: var(--color-primary-light);
+    border-color: var(--color-secondary);
     background-color: var(--color-surface-elevated);
     box-shadow: var(--shadow-md);
-    transform: scale(1.02);
+    transform: translateY(-1px);
   }
 
   .quiz-option--selected {
-    border-color: var(--color-primary);
-    background-color: var(--color-primary);
+    border-color: var(--color-primary-dark);
+    background: linear-gradient(
+      115deg,
+      var(--color-primary),
+      color-mix(in srgb, var(--color-secondary) 30%, var(--color-primary))
+    );
     color: white;
-    box-shadow: 0 8px 16px rgba(26, 115, 232, 0.25);
+    box-shadow: var(--shadow-lg);
   }
 
   .quiz-option--selected:hover {
-    border-color: var(--color-primary-dark);
-    background-color: var(--color-primary-dark);
-    box-shadow: 0 8px 20px rgba(26, 115, 232, 0.35);
+    border-color: var(--color-secondary-dark);
+    background: linear-gradient(
+      115deg,
+      var(--color-primary-dark),
+      color-mix(
+        in srgb,
+        var(--color-secondary-dark) 45%,
+        var(--color-primary-dark)
+      )
+    );
+    box-shadow: var(--shadow-xl);
   }
 
   .quiz-option__circle {
-    width: 22px;
-    height: 22px;
-    border: 2.5px solid currentColor;
-    border-radius: var(--radius-full);
+    width: 18px;
+    height: 18px;
+    border: 3px solid currentColor;
     flex-shrink: 0;
     position: relative;
     transition: all var(--transition-fast);
@@ -98,8 +110,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    width: 11px;
-    height: 11px;
+    width: 10px;
+    height: 10px;
     background-color: currentColor;
     border-radius: var(--radius-full);
     animation: scaleIn 0.3s ease-out forwards;
@@ -115,6 +127,7 @@
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
     flex: 1;
+    letter-spacing: 0.01em;
   }
 
   @media (max-width: 640px) {

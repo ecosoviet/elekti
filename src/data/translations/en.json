@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Elekti",
-    "tagline": "Find your political match"
+    "tagline": "South African ballot matcher"
   },
   "nav": {
     "home": "Home",
@@ -10,29 +10,29 @@
     "about": "About"
   },
   "landing": {
-    "title": "Find Your Political Match",
-    "subtitle": "Answer questions about your political views and discover which South African party aligns with your values.",
-    "startButton": "Start Quiz",
-    "aboutLink": "Learn about our methodology",
-    "privacy": "Your answers are stored locally and never shared.",
+    "title": "Match your vote to South Africa",
+    "subtitle": "Answer 50 quick questions grounded in local policy debates. See which parties line up with your priorities for your community, province, and the country.",
+    "startButton": "Start the quiz",
+    "aboutLink": "How we work",
+    "privacy": "Your answers stay on this device. No tracking, no accounts.",
     "howItHelps": {
-      "title": "How This Tool Helps",
-      "intro": "Understand where you truly stand and make your vote count. Match your views with every party\u0027s actual positions.",
+      "title": "Why this matters now",
+      "intro": "Coalitions, load-shedding, jobs, safety, housing. Compare parties on the issues that shape daily life in South Africa.",
       "benefit1": {
-        "title": "Cut Through the Noise",
-        "text": "Skip campaign promises and see which parties align with your beliefs on real policy issues."
+        "title": "Look past slogans",
+        "text": "See actual positions on service delivery, energy, crime, jobs, and land \u2014 not just campaign posters."
       },
       "benefit2": {
-        "title": "Discover Unexpected Matches",
-        "text": "Find parties you might have overlooked based on actual policy alignment, not just popularity or perception."
+        "title": "Spot real options",
+        "text": "Find parties you may not follow, based on policy fit instead of social media reach."
       },
       "benefit3": {
-        "title": "See All Your Matches",
-        "text": "Get a ranked list of every party with match scores, so you can see your top choices and alternatives."
+        "title": "Read the field",
+        "text": "Get a ranked view of every party so you can see where they bunch together and where they split."
       },
       "benefit4": {
-        "title": "Vote with Confidence",
-        "text": "Make an informed decision backed by data, not guesswork. Your values matched with party positions."
+        "title": "Walk into the booth ready",
+        "text": "Decide with clarity before you queue. Save or share a link to your own answers."
       }
     }
   },
@@ -45,55 +45,55 @@
     "progress": "{count} of {total} answered"
   },
   "results": {
-    "title": "Your Results",
-    "primaryMatch": "Your Primary Match",
-    "alternativeMatch": "Alternative Matches",
+    "title": "Your matches",
+    "primaryMatch": "Strongest alignment",
+    "alternativeMatch": "Close alternatives",
     "confidence": {
-      "high": "Strong match",
-      "medium": "Moderate match",
-      "low": "Weak match"
+      "high": "Clear fit",
+      "medium": "Mixed fit",
+      "low": "Thin fit"
     },
-    "scoreBreakdown": "Score Breakdown",
-    "allParties": "All Party Scores",
-    "showAxes": "Show All Axes",
-    "hideAxes": "Hide All Axes",
-    "copyResults": "Copy Results",
-    "resultsCopied": "Results copied to clipboard!",
-    "retakeQuiz": "Retake Quiz",
+    "scoreBreakdown": "Score breakdown",
+    "allParties": "All parties scored",
+    "showAxes": "Show all issues",
+    "hideAxes": "Hide issues",
+    "copyResults": "Copy shareable link",
+    "resultsCopied": "Link copied",
+    "retakeQuiz": "Answer again",
     "learnMore": "Learn more about {party}"
   },
   "about": {
     "title": "About Elekti",
-    "methodology": "Methodology",
-    "methodologyText": "Elekti uses a comprehensive, axis-based approach to match your political views with South African political parties. Our system maps your responses across 12 distinct political dimensions and is designed to be fair, transparent, and non-partisan.",
-    "howItWorks": "How It Works",
-    "howItWorksText": "You answer 50 carefully crafted questions covering major policy areas including healthcare, education, economy, governance, and social issues. Each question maps to one of 12 political axes (such as Economic Left-Right, State vs Market, Labour Rights, etc.) and is weighted by importance. Your responses are converted to positions on these axes and compared with documented party positions.",
-    "scoring": "Scoring System",
-    "scoringText": "Our axis-based algorithm works as follows: (1) Each answer is compared to each party\u0027s position on the relevant axis, calculating similarity (1 minus the absolute difference between your position and theirs). (2) Similarities are multiplied by question weights and aggregated per axis. (3) For each party, axis scores are normalised by dividing by the total weight of questions answered on that axis. (4) A party\u0027s final score is the weighted average across all axes. Scores are displayed as percentages (0-100%), with higher scores indicating stronger alignment. We also provide a confidence rating based on your top score and the gap to alternatives.",
-    "transparency": "Our Commitment to Transparency",
-    "transparencyText": "All party positions and scoring weights are determined through rigorous research of official party documents. Our methodology is open and reviewable. We do not favor any political party or ideology - our sole purpose is to help you make informed decisions based on your values and the parties\u0027 stated positions.",
-    "dataSources": "Our Research Sources",
-    "dataSourcesText": "Party positions are meticulously researched from official party manifestos, policy documents, parliamentary voting records, and verified public statements. We update our data regularly to reflect policy changes. All source materials are from official party channels or reputable news organisations. If you believe any information is inaccurate, we welcome corrections with proper documentation.",
-    "privacy": "Privacy & Your Data",
-    "privacyText": "Your privacy is absolutely paramount. We believe your political views are deeply personal and deserve the highest level of protection.",
-    "noTracking": "Zero Tracking",
-    "noTrackingText": "We do not use cookies, analytics pixels, or any tracking technologies. We cannot see your answers, cannot identify you, and have no interest in doing so. Your quiz responses are never transmitted to our servers.",
-    "localOnly": "Local Storage Only",
-    "localOnlyText": "Everything happens in your browser. Your answers are stored only on your device and nowhere else. If you clear your browser data, your results are gone forever - we have no backup because we never had them in the first place.",
-    "sharing": "How Sharing Works",
-    "sharingText": "When you share results, your answers are encoded directly into the URL link itself. This means anyone with that link can see your results, but the data never touches our servers. You control who sees your results by controlling who gets that link. Delete the link, and your results are truly private again.",
-    "analytics": "Privacy-Preserving Analytics",
-    "analyticsText": "We use Cloudflare Web Analytics, a privacy-first analytics service that does not use cookies, does not track individuals across websites, and does not collect any personally identifiable information. It provides us with basic aggregated statistics (like total page views) to help us understand if the site is being used, without compromising your privacy. Cloudflare cannot see your quiz answers or identify you personally.",
-    "parties": "Parties Included",
-    "partiesText": "We include 11 major South African political parties representing diverse viewpoints across the political spectrum. Our selection is based on parliamentary representation, electoral significance, and ideological diversity.",
-    "disclaimer": "Important Disclaimer",
-    "disclaimerText": "Elekti is an educational tool, not a substitute for research. Political parties are complex organisations with nuanced positions that evolve over time. We strongly encourage you to read party manifestos, attend public forums, and verify our information independently. This tool shows alignment based on stated positions - actual governance may differ. Use these results as a starting point for deeper exploration, not as your final decision.",
-    "viewData": "View Raw Data",
-    "viewDataText": "In the spirit of complete transparency, you can inspect our raw data files yourself. These JSON files contain all party positions, scoring weights, and question metadata used by our algorithm.",
-    "scoringData": "Scoring Data (includes questions \u0026 weights)",
-    "partiesData": "Party Information "
+    "methodology": "How this tool is built",
+    "methodologyText": "Elekti is rooted in South African policy documents and public statements. We score across 12 issue areas that affect daily life and governance. The maths is deterministic and transparent.",
+    "howItWorks": "What you answer",
+    "howItWorksText": "Fifty questions cover power, water, housing, jobs, safety, transport, coalitions, social policy, and accountability. Each question links to an issue axis. You answer, we map your stance, and we compare it to each party's stated position.",
+    "scoring": "How we score",
+    "scoringText": "For every axis we calculate similarity between your answers and each party, weight by question importance, normalise by the questions you answered, then average across all axes. Scores are percentages; confidence reflects how clear the gap is between your top match and the rest.",
+    "transparency": "Open data, no surprises",
+    "transparencyText": "All positions, weights, and calculations live in the repo. If something is wrong, send sources and we'll update. This tool is independent and does not promote any party.",
+    "dataSources": "Where the positions come from",
+    "dataSourcesText": "We rely on manifestos, policy documents, voting records, budget speeches, and verified public statements. When positions change, we update.",
+    "privacy": "Privacy",
+    "privacyText": "Your answers never leave your device. No accounts, no identifiers.",
+    "noTracking": "No tracking",
+    "noTrackingText": "We don't use cookies or pixels that follow you. We cannot see who you are or what you answered.",
+    "localOnly": "Local storage only",
+    "localOnlyText": "Everything is saved in your browser. Clear your data and it's gone; we have nothing on our side.",
+    "sharing": "Sharing your link",
+    "sharingText": "Sharing creates a URL that encodes your answers. Anyone with the link can view your result. Remove the link to keep it private again.",
+    "analytics": "Lightweight stats",
+    "analyticsText": "We use privacy-first, cookie-free analytics only to see if people are visiting. They do not record your answers.",
+    "parties": "Parties included",
+    "partiesText": "We list major parties contesting nationally and in key provinces this cycle. If we missed one, point us to their published policies.",
+    "disclaimer": "A guide, not a verdict",
+    "disclaimerText": "Use this as a starting point. Read manifestos, attend community meetings, and test our data. Politics shifts; so should your judgement.",
+    "viewData": "Check the raw files",
+    "viewDataText": "All JSON files for questions, weights, and party positions are public. Inspect them yourself.",
+    "dataFolder": "All source data on GitHub"
   },
   "party": {
+    "visitWebsite": "Open party site",
     "anc": {
       "desc": "The African National Congress is South Africa's governing party, advocating for social democracy, transformation, and addressing inequality through state intervention.",
       "ideology": "Centre-left, developmental state"
@@ -417,9 +417,9 @@
     "contact": "Contact"
   },
   "disclaimer": {
-    "title": "Important Disclaimer",
-    "educational": "Elekti is an educational tool, not a substitute for research. Political parties are complex organisations with nuanced positions that evolve over time.",
-    "alpha": "This site is currently in alpha and under active development. Features may change, and data may be updated as we refine our methodology.",
-    "research": "We strongly encourage you to read party manifestos, attend public forums, and verify our information independently. Use these results as a starting point for deeper exploration, not as your final decision."
+    "title": "Use this as a guide",
+    "educational": "Elekti helps you compare parties. It does not replace your own research, and positions can shift as coalitions and policy debates move.",
+    "alpha": "This site is under active development. We update data as parties publish and adjust their stances.",
+    "research": "Read manifestos, budget speeches, council plans, and community briefings. If you spot issues in our data, send sources and we will correct them."
   }
 }

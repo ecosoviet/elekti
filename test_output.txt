@@ -1,0 +1,117 @@
+
+> elekti@0.0.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv4.0.15 [39m[90mC:/Users/TimothyBrits/GitHub/elekti[39m
+
+(node:3644) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16012) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14656) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ [32mΓ£ô[39m src/validators/answers.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mΓ£ô[39m src/stores/uiStore.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32mΓ£ô[39m src/validators/data.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32mΓ£ô[39m src/utils/scoring.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mΓ£ô[39m src/i18n/i18n.test.ts [2m([22m[2m18 tests[22m[2m)[22m[33m 324[2mms[22m[39m
+stderr | src/data/validation.test.ts > Data Validation > Zod Schema Validation > should validate en.json translation with Zod schema
+English translation validation errors: [
+  'party.visitWebsite: Invalid input: expected object, received string'
+]
+
+stderr | src/data/validation.test.ts > Data Validation > Zod Schema Validation > should validate af.json translation with Zod schema
+Afrikaans translation validation errors: [
+  'party.visitWebsite: Invalid input: expected object, received string'
+]
+
+ [31mΓ¥»[39m src/data/validation.test.ts [2m([22m[2m37 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 69[2mms[22m[39m
+       [32mΓ£ô[39m should validate questions.json with Zod schema[32m 4[2mms[22m[39m
+       [32mΓ£ô[39m should validate parties.json with Zod schema[32m 2[2mms[22m[39m
+       [32mΓ£ô[39m should validate axes.json with Zod schema[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should validate party_positions.json with Zod schema[32m 2[2mms[22m[39m
+[31m       [31m├ù[31m should validate en.json translation with Zod schema[39m[32m 14[2mms[22m[39m
+[31m       [31m├ù[31m should validate af.json translation with Zod schema[39m[32m 4[2mms[22m[39m
+       [32mΓ£ô[39m should have questions array[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have unique question IDs[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have valid text keys that match translation pattern[32m 2[2mms[22m[39m
+       [32mΓ£ô[39m should reference existing axes[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have valid weights[32m 3[2mms[22m[39m
+       [32mΓ£ô[39m should have valid options with numeric values[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have all question text keys in both translations[32m 4[2mms[22m[39m
+       [32mΓ£ô[39m should have axes array[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have unique axis IDs[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have required properties[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have valid translation keys[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have all axis shortNames in both translations[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have parties array[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have unique party IDs[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have required properties[32m 2[2mms[22m[39m
+       [32mΓ£ô[39m should have valid colour hex codes[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have valid website URLs[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have all party descriptions in both translations[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have parties object[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have positions for all parties[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have all parties from parties.json in positions[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have valid position values[32m 9[2mms[22m[39m
+       [32mΓ£ô[39m should reference existing axes[32m 6[2mms[22m[39m
+       [32mΓ£ô[39m should have same axes for all parties[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have same top-level keys in both translations[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have same number of questions in both translations[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have at least some content in all supported locales[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have all party keys in both translations[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have all axis keys in both translations[32m 0[2mms[22m[39m
+       [32mΓ£ô[39m should have no orphaned questions without axes[32m 1[2mms[22m[39m
+       [32mΓ£ô[39m should have no orphaned party positions[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/stores/quizStore.test.ts [2m([22m[2m31 tests[22m[2m)[22m[32m 47[2mms[22m[39m
+(node:19372) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ [32mΓ£ô[39m src/router/index.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ» Failed Tests 2 ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»
+
+ FAIL  src/data/validation.test.ts > Data Validation > Zod Schema Validation > should validate en.json translation with Zod schema
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ Γ¥» src/data/validation.test.ts:55:30
+     53|         console.error("English translation validation errors:", resultΓÇª
+     54|       }
+     55|       expect(result.success).toBe(true);
+       |                              ^
+     56|     });
+     57| 
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/2]ΓÄ»
+
+ FAIL  src/data/validation.test.ts > Data Validation > Zod Schema Validation > should validate af.json translation with Zod schema
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+
+ Γ¥» src/data/validation.test.ts:66:30
+     64|         );
+[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m7 passed[39m[22m[90m (8)[39m
+     65|       }
+[2m      Tests [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m155 passed[39m[22m[90m (157)[39m
+     66|       expect(result.success).toBe(true);
+[2m   Start at [22m 11:16:36
+       |                              ^
+[2m   Duration [22m 4.75s[2m (transform 1.42s, setup 0ms, import 3.76s, tests 513ms, environment 13.77s)[22m
+     67|     });
+
+     68|   });
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[2/2]ΓÄ»
+

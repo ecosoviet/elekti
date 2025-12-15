@@ -229,8 +229,10 @@ describe("Data Validators", () => {
           },
         },
         party: {
+          visitWebsite: "Open party site",
           anc: {
             desc: "Party description",
+            ideology: "Political ideology",
           },
         },
         axes: {

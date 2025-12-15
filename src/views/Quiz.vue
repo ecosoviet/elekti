@@ -181,42 +181,57 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
+    min-width: 148px;
+    height: 54px;
+    border-radius: 0;
     border: 2px solid var(--color-border);
     background-color: var(--color-surface);
     color: var(--color-text-primary);
     cursor: pointer;
     transition: all var(--transition-base);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: var(--font-weight-semibold);
   }
 
   .quiz__nav-button--next,
   .quiz__nav-button--finish {
-    background-color: var(--color-success);
+    background: linear-gradient(
+      110deg,
+      var(--color-primary),
+      color-mix(in srgb, var(--color-secondary) 20%, var(--color-primary))
+    );
     color: white;
-    border-color: var(--color-success);
-    box-shadow: 0 8px 16px rgba(52, 168, 83, 0.3);
+    border-color: var(--color-primary-dark);
+    box-shadow: var(--shadow-md);
   }
 
   .quiz__nav-button--next:hover,
   .quiz__nav-button--finish:hover {
-    background-color: #2d8a47;
-    border-color: #2d8a47;
+    background: linear-gradient(
+      110deg,
+      var(--color-primary-dark),
+      color-mix(
+        in srgb,
+        var(--color-secondary-dark) 35%,
+        var(--color-primary-dark)
+      )
+    );
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(52, 168, 83, 0.4);
+    box-shadow: var(--shadow-lg);
   }
 
   .quiz__nav-button--back {
     border-color: var(--color-border);
+    color: var(--color-text-secondary);
   }
 
   .quiz__nav-button--back:hover {
     background-color: var(--color-surface-elevated);
-    border-color: var(--color-primary);
+    border-color: var(--color-secondary);
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: var(--shadow-md);
   }
 
   .quiz__nav-button:disabled {
@@ -249,17 +264,14 @@
     }
 
     .quiz__nav-button {
-      width: 56px;
-      height: 56px;
+      min-width: 0;
+      flex: 1;
+      height: 48px;
     }
 
     .quiz__nav-button--back {
       order: -1;
-      opacity: 0.6;
-    }
-
-    .quiz__nav-button--back:hover {
-      opacity: 1;
+      opacity: 0.7;
     }
   }
 </style>

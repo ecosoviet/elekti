@@ -29,8 +29,14 @@
   .progress-bar__track {
     width: 100%;
     height: 6px;
-    background-color: var(--color-border-light);
-    border-radius: var(--radius-full);
+    background: repeating-linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--color-border-light) 90%, transparent),
+      color-mix(in srgb, var(--color-border-light) 90%, transparent) 12px,
+      color-mix(in srgb, var(--color-border) 90%, transparent) 12px,
+      color-mix(in srgb, var(--color-border) 90%, transparent) 18px
+    );
+    border-radius: 0;
     overflow: hidden;
     margin-bottom: var(--space-md);
   }
@@ -40,16 +46,17 @@
     background: linear-gradient(
       90deg,
       var(--color-primary),
-      var(--color-primary-light)
+      color-mix(in srgb, var(--color-secondary) 30%, var(--color-primary))
     );
     transition: width var(--transition-base);
-    border-radius: var(--radius-full);
+    border-radius: 0;
   }
 
   .progress-bar__label {
     font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
-    font-weight: var(--font-weight-medium);
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-semibold);
     text-align: center;
+    letter-spacing: 0.03em;
   }
 </style>

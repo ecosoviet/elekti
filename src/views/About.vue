@@ -108,24 +108,14 @@
         <div class="about__subsection">
           <h3 class="about__subsection-title">{{ $t("about.viewData") }}</h3>
           <p class="about__text">{{ $t("about.viewDataText") }}</p>
-          <div class="about__data-links">
-            <a
-              href="https://github.com/ecosoviet/elekti/tree/main/src/data"
-              target="_blank"
-              class="about__data-link"
-            >
-              <FileText :size="16" />
-              {{ $t("about.scoringData") }}
-            </a>
-            <a
-              href="https://github.com/ecosoviet/elekti/blob/main/src/data/parties.json"
-              target="_blank"
-              class="about__data-link"
-            >
-              <FileText :size="16" />
-              {{ $t("about.partiesData") }}
-            </a>
-          </div>
+          <a
+            href="https://github.com/ecosoviet/elekti/tree/main/src/data"
+            target="_blank"
+            class="about__data-link"
+          >
+            <FileText :size="16" />
+            {{ $t("about.dataFolder") }}
+          </a>
         </div>
       </section>
 
@@ -156,14 +146,16 @@
     font-weight: var(--font-weight-bold);
     color: var(--color-text-primary);
     margin-bottom: var(--space-3xl);
+    letter-spacing: -0.02em;
   }
 
   .about__section {
     margin-bottom: var(--space-3xl);
     padding: var(--space-xl);
     background-color: var(--color-surface);
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
   }
 
   .about__section-title {
@@ -174,6 +166,8 @@
     font-weight: var(--font-weight-bold);
     color: var(--color-text-primary);
     margin-bottom: var(--space-lg);
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
   }
 
   .about__text {
@@ -185,7 +179,7 @@
   .about__subsection {
     margin-top: var(--space-xl);
     padding-left: var(--space-lg);
-    border-left: 3px solid var(--color-primary);
+    border-left: 5px solid var(--color-secondary);
   }
 
   .about__subsection-title {
@@ -193,6 +187,8 @@
     font-weight: var(--font-weight-semibold);
     color: var(--color-text-primary);
     margin-bottom: var(--space-md);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
   }
 
   .about__data-links {
@@ -208,20 +204,20 @@
     gap: var(--space-sm);
     padding: var(--space-sm) var(--space-md);
     background-color: var(--color-background);
-    color: var(--color-primary);
+    color: var(--color-secondary);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-medium);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--color-border);
+    border-radius: 0;
+    border: 2px solid var(--color-border);
     text-decoration: none;
     transition: all var(--transition-fast);
     width: fit-content;
   }
 
   .about__data-link:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     color: white;
-    border-color: var(--color-primary);
+    border-color: var(--color-secondary);
     transform: translateX(4px);
   }
 
@@ -238,8 +234,8 @@
     gap: var(--space-md);
     padding: var(--space-md);
     background-color: var(--color-background);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-sm);
+    border: 2px solid var(--color-border-light);
   }
 
   .about__party-badge {
@@ -274,9 +270,12 @@
     color: white;
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
-    border-radius: var(--radius-md);
+    border-radius: 0;
     text-decoration: none;
     transition: all var(--transition-fast);
+    border: 2px solid var(--color-primary-dark);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
 
   .about__button:hover {

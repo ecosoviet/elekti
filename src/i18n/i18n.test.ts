@@ -150,9 +150,7 @@ describe("i18n", () => {
         "axes",
         "options",
         "questions",
-        "languages",
         "footer",
-        "disclaimer",
       ];
 
       for (const locale of ["en", "af"]) {

@@ -48,8 +48,12 @@
 
   .app-header {
     height: var(--header-height);
-    border-bottom: 1px solid var(--color-border);
-    background-color: var(--color-surface-elevated);
+    border-bottom: 2px solid var(--color-border);
+    background: linear-gradient(
+      90deg,
+      var(--color-surface) 0%,
+      color-mix(in srgb, var(--color-primary) 12%, var(--color-surface)) 100%
+    );
     position: sticky;
     top: 0;
     z-index: 100;
@@ -69,6 +73,7 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    gap: var(--space-xs);
   }
 
   .app-header__title {
@@ -77,13 +82,14 @@
     color: var(--color-primary);
     margin: 0;
     line-height: 1;
+    letter-spacing: -0.02em;
   }
 
   .app-header__tagline {
     font-size: var(--font-size-xs);
     color: var(--color-text-secondary);
     margin: 0;
-    margin-top: var(--space-xs);
+    text-transform: none;
   }
 
   .app-main {
@@ -92,7 +98,7 @@
 
   .app-footer {
     min-height: var(--footer-height);
-    border-top: 1px solid var(--color-border);
+    border-top: 2px solid var(--color-border);
     background-color: var(--color-surface);
     padding: var(--space-xl) 0;
   }
@@ -109,24 +115,32 @@
 
   .app-footer__nav {
     display: flex;
-    gap: var(--space-xl);
+    gap: var(--space-lg);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .app-footer__nav a {
     color: var(--color-text-secondary);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     text-decoration: none;
-    transition: color var(--transition-fast);
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition:
+      color var(--transition-fast),
+      border-color var(--transition-fast);
   }
 
   .app-footer__nav a:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
   }
 
   .app-footer__copyright {
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
     margin: 0;
+    text-align: center;
   }
 
   .app-footer__copyright a {
@@ -136,13 +150,14 @@
   }
 
   .app-footer__copyright a:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
     text-decoration: underline;
   }
 
   @media (max-width: 640px) {
     .app-header__container {
       padding: 0 var(--space-md);
+      border-left-width: 3px;
     }
 
     .app-header__title {

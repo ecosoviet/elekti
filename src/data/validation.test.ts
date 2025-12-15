@@ -49,21 +49,21 @@ describe("Data Validation", () => {
 
     it("should validate en.json translation with Zod schema", () => {
       const result = validateTranslation(en);
-      expect(result.success).toBe(true);
       if (!result.success) {
         console.error("English translation validation errors:", result.errors);
       }
+      expect(result.success).toBe(true);
     });
 
     it("should validate af.json translation with Zod schema", () => {
       const result = validateTranslation(af);
-      expect(result.success).toBe(true);
       if (!result.success) {
         console.error(
           "Afrikaans translation validation errors:",
           result.errors
         );
       }
+      expect(result.success).toBe(true);
     });
   });
 

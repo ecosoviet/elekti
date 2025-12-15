@@ -189,6 +189,7 @@ View my results: ${shareUrl}`;
     font-weight: var(--font-weight-bold);
     color: var(--color-text-primary);
     margin-bottom: var(--space-2xl);
+    letter-spacing: -0.02em;
   }
 
   .results__section {
@@ -198,10 +199,11 @@ View my results: ${shareUrl}`;
   .results__section--primary {
     padding: var(--space-lg);
     background: var(--color-surface-elevated);
-    border-radius: var(--radius-xl);
-    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    border: 3px solid var(--color-secondary);
     margin-bottom: var(--space-3xl);
     box-shadow: var(--shadow-lg);
+    position: relative;
   }
 
   .results__section--primary :deep(.party-card) {
@@ -224,29 +226,31 @@ View my results: ${shareUrl}`;
     background: linear-gradient(
       135deg,
       var(--color-primary),
-      var(--color-primary-light)
+      color-mix(in srgb, var(--color-secondary) 25%, var(--color-primary))
     );
     color: white;
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-bold);
-    border-radius: var(--radius-full);
-    box-shadow: 0 4px 12px rgba(0, 122, 77, 0.3);
+    border-radius: 0;
+    box-shadow: var(--shadow-md);
     letter-spacing: 0.025em;
     text-transform: uppercase;
     height: 40px;
+    border: 2px solid var(--color-primary-dark);
   }
 
   .results__confidence {
     padding: var(--space-sm) var(--space-lg);
-    border-radius: var(--radius-full);
+    border-radius: 0;
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-bold);
     display: inline-flex;
     align-items: center;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.04em;
     box-shadow: var(--shadow-md);
     transition: box-shadow var(--transition-fast);
     height: 40px;
+    text-transform: uppercase;
   }
 
   .results__confidence:hover {
@@ -254,17 +258,33 @@ View my results: ${shareUrl}`;
   }
 
   .results__confidence--high {
-    background: linear-gradient(135deg, #28a745, #34ce57);
+    background: linear-gradient(
+      135deg,
+      var(--color-primary),
+      color-mix(in srgb, var(--color-secondary) 25%, var(--color-primary))
+    );
     color: white;
   }
 
   .results__confidence--medium {
-    background: linear-gradient(135deg, #ffc107, #ffcd38);
-    color: #664d00;
+    background: linear-gradient(
+      135deg,
+      var(--color-accent),
+      color-mix(in srgb, var(--color-secondary) 20%, var(--color-accent))
+    );
+    color: var(--color-text-primary);
   }
 
   .results__confidence--low {
-    background: linear-gradient(135deg, #dc3545, #e74c5c);
+    background: linear-gradient(
+      135deg,
+      var(--color-signal-brick),
+      color-mix(
+        in srgb,
+        var(--color-secondary-dark) 35%,
+        var(--color-signal-brick)
+      )
+    );
     color: white;
   }
 
@@ -276,6 +296,7 @@ View my results: ${shareUrl}`;
     font-weight: var(--font-weight-bold);
     color: var(--color-text-primary);
     margin-bottom: var(--space-xl);
+    letter-spacing: 0.015em;
   }
 
   .results__alternatives {
@@ -299,31 +320,46 @@ View my results: ${shareUrl}`;
     padding: var(--space-md) var(--space-xl);
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-medium);
-    border-radius: var(--radius-md);
+    border-radius: 0;
     cursor: pointer;
     transition: all var(--transition-fast);
     border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
   }
 
   .results__button--primary {
-    background-color: var(--color-primary);
+    background: linear-gradient(
+      120deg,
+      var(--color-primary),
+      color-mix(in srgb, var(--color-secondary) 25%, var(--color-primary))
+    );
     color: white;
+    border: 2px solid var(--color-primary-dark);
   }
 
   .results__button--primary:hover {
-    background-color: var(--color-primary-dark);
-    box-shadow: var(--shadow-md);
+    background: linear-gradient(
+      120deg,
+      var(--color-primary-dark),
+      color-mix(
+        in srgb,
+        var(--color-secondary-dark) 35%,
+        var(--color-primary-dark)
+      )
+    );
+    box-shadow: var(--shadow-lg);
   }
 
   .results__button--secondary {
     background-color: var(--color-surface);
     color: var(--color-text-primary);
-    border: 1px solid var(--color-border);
+    border: 2px solid var(--color-border);
   }
 
   .results__button--secondary:hover {
     background-color: var(--color-surface-elevated);
-    border-color: var(--color-primary);
+    border-color: var(--color-secondary);
   }
 
   .results__empty {

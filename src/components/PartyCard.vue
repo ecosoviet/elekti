@@ -53,15 +53,15 @@
 
   const getAxisColor = (percentage: number): string => {
     if (percentage >= 75) {
-      return "#10b981";
+      return "#1f7a51";
     }
     if (percentage >= 50) {
-      return "#f59e0b";
+      return "#b58a1a";
     }
     if (percentage >= 25) {
-      return "#ef4444";
+      return "#8f2d1f";
     }
-    return "#6b7280";
+    return "#6a5b50";
   };
 
   const formatPercentage = (score: number): string => {
@@ -105,7 +105,7 @@
       rel="noopener noreferrer"
       class="party-card__website"
     >
-      Visit Website
+      {{ $t("party.visitWebsite") }}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -117,7 +117,7 @@
         stroke-linecap="round"
         stroke-linejoin="round"
       >
-        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1-2-2h6" />
         <polyline points="15 3 21 3 21 9" />
         <line x1="10" y1="14" x2="21" y2="3" />
       </svg>
@@ -168,10 +168,12 @@
   .party-card {
     background-color: var(--color-surface-elevated);
     border: 1px solid var(--color-border);
-    border-left: 4px solid var(--party-colour);
-    border-radius: var(--radius-md);
+    border-left: 6px solid var(--party-colour);
+    border-radius: var(--radius-sm);
     padding: var(--space-lg);
     transition: all var(--transition-base);
+    box-shadow: var(--shadow-sm);
+    position: relative;
   }
 
   @media (max-width: 640px) {
@@ -182,6 +184,7 @@
 
   .party-card:hover {
     box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
   }
 
   .party-card__header {
@@ -227,7 +230,7 @@
 
   .party-card__ideology {
     margin: 0 0 var(--space-sm) 0;
-    color: var(--color-text-tertiary);
+    color: var(--color-text-secondary);
     font-size: var(--font-size-xs);
     font-style: italic;
   }
@@ -261,8 +264,8 @@
     font-weight: var(--font-weight-medium);
     text-decoration: none;
     color: var(--party-colour);
-    border: 1px solid var(--party-colour);
-    border-radius: var(--radius-sm);
+    border: 2px solid var(--party-colour);
+    border-radius: 0;
     transition: all var(--transition-fast);
     background-color: transparent;
   }
@@ -290,14 +293,14 @@
     flex: 1;
     height: 12px;
     background-color: var(--color-border-light);
-    border-radius: var(--radius-full);
+    border-radius: 0;
     overflow: hidden;
   }
 
   .party-card__score-fill {
     height: 100%;
     background-color: var(--party-colour);
-    border-radius: var(--radius-full);
+    border-radius: 0;
     transition: width var(--transition-base);
   }
 
@@ -314,7 +317,7 @@
     padding: var(--space-sm) var(--space-md);
     background-color: transparent;
     border: 1px solid var(--color-border-light);
-    border-radius: var(--radius-sm);
+    border-radius: 0;
     color: var(--color-text-primary);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-medium);

@@ -44,18 +44,32 @@
 <style scoped>
   .result-breakdown {
     width: 100%;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-secondary);
+    padding: var(--space-xl);
+    border-radius: 0;
+    box-shadow: var(--shadow-sm);
+  }
+
+  @media (max-width: 768px) {
+    .result-breakdown {
+      padding: var(--space-lg);
+    }
   }
 
   .result-breakdown__title {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     color: var(--color-text-primary);
-    margin-bottom: var(--space-lg);
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-md);
   }
 
   .result-breakdown__list {
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
+    margin-top: var(--space-md);
   }
 </style>

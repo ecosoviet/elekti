@@ -71,13 +71,15 @@
     align-items: center;
     gap: var(--space-sm);
     padding: var(--space-sm) var(--space-md);
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
+    background-color: var(--color-surface-elevated);
+    border: 2px solid var(--color-border);
+    border-radius: 0;
     color: var(--color-text-primary);
     font-size: var(--font-size-sm);
     cursor: pointer;
     transition: all var(--transition-fast);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
 
   @media (max-width: 640px) {
@@ -87,18 +89,19 @@
   }
 
   .language-selector__button:hover {
-    background-color: var(--color-surface-elevated);
-    border-color: var(--color-primary);
+    background-color: var(--color-surface);
+    border-color: var(--color-secondary);
+    color: var(--color-secondary);
   }
 
   .language-selector__dropdown {
     position: absolute;
     top: calc(100% + var(--space-xs));
     right: 0;
-    min-width: 160px;
+    min-width: 180px;
     background-color: var(--color-surface-elevated);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
+    border: 2px solid var(--color-border);
+    border-radius: 0;
     box-shadow: var(--shadow-lg);
     z-index: 100;
     overflow: hidden;
@@ -128,19 +131,23 @@
     color: var(--color-text-primary);
     font-size: var(--font-size-sm);
     cursor: pointer;
-    transition: background-color var(--transition-fast);
+    transition:
+      background-color var(--transition-fast),
+      color var(--transition-fast);
+    letter-spacing: 0.02em;
   }
 
   .language-selector__option:hover {
     background-color: var(--color-surface);
+    color: var(--color-secondary);
   }
 
   .language-selector__option--active {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     color: white;
   }
 
   .language-selector__option--active:hover {
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-secondary-dark);
   }
 </style>

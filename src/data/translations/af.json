@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Elekti",
-    "tagline": "Vind jou politieke ooreenkoms"
+    "tagline": "Suid-Afrikaanse stemgids"
   },
   "nav": {
     "home": "Tuis",
@@ -10,29 +10,29 @@
     "about": "Oor"
   },
   "landing": {
-    "title": "Vind Jou Politieke Ooreenkoms",
-    "subtitle": "Beantwoord vrae oor jou politieke sienings en ontdek watter Suid-Afrikaanse party met jou waardes ooreenstem.",
-    "startButton": "Begin Toets",
-    "aboutLink": "Lees oor ons metodologie",
-    "privacy": "Jou antwoorde word plaaslik gestoor en nooit gedeel nie.",
+    "title": "Pas jou stem by Suid-Afrika",
+    "subtitle": "Beantwoord 50 kort vrae oor plaaslike beleid. Sien watter partye by jou prioriteite vir jou gemeenskap, provinsie en die land pas.",
+    "startButton": "Begin die toets",
+    "aboutLink": "Hoe ons werk",
+    "privacy": "Jou antwoorde bly op hierdie toestel. Geen nasporing of rekeninge nie.",
     "howItHelps": {
-      "title": "Hoe hierdie instrument help",
-      "intro": "Weet presies waar jy staan sodat jou stem tel. Vergelyk jou sienings met die werklike standpunte van partye.",
+      "title": "Hoekom dit nou tel",
+      "intro": "Koalisies, beurtkrag, werk, veiligheid, behuising. Vergelyk partye oor die kwessies wat elke dag saak maak.",
       "benefit1": {
-        "title": "Sny deur die geraas",
-        "text": "Slaan veldtog-beloftes oor en kyk watter partye werklik met jou beleidsopvattings ooreenstem."
+        "title": "Kyk verby slagspreuke",
+        "text": "Sien werklike standpunte oor dienslewering, energie, misdaad, werk en grond - nie net plakkate nie."
       },
       "benefit2": {
-        "title": "Ontdek onverwagte ooreenkomste",
-        "text": "Vind partye wat jy dalk oorgesien het op grond van beleidsooreenkoms, nie net populariteit nie."
+        "title": "Raak bewus van opsies",
+        "text": "Vind partye wat jy dalk ignoreer het, gebaseer op beleidspassing eerder as volgelinge."
       },
       "benefit3": {
-        "title": "Sien al jou ooreenkomste",
-        "text": "Kry 'n gerangskikte lys van partye met ooreenstemmingspunte, sodat jy topkeuses en alternatiewe sien."
+        "title": "Lees die veld",
+        "text": "Kry 'n gerangskikte uitsig van elke party om te sien waar hulle saamstaan en waar hulle uiteenloop."
       },
       "benefit4": {
-        "title": "Stem met vertroue",
-        "text": "Neem 'n ingeligte besluit gebaseer op data, nie raaiskote nie. Jou waardes word teen partyposisies gemeet."
+        "title": "Staan gereed in die stemhok",
+        "text": "Besluit helder voor jy in die ry staan. Stoor of deel 'n skakel na jou antwoorde."
       }
     }
   },
@@ -45,55 +45,55 @@
     "progress": "{count} van {total} beantwoord"
   },
   "results": {
-    "title": "Jou resultate",
-    "primaryMatch": "Hoof-ooreenkoms",
-    "alternativeMatch": "Alternatiewe ooreenkomste",
+    "title": "Jou ooreenkomste",
+    "primaryMatch": "Sterkste passing",
+    "alternativeMatch": "Nou alternatiewe",
     "confidence": {
-      "high": "Sterk ooreenkoms",
-      "medium": "Matige ooreenkoms",
-      "low": "Swak ooreenkoms"
+      "high": "Duidelike passing",
+      "medium": "Gemengde passing",
+      "low": "Dun passing"
     },
-    "scoreBreakdown": "Punt-uiteensetting",
-    "allParties": "Alle Partypunte",
-    "showAxes": "Wys Alle Asse",
-    "hideAxes": "Verberg Alle Asse",
-    "copyResults": "Kopieer resultate",
-    "resultsCopied": "Resultate gekopieer na knipbord!",
-    "retakeQuiz": "Doen toets weer",
+    "scoreBreakdown": "Puntverdeling",
+    "allParties": "Alle partye gescoor",
+    "showAxes": "Wys alle kwessies",
+    "hideAxes": "Versteek kwessies",
+    "copyResults": "Kopieer deelbare skakel",
+    "resultsCopied": "Skakel gekopieer",
+    "retakeQuiz": "Antwoord weer",
     "learnMore": "Lees meer oor {party}"
   },
   "about": {
     "title": "Oor Elekti",
-    "methodology": "Metodologie",
-    "methodologyText": "Elekti gebruik 'n omvattende, as-gebaseerde benadering om jou politieke sienings teen Suid-Afrikaanse partye te meet. Ons stelsel karteer jou reaksies oor 12 afsonderlike politieke dimensies en is ontwerp om regverdig, deursigtig en nie-partydig te wees.",
-    "howItWorks": "Hoe dit werk",
-    "howItWorksText": "Jy beantwoord 50 sorgvuldig saamgestelde vrae oor hoofbeleidsareas soos gesondheidsorg, onderwys, ekonomie, bestuur en sosiale sake. Elke vraag karteer na een van 12 politieke asse (soos Ekonomiese Links-Regs, Staat vs Mark, Arbeidersregte, ens.) en word geweeg volgens belangrikheid. Jou antwoorde word omgeskakel na posisies op hierdie asse en vergelyk met gedokumenteerde partyposisies.",
-    "scoring": "Puntestelsel",
-    "scoringText": "Ons as-gebaseerde algoritme werk soos volg: (1) Elke antwoord word vergelyk met elke party se posisie op die relevante as, en ooreenkoms word bereken (1 minus die absolute verskil tussen jou posisie en hulle s'n). (2) Ooreenkomste word vermenigvuldig met vraaggewigte en saamgevoeg per as. (3) Vir elke party word aspunte genormaliseer deur te deel deur die totale gewig van vrae beantwoord op daardie as. (4) 'n Party se finale punt is die geweegde gemiddelde oor alle asse. Punte word as persentasies (0-100%) vertoon, met hoër punte wat sterker belyning aandui. Ons verskaf ook 'n vertrouensvlak gebaseer op jou toppunt en die gaping na alternatiewe.",
-    "transparency": "Ons verbintenis tot deursigtigheid",
-    "transparencyText": "Partyposisies en gewigte word bepaal deur deeglike navorsing van amptelike dokumente. Ons metodologie is oop en hersienbaar. Ons bevoordeel geen party nie; doel is om jou te help om ingeligte besluite te neem.",
-    "dataSources": "Ons navorsingsbronne",
-    "dataSourcesText": "Posisies word nagevors uit amptelike manifeste, beleiddokumente, parlementêre stemrekords en geverifieerde verklarings. Ons werk die data gereeld by. Indien jy 'n fout sien, verwelkom ons korreksies met gepaste brondokumentasie.",
-    "privacy": "Privaatheid & jou data",
-    "privacyText": "Jou privaatheid is van kardinale belang. Jou politieke sienings is persoonlik en verdien die hoogste beskerming.",
+    "methodology": "Hoe hierdie hulpmiddel gebou is",
+    "methodologyText": "Elekti rus op Suid-Afrikaanse beleidsdokumente en openbare verklarings. Ons meet oor 12 kwessie-areas wat daaglikse lewe en regering raak. Die wiskunde is deursigtig en vas.",
+    "howItWorks": "Wat jy beantwoord",
+    "howItWorksText": "Vyftig vrae dek krag, water, behuising, werk, veiligheid, vervoer, koalisies, sosiale beleid en aanspreeklikheid. Elke vraag koppel na 'n kwessie-as. Jy antwoord; ons karteer jou standpunt; ons vergelyk dit met elke party se gepubliseerde posisie.",
+    "scoring": "Hoe ons score",
+    "scoringText": "Vir elke as bereken ons ooreenstemming tussen jou antwoorde en elke party, weeg dit volgens vraagbelang, normaliseer volgens die vrae wat jy beantwoord het, en neem dan die gemiddelde oor alle asse. Punte is persentasies; vertroue wys hoe duidelik die gaping tussen jou top-passing en die res is.",
+    "transparency": "Oop data, geen verrassings",
+    "transparencyText": "Alle posisies, gewigte en berekeninge is in die repo. As iets verkeerd is, stuur bronne en ons werk dit by. Die hulpmiddel is onafhanklik en bevorder geen party nie.",
+    "dataSources": "Waar die posisies vandaan kom",
+    "dataSourcesText": "Ons steun op manifeste, beleiddokumente, stemrekords, begrotingsredes en geverifieerde openbare verklarings. Wanneer standpunte skuif, werk ons dit by.",
+    "privacy": "Privaatheid",
+    "privacyText": "Jou antwoorde verlaat nooit jou toestel nie. Geen rekeninge, geen identifiseerders.",
     "noTracking": "Geen nasporing",
-    "noTrackingText": "Ons gebruik nie koekies of spoortegnologieë wat jou kan identifiseer nie. Ons sien nie jou antwoorde en dit word nie na ons bedieners gestuur nie.",
+    "noTrackingText": "Ons gebruik nie koekies of pixels wat jou volg nie. Ons kan nie sien wie jy is of wat jy geantwoord het nie.",
     "localOnly": "Slegs plaaslike berging",
-    "localOnlyText": "Alles gebeur in jou blaaier. Antwoorde word slegs op jou toestel gestoor. As jy blaaierdata uitvee, gaan jou resultate verlore — ons het geen rugsteun nie.",
-    "sharing": "Hoe deel werk",
-    "sharingText": "As jy resultate deel, word jou antwoorde in die URL enkodeer. Enigiemand met die skakel kan dit sien; die data raak nie ons bedieners nie. Jy beheer wie toegang het deur die skakel te deel of te verwyder.",
-    "analytics": "Privaatheidsvriendelike analytics",
-    "analyticsText": "Ons gebruik Cloudflare Web Analytics — 'n privaatheidsgefokusde diens wat geen persoonlike identifiseerbare data versamel nie en geen koekies gebruik nie. Dit gee ons net saamgestelde statistieke om gebruik te meet.",
+    "localOnlyText": "Alles word in jou blaaier gestoor. Wis jou data en dit is weg; ons hou niks nie.",
+    "sharing": "Deel jou skakel",
+    "sharingText": "Deel skep 'n URL wat jou antwoorde enkodeer. Enigiemand met die skakel kan dit sien. Verwyder die skakel om dit weer privaat te hou.",
+    "analytics": "Liggewig statistiek",
+    "analyticsText": "Ons gebruik privaatheidsvriendelike, koekielose statistiek net om te weet of mense besoek. Dit neem nie jou antwoorde op nie.",
     "parties": "Ingeslote partye",
-    "partiesText": "Ons sluit 16 belangrike Suid-Afrikaanse partye in wat 'n wye spektrum van sienings verteenwoordig. Keuse is gebaseer op parlementsverteenwoordiging, verkiesingsbelang en ideologiese diversiteit.",
-    "disclaimer": "Belangrike vrywaringsparagraaf",
-    "disclaimerText": "Elekti is 'n opvoedkundige hulpmiddel, nie 'n vervanging vir onafhanklike navorsing nie. Partyposisies is kompleks en kan verander. Lees manifeste en verifieer inligting self. Gebruik resultate as 'n beginpunt, nie as finale besluit nie.",
-    "viewData": "Bekyk rou data",
-    "viewDataText": "Jy kan ons rou JSON-data inspekteer wat alle partyposisies, gewigte en vrametadata bevat.",
-    "scoringData": "Puntedata (vrae \u0026 gewigte ingesluit)",
-    "partiesData": "Party-inligting"
+    "partiesText": "Ons lys groot partye wat landwyd en in sleutelprovinsies meeding. As ons een mis, wys ons na hul gepubliseerde beleid.",
+    "disclaimer": "Riglyn, nie uitspraak nie",
+    "disclaimerText": "Gebruik dit as 'n beginpunt. Lees manifeste, woon gemeenskapsvergaderings by, en toets ons data. Politiek skuif; jou oordeel ook.",
+    "viewData": "Kyk na die rou lêers",
+    "viewDataText": "Alle JSON-lêers vir vrae, gewigte en partyposisies is openbaar. Inspekteer dit self.",
+    "dataFolder": "Alle brondata op GitHub"
   },
   "party": {
+    "visitWebsite": "Besoek partywebtuiste",
     "anc": {
       "desc": "Die African National Congress is die regerende party in Suid-Afrika wat sosiale demokrasie, transformasie en die aanspreek van ongelykheid deur staatsingryping bepleit.",
       "ideology": "Sentrumlinks, ontwikkelingstaat"
@@ -417,9 +417,9 @@
     "contact": "Kontak"
   },
   "disclaimer": {
-    "title": "Belangrike Vrywaringsparagraaf",
-    "educational": "Elekti is 'n opvoedkundige hulpmiddel, nie 'n vervanging vir navorsing nie. Partyposisies is kompleks en kan verander.",
-    "alpha": "Hierdie webwerf is tans in alfa-fase en onder aktiewe ontwikkeling. Kenmerke kan verander, en data kan opgedateer word namate ons ons metodologie verfyn.",
-    "research": "Ons moedig jou sterk aan om partymanifeste te lees, openbare forums by te woon, en ons inligting onafhanklik te verifieer. Gebruik hierdie resultate as 'n beginpunt vir dieper ondersoek, nie as jou finale besluit nie."
+    "title": "Gebruik dit as riglyn",
+    "educational": "Elekti help jou om partye te vergelyk. Dit vervang nie jou eie navorsing nie, en standpunte kan skuif soos koalisies en debatte verander.",
+    "alpha": "Hierdie webwerf is onder aktiewe ontwikkeling. Ons werk data by soos partye hul standpunte publiseer en wysig.",
+    "research": "Lees manifeste, begrotingsredes, raadsplanne en gemeenskapsbriewe. As jy 'n fout sien, stuur bronne en ons maak dit reg."
   }
 }
