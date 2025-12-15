@@ -93,6 +93,15 @@
     text-transform: none;
   }
 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   @keyframes fadeInUp {
     from {
       opacity: 0;
