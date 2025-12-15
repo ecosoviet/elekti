@@ -6,9 +6,24 @@
   const router = useRouter();
   const quizStore = useQuizStore();
 
+  const isDev = import.meta.env.DEV;
+
   function startQuiz() {
     quizStore.reset();
     router.push("/quiz");
+  }
+
+  function devFillRandomAnswers() {
+    quizStore.reset();
+    const questions = quizStore.getQuestions();
+    const optionCount = 5;
+    for (const question of questions) {
+      const randomOption = Math.floor(Math.random() * optionCount);
+      quizStore.answerQuestion(question.id, randomOption);
+    }
+
+    quizStore.setCompleted(true);
+    router.push("/results");
   }
 </script>
 
@@ -22,6 +37,14 @@
         <button @click="startQuiz" class="landing__cta">
           <Vote :size="24" />
           {{ $t("landing.startButton") }}
+        </button>
+
+        <button
+          v-if="isDev"
+          @click="devFillRandomAnswers"
+          class="landing__dev-button"
+        >
+          🔧 DEV: Fill Random & Results
         </button>
 
         <p class="landing__privacy">
@@ -159,6 +182,26 @@
       var(--color-primary-dark),
       var(--color-primary)
     );
+  }
+
+  .landing__dev-button {
+    display: block;
+    margin: var(--space-lg) auto 0;
+    padding: var(--space-sm) var(--space-md);
+    background-color: #6366f1;
+    color: white;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    opacity: 0.7;
+  }
+
+  .landing__dev-button:hover {
+    opacity: 1;
+    background-color: #4f46e5;
   }
 
   .landing__privacy {
