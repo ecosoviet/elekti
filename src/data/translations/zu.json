@@ -95,68 +95,68 @@
   },
   "party": {
     "anc": {
-      "desc": "I-African National Congress (ANC) iyibandla elibusayo laseNingizimu Afrika. Ligcizelela ukulingana, ukuguqulwa koMnotho, nokwandiswa kwezinsiza zomphakathi.",
+      "desc": "I-African National Congress (ANC) iyibandla elibusayo laseNingizimu Afrika. Ligcizelela i-demokratiya yesintu, inguquko enonjuunji, nokuciphisa ukunlingana ngomyalelo wohulumeni kanye nokusetshenziswa kwezinsiza zomphakathi.",
       "ideology": "Isezamlindi-okufuphi, umuntu ophakele isakhiwo"
     },
     "da": {
-      "desc": "I-Democratic Alliance (DA) igcizelela inkululeko yomuntu, umnotho oholwa yimakethe, nokubusa okuhle ngokulawulwa okucacile.",
+      "desc": "I-Democratic Alliance (DA) igcizelela i-demokratiya yelungile, umnotho okhululekile, kanye nezinqumo zobuswazi obungenzi umuntu ngemvelo yakhe. Igxile ekubuseni kahle nokwakheka kwemisebenzi.",
       "ideology": "Isezamlindi-akufuthi, umsebe womakete"
     },
     "mk": {
-      "desc": "uMkhonto weSizwe Party (MK) igcizelela ukuguqulwa okusheshayo kwezinhlelo zomnotho nezombusazwe, nokwakha kabusha izikhungo zikahulumeni.",
+      "desc": "uMkhonto weSizwe Party (MK) igcizelela inguquko enonjuunji yemnotho kanye zezinqumo zohulumeni, ukwakha kabusha izikhungo zikahulumeni, nokuciphisa ubuhlu bemvelo yesikhathi sangaphambi.",
       "ideology": "Akusezamlindi-kwelezamba, umuntu ophakele ilinganiso"
     },
     "eff": {
-      "desc": "I-Economic Freedom Fighters (EFF) igcizelela ukulingana kwezomnotho, ukubaluleka kwezinsiza zikahulumeni, nokwandisa indima kahulumeni emnothweni.",
+      "desc": "I-Economic Freedom Fighters (EFF) iyibandla elingakomele ekusezamlindini, igcizelela inguquko yomnotho engasetshenziswa amandla, ukunikazi kokwakha umnotho, nokuthathwa kombala ngaphandle kwekompani.",
       "ideology": "Isezamlindi-nomatambana, umuntu wombuluzi walezamba"
     },
     "ifp": {
-      "desc": "I-Inkatha Freedom Party (IFP) igcizelela inhlonipho yesiko lamaZulu, ukubusa okuhle, nokunakekelwa komphakathi, ikakhulukazi KwaZulu-Natali.",
+      "desc": "I-Inkatha Freedom Party (IFP) ikhomba abantu baseZulu, igcizelela inhlonipho yesiko lamaZulu, inkululeko ye-federo, umnotho okhululekile, kanye nokunakekela komphakathi. Nakubamhlophe, izinqumo zayo zigxile ku-siko lama-Zulu kanye ezidingeni zeKwaZulu-Natali.",
       "ideology": "Isesamlindi, ikhethwe yama-Zulu, imuntu oyawakuphetha"
     },
     "pa": {
-      "desc": "I-Patriotic Alliance (PA) igcizelela ukuvikela umphakathi, ukugxila ezidingweni zabantu basemalokishini, nokukhuthaza isizwe sokuqala (South Africa first).",
+      "desc": "I-Patriotic Alliance (PA) igcizelela ukuvikela umphakathi waseNingizimu Afrika, ukugxila ezidingweni zabantu basemalokishini, nokukhuthaza izinqumo ezigxila kumuzi wokuqala (South Africa first).",
       "ideology": "Isezamlindi-kwelakho, umuntu wezambazi wembuluzi"
     },
     "vfplus": {
       "name": "Freedom Front Plus",
-      "desc": "I-Freedom Front Plus (VF+) igcizelela amalungelo ama-Afrikaans, ukugxila emiphakathini emincane, kanye nenkululeko yemiphakathi yokuzilawula.",
+      "desc": "I-Freedom Front Plus (VF+) ikhomba abantu ama-Afrikaans, igcizelela amalungelo esintu ama-Afrikaans, inkululeko ye-federo, amalungelo omuntu omncane, kanye nenkululeko yemiphakathi yokuzilawula. Izinqumo zayo zigxile ekugcineni kwesiko lama-Afrikaans kanye nokuzithwala kwayo.",
       "ideology": "Isezamlindi-kwelakho, amandla ama-Afrikaans"
     },
     "actionsa": {
-      "desc": "I-ActionSA ibeka phambili ukubusa okuhle, ukulwa nenkohlakalo, nokwakha umnotho ohamba phambili ngezimboni namabhizinisi.",
+      "desc": "I-ActionSA iyibandla elibeka phambili ukubusa kahle, ukulwa nenkohlakalo enonjuunji, nokwakha umnotho okhula ngokusebenzisa izinkampani zomuntu siqu.",
       "ideology": "Isezamlindi-akufuthi, okubhozu lokwenza kabusha"
     },
     "acdp": {
-      "desc": "I-African Christian Democratic Party (ACDP) igcizelela izimiso zobuKristu ezinqubweni zikahulumeni, ukubaluleka komndeni, nokuziphatha okuhle.",
+      "desc": "I-African Christian Democratic Party (ACDP) igcizelela izimiso zobuKristu ezinqubweni zohulumeni, inhlonipho yomndeni, ukugcinwa kwezimo ezendabuko, nokubusa kahle okulandelele umthetho womuntu.",
       "ideology": "Isezamlindi-akufuthi, umuntu wabaseKristu ophakele"
     },
     "ufc": {
-      "desc": "I-Unite for Change (UFC) igxile ekubuseni okuhle, ekwakheni umnotho obanzi, nasekuhlanganiseni abantu abanemvelaphi ehlukene.",
+      "desc": "I-Unite for Change (UFC) igxile ekubuseni kahle, ekwakheni umnotho obanzi wesintu, nasekuhlanganiseni abantu abanemvelaphi ehlukene ngezinqumo eziyaphupha.",
       "ideology": "Isemapoyini, umuntu owalamulatela"
     },
     "udm": {
-      "desc": "I-United Democratic Movement (UDM) igcizelela ukubusa okuhle, ukulawula okunengqondo, nokwakha izikhungo zikahulumeni ezizinzile.",
+      "desc": "I-United Democratic Movement (UDM) iyibandla lama-demokratiya asenzile, igcizelela ukubusa kahle, ukulawula nenkohlakalo, nokwakha izikhungo zohulumeni ezizinzile kanye nokusebenza ngokolingano.",
       "ideology": "Isezamlindi-okufuphi, umuntu ophakele amakhono"
     },
     "sacp": {
-      "desc": "I-South African Communist Party (SACP) igcizelela ubunikazi bomphakathi kwezinsiza ezinkulu, amalungelo abasebenzi, nokuguqulwa kwezinhlelo zomnotho ukuze kube nokulingana.",
+      "desc": "I-South African Communist Party (SACP) igcizelela isistimu yesosialismu, amalungelo abasebenzi, nokuguqulwa komnotho kuye kubunikazi bokwakha umuntu. Igcizelela amalawuli eningi ohulumeni kwezindustriya ezikhulu.",
       "ideology": "Akusezamlindi-nomatambana, umuntu womuntu ozenzela isikhundla"
     },
     "atm": {
-      "desc": "I-African Transformation Movement (ATM) igcizelela izimiso zobuKristu, ukulunga komphakathi, nokubusa okuhle okuhlonipha izikhungo.",
+      "desc": "I-African Transformation Movement (ATM) iyibandla lama-demokratiya abaseKristu, igcizelela izimiso zobuKristu, ukulunga komphakathi, ukubusa kahle okuhlonipha umthetho, kanye nokuphakamisela iminyango yezifundo.",
       "ideology": "Isezamlindi-akufuthi, umuntu wabaseKristu ophakele amandla"
     },
     "aljama-ah": {
-      "desc": "I-Al Jama-ah igcizelela izimiso zobuSulumane ezinqubweni zikahulumeni, ukulunga komphakathi, kanye nokuqinisa imiphakathi yamaSulumane.",
+      "desc": "I-Al Jama-ah iyibandla lama-demokratiya amu-Islamu, igcizelela izinqumo zabantu amu-Islamu, i-demokratiya yesintu, kanye nokuqinisa imiphakathi yamu-Islamu ngenkolo ethandeka umuntu wonke.",
       "ideology": "Imvume yamusulumane, umuntu oyintlanti oyophakela"
     },
     "ncc": {
-      "desc": "I-National Coloured Congress (NCC) igxile ekumeleni nasekuvikelweni kwemiphakathi yabantu abamabalabala, kanye nokulingana kwamathuba.",
+      "desc": "I-National Coloured Congress (NCC) igxile ekumeleni nasekuvikelweni kwemiphakathi yabantu abamabalabala, kanye nokulingana kwamathuba nekuningana kumuntu.",
       "ideology": "Isemapoyini, umuntu womuntu omhlophe"
     },
     "pac": {
-      "desc": "I-Pan Africanist Congress of Azania (PAC) igcizelela i-Pan-Africanism, ukwakha isizwe esimnyama esizimele, nokulwa nobandlululo.",
+      "desc": "I-Pan Africanist Congress of Azania (PAC) iyibandla elikhomba izintu zomnyama, igcizelela i-Pan-Africanism, uksosyalismu yafrika, ukwakha isizwe esimnyama esizimele, nokungeneza izinqumo ezikukhululeka komlando wokubandlulula.",
       "ideology": "Isezamlindi-kwelakho, umuntu omnene wamasimoni"
     }
   },
@@ -207,205 +207,210 @@
   },
   "questions": {
     "q1": {
-      "text": "Uhulumeni kufanele wengeneza amagcina kumuntu onotshiwo ngenxa yokugcina izinqumo zezampilo, izifundo, kanye nokuhabahnya.",
+      "text": "Uhulumeni kufanele wengeneza izinkokhelo kubantu abazwakalele ukuze afinanse izinqumo ezinkulu zezempilo, zesifundo, kanye zemiphakathi.",
       "axis": "economic_left_right"
     },
     "q2": {
-      "text": "Imigodini yezimali kanye nokwehlukaniswa kobuhlungu kufanele kuthi isisekelo, nanoma lokhu kunciphise amagcina okuhabahnya.",
+      "text": "Ukugcinwa kwezimali kanye nokunciphisa isikweletu sohulumeni kufanele kube umkhanyi, nakubona lokhu kumkhomba izikhundla zezempilo.",
       "axis": "economic_left_right"
     },
     "q3": {
-      "text": "Uhulumeni kufanele ungeneze inzuzo eyisisekelo yesambazi konke umuntu.",
+      "text": "Uhulumeni kufanele anikeze umuntu ngamunye isinqumo seveki eyisisekelo, hhayi ithamsanqa.",
       "axis": "economic_left_right"
     },
     "q4": {
-      "text": "Uhulumeni kufanele usebenzise izinqumo zomuntu owasemsebenzini ukuciphisa imisebenzi.",
+      "text": "Uhulumeni kufanele asebenzise izinqumo zekhonseshe yokusebenza ukuze anciphise isibalo sebantu abangenamisebenzi.",
       "axis": "economic_left_right"
     },
     "q5": {
-      "text": "Isezampilo kufanele sibe isikhundla sesambazi, nezinqumo ezisisekelo zibe kusuki.",
+      "text": "Izinqumo zezempilo kufanele zibe ngentengo eyisuse kunabafundi onke, zesintu futhi hhayi zeswazi.",
       "axis": "economic_left_right"
     },
     "q6": {
-      "text": "Izifundo eziphakeme kufanele zibe sesuki kunabafundi onke, nanoma lokhu kucele amagcina okufa.",
+      "text": "Izifundo eziphakeme kufanele zibe ngentengo eyisuse kunabafundi onke, nakubona lokhu kumkhomba izinkokhelo ezikhulu.",
       "axis": "economic_left_right"
     },
     "q7": {
-      "text": "Uhulumeni kufanele une subsidi enkulu yokuzihlalela izingane ukusiza abazali bakuba semsebenzini.",
+      "text": "Uhulumeni kufanele anikeze amagcina amakhulu abazali ukuze basizwe nokuba semsebenzini habhanathi bezingane.",
       "axis": "economic_left_right"
     },
     "q8": {
-      "text": "Amahhovela wombuluzi kufanele aquke nokuteteza nokuhabahnya nokusinda kumuntu omnyama kanye nomuntu owesigaba.",
+      "text": "Izinqumo zemthethweni yocwaningo kufanele ziqondise izikhundla zesintu, amaBhunu, kanye nabantu abaphilela, hhayi izikhundla enkulu.",
       "axis": "economic_left_right"
     },
     "q9": {
-      "text": "Uhulumeni kufanele usizele izinkampani ezincane kanye nobomadlela nge-subsidi neokuyeza umthetho.",
+      "text": "Uhulumeni kufanele asizele izinkampani ezincane nezikhundla zomuntu ozenzela isindu ngeokunciphisa imthetho kanye neamagcina.",
       "axis": "state_vs_market"
     },
     "q10": {
-      "text": "Izinqumo ezinkulu zesambazi (amandla, amanzi, uhambo) kufanele zibe nesambazi futhi azisebenziswe yumuntu weswazi.",
+      "text": "Izikhundla ezibalulekile (amandla, amanzi, isinye sexwayula) kufanele zibe zesintu futhi hhayi zekhompani zeswazi.",
       "axis": "state_vs_market"
     },
     "q11": {
-      "text": "Izinkampani zeswazi zifanele zivumele ukungeneza nokuthengisa amandla ngenxa yokucisa ikhiwo lamandla, nanoma lokhu kunciphise izinga le-Eskom.",
+      "text": "Izikhundla zekhompani kufanele zivunyelwe ukungeneza nokuthengisa amandla okuze kuwe ibhala lamandla, nakubona lokhu kumkhomba i-Eskom.",
       "axis": "state_vs_market"
     },
     "q12": {
-      "text": "Ukuhambisa amanzi kanye nesistimu samazi kufanele kubaluleke esambazini futhi kuze kusebenziswe yiswazi.",
+      "text": "Izikhundla zamanzi kanye nokunikezela amanzi kufanele zibe zesintu futhi azivunyelwe zekhompani zeswazi.",
       "axis": "state_vs_market"
     },
     "q13": {
-      "text": "Ilizwe lingathathwa ngaphandle kokubekelela umsanegu wentengo ukuze kushesha okuguqula kwelizwe.",
+      "text": "Umhlaba ungathathwa ngaphandle kwekompani uma kulubunje eguqulwa kwembila kwelinumbi.",
       "axis": "land_and_ownership"
     },
     "q14": {
-      "text": "Ukulima kombala kanye nezikhundla zelizwe owomuntu lezinkosi kufanele zithathwe ngaphandle kwekompani elikhulu ekulima.",
+      "text": "Izikhundla zekulima elinokuncane kanye nomuntu wesintu kufanele zenikezelwe amagcina amakhulu kunakukhompani elikhulu.",
       "axis": "land_and_ownership"
     },
     "q15": {
-      "text": "Izinqumo zomuntu esikhundleni kanye nemodeli yokuhlangana kwabantu kufanele zithathwe ngemgodi yohulumeni kanye nozimali.",
+      "text": "Izinqumo zekulima zesintu kanye nokuhlangana komuntu kufanele afinanswe uhulumeni kanye namuntu kamuva.",
       "axis": "land_and_ownership"
     },
     "q16": {
-      "text": "Amagcina elizwe ama-ndabuko kanye ama-sangilo kufanele amukelwe ngomthetho futhi asindiswe, nanoma lokhu kufika emithethweni yesakhiwo.",
+      "text": "Amalungelo omhlaba wendabuko kanye wesiko kufanele amukelwe umthetho futhi asindiswe, nakubona lokhu kumkhomba umthetho womuntu.",
       "axis": "land_and_ownership"
     },
     "q17": {
-      "text": "Umuntu owasemsebenzini kufanele ube nemigodi enkulu yokuthumba kanye nokumemeza, nokukhubazeka kancane.",
+      "text": "Abasebenzi kufanele abe namalungelo amakhulu okuthuma umuntu kanye nokumemeza, kanye nokunciphisa imikhela yokusebenza.",
       "axis": "labour_rights"
     },
     "q18": {
-      "text": "Imigodi yomuntu ewula kufanele yengenezwe kakhulu ukuciphisa ubuhlu ekusebenzini, nanoma lokhu kunciphise izinkampani ezincane.",
+      "text": "Inkokhelo yesibalo sebasebenzi kufanele iengenezwe kakhulu ukuze kuwe ubuhlu bemsebenzini, nakubona lokhu kumkhomba izikhundla.",
       "axis": "labour_rights"
     },
     "q19": {
-      "text": "Ukulonga womuntu owasemsebenzini (kulula ukuthatha kanye nokubheka umuntu) kungeneza unabhaka nosomuntu semsebenzini.",
+      "text": "Ukulobola umuntu kuze kuthathwe umuntu (ukungeneza nokubheka) kungeneza umnotho kanye nenzalo.",
       "axis": "labour_rights"
     },
     "q20": {
-      "text": "Amagcina esigaba semuntu (isilishwa esilubele, isilishwa sokugula, kanye nokubheka umuntu owile) kufanele yengenezwe kanye nokuzisebenziswa kulonke isigaba.",
+      "text": "Amalungelo abasebenzi (isifundo sepaliyente, sekugula, kanye nokuhlangulela) kufanele zengenezwe kanye nokusebenza kulonke umsebenzi.",
       "axis": "labour_rights"
     },
     "q21": {
-      "text": "Amapolisa kufanele ane migodi enkulu kanye nozimali ukubhekuza ikohlo elinzima, nanoma lokhu kungeneza amandla ohulumeni.",
+      "text": "Amaphoyisa kufanele anikeze amandla amakhulu kanye nezimali ukuze anqobe ubuhlu bekuyeketha, nakubona lokhu kumkhomba amandla ohulumeni.",
       "axis": "law_order_vs_liberty"
     },
     "q22": {
-      "text": "Isikhundla sokuthi uthi njengoba ufuna kanye nokugqajwa entwaneni kufanele zithathwe okwenye nanoma lokhu kuhambisa umthengano wombuluzi.",
+      "text": "Amalungelo okusho isikhundla sakho kanye nokugqajwa kufanele akuphakamisele, nakubona lokhu kumkhomba umuntu.",
       "axis": "law_order_vs_liberty"
     },
     "q23": {
-      "text": "IseNingizimu Afrika kufanele iquke amagcina amindlela yezampilo ekuvimba umuntu kanye nomuntu wesikali.",
+      "text": "IseNingizimu Afrika kufanele ibe nomthetho ovikela amalungelo omuntu kanye okwazi okulandelela.",
       "axis": "law_order_vs_liberty"
     },
     "q24": {
-      "text": "Imikhosi ekuchelesa kanye nokumemeza kufanele ibheke umthetho omubi kugxeka, nanoma lokhu kumkhomba esikhundla senqobo.",
+      "text": "Imikhosi kanye nokumemeza kufanele zibe nemthetho ovikela, nakubona lokhu kumkhomba imibono.",
       "axis": "law_order_vs_liberty"
     },
     "q25": {
-      "text": "Umuntu kabusha kufanele abe no-umuntu owesifundo kanye nokubhekwa ukuxwayula ubuhlu, nanoma lokhu kumkhomba okukhethwa kwesambazi.",
+      "text": "Uhulumeni wekhomanda kufanele ube nomuntu osifundo kanye nokuhlola okulandelela umthetho, nakubona lokhu kumkhomba okukhethwa.",
       "axis": "democratic_institutions"
     },
     "q26": {
-      "text": "Amagcina okuchekela azisindiswe nanoma lokhu kuceza ukubheka umuntu onobangela okubi.",
+      "text": "Izikhundla zokulandelela umthetho kufanele zisindiswe, nakubona lokhu kumkhomba umuntu omubi.",
       "axis": "democratic_institutions"
     },
     "q27": {
-      "text": "Okubhozu lokubheka umuntu onobangela okubi kufanele lube nesikhundla kanye nokuziyinyumba, nanoma lokhu kungeneza inhlupheko esiholi.",
+      "text": "Umuntu omubi kufanele alandelwe ngokusheshisa kanye nokucacisa, nakubona lokhu kumkhomba izinqumo.",
       "axis": "democratic_institutions"
     },
     "q28": {
-      "text": "Amakompani ezepolitiki kufanele ene nqoba esikhundleni sayo okwenza inkolo yesambazi, nanoma lokhu kuthatha abantu abacele amakompani.",
+      "text": "Amabandla ezepolitiki kufanele abuse ndawonye okuze bacake umuntu, nakubona lokhu kumkhomba amalungu.",
       "axis": "democratic_institutions"
     },
     "q29": {
-      "text": "Uhulumeni kabusha kufanele une migodi enkulu ekubhekuza umuntu kabusha ongenile umthetho, nanoma lokhu kumkhomba isikhundla sabantu.",
+      "text": "Uhulumeni kabusha kufanele anqobe umkhandlu okamuva ongenile umthetho, nakubona lokhu kumkhomba autonomy.",
       "axis": "democratic_institutions"
     },
     "q30": {
-      "text": "Abakhokheli bezepolitiki abavula imihlahlandlela, amagcina ekuchekela, noma iNkosi kufanele ane ngqikazi.",
+      "text": "Abakhokheli bezepolitiki abavula amalungelo noma iNkosi kufanele babe nekhonsekwensi.",
       "axis": "democratic_institutions"
     },
     "q31": {
-      "text": "IseNingizimu Afrika kufanele ibe nemigodini eyikade yokwehlisa amandla wechibi kanye nokushiya amandla wekoala.",
+      "text": "IseNingizimu Afrika kufanele ibeke umthetho womuntu wokukhula kwechibi kanye nokuthi wehlukanise umandla wekhabhoni.",
       "axis": "environment_energy"
     },
     "q32": {
-      "text": "Uhulumeni kufanele webeke izimali ekwandiseni amandla abashenela ukuciphisa indlela yekoala.",
+      "text": "Uhulumeni kufanele anikeze amagcina amakhulu ekwakheni amandla ambuthano okuze kuwe umandla wekhabhoni.",
       "axis": "environment_energy"
     },
     "q33": {
-      "text": "Amagcina yomuntu kanye nendlela yomuntu kufanele athathe isikali kulapho kumina koala kanye nokuthuthukisa.",
+      "text": "Umthetho womuntu kufanele ube phezulu kukhona okwakho esiwela umhlaba.",
       "axis": "environment_energy"
     },
     "q34": {
-      "text": "Uhulumeni kufanele uqalisele amagcina okuvimba umuntu ama-LGBTQ+ kanye nokubaluleka.",
+      "text": "Uhulumeni kufanele anikeze amalungelo kubantu be-LGBTQ+ kanye nokuvikela lokho.",
       "axis": "social_progressivism"
     },
     "q35": {
-      "text": "Uhulumeni kufanele ubenjanela okulingana kwamakosikazi ngokuthwala umthetho wokuzihlalela abazali kanye nokuvimba umuntu esigabeni semuntu.",
+      "text": "Uhulumeni kufanele asizele okulingana kwabakosikazi nge-umthetho wepaliyente kanye nokuvikela amalungelo.",
       "axis": "social_progressivism"
     },
     "q36": {
-      "text": "IseNingizimu Afrika kufanele ibenjanela ukuthakwa kwamandla embuluzi ngokuthwala ukulumba okunike umthengano emasimu esezwe.",
+      "text": "IseNingizimu Afrika kufanele isizele umnotho wokukhula emasimu enkosi nge-izinqumo zentengelo enkunzi.",
       "axis": "global_vs_local"
     },
     "q37": {
-      "text": "IseNingizimu Afrika kufanele iqukie imilungu yomthengano oyinqaba futhi iwule umthetho okukinganiselela imbuluzi ezikhathini.",
+      "text": "IseNingizimu Afrika kufanele icele izinqumo zentengelo ezikhululisa intengelo yeizwe.",
       "axis": "global_vs_local"
     },
     "q38": {
-      "text": "Amahhovela omthengano kufanele agxile ekuteteza umbuluzi wakweli ngokuthwala amagcina kanye amithetho yombuluzi akweli.",
+      "text": "Izinqumo zentengelo kufanele zigxile ekulingeni izinkampani zesintu nge-amagcina kanye nemthetho.",
       "axis": "global_vs_local"
     },
     "q39": {
-      "text": "IseNingizimu Afrika kufanele icele amagcina okuthwala umuntu nasikhali, nanoma lokhu kungeneza ukungathethelwa amasimu ekuhambela.",
+      "text": "IseNingizimu Afrika kufanele ibeke umthetho ovikela ngokuqala abantu basesintu, nakubona lokhu kumkhomba izinye izwe.",
       "axis": "global_vs_local"
     },
     "q40": {
-      "text": "Uhulumeni kufanele ucele okugcina okushakwa umuntu ongenile ilanga, nanoma lokhu kungeneza ukuthuka ezindaweni azisebenzisa abantu bakweli.",
+      "text": "Uhulumeni kufanele beke umthetho ovikela umuntu owezamazimu ongenile ilanga, nakubona lokhu kumkhomba umsebenzi.",
       "axis": "global_vs_local"
     },
     "q41": {
-      "text": "Ukudla kwenqoba kufanele kuzuzwe ngohlobo oluthathelelwe yomuntu wakweli kanye nokunoteza okusebenzisa isiqalo nokuthi umuntu kasali.",
+      "text": "Ukudla komuntu kufanele kuzuzwe nge-isikhundla sentengo sokuqala kanye nezinduzi zesintu.",
       "axis": "transformation_vs_continuity"
     },
     "q42": {
-      "text": "IseNingizimu Afrika kufanele ibheke okushintsha okuziyinyumba nombuluzi kanye nokusebenza, futhi hhayi okuwena okwakudela.",
+      "text": "IseNingizimu Afrika kufanele ibheke inguquko enkulu yomnotho kanye nomsebenza, hhayi okuncane okuyenye.",
       "axis": "transformation_vs_continuity"
     },
     "q43": {
-      "text": "Ubuhlu besikhathi seapartheyidi kufanele bubhekwe ngokuthwala umhlobo ozenzela, hhayi okushintsha isigaba sonke.",
+      "text": "Ubuhlu be-apartheyidi kufanele bubhekwe ngakumbi (okuncane), hhayi ngokuguqulwa konke isigaba.",
       "axis": "transformation_vs_continuity"
     },
     "q44": {
-      "text": "Imali yohambo kufanele ibheke okuthuthukisa amathuthuthu omuntu obambalwa, nanoma lokhu kungeneza ubuhlu bokuthi umuntu agade uhambo.",
+      "text": "Amagcina okuthutha kufanele agxile ekwakheni izithuthu zesintu kunokuwela umuntu, nakubona lokhu kumkhomba umuntu.",
       "axis": "urban_development"
     },
     "q45": {
-      "text": "Izinqumo zendawo yomuntu ongamukeleki kufanele zithathwe ngaphandle konakayo womuntu weswazi.",
+      "text": "Izindlu ezirhwebo kufanele zigxile ekulingeni izakhi zesintu, hhayi ekhokhisa amagcina ekhompani.",
       "axis": "urban_development"
     },
     "q46": {
-      "text": "Izindawo kufanele zibeklelezwe ngomthetho ukuvimba isigaba esingalama, esesikhundleni wekhali, kanye isigaba esizenzeka nokuthi umuntu ahambe ezinyaweni - nanoma lokhu kumkhomba amagcina womuntu.",
+      "text": "Izindawo kufanele zibeke umthetho omuntu wetaxi, okungalangathanisa, kanye ebantwini bahambe ngezinyawo, nakubona lokhu kumkhomba umuntu.",
       "axis": "urban_development"
     },
     "q47": {
-      "text": "Imigodini yohulumeni kufanele imane enqobeni enkulu yokuthi umuntu onamadwala angazisebenzusi, nanoma lokhu kungeneza okunye isigaba.",
+      "text": "Izinqumo zohulumeni kufanele zicele ukuthi abantu abagula bakwazi ukusebenza, nakubona lokhu kumkhomba izikhundla.",
       "axis": "equity_and_inclusion"
     },
     "q48": {
-      "text": "Uhulumeni kufanele une subsidi kanye nokuhabahnya ukubuye ambuluzi asoka kanye emasikweni.",
+      "text": "Uhulumeni kufanele anikeze amagcina amakhulu ekhaya elinenza izingane kanye emasikweni.",
       "axis": "equity_and_inclusion"
     },
     "q49": {
-      "text": "Amahhovela afana ne-Employment Equity kanye ne-BEE kufanele abe umuntu onobangela ekuciphisa ubuhlu obulingana, nanoma lokhu kumkhomba ukuhambisa izinkampani.",
+      "text": "Izinqumo ze-Employment Equity kanye ne-BEE kufanele zibe izinqumo ezibalulekile, nakubona lokhu kumkhomba izikhundla.",
       "axis": "equity_and_inclusion"
     },
     "q50": {
-      "text": "Izinqumo zokuqeqeshwa kufanele zithathwe abantu ababe umbuhla ohlukahlukile ukubuye ukusebenza ebantwini.",
+      "text": "Izinqumo zokuqeqeshwa kufanele zinikezelwe kubantu abahlukene okuze basizele umsebenzi.",
       "axis": "equity_and_inclusion"
     }
+  },
+  "languages": {
+    "en": "Isingesi",
+    "af": "IsiBhulu",
+    "zu": "IsiZulu"
   },
   "footer": {
     "about": "Mayelana nathi",

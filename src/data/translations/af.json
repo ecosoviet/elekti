@@ -407,6 +407,11 @@
       "axis": "equity_and_inclusion"
     }
   },
+  "languages": {
+    "en": "Engels",
+    "af": "Afrikaans",
+    "zu": "IsiZulu"
+  },
   "footer": {
     "about": "Oor",
     "privacy": "Privaatheid",

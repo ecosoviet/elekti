@@ -407,6 +407,11 @@
       "axis": "equity_and_inclusion"
     }
   },
+  "languages": {
+    "en": "English",
+    "af": "Afrikaans",
+    "zu": "Zulu"
+  },
   "footer": {
     "about": "About",
     "privacy": "Privacy",

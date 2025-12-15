@@ -5,7 +5,7 @@
   import { availableLocales } from "../i18n/i18n";
   import { useUiStore } from "../stores/uiStore";
 
-  const { locale } = useI18n();
+  const { locale, t } = useI18n();
   const uiStore = useUiStore();
   const isOpen = ref(false);
 
@@ -17,8 +17,7 @@
 
   const currentLocale = computed(() => locale.value);
   const currentLocaleName = computed(() => {
-    const found = availableLocales.find((l) => l.code === currentLocale.value);
-    return found?.name || "English";
+    return t(`languages.${currentLocale.value}`);
   });
 
   function toggleDropdown() {
@@ -46,17 +45,17 @@
 
     <div v-if="isOpen" class="language-selector__dropdown" role="listbox">
       <button
-        v-for="locale in sortedLocales"
-        :key="locale.code"
-        @click="selectLanguage(locale.code)"
+        v-for="lang in sortedLocales"
+        :key="lang.code"
+        @click="selectLanguage(lang.code)"
         class="language-selector__option"
         :class="{
-          'language-selector__option--active': locale.code === currentLocale,
+          'language-selector__option--active': lang.code === currentLocale,
         }"
         role="option"
-        :aria-selected="locale.code === currentLocale"
+        :aria-selected="lang.code === currentLocale"
       >
-        {{ locale.name }}
+        {{ t(`languages.${lang.code}`) }}
       </button>
     </div>
   </div>
@@ -108,10 +107,14 @@
   @media (max-width: 640px) {
     .language-selector__dropdown {
       position: fixed;
+      bottom: auto;
+      top: var(--header-height);
       right: var(--space-sm);
       left: var(--space-sm);
       width: auto;
       min-width: auto;
+      max-height: 50vh;
+      overflow-y: auto;
     }
   }
 
