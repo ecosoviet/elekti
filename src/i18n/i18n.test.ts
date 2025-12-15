@@ -77,21 +77,6 @@ describe("i18n", () => {
       const { i18n } = await import("./i18n");
       expect(i18n.global.locale.value).toBe("en");
     });
-
-    it("should detect Zulu browser language", async () => {
-      Object.defineProperty(navigator, "language", {
-        configurable: true,
-        value: "zu-ZA",
-      });
-      const { i18n } = await import("./i18n");
-      expect(i18n.global.locale.value).toBe("zu");
-    });
-
-    it("should accept stored Zulu locale from localStorage", async () => {
-      localStorage.setItem("lang", "zu");
-      const { i18n } = await import("./i18n");
-      expect(i18n.global.locale.value).toBe("zu");
-    });
   });
 
   describe("availableLocales", () => {
@@ -113,26 +98,17 @@ describe("i18n", () => {
       });
     });
 
-    it("should include Zulu locale", async () => {
+    it("should have exactly 2 available locales", async () => {
       const { availableLocales } = await import("./i18n");
-      expect(availableLocales).toContainEqual({
-        code: "zu",
-        name: "Zulu",
-      });
-    });
-
-    it("should have exactly 3 available locales", async () => {
-      const { availableLocales } = await import("./i18n");
-      expect(availableLocales).toHaveLength(3);
+      expect(availableLocales).toHaveLength(2);
     });
   });
 
   describe("messages", () => {
-    it("should have English, Afrikaans, and Zulu messages", async () => {
+    it("should have English and Afrikaans messages", async () => {
       const { i18n } = await import("./i18n");
       expect(i18n.global.messages.value).toHaveProperty("en");
       expect(i18n.global.messages.value).toHaveProperty("af");
-      expect(i18n.global.messages.value).toHaveProperty("zu");
     });
 
     it("should have fallback locale set to English", async () => {
@@ -153,10 +129,8 @@ describe("i18n", () => {
       >;
       const enKeys = Object.keys(messages.en || {});
       const afKeys = Object.keys(messages.af || {});
-      const zuKeys = Object.keys(messages.zu || {});
 
       expect(afKeys.toSorted()).toEqual(enKeys.toSorted());
-      expect(zuKeys.toSorted()).toEqual(enKeys.toSorted());
     });
 
     it("should have required message sections in all locales", async () => {
@@ -181,7 +155,7 @@ describe("i18n", () => {
         "disclaimer",
       ];
 
-      for (const locale of ["en", "af", "zu"]) {
+      for (const locale of ["en", "af"]) {
         for (const section of requiredSections) {
           expect(messages[locale]).toHaveProperty(section);
         }
@@ -192,7 +166,7 @@ describe("i18n", () => {
       const { i18n } = await import("./i18n");
       const messages = i18n.global.messages.value as Record<string, unknown>;
 
-      for (const locale of ["en", "af", "zu"]) {
+      for (const locale of ["en", "af"]) {
         const questions =
           ((messages[locale] as Record<string, unknown>)?.questions as Record<
             string,
@@ -218,8 +192,8 @@ describe("i18n", () => {
       store.setLang("af");
       expect(localStorage.getItem("lang")).toBe("af");
 
-      store.setLang("zu");
-      expect(localStorage.getItem("lang")).toBe("zu");
+      store.setLang("en");
+      expect(localStorage.getItem("lang")).toBe("en");
     });
 
     it("should update i18n locale when setLang is called", async () => {
@@ -227,11 +201,11 @@ describe("i18n", () => {
       const { useUiStore } = await import("../stores/uiStore");
       const store = useUiStore();
 
-      store.setLang("zu");
-      expect(i18n.global.locale.value).toBe("zu");
-
       store.setLang("af");
       expect(i18n.global.locale.value).toBe("af");
+
+      store.setLang("en");
+      expect(i18n.global.locale.value).toBe("en");
     });
 
     it("should keep lang ref in sync with i18n locale", async () => {
@@ -241,8 +215,8 @@ describe("i18n", () => {
       store.setLang("en");
       expect(store.lang).toBe("en");
 
-      store.setLang("zu");
-      expect(store.lang).toBe("zu");
+      store.setLang("af");
+      expect(store.lang).toBe("af");
     });
   });
 });

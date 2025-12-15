@@ -12,7 +12,6 @@ import partyPositions from "./party_positions.json";
 import questions from "./questions.json";
 import af from "./translations/af.json";
 import en from "./translations/en.json";
-import zu from "./translations/zu.json";
 
 describe("Data Validation", () => {
   describe("Zod Schema Validation", () => {
@@ -64,14 +63,6 @@ describe("Data Validation", () => {
           "Afrikaans translation validation errors:",
           result.errors
         );
-      }
-    });
-
-    it("should validate zu.json translation with Zod schema", () => {
-      const result = validateTranslation(zu);
-      expect(result.success).toBe(true);
-      if (!result.success) {
-        console.error("Zulu translation validation errors:", result.errors);
       }
     });
   });
@@ -284,42 +275,33 @@ describe("Data Validation", () => {
   });
 
   describe("Translation Completeness", () => {
-    it("should have same top-level keys in all three translations", () => {
+    it("should have same top-level keys in both translations", () => {
       const enKeys = Object.keys(en).toSorted();
       const afKeys = Object.keys(af).toSorted();
-      const zuKeys = Object.keys(zu).toSorted();
       expect(afKeys).toEqual(enKeys);
-      expect(zuKeys).toEqual(enKeys);
     });
 
-    it("should have same number of questions in all three translations", () => {
+    it("should have same number of questions in both translations", () => {
       const enQuestions = Object.keys(en.questions || {});
       const afQuestions = Object.keys(af.questions || {});
-      const zuQuestions = Object.keys(zu.questions || {});
       expect(afQuestions.length).toBe(enQuestions.length);
-      expect(zuQuestions.length).toBe(enQuestions.length);
     });
 
     it("should have at least some content in all supported locales", () => {
       expect(Object.keys(en).length).toBeGreaterThan(0);
       expect(Object.keys(af).length).toBeGreaterThan(0);
-      expect(Object.keys(zu).length).toBeGreaterThan(0);
     });
 
-    it("should have all party keys in all three translations", () => {
+    it("should have all party keys in both translations", () => {
       const enParties = Object.keys(en.party || {}).toSorted();
       const afParties = Object.keys(af.party || {}).toSorted();
-      const zuParties = Object.keys(zu.party || {}).toSorted();
       expect(afParties).toEqual(enParties);
-      expect(zuParties).toEqual(enParties);
     });
 
-    it("should have all axis keys in all three translations", () => {
+    it("should have all axis keys in both translations", () => {
       const enAxes = Object.keys(en.axes || {}).toSorted();
       const afAxes = Object.keys(af.axes || {}).toSorted();
-      const zuAxes = Object.keys(zu.axes || {}).toSorted();
       expect(afAxes).toEqual(enAxes);
-      expect(zuAxes).toEqual(enAxes);
     });
   });
 

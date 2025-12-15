@@ -10,8 +10,8 @@
 
 - Views: `src/views/{Landing,Quiz,Results,About}.vue` via router.
 - State: `src/stores/quizStore.ts` (answers, progress, URL encode/decode), `src/stores/uiStore.ts` (locale persistence).
-- Data: `src/data/{questions.json,axes.json,parties.json,party_positions.json}` and translations in `src/data/translations/{en,af,zu}.json`.
-- i18n: `src/i18n/i18n.ts` loads `en/af/zu`, fallback `en`; `availableLocales` currently exposes `en`/`af` in the selector (Zulu is present but hidden).
+- Data: `src/data/{questions.json,axes.json,parties.json,party_positions.json}` and translations in `src/data/translations/{en,af}.json`.
+- i18n: `src/i18n/i18n.ts` loads `en/af`, fallback `en`; `availableLocales` exposes `en`/`af` in the selector.
 - Scoring: `src/utils/scoring.ts` reads JSON data and computes similarity per axis, normalised per party; constants in `src/utils/constants.ts`.
 - Validation: Zod schemas in `src/schemas/*` with helpers in `src/validators/*` (questions, parties, axes, party positions, translations, answers).
 
@@ -39,7 +39,7 @@
 ## Making Content Changes (do all of these)
 
 - Add/modify question:
-  - Translations: `src/data/translations/en.json` AND `af.json` (Zulu optional for now).
+  - Translations: `src/data/translations/en.json` AND `af.json`.
   - Metadata: append in `src/data/questions.json` with `id`, `textKey`, `axis`, `weight`, and optional `direction: "negative"`.
   - Party positions: ensure `src/data/party_positions.json` covers the axis for all parties where relevant.
   - Validate: run `npm run test` (see `src/validators/data.test.ts` and `answers.test.ts`).
