@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
     FontaineTransform.vite({
-      fallbacks: ['Segoe UI', 'Helvetica Neue', 'Roboto', 'system-ui'],
+      fallbacks: ['Helvetica Neue', 'Arial', 'Roboto', 'Segoe UI'],
       resolvePath: id => id.startsWith('/') ? '.' + id : id,
     }),
   ],

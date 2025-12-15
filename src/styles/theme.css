@@ -64,9 +64,12 @@
   --space-3xl: 4rem;
 
   --font-family-base:
-    "Inter Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+    "Inter Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   --font-family-heading:
-    "Inter Tight Variable", "Inter Variable", "Segoe UI", system-ui, sans-serif;
+    "Inter Tight Variable", "Inter Variable", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
 
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;

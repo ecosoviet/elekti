@@ -90,6 +90,7 @@
     align-items: center;
     animation: fadeIn 0.5s ease-out;
     letter-spacing: -0.01em;
+    text-transform: none;
   }
 
   @keyframes fadeInUp {
