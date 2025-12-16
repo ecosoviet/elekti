@@ -15,20 +15,11 @@
 - Scoring: `src/utils/scoring.ts` reads JSON data and computes similarity per axis, normalised per party; constants in `src/utils/constants.ts`.
 - Validation: Zod schemas in `src/schemas/*` with helpers in `src/validators/*` (questions, parties, axes, party positions, translations, answers).
 
-## Scoring Model (essential rules)
+## Scoring Model (authoritative docs)
 
-- Answer values from `STANDARD_OPTIONS`: [-1, -0.5, 0, 0.5, 1].
-- Each question measures one of 12 axes and one pole (positive or negative).
-- For questions with `direction: "negative"`, invert user value before comparing:
-  ```typescript
-  if (question.direction === "negative") {
-    userValue = -userValue;
-  }
-  ```
-- **Questions with `direction: "negative"`:** q2, q9, q11, q19, q21, q24, q38, q39, q40, q43
-- Similarity per question: `1 - abs(userValue - partyPosition)`; aggregate with `weight`.
-- Axis normalisation clamps to [0,1]; final party score is weighted average across axes.
-- Confidence: high/medium/low based on top score and spread (see `computeScores`).
+- Full algorithm explainer: [../docs/scoring-algorithm.md](../docs/scoring-algorithm.md) (inputs, poles/direction, similarity math, normalization, confidence).
+- Party positions and interpretations: [../docs/party-position-reference.md](../docs/party-position-reference.md) with per-axis lean notes.
+- Quick essentials: `STANDARD_OPTIONS` values are [-1, -0.5, 0, 0.5, 1]; negative-direction questions invert the user value before comparison; negative-direction IDs today: q2, q9, q11, q19, q21, q24, q38, q39, q40, q43.
 
 ## Understanding Axis Poles and Direction Flags
 
@@ -57,7 +48,7 @@ When adding questions or setting party positions, identify which pole the questi
 - Test (Vitest + happy-dom):
   - `npm run test` or `npm run test:ui`
 - Lint/format:
-  - `npm run lint` (oxlint → ESLint)
+  - `npm run lint`
   - `npm run format` (Prettier + organize-imports + package.json sorting)
 
 ## Making Content Changes (do all of these)
