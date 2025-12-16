@@ -239,7 +239,7 @@
       "axis": "economic_left_right"
     },
     "q9": {
-      "text": "Government should cut red tape and give tax breaks to small shops and traders to help them survive.",
+      "text": "Municipalities should outsource maintenance to capable private firms under performance-based contracts to improve water and power uptime.",
       "axis": "state_vs_market"
     },
     "q10": {
@@ -247,11 +247,11 @@
       "axis": "state_vs_market"
     },
     "q11": {
-      "text": "Private companies should be allowed to generate and sell electricity to end load-shedding, even if this reduces Eskom's role.",
+      "text": "Allow private power generation with open grid access and wheeling, overseen by NERSA to keep tariffs fair—even if it reduces Eskom’s role.",
       "axis": "state_vs_market"
     },
     "q12": {
-      "text": "Water and toilets should stay under government control, not be run by private companies.",
+      "text": "Water and sanitation should stay under government control, not be run by private companies.",
       "axis": "state_vs_market"
     },
     "q13": {
@@ -271,7 +271,7 @@
       "axis": "land_and_ownership"
     },
     "q17": {
-      "text": "Workers should have stronger rights to unionise and strike, with fewer restrictions.",
+      "text": "Strengthen workplace protections against gender-based violence and harassment and enforce them, even if compliance costs rise.",
       "axis": "labour_rights"
     },
     "q18": {
@@ -347,11 +347,11 @@
       "axis": "social_progressivism"
     },
     "q36": {
-      "text": "South Africa should focus on selling goods abroad to grow the economy.",
+      "text": "Prioritise SADC and AU regional value chains and logistics corridors to grow trade on the continent.",
       "axis": "global_vs_local"
     },
     "q37": {
-      "text": "South Africa should sign free trade deals and drop trade barriers to join the global economy.",
+      "text": "Sign trade deals that align product standards and digitise customs, even if some industries must upgrade at cost.",
       "axis": "global_vs_local"
     },
     "q38": {
@@ -367,7 +367,7 @@
       "axis": "global_vs_local"
     },
     "q41": {
-      "text": "Government should support local farming and community gardens to make sure people have enough food.",
+      "text": "Introduce merit-based appointments and fixed-term performance contracts across SOEs to drive rapid change, even if it disrupts existing arrangements.",
       "axis": "transformation_vs_continuity"
     },
     "q42": {
@@ -403,7 +403,7 @@
       "axis": "equity_and_inclusion"
     },
     "q50": {
-      "text": "Government should invest in job training for historically disadvantaged people to get them into work.",
+      "text": "Coalition governments must publish transparent agreements with dispute-resolution clauses and shared budget priorities, even if it constrains party freedom.",
       "axis": "equity_and_inclusion"
     }
   },

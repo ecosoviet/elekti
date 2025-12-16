@@ -207,7 +207,7 @@
   },
   "questions": {
     "q1": {
-      "text": "Die regering behoort belasting op die rykes te verhoog om beter klinieke, skole en sosiale toelaes vir arm huishoudings te befonds.",
+      "text": "Water en sanitasie moet onder regeringsbeheer bly en nie deur private maatskappye bestuur word nie.",
       "axis": "economic_left_right"
     },
     "q2": {
@@ -243,11 +243,11 @@
       "axis": "state_vs_market"
     },
     "q10": {
-      "text": "Sleutel openbare nutsdienste (krag, water, spoor) moet in openbare besit bly en nie geprivatiseer word nie.",
+      "text": "Laat private kragopwekking toe met oop netwerktoegang en wheeling, onder NERSA toesig vir billike tariewe—selfs al verminder dit Eskom se rol.",
       "axis": "state_vs_market"
     },
     "q11": {
-      "text": "Private maatskappye moet toegelaat word om elektrisiteit te genereer en te verkoop om beurtkrag te beëindig, selfs al verminder dit Eskom se rol.",
+      "text": "Versterk beskerming teen geslagsgebaseerde geweld en teistering by die werk en dwing dit af, al verhoog dit nakomingskoste.",
       "axis": "state_vs_market"
     },
     "q12": {
@@ -347,7 +347,7 @@
       "axis": "social_progressivism"
     },
     "q36": {
-      "text": "Suid-Afrika moet fokus op die verkoop van goedere oorsee om die ekonomie te laat groei.",
+      "text": "Prioritiseer SADC- en AU-streekwaardekettings en logistieke korridors om handel op die vasteland te laat groei.",
       "axis": "global_vs_local"
     },
     "q37": {
@@ -355,7 +355,7 @@
       "axis": "global_vs_local"
     },
     "q38": {
-      "text": "Regering moet tariewe en plaaslike inhoudsreëls gebruik om Suid-Afrikaanse fabrieke en werk te beskerm.",
+      "text": "Sluit handelsverdrae wat produkstandaarde belyn en doeane digitaliseer, al moet sommige nywerhede teen koste opgradeer.",
       "axis": "global_vs_local"
     },
     "q39": {
@@ -363,7 +363,7 @@
       "axis": "global_vs_local"
     },
     "q40": {
-      "text": "Regering moet werkgewers wat ongedokumenteerde migrante in diens neem hardhandig, selfs al skaad dit besighede wat van hulle afhang.",
+      "text": "Stel meriet-gebaseerde aanstellings en vaste-termyn prestasiekontrakte by SOE’s in om vinnige verandering te dryf, al ontwrig dit bestaande reëlings.",
       "axis": "global_vs_local"
     },
     "q41": {
@@ -403,7 +403,7 @@
       "axis": "equity_and_inclusion"
     },
     "q50": {
-      "text": "Regering moet in werksopleiding vir histories-benadeelde mense investeer om hulle in werk te kry.",
+      "text": "Koalisie-regerings moet deursigtige ooreenkomste publiseer met geskilbeslegting-klousules en gedeelde begrotingsprioriteite, al beperk dit partyvryheid.",
       "axis": "equity_and_inclusion"
     }
   },
