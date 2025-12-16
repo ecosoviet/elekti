@@ -20,7 +20,7 @@
       "intro": "Coalitions, load-shedding, jobs, safety, housing. Compare parties on the issues that shape daily life in South Africa.",
       "benefit1": {
         "title": "Look past slogans",
-        "text": "See actual positions on service delivery, energy, crime, jobs, and land \u2014 not just campaign posters."
+        "text": "See actual positions on service delivery, energy, crime, jobs, and land — not just campaign posters."
       },
       "benefit2": {
         "title": "Spot real options",
@@ -162,40 +162,40 @@
   },
   "axes": {
     "economic_left_right": {
-      "short": "Taxation \u0026 Social Spending"
+      "short": "Taxation & Social Spending"
     },
     "state_vs_market": {
       "short": "Public vs Private Services"
     },
     "land_and_ownership": {
-      "short": "Land \u0026 Property Rights"
+      "short": "Land & Property Rights"
     },
     "labour_rights": {
       "short": "Workers' Rights"
     },
     "law_order_vs_liberty": {
-      "short": "Policing \u0026 Civil Rights"
+      "short": "Policing & Civil Rights"
     },
     "democratic_institutions": {
-      "short": "Governance \u0026 Anti-Corruption"
+      "short": "Governance & Anti-Corruption"
     },
     "environment_energy": {
-      "short": "Climate \u0026 Energy"
+      "short": "Climate & Energy"
     },
     "social_progressivism": {
-      "short": "LGBTQ+ \u0026 Gender Rights"
+      "short": "LGBTQ+ & Gender Rights"
     },
     "global_vs_local": {
-      "short": "Trade \u0026 Immigration"
+      "short": "Trade & Immigration"
     },
     "transformation_vs_continuity": {
       "short": "Pace of Change"
     },
     "urban_development": {
-      "short": "Urban Planning \u0026 Transport"
+      "short": "Urban Planning & Transport"
     },
     "equity_and_inclusion": {
-      "short": "Affirmative Action \u0026 BEE"
+      "short": "Affirmative Action & BEE"
     }
   },
   "options": {
@@ -247,7 +247,7 @@
       "axis": "state_vs_market"
     },
     "q11": {
-      "text": "Allow private power generation with open grid access and wheeling, overseen by NERSA to keep tariffs fair—even if it reduces Eskom’s role.",
+      "text": "Allow private power generation with open grid access and wheeling, overseen by NERSA to keep tariffs fair—even if Eskom’s role shrinks.",
       "axis": "state_vs_market"
     },
     "q12": {
@@ -287,7 +287,7 @@
       "axis": "labour_rights"
     },
     "q21": {
-      "text": "Police need more funding and powers to tackle violent crime like home invasions, gender-based violence, and taxi violence, even if it means more police stops.",
+      "text": "Police need more funding and powers to tackle violent crime like house robberies, gender-based violence, and taxi violence—even if it means more police stops.",
       "axis": "law_order_vs_liberty"
     },
     "q22": {
@@ -323,7 +323,7 @@
       "axis": "democratic_institutions"
     },
     "q30": {
-      "text": "Coalition governments must publish transparent agreements with dispute-resolution clauses and shared budget priorities, even if it constrains party freedom.",
+      "text": "Coalition governments must publish transparent agreements with dispute-resolution clauses and agreed budget priorities—even if it constrains party freedom.",
       "axis": "democratic_institutions"
     },
     "q31": {
