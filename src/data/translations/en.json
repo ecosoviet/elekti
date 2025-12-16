@@ -323,7 +323,7 @@
       "axis": "democratic_institutions"
     },
     "q30": {
-      "text": "Politicians who attack the courts, voting system, or Constitution should face prosecution.",
+      "text": "Coalition governments must publish transparent agreements with dispute-resolution clauses and shared budget priorities, even if it constrains party freedom.",
       "axis": "democratic_institutions"
     },
     "q31": {
@@ -403,7 +403,7 @@
       "axis": "equity_and_inclusion"
     },
     "q50": {
-      "text": "Coalition governments must publish transparent agreements with dispute-resolution clauses and shared budget priorities, even if it constrains party freedom.",
+      "text": "Government should invest in job training for historically disadvantaged people to get them into work.",
       "axis": "equity_and_inclusion"
     }
   },
