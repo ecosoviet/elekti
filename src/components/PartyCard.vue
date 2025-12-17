@@ -171,7 +171,9 @@
     border-left: 6px solid var(--party-colour);
     border-radius: var(--radius-sm);
     padding: var(--space-lg);
-    transition: all var(--transition-base);
+    transition:
+      box-shadow var(--transition-base),
+      border-color var(--transition-base);
     box-shadow: var(--shadow-sm);
     position: relative;
   }
@@ -184,7 +186,6 @@
 
   .party-card:hover {
     box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
   }
 
   .party-card__header {
