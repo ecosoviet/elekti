@@ -128,18 +128,6 @@
             >
               {{ $t(`results.confidence.${result.confidence}`) }}
             </div>
-
-            <div class="results__pills-spacer"></div>
-
-            <button
-              @click="copyResults"
-              class="results__button results__button--secondary results__button--share"
-            >
-              <Copy :size="20" />
-              {{
-                copied ? $t("results.resultsCopied") : $t("results.copyResults")
-              }}
-            </button>
           </div>
 
           <PartyCard
@@ -147,6 +135,16 @@
             :score="result.primary.alignmentScore"
             :axis-scores="result.primary.axisScores"
           />
+
+          <button
+            @click="copyResults"
+            class="results__button results__button--secondary results__button--share-card"
+          >
+            <Copy :size="20" />
+            {{
+              copied ? $t("results.resultsCopied") : $t("results.copyResults")
+            }}
+          </button>
         </section>
 
         <section v-if="result.alternatives.length > 0" class="results__section">
@@ -230,6 +228,7 @@
 
   .results__section--primary :deep(.party-card) {
     margin-top: var(--space-md);
+    margin-bottom: 0;
   }
 
   .results__pills {
@@ -238,10 +237,6 @@
     gap: var(--space-md);
     flex-wrap: wrap;
     margin-bottom: var(--space-lg);
-  }
-
-  .results__pills-spacer {
-    flex: 1 1 auto;
   }
 
   .results__badge {
@@ -265,8 +260,11 @@
     border: 2px solid var(--color-primary-dark);
   }
 
-  .results__button--share {
-    height: 40px;
+  .results__button--share-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: var(--space-lg);
   }
 
   .results__confidence {
