@@ -11,7 +11,7 @@ export const AnswersRecordSchema = z.record(z.string(), AnswerIndexSchema);
 export const EncodedAnswersSchema = z
   .string()
   .min(1, "Encoded answers cannot be empty")
-  .regex(/^[A-Za-z0-9+/=]+$/, "Encoded answers must be valid base64");
+  .regex(/^[A-Za-z0-9_-]+$/, "Encoded answers must be valid base64url");
 
 export type AnswerIndex = z.infer<typeof AnswerIndexSchema>;
 export type AnswersRecord = z.infer<typeof AnswersRecordSchema>;

@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { AlertCircle, Copy, RotateCcw, Trophy } from "lucide-vue-next";
-  import { onMounted, ref } from "vue";
+  import { computed, onMounted, ref } from "vue";
+  import { useI18n } from "vue-i18n";
   import { useRouter } from "vue-router";
   import PartyCard from "../components/PartyCard.vue";
   import ResultBreakdown from "../components/ResultBreakdown.vue";
@@ -35,8 +36,20 @@
 
   const router = useRouter();
   const quizStore = useQuizStore();
+  const { t } = useI18n();
   const result = ref<QuizResult | undefined>(undefined);
   const copied = ref(false);
+
+  const otherScores = computed<PartyScore[]>(() => {
+    if (!result.value) {
+      return [];
+    }
+    const exclude = new Set<string>([
+      result.value.primary.partyId,
+      ...result.value.alternatives.map((a) => a.partyId),
+    ]);
+    return result.value.allScores.filter((s) => !exclude.has(s.partyId));
+  });
 
   onMounted(() => {
     const urlParameters = new URLSearchParams(globalThis.location.search);
@@ -65,11 +78,18 @@
     const encoded = quizStore.encodeAnswersToUrl();
     const shareUrl = `${globalThis.location.origin}/results?r=${encoded}`;
 
-    const text = `My Elekti Results:
-Primary Match: ${result.value.primary.party.name} (${(result.value.primary.alignmentScore * 100).toFixed(1)}%)
-Alternatives: ${result.value.alternatives.map((a: PartyScore) => `${a.party.name} (${(a.alignmentScore * 100).toFixed(1)}%)`).join(", ")}
+    const confidenceLabel = t(`results.confidence.${result.value.confidence}`);
 
-View my results: ${shareUrl}`;
+    const text = `My Elekti Results:
+  Primary Match: ${result.value.primary.party.name} (${(result.value.primary.alignmentScore * 100).toFixed(1)}%) — ${confidenceLabel}
+  Alternatives: ${result.value.alternatives
+    .map(
+      (a: PartyScore) =>
+        `${a.party.name} (${(a.alignmentScore * 100).toFixed(1)}%) — ${confidenceLabel}`
+    )
+    .join(", ")}
+
+  View my results: ${shareUrl}`;
 
     navigator.clipboard.writeText(text).then(() => {
       copied.value = true;
@@ -108,6 +128,18 @@ View my results: ${shareUrl}`;
             >
               {{ $t(`results.confidence.${result.confidence}`) }}
             </div>
+
+            <div class="results__pills-spacer"></div>
+
+            <button
+              @click="copyResults"
+              class="results__button results__button--secondary results__button--share"
+            >
+              <Copy :size="20" />
+              {{
+                copied ? $t("results.resultsCopied") : $t("results.copyResults")
+              }}
+            </button>
           </div>
 
           <PartyCard
@@ -134,20 +166,10 @@ View my results: ${shareUrl}`;
         </section>
 
         <section class="results__section">
-          <ResultBreakdown :scores="result.allScores" />
+          <ResultBreakdown :scores="otherScores" />
         </section>
 
         <div class="results__actions">
-          <button
-            @click="copyResults"
-            class="results__button results__button--secondary"
-          >
-            <Copy :size="20" />
-            {{
-              copied ? $t("results.resultsCopied") : $t("results.copyResults")
-            }}
-          </button>
-
           <button
             @click="retakeQuiz"
             class="results__button results__button--primary"
@@ -218,6 +240,10 @@ View my results: ${shareUrl}`;
     margin-bottom: var(--space-lg);
   }
 
+  .results__pills-spacer {
+    flex: 1 1 auto;
+  }
+
   .results__badge {
     display: inline-flex;
     align-items: center;
@@ -237,6 +263,10 @@ View my results: ${shareUrl}`;
     text-transform: uppercase;
     height: 40px;
     border: 2px solid var(--color-primary-dark);
+  }
+
+  .results__button--share {
+    height: 40px;
   }
 
   .results__confidence {

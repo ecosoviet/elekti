@@ -1,10 +1,17 @@
 import { describe, expect, it } from "vitest";
 import {
   decodeAndValidateAnswers,
+  encodeAnswerValuesToBase64Url,
+  UNANSWERED_VALUE,
   validateAnswerIndex,
   validateAnswersRecord,
   validateEncodedAnswers,
 } from "./answers";
+
+const encodeForQuestions = (values: Array<number | undefined>) =>
+  encodeAnswerValuesToBase64Url(
+    values.map((value) => (value === undefined ? UNANSWERED_VALUE : value))
+  );
 
 describe("Answer Validators", () => {
   describe("validateAnswerIndex", () => {
@@ -62,7 +69,7 @@ describe("Answer Validators", () => {
 
   describe("validateEncodedAnswers", () => {
     it("should accept valid base64 strings", () => {
-      const encoded = btoa("1,2,3");
+      const encoded = encodeAnswerValuesToBase64Url([1, 2, 3]);
       const result = validateEncodedAnswers(encoded);
       expect(result.success).toBe(true);
       expect(result.value).toBe(encoded);
@@ -77,7 +84,7 @@ describe("Answer Validators", () => {
     it("should reject invalid base64 strings", () => {
       const result = validateEncodedAnswers("not@valid#base64!");
       expect(result.success).toBe(false);
-      expect(result.error).toContain("valid base64");
+      expect(result.error).toContain("valid base64url");
     });
 
     it("should reject non-string values", () => {
@@ -89,8 +96,7 @@ describe("Answer Validators", () => {
   describe("decodeAndValidateAnswers", () => {
     it("should decode and validate correctly encoded answers", () => {
       const questionIds = ["q1", "q2", "q3"];
-      const answers = "2,4,1";
-      const encoded = btoa(answers);
+      const encoded = encodeForQuestions([2, 4, 1]);
 
       const result = decodeAndValidateAnswers(encoded, questionIds);
 
@@ -104,8 +110,7 @@ describe("Answer Validators", () => {
 
     it("should handle partial answers (empty values)", () => {
       const questionIds = ["q1", "q2", "q3"];
-      const answers = "2,,1";
-      const encoded = btoa(answers);
+      const encoded = encodeForQuestions([2, undefined, 1]);
 
       const result = decodeAndValidateAnswers(encoded, questionIds);
 
@@ -124,7 +129,7 @@ describe("Answer Validators", () => {
 
     it("should reject when all answers are invalid", () => {
       const questionIds = ["q1", "q2"];
-      const encoded = btoa("5,6");
+      const encoded = encodeForQuestions([5, 6]);
 
       const result = decodeAndValidateAnswers(encoded, questionIds);
 
@@ -133,7 +138,8 @@ describe("Answer Validators", () => {
     });
 
     it("should handle decoding errors gracefully", () => {
-      const result = decodeAndValidateAnswers("YWJjZA==", [
+      const encoded = encodeForQuestions([0, 1, 2, 3]);
+      const result = decodeAndValidateAnswers(encoded, [
         "q1",
         "q2",
         "q3",

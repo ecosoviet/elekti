@@ -1,6 +1,10 @@
 import { createPinia, setActivePinia } from "pinia";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { useQuizStore } from "../stores/quizStore";
+import {
+  encodeAnswerValuesToBase64Url,
+  UNANSWERED_VALUE,
+} from "../validators/answers";
 
 vi.mock("vue-i18n", () => ({
   useI18n: () => ({
@@ -41,6 +45,18 @@ describe("quizStore", () => {
   beforeEach(() => {
     setActivePinia(createPinia());
   });
+
+  const makeEncodedAnswers = (
+    values: Array<number | undefined>,
+    total: number
+  ) => {
+    const padded = Array.from({ length: total }, (_, index) => {
+      const value = values[index];
+      return value === undefined ? UNANSWERED_VALUE : value;
+    });
+
+    return encodeAnswerValuesToBase64Url(padded);
+  };
 
   describe("initialization", () => {
     it("should initialize with empty answers", () => {
@@ -168,87 +184,36 @@ describe("quizStore", () => {
   });
 
   describe("URL encoding/decoding", () => {
-    it("should encode answers to base64 format", () => {
+    it("should encode answers compactly and decode correctly", () => {
       const store = useQuizStore();
       store.answerQuestion("q1", 0);
       store.answerQuestion("q2", 1);
       store.answerQuestion("q3", 2);
 
       const encoded = store.encodeAnswersToUrl();
-      const decoded = atob(encoded);
-      expect(decoded).toContain("0,1,2");
-    });
-
-    it("should encode as base64 with comma-separated values internally", () => {
-      const store = useQuizStore();
-      store.answerQuestion("q1", 0);
-      store.answerQuestion("q2", 1);
-
-      const encoded = store.encodeAnswersToUrl();
-      const decoded = atob(encoded);
-      const parts = decoded.split(",");
-      expect(parts.length).toBe(41);
-      expect(parts[0]).toBe("0");
-      expect(parts[1]).toBe("1");
-    });
-
-    it("should pad unanswered questions with empty string", () => {
-      const store = useQuizStore();
-      store.answerQuestion("q1", 2);
-      store.answerQuestion("q3", 4);
-
-      const encoded = store.encodeAnswersToUrl();
-      const decoded = atob(encoded);
-      const parts = decoded.split(",");
-      expect(parts[0]).toBe("2");
-      expect(parts[1]).toBe("");
-      expect(parts[2]).toBe("4");
-    });
-
-    it("should load answers from base64 URL format", () => {
-      const store = useQuizStore();
-      const plainText =
-        "0,1,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0";
-      const encoded = btoa(plainText);
       const success = store.loadAnswersFromUrl(encoded);
 
       expect(success).toBe(true);
       expect(store.answers["q1"]).toBe(0);
       expect(store.answers["q2"]).toBe(1);
       expect(store.answers["q3"]).toBe(2);
-      expect(store.answers["q4"]).toBe(3);
-      expect(store.answers["q5"]).toBe(4);
     });
 
-    it("should skip empty answers when loading from URL", () => {
+    it("should preserve unanswered questions as missing entries", () => {
       const store = useQuizStore();
-      const plainText =
-        "0,,2,,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0";
-      const encoded = btoa(plainText);
+      const encoded = makeEncodedAnswers([2, undefined, 4], 41);
       const success = store.loadAnswersFromUrl(encoded);
 
       expect(success).toBe(true);
-      expect(store.answers["q1"]).toBe(0);
+      expect(store.answers["q1"]).toBe(2);
       expect(store.answers["q2"]).toBeUndefined();
-      expect(store.answers["q3"]).toBe(2);
-    });
-
-    it("should reject invalid option indices", () => {
-      const store = useQuizStore();
-      const plainText =
-        "0,1,99,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0";
-      const encoded = btoa(plainText);
-      const success = store.loadAnswersFromUrl(encoded);
-
-      expect(success).toBe(true);
-      expect(store.answers["q3"]).toBeUndefined();
+      expect(store.answers["q3"]).toBe(4);
     });
 
     it("should set completed flag when all answers loaded", () => {
       const store = useQuizStore();
-      const plainText =
-        "0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0";
-      const encoded = btoa(plainText);
+      const allAnswers = Array.from({ length: 41 }, (_, index) => index % 5);
+      const encoded = makeEncodedAnswers(allAnswers, 41);
       const success = store.loadAnswersFromUrl(encoded);
 
       expect(success).toBe(true);
@@ -257,8 +222,7 @@ describe("quizStore", () => {
 
     it("should not set completed if partial answers", () => {
       const store = useQuizStore();
-      const plainText = "0,1,2,3,4,0,0,0,0,0";
-      const encoded = btoa(plainText);
+      const encoded = makeEncodedAnswers([0, 1, 2, 3, 4, 0, 0, 0, 0, 0], 41);
       const success = store.loadAnswersFromUrl(encoded);
 
       expect(success).toBe(true);

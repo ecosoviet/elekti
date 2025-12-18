@@ -9,7 +9,11 @@ import {
   type Question,
   type QuizResult,
 } from "../utils/scoring";
-import { decodeAndValidateAnswers } from "../validators/answers";
+import {
+  decodeAndValidateAnswers,
+  encodeAnswerValuesToBase64Url,
+  UNANSWERED_VALUE,
+} from "../validators/answers";
 
 export const useQuizStore = defineStore("quiz", () => {
   const answers = ref<Record<string, number>>({});
@@ -96,12 +100,12 @@ export const useQuizStore = defineStore("quiz", () => {
   }
 
   function encodeAnswersToUrl(): string {
-    const answerArray = questions.value.map((q) => {
+    const values = questions.value.map((q) => {
       const answer = answers.value[q.id];
-      return answer === undefined ? "" : answer.toString();
+      return answer === undefined ? UNANSWERED_VALUE : answer;
     });
-    const joined = answerArray.join(",");
-    return btoa(joined);
+
+    return encodeAnswerValuesToBase64Url(values);
   }
 
   function loadAnswersFromUrl(encoded: string): boolean {

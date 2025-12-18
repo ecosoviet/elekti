@@ -27,7 +27,7 @@
 
 <template>
   <div class="result-breakdown">
-    <h3 class="result-breakdown__title">{{ $t("results.allParties") }}</h3>
+    <h3 class="result-breakdown__title">{{ $t("results.otherParties") }}</h3>
 
     <div class="result-breakdown__list">
       <PartyCard

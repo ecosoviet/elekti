@@ -1,0 +1,31 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json,yarn.lock,pnpm-lock.yaml,bun.lockb,.npmrc,.yarnrc*,.nvmrc,*.config.js,*.config.cjs,*.config.mjs,*.config.ts,*.rc,tsconfig*.json,vitest.config.*,vite.config.*,eslint.config.*,prettier.config.*,postcss.config.*,tailwind.config.*,jest.config.*,babel.config.*",
+    "tsconfig.json": "tsconfig.*.json",
+    "vite.config.ts": "vite.config.*",
+    "eslint.config.ts": "eslint.config.*",
+    "vitest.config.ts": "vitest.config.*"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
