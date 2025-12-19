@@ -205,6 +205,19 @@
       "weight": 1.3
     },
     {
+      "id": "q53",
+      "textKey": "questions.q53.text",
+      "axis": "environment_energy",
+      "weight": 1.5,
+      "direction": "negative"
+    },
+    {
+      "id": "q54",
+      "textKey": "questions.q54.text",
+      "axis": "environment_energy",
+      "weight": 1.3
+    },
+    {
       "id": "q34",
       "textKey": "questions.q34.text",
       "axis": "social_progressivism",
@@ -215,6 +228,19 @@
       "textKey": "questions.q35.text",
       "axis": "social_progressivism",
       "weight": 1.8
+    },
+    {
+      "id": "q51",
+      "textKey": "questions.q51.text",
+      "axis": "social_progressivism",
+      "weight": 1.6,
+      "direction": "negative"
+    },
+    {
+      "id": "q52",
+      "textKey": "questions.q52.text",
+      "axis": "social_progressivism",
+      "weight": 1.5
     },
     {
       "id": "q36",
@@ -269,6 +295,13 @@
       "direction": "negative"
     },
     {
+      "id": "q55",
+      "textKey": "questions.q55.text",
+      "axis": "transformation_vs_continuity",
+      "weight": 1.4,
+      "direction": "negative"
+    },
+    {
       "id": "q44",
       "textKey": "questions.q44.text",
       "axis": "urban_development",
@@ -283,6 +316,12 @@
     {
       "id": "q46",
       "textKey": "questions.q46.text",
+      "axis": "urban_development",
+      "weight": 1.4
+    },
+    {
+      "id": "q56",
+      "textKey": "questions.q56.text",
       "axis": "urban_development",
       "weight": 1.4
     },

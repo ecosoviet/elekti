@@ -11,7 +11,7 @@
   },
   "landing": {
     "title": "Pas jou stem by Suid-Afrika",
-    "subtitle": "Beantwoord 50 kort vrae oor plaaslike beleid. Sien watter partye by jou prioriteite vir jou gemeenskap, provinsie en die land pas.",
+    "subtitle": "Beantwoord 56 kort vrae oor plaaslike beleid. Sien watter partye by jou prioriteite vir jou gemeenskap, provinsie en die land pas.",
     "startButton": "Begin die toets",
     "aboutLink": "Hoe ons werk",
     "privacy": "Jou antwoorde bly op hierdie toestel. Geen nasporing of rekeninge nie.",
@@ -68,7 +68,7 @@
     "methodology": "Hoe hierdie hulpmiddel gebou is",
     "methodologyText": "Elekti rus op Suid-Afrikaanse beleidsdokumente en openbare verklarings. Ons meet oor 12 kwessie-areas wat daaglikse lewe en regering raak. Die wiskunde is deursigtig en vas.",
     "howItWorks": "Wat jy beantwoord",
-    "howItWorksText": "Vyftig vrae dek krag, water, behuising, werk, veiligheid, vervoer, koalisies, sosiale beleid en aanspreeklikheid. Elke vraag koppel na 'n kwessie-as. Jy antwoord; ons karteer jou standpunt; ons vergelyk dit met elke party se gepubliseerde posisie.",
+    "howItWorksText": "Ses-en-vyftig vrae dek krag, water, behuising, werk, veiligheid, vervoer, koalisies, sosiale beleid en aanspreeklikheid. Elke vraag koppel na 'n kwessie-as. Jy antwoord; ons karteer jou standpunt; ons vergelyk dit met elke party se gepubliseerde posisie.",
     "scoring": "Hoe ons score",
     "scoringText": "Vir elke as bereken ons ooreenstemming tussen jou antwoorde en elke party, weeg dit volgens vraagbelang, normaliseer volgens die vrae wat jy beantwoord het, en neem dan die gemiddelde oor alle asse. Punte is persentasies; vertroue wys hoe duidelik die gaping tussen jou top-passing en die res is.",
     "transparency": "Oop data, geen verrassings",
@@ -208,15 +208,15 @@
   },
   "questions": {
     "q1": {
-      "text": "Water en sanitasie moet onder regeringsbeheer bly en nie deur private maatskappye bestuur word nie.",
+      "text": "Regering moet belasting op rykes verhoog om beter klinieke, skole en toelae vir arm huishoudings te befonds.",
       "axis": "economic_left_right"
     },
     "q2": {
-      "text": "Regering moet skuld afbetaal eerder as om nuwe programme te bekostig, selfs al beteken dit dienste uit te sny.",
+      "text": "Regering moet eerder skuld afbetaal as nuwe programme befonds, selfs al sny dit dienste.",
       "axis": "economic_left_right"
     },
     "q3": {
-      "text": "Koalisie-regerings moet deursigtige ooreenkomste publiseer met geskilbeslegtingsklousules en ooreengekome begrotingsprioriteite, al beperk dit partyvryheid.",
+      "text": "Regering moet elke volwassene 'n maandelikse kontanttoelae gee, al kos dit meer belasting.",
       "axis": "economic_left_right"
     },
     "q4": {
@@ -228,31 +228,31 @@
       "axis": "economic_left_right"
     },
     "q6": {
-      "text": "Prioritiseer SADC- en AU-waardekettings in die streek en logistieke korridors om handel op die vasteland te laat groei.",
+      "text": "Hoër onderwys moet gratis wees vir alle studente, selfs al verg dit hoër belasting.",
       "axis": "economic_left_right"
     },
     "q7": {
-      "text": "Die staat moet sterk subsidies vir kinderopvoeding verskaf om werkende ouers te ondersteun.",
+      "text": "Die staat moet sterk subsidies vir kinderopvang gee om werkende ouers te steun.",
       "axis": "economic_left_right"
     },
     "q8": {
-      "text": "Regering moet aktief groeiende swart-eienaarskap en werker-eienaarskap-ondernemings ondersteun deur lenings, belastingvermindering en opdragte.",
+      "text": "Regering moet swart- en werkerbesit-ondernemings aktief steun met lenings, belastingverligting en kontrakte.",
       "axis": "economic_left_right"
     },
     "q9": {
-      "text": "Regering moet rooi lint sny en belastingvermindering gee aan klein winkels en handelaars om hulle te help oorleef.",
+      "text": "Munisipaliteite moet instandhouding uitkontrakteer aan bekwame private firmas met prestasiekontrakte om water en krag aan te hou.",
       "axis": "state_vs_market"
     },
     "q10": {
-      "text": "Laat private kragopwekking toe met oop netwerktoegang en wheeling, onder NERSA toesig vir billike tariewe—selfs al verminder dit Eskom se rol.",
+      "text": "Sleutel nuts (krag, water, spoor) moet in staatsbesit bly en nie geprivatiseer word nie.",
       "axis": "state_vs_market"
     },
     "q11": {
-      "text": "Versterk beskerming teen geslagsgebaseerde geweld en teistering by die werk en dwing dit af, al verhoog dit nakomingskoste.",
+      "text": "Laat private kragopwekking toe met oop netwerkinspanning en wheeling onder NERSA toesig vir billike tariewe—selfs al krimp Eskom se rol.",
       "axis": "state_vs_market"
     },
     "q12": {
-      "text": "Water en toilette moet onder regeringsbeheer bly, nie deur private maatskappye bestuur word nie.",
+      "text": "Water en sanitasie moet onder regeringbeheer bly, nie deur private maatskappye bestuur nie.",
       "axis": "state_vs_market"
     },
     "q13": {
@@ -272,19 +272,19 @@
       "axis": "land_and_ownership"
     },
     "q17": {
-      "text": "Werkers moet sterker regte hê om te vakbondeer en te staak, met minder beperkinge.",
+      "text": "Beskerming teen geslagsgeweld en teistering by die werk moet versterk en afgedwing word, selfs al verhoog dit kostes.",
       "axis": "labour_rights"
     },
     "q18": {
-      "text": "Minimum lone moet aansienlik verhoog word om armoede onder werkers te verminder, selfs as sommige klein besighede sukkel.",
+      "text": "Minimum lone moet aansienlik styg om armoede onder werkers te verminder, selfs al sukkel sommige klein besighede.",
       "axis": "labour_rights"
     },
     "q19": {
-      "text": "Dit makliker maak vir base om werkers in diens te neem en af te dank sal belegging lok en werk skep.",
+      "text": "Om dit makliker te maak om mense aan te stel en af te dank sal belegging lok en werk skep.",
       "axis": "labour_rights"
     },
     "q20": {
-      "text": "Werkplekgeregtighede soos betaalde verlof, siekeverlof en skeidsingsvergoeding moet versterk en aktief regdeur alle sektore afgedwing word.",
+      "text": "Betaalde verlof, siekteverlof en skeidingsvoordele moet versterk en oral afgedwing word.",
       "axis": "labour_rights"
     },
     "q21": {
@@ -312,7 +312,7 @@
       "axis": "democratic_institutions"
     },
     "q27": {
-      "text": "Korrupsiezake moet vinnig en aggressief vervolgd word, selfs al skep dit tydelike chaos in die regering.",
+      "text": "Korrupsiesaak moet vinnig en aggressief vervolg word, selfs al skep dit tydelike chaos in regering.",
       "axis": "democratic_institutions"
     },
     "q28": {
@@ -324,7 +324,7 @@
       "axis": "democratic_institutions"
     },
     "q30": {
-      "text": "Politici wat die howe, stemmingstelsel of Grondwet aanval, moet vervolgd word.",
+      "text": "Koalisie-ooreenkomste moet deursigtig gepubliseer word met geskilbeslegting en begrotingsprioriteite—selfs al beperk dit partye se vryheid.",
       "axis": "democratic_institutions"
     },
     "q31": {
@@ -339,6 +339,14 @@
       "text": "Omgewingswette moet nuwe myne en steenkoolprojekte stop wanneer hulle die natuur beskadig.",
       "axis": "environment_energy"
     },
+    "q53": {
+      "text": "Hou ouer steenkool-eenhede langer aanlyn om kragstabiliteit te verseker, selfs al vertraag dit emissievermindering.",
+      "axis": "environment_energy"
+    },
+    "q54": {
+      "text": "Regering moet klimaataanpassing befonds—watersekerheid, vloedbeskerming, hitteweerbaarheid—voordat nuwe mitigasieteikens gestel word.",
+      "axis": "environment_energy"
+    },
     "q34": {
       "text": "Regering moet LGBTQ+-mense beskerm teen diskriminasie op die werk en in winkels.",
       "axis": "social_progressivism"
@@ -347,28 +355,36 @@
       "text": "Regering moet maatskappye dwing om ouers betaalde verlof te gee en moeders en vroue op die werk te beskerm teen diskriminasie.",
       "axis": "social_progressivism"
     },
+    "q51": {
+      "text": "Godsdienstige organisasies en klein besighede moet kan weier om dienste te lewer wat met hul geloof bots, selfs al laat dit diskriminasie toe.",
+      "axis": "social_progressivism"
+    },
+    "q52": {
+      "text": "Omvattende seksuele opvoeding, insluitend LGBTQ+-onderwerpe, moet verpligtend in openbare skole wees.",
+      "axis": "social_progressivism"
+    },
     "q36": {
-      "text": "Prioritiseer SADC- en AU-streekwaardekettings en logistieke korridors om handel op die vasteland te laat groei.",
+      "text": "Prioritiseer SADC- en AU-waardekettings en logistieke korridors om handel in Afrika te laat groei.",
       "axis": "global_vs_local"
     },
     "q37": {
-      "text": "Suid-Afrika moet vryehandelsooreenkomste teken en handelsversperrings laat val om by die wêreldekonomie aan te sluit.",
+      "text": "Sluit handelsverdrae wat standaarde belyn en doeane digitaliseer, selfs al moet nywerhede teen koste opgradeer.",
       "axis": "global_vs_local"
     },
     "q38": {
-      "text": "Sluit handelsverdrae wat produkstandaarde belyn en doeane digitaliseer, al moet sommige nywerhede teen koste opgradeer.",
+      "text": "Regering moet tariewe en plaaslike inhoudsvereistes gebruik om Suid-Afrikaanse fabrieke en werk te beskerm.",
       "axis": "global_vs_local"
     },
     "q39": {
-      "text": "Suid-Afrika moet strenger immigrasie- en grenstoesigbeleide aanvaar, selfs al span dit betrekkinge met buurlande.",
+      "text": "Suid-Afrika moet strenger immigrasie- en grensbeheer aanneem, selfs al span dit verhoudings met bure.",
       "axis": "global_vs_local"
     },
     "q40": {
-      "text": "Stel meriet-gebaseerde aanstellings en vaste-termyn prestasiekontrakte by SOE’s in om vinnige verandering te dryf, al ontwrig dit bestaande reëlings.",
+      "text": "Regering moet streng optree teen werkgewers wat ongedokumenteerde migrante aanstel, selfs al benadeel dit besighede wat op hulle steun.",
       "axis": "global_vs_local"
     },
     "q41": {
-      "text": "Regering moet plaaslike boerdery en gemeenskapstuin ondersteun om seker te maak mense het genoeg kos.",
+      "text": "Voer merietgebaseerde aanstellings en vaste-termyn prestasiekontrakte by SOE's in vir vinnige verandering, selfs al ontwrig dit bestaande reëlings.",
       "axis": "transformation_vs_continuity"
     },
     "q42": {
@@ -376,19 +392,27 @@
       "axis": "transformation_vs_continuity"
     },
     "q43": {
-      "text": "Maak apartheid se nalatenskap reg deur stadige, bestendige veranderinge aan instellings, nie radikale omverwerpings nie.",
+      "text": "Maak apartheid se nalatenskap reg met stadige, bestendige veranderings aan instellings, nie radikale omwenteling nie.",
+      "axis": "transformation_vs_continuity"
+    },
+    "q55": {
+      "text": "Aanstelling en bevordering in die staatsdiens moet eksamens en ervaring voorrang gee bo transformasieteikens.",
       "axis": "transformation_vs_continuity"
     },
     "q44": {
-      "text": "Vervoerbefondsing moet minibus-taksiroetes, busisteme en plaaslike treine verbeter bo die bou van nuwe hoofwee.",
+      "text": "Vervoerbefondsing moet taxi-, bus- en plaaslike treindienste verbeter bo nuwe snelweë.",
       "axis": "urban_development"
     },
     "q45": {
-      "text": "Regering moet voorkeur gee aan die bou van bekostigbare openbare behuising in townships en informele nedersettings bo private ontwikkelingsuitstekende.",
+      "text": "Regering moet bekostigbare openbare behuising in townships en informele nedersettings prioritiseer bo private ontwikkeling.",
       "axis": "urban_development"
     },
     "q46": {
-      "text": "Stede moet uitgestrekte, motorafhanklike dorpies beperk en eerder loopbare, gemengde-gebruik townships met nêrby winkels, skole en klinieke ondersteun—selfs al verloor ontwikkelaars winste.",
+      "text": "Stede moet uitspreiende, motorafhanklike voorstede beperk en loopbare, gemengde gebruik-gebiede steun—selfs al sny dit ontwikkelaars se winste.",
+      "axis": "urban_development"
+    },
+    "q56": {
+      "text": "Private ontwikkelings moet 'n deel bekostigbare eenhede insluit (inklusiewe sonering), selfs al maak dit projekte kleiner of duurder.",
       "axis": "urban_development"
     },
     "q47": {
@@ -396,11 +420,11 @@
       "axis": "equity_and_inclusion"
     },
     "q48": {
-      "text": "Regering moet geld in township en landelike besigheid gooi om werk en ekonomiese groei te skep.",
+      "text": "Regering moet geld in township- en landelike besighede belê om werk en groei te skep.",
       "axis": "equity_and_inclusion"
     },
     "q49": {
-      "text": "Gelyke Indiensneming en BEE-reëls moet bly as gereedskap om rasgebaseerde ongelykheid reg te stel, selfs al kla besighede oor die koste.",
+      "text": "Wettige gelyke indiensneming en BEE moet bly om rasgebaseerde ongelykheid reg te stel, selfs al kla besighede oor kostes.",
       "axis": "equity_and_inclusion"
     },
     "q50": {

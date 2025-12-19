@@ -3,7 +3,7 @@
 ## What This App Is
 
 - Vue 3 + TypeScript SPA with Pinia, vue-router, and vue-i18n.
-- Data-driven quiz: 50 questions → 12 policy axes → party alignment.
+- Data-driven quiz: 56 questions → 12 policy axes → party alignment.
 - Deterministic, axis-based scoring; URL-shareable state; strict type checks.
 
 ## Architecture & Data Flow

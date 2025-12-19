@@ -11,7 +11,7 @@
   },
   "landing": {
     "title": "Match your vote to South Africa",
-    "subtitle": "Answer 50 quick questions grounded in local policy debates. See which parties line up with your priorities for your community, province, and the country.",
+    "subtitle": "Answer 56 quick questions grounded in local policy debates. See which parties line up with your priorities for your community, province, and the country.",
     "startButton": "Start the quiz",
     "aboutLink": "How we work",
     "privacy": "Your answers stay on this device. No tracking, no accounts.",
@@ -68,7 +68,7 @@
     "methodology": "How this tool is built",
     "methodologyText": "Elekti is rooted in South African policy documents and public statements. We score across 12 issue areas that affect daily life and governance. The maths is deterministic and transparent.",
     "howItWorks": "What you answer",
-    "howItWorksText": "Fifty questions cover power, water, housing, jobs, safety, transport, coalitions, social policy, and accountability. Each question links to an issue axis. You answer, we map your stance, and we compare it to each party's stated position.",
+    "howItWorksText": "Fifty-six questions cover power, water, housing, jobs, safety, transport, coalitions, social policy, and accountability. Each question links to an issue axis. You answer, we map your stance, and we compare it to each party's stated position.",
     "scoring": "How we score",
     "scoringText": "For every axis we calculate similarity between your answers and each party, weight by question importance, normalise by the questions you answered, then average across all axes. Scores are percentages; confidence reflects how clear the gap is between your top match and the rest.",
     "transparency": "Open data, no surprises",
@@ -406,6 +406,30 @@
     "q50": {
       "text": "Government should invest in job training for historically disadvantaged people to get them into work.",
       "axis": "equity_and_inclusion"
+    },
+    "q51": {
+      "text": "Religious organisations and small businesses should be allowed to refuse services that conflict with their beliefs, even if it permits discrimination.",
+      "axis": "social_progressivism"
+    },
+    "q52": {
+      "text": "Comprehensive sex education, including LGBTQ+ topics, should be mandatory in public schools.",
+      "axis": "social_progressivism"
+    },
+    "q53": {
+      "text": "Keep older coal units running longer to stabilise electricity supply, even if it delays emissions cuts.",
+      "axis": "environment_energy"
+    },
+    "q54": {
+      "text": "Government should fund climate adaptation—water security, flood protection, heat resilience—before setting new mitigation targets.",
+      "axis": "environment_energy"
+    },
+    "q55": {
+      "text": "Civil service hiring and promotions should prioritise exams and experience over transformation targets.",
+      "axis": "transformation_vs_continuity"
+    },
+    "q56": {
+      "text": "Require private developments to include a share of affordable units (inclusionary zoning), even if projects shrink or cost more.",
+      "axis": "urban_development"
     }
   },
   "languages": {
