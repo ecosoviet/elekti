@@ -121,7 +121,7 @@
     },
     "vfplus": {
       "name": "Freedom Front Plus",
-      "desc": "Freedom Front Plus primarily represents Afrikaner communities and interests, advocating for federalism, minority rights, and conservative values. Policy priorities centre on Afrikaner cultural preservation and self-determination.",
+      "desc": "Freedom Front Plus primarily represents Afrikaner communities and interests. The party opposes radical transformation and land expropriation, advocates for market-led economics and minimal state intervention, and defends conservative social values and traditional Afrikaner cultural preservation. It emphasises federalism and local self-determination for minority communities.",
       "ideology": "Right-wing, Afrikaner interests"
     },
     "actionsa": {
@@ -133,20 +133,20 @@
       "ideology": "Centre-right, Christian conservative"
     },
     "ufc": {
-      "desc": "Unite for Change focuses on grassroots mobilisation and addressing local community concerns through progressive policies.",
+      "desc": "Unite for Change is a merger of RISE Mzansi, BOSA, and GOOD. It focuses on grassroots mobilisation and addressing local community concerns through progressive policies.",
       "ideology": "Centrist, grassroots"
     },
     "udm": {
-      "desc": "The United Democratic Movement is a social democratic party emphasising good governance, anti-corruption, and balanced economic policies with merit-based appointments.",
-      "ideology": "Centre-left, pro-institution"
+      "desc": "The United Democratic Movement is a social democratic party focused on clean governance, anti-corruption, and balanced economic policies that reward merit.",
+      "ideology": "Centre-left, institutional reform"
     },
     "sacp": {
-      "desc": "The South African Communist Party advocates for socialism, workers' rights and a transition to a socialist society through state control.",
+      "desc": "The South African Communist Party advocates for socialism and workers' rights, and works toward a socialist society through state ownership of key industries.",
       "ideology": "Far-left, socialist"
     },
     "atm": {
-      "desc": "The African Transformation Movement is a Christian democratic party advocating for conservative values, the death penalty, and stricter educational standards.",
-      "ideology": "Centre-right, Christian democratic"
+      "desc": "The African Transformation Movement advocates for conservative social values, stricter discipline in schools, and stronger law and order policing.",
+      "ideology": "Centre-right, Christian conservative"
     },
     "aljama-ah": {
       "desc": "Al Jama-ah is an Islamic democratic party promoting Muslim interests, social democracy, and conservative social values while working for all South Africans.",

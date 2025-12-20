@@ -121,7 +121,7 @@
     },
     "vfplus": {
       "name": "Vryheidsfront Plus",
-      "desc": "Vryheidsfront Plus verteenwoordig hoofsaaklik Afrikanergemeenskappe en -belange, en bepleit federalisme, minderheidsregte en konserwatiewe waardes. Beleids prioriteite sentreer om Afrikaner-kulturele bewaring en selfbeskikking.",
+      "desc": "Vryheidsfront Plus verteenwoordig hoofsaaklik Afrikanergemeenskappe en -belange. Die party betwis radikale transformasie en grondonteiening, bevorder vryemark-ekonomie en minimale staatsintervensie, en verdedig konserwatiewe sosiale waardes en tradisionele Afrikaner-kulturele bewaring. Dit beklemtoon federalisme en plaaslike selfbeskikking vir minderheidsgroepe.",
       "ideology": "Regsvleuel, Afrikaner-belange"
     },
     "actionsa": {
@@ -133,20 +133,20 @@
       "ideology": "Sentrumregs, Christelik-konserwatief"
     },
     "ufc": {
-      "desc": "Unite for Change fokus op grondvlak-mobilisering en die aanspreek van plaaslike gemeenskapskwessies deur progressiewe beleid.",
+      "desc": "Unite for Change is 'n samesmelting van RISE Mzansi, BOSA, en GOOD. Dit fokus op grondvlak-mobilisering en die aanspreek van plaaslike gemeenskapskwessies deur progressiewe beleid.",
       "ideology": "Sentristies, grondvlak"
     },
     "udm": {
-      "desc": "Die United Democratic Movement is 'n sosiale demokratiese party wat goeie bestuur, anti-korrupsie en gebalanseerde ekonomiese beleide met meriete-gebaseerde aanstellings beklemtoon.",
-      "ideology": "Sentrumlinks, pro-instellings"
+      "desc": "Die United Democratic Movement is 'n sosiale demokratiese party gefokus op skoon bestuur, anti-korrupsie, en gebalanseerde ekonomiese beleide wat verdienste beloon.",
+      "ideology": "Sentrumlinks, institusionele hervorming"
     },
     "sacp": {
-      "desc": "Die South African Communist Party bepleit sosialisme, werkersregte en 'n oorgang na 'n sosialistiese samelewing deur staatsbeheer.",
+      "desc": "Die South African Communist Party bepleit sosialisme en werkersregte, en werk na 'n sosialistiese samelewing deur staatsbesit van sleutelindustrieë.",
       "ideology": "Ver links, sosialisties"
     },
     "atm": {
-      "desc": "Die African Transformation Movement is 'n Christen-demokratiese party wat konserwatiewe waardes, die doodstraf en strenger opvoedkundige standaarde bepleit.",
-      "ideology": "Sentrumregs, Christen-demokraties"
+      "desc": "Die African Transformation Movement bepleit konserwatiewe sosiale waardes, strenger dissipline in skole, en sterker wet en orde polisiëring.",
+      "ideology": "Sentrumregs, Christen-konserwatief"
     },
     "aljama-ah": {
       "desc": "Al Jama-ah is 'n Islamitiese demokratiese party wat Moslem-belange, sosiale demokrasie en konserwatiewe sosiale waardes bevorder terwyl dit vir alle Suid-Afrikaners werk.",
