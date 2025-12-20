@@ -3,7 +3,7 @@
 ## What This App Is
 
 - Vue 3 + TypeScript SPA with Pinia, vue-router, and vue-i18n.
-- Data-driven quiz: 50 questions → 12 policy axes → party alignment.
+- Data-driven quiz: 55 questions → 12 policy axes → party alignment.
 - Deterministic, axis-based scoring; URL-shareable state; strict type checks.
 
 ## Architecture & Data Flow
@@ -19,7 +19,7 @@
 
 - Full algorithm explainer: [../docs/scoring-algorithm.md](../docs/scoring-algorithm.md) (inputs, poles/direction, similarity math, normalization, confidence).
 - Party positions and interpretations: [../docs/party-position-reference.md](../docs/party-position-reference.md) with per-axis lean notes.
-- Quick essentials: `STANDARD_OPTIONS` values are [-1, -0.5, 0, 0.5, 1]; negative-direction questions invert the user value before comparison; negative-direction IDs today: q2, q9, q11, q19, q21, q24, q38, q39, q40, q43.
+- Quick essentials: `STANDARD_OPTIONS` values are [-1, -0.5, 0, 0.5, 1]; negative-direction questions invert the user value before comparison; negative-direction IDs today: q2, q8, q10, q18, q20, q23, q40, q41, q42, q45.
 
 ## Understanding Axis Poles and Direction Flags
 

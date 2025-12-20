@@ -2,11 +2,11 @@
 
 > A multilingual political alignment quiz that matches South African voters to parties via weighted scoring.
 
-Elekti is a Vue 3 + Pinia single-page application that walks users through 50 policy questions, normalises their answers against curated party data, and surfaces tailored recommendations. The project emphasises strict localization, reproducible scoring, and a lean state-management layer so new questions or parties can be introduced without rewiring the UI.
+Elekti is a Vue 3 + Pinia single-page application that walks users through 55 policy questions, normalises their answers against curated party data, and surfaces tailored recommendations. The project emphasises strict localization, reproducible scoring, and a lean state-management layer so new questions or parties can be introduced without rewiring the UI.
 
 ## Highlights
 
-- 🎯 **Policy matching** – 50 policy questions mapped to 12 political axes; each question has weighted impact on party alignment scores.
+- 🎯 **Policy matching** – 55 policy questions mapped to 12 political axes; each question has weighted impact on party alignment scores.
 - 🌍 **Fully localized content** – All questions live in `src/data/translations/{en,af}.json`; metadata references translations via `textKey`.
 - 🧠 **Deterministic scoring** – `src/utils/scoring.ts` uses axis-based alignment with similarity scoring, normalized per-party, and tracks top 3 policy axes.
 - 🧭 **URL-shareable results** – Answers encode into a comma-delimited string, enabling sharable quiz states across locales.
@@ -16,7 +16,7 @@ Elekti is a Vue 3 + Pinia single-page application that walks users through 50 po
 
 - **Views** – Landing, Quiz, Results, and About routes under `src/views/*` managed by `vue-router`.
 - **State** – `quizStore` loads questions from i18n and `questions.json` metadata, manages answers and quiz progress; `uiStore` handles locale persistence.
-- **Data** – `parties.json` defines 16 parties. `questions.json` contains 50 questions with metadata (axis, weight, textKey). Translation files `translations/{en,af}.json` hold all UI text and question content.
+- **Data** – `parties.json` defines 16 parties. `questions.json` contains 55 questions with metadata (axis, weight, textKey). Translation files `translations/{en,af}.json` hold all UI text and question content.
 - **Scoring flow** – `computeScores()` calculates axis-based similarity between user answers and party positions, returns ranked parties with top policy axes and confidence level.
 
 ```
@@ -26,7 +26,7 @@ src/
 │   ├── axes.json        # 12 political axis definitions
 │   ├── parties.json     # 16 party metadata (names, colors, descriptions)
 │   ├── party_positions.json  # Party positions on each axis (16 parties × 12 axes)
-│   ├── questions.json   # 50 questions with textKey refs, axis, weight
+│   ├── questions.json   # 55 questions with textKey refs, axis, weight
 │   └── translations/
 │       ├── en.json      # English UI + question text
 │       └── af.json      # Afrikaans UI + question text
@@ -122,7 +122,7 @@ Visit `http://localhost:5173` (default Vite port).
 The axis-based alignment system replaces naive text matching:
 
 - **Axes** – 12 political dimensions from `axes.json`, each with a defined positive (+1) and negative (-1) direction
-- **Questions** – 50 questions, each mapped to one axis with a weight (1.0–2.0)
+- **Questions** – 55 questions, each mapped to one axis with a weight (1.0–2.0)
 - **Answer values** – User responses map to numeric values via `STANDARD_OPTIONS` (Strongly Agree = +1, Agree = +0.5, Neutral = 0, Disagree = -0.5, Strongly Disagree = -1)
 - **Party positions** – Each party's stance on all axes (range: -1 to +1)
 - **Scoring**: Axis-based, not direct text matching. See `scoring.ts` for algorithm
@@ -169,12 +169,12 @@ if (question.direction === "negative") {
 
 | Axis                           | Questions measuring negative pole                              |
 | ------------------------------ | -------------------------------------------------------------- |
-| `economic_left_right`          | Q2 (cut debt)                                                  |
-| `state_vs_market`              | Q9 (cut red tape), Q11 (privatise power)                       |
-| `labour_rights`                | Q19 (labour flexibility)                                       |
-| `law_order_vs_liberty`         | Q21 (police power), Q24 (limit protests)                       |
-| `global_vs_local`              | Q38 (tariffs), Q39 (immigration), Q40 (crack down on migrants) |
-| `transformation_vs_continuity` | Q43 (incremental reform)                                       |
+| `economic_left_right`          | Q2 (cut debt), Q7 (cut taxes)                                  |
+| `state_vs_market`              | Q8 (cut red tape), Q10 (privatise power)                       |
+| `labour_rights`                | Q18 (labour flexibility)                                       |
+| `law_order_vs_liberty`         | Q20 (police power), Q23 (limit protests)                       |
+| `global_vs_local`              | Q40 (tariffs), Q41 (immigration), Q42 (crack down on migrants) |
+| `transformation_vs_continuity` | Q45 (incremental reform)                                       |
 
 #### Examples with full scoring:
 

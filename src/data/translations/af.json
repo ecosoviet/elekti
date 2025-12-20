@@ -11,7 +11,7 @@
   },
   "landing": {
     "title": "Pas jou stem by Suid-Afrika",
-    "subtitle": "Beantwoord 50 kort vrae oor plaaslike beleid. Sien watter partye by jou prioriteite vir jou gemeenskap, provinsie en die land pas.",
+    "subtitle": "Beantwoord 55 kort vrae oor plaaslike beleid. Sien watter partye by jou prioriteite vir jou gemeenskap, provinsie en die land pas.",
     "startButton": "Begin die toets",
     "aboutLink": "Hoe ons werk",
     "privacy": "Jou antwoorde bly op hierdie toestel. Geen nasporing of rekeninge nie.",
@@ -68,7 +68,7 @@
     "methodology": "Hoe hierdie hulpmiddel gebou is",
     "methodologyText": "Elekti rus op Suid-Afrikaanse beleidsdokumente en openbare verklarings. Ons meet oor 12 kwessie-areas wat daaglikse lewe en regering raak. Die wiskunde is deursigtig en vas.",
     "howItWorks": "Wat jy beantwoord",
-    "howItWorksText": "Vyftig vrae dek krag, water, behuising, werk, veiligheid, vervoer, koalisies, sosiale beleid en aanspreeklikheid. Elke vraag koppel na 'n kwessie-as. Jy antwoord; ons karteer jou standpunt; ons vergelyk dit met elke party se gepubliseerde posisie.",
+    "howItWorksText": "Vyfenvyftig vrae dek krag, water, behuising, werk, veiligheid, vervoer, koalisies, sosiale beleid, aanspreeklikheid, geslagsgebaseerde geweld, informele nedersettings en dekolonisering van onderwys. Elke vraag koppel na 'n kwessie-as. Jy antwoord; ons karteer jou standpunt; ons vergelyk dit met elke party se gepubliseerde posisie.",
     "scoring": "Hoe ons score",
     "scoringText": "Vir elke as bereken ons ooreenstemming tussen jou antwoorde en elke party, weeg dit volgens vraagbelang, normaliseer volgens die vrae wat jy beantwoord het, en neem dan die gemiddelde oor alle asse. Punte is persentasies; vertroue wys hoe duidelik die gaping tussen jou top-passing en die res is.",
     "transparency": "Oop data, geen verrassings",
@@ -406,6 +406,26 @@
     "q50": {
       "text": "Regering moet in werkopleiding vir histories benadeelde mense belê om hulle in werk te kry.",
       "axis": "equity_and_inclusion"
+    },
+    "q51": {
+      "text": "Regering moet grondhervorming gou dryf na klein boere en swart boere, selfs al beteken dit minder tyd vir deeglike beplanning en opleidingssteun.",
+      "axis": "transformation_vs_continuity"
+    },
+    "q52": {
+      "text": "Regering moet aansienlike begroting en polisiekapasiteit afstaan om geslagsgebaseerde geweld en vrouemoord te voorkom en te vervolg, selfs al lei dit hulpbronne af van ander misdaadprioriteite.",
+      "axis": "social_progressivism"
+    },
+    "q53": {
+      "text": "Regering moet water, elektrisiteit en sanitasie aan informele nedersettings verskaf en hulle ter plaatse opgradeer, eerder as om hulle af te breek vir formele herontwikkeling.",
+      "axis": "urban_development"
+    },
+    "q54": {
+      "text": "Skoolkurrikulum behoort Afrika-geskiedenis, inheemse tale en plaaslike kennissisteme met gelyke gewig as Europese kurrikula te onderrig.",
+      "axis": "social_progressivism"
+    },
+    "q55": {
+      "text": "Staatsbesitte ondernemings behoort radikaal hergestruktureer en onafhanklike professionele bestuur gegee te word, selfs al versteur dit huidige operasies en indiensneming.",
+      "axis": "transformation_vs_continuity"
     }
   },
   "languages": {

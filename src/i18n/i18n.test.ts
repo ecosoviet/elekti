@@ -172,9 +172,9 @@ describe("i18n", () => {
           >) || {};
         const questionKeys = Object.keys(questions);
 
-        expect(questionKeys).toHaveLength(50);
+        expect(questionKeys).toHaveLength(55);
         expect(questionKeys).toContain("q1");
-        expect(questionKeys).toContain("q50");
+        expect(questionKeys).toContain("q55");
       }
     });
   });

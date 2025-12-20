@@ -11,7 +11,7 @@
   },
   "landing": {
     "title": "Match your vote to South Africa",
-    "subtitle": "Answer 50 quick questions grounded in local policy debates. See which parties line up with your priorities for your community, province, and the country.",
+    "subtitle": "Answer 55 quick questions grounded in local policy debates. See which parties line up with your priorities for your community, province, and the country.",
     "startButton": "Start the quiz",
     "aboutLink": "How we work",
     "privacy": "Your answers stay on this device. No tracking, no accounts.",
@@ -68,7 +68,7 @@
     "methodology": "How this tool is built",
     "methodologyText": "Elekti is rooted in South African policy documents and public statements. We score across 12 issue areas that affect daily life and governance. The maths is deterministic and transparent.",
     "howItWorks": "What you answer",
-    "howItWorksText": "Fifty questions cover power, water, housing, jobs, safety, transport, coalitions, social policy, and accountability. Each question links to an issue axis. You answer, we map your stance, and we compare it to each party's stated position.",
+    "howItWorksText": "Fifty-five questions cover power, water, housing, jobs, safety, transport, coalitions, social policy, accountability, gender-based violence, informal settlements, and decolonisation of education. Each question links to an issue axis. You answer, we map your stance, and we compare it to each party's stated position.",
     "scoring": "How we score",
     "scoringText": "For every axis we calculate similarity between your answers and each party, weight by question importance, normalise by the questions you answered, then average across all axes. Scores are percentages; confidence reflects how clear the gap is between your top match and the rest.",
     "transparency": "Open data, no surprises",
@@ -406,6 +406,26 @@
     "q50": {
       "text": "Government should invest in job training for historically disadvantaged people to get them into work.",
       "axis": "equity_and_inclusion"
+    },
+    "q51": {
+      "text": "Government should fast-track land redistribution to smallholder and black farmers, even if it means less time for careful planning and training support.",
+      "axis": "transformation_vs_continuity"
+    },
+    "q52": {
+      "text": "Government should dedicate significant budget and police capacity to prevent and prosecute gender-based violence and femicide, even if it diverts resources from other crime priorities.",
+      "axis": "social_progressivism"
+    },
+    "q53": {
+      "text": "Government should provide water, electricity, and sanitation to informal settlements and upgrade them in place, rather than demolishing them for formal redevelopment.",
+      "axis": "urban_development"
+    },
+    "q54": {
+      "text": "School curriculum should teach African history, indigenous languages, and local knowledge systems with equal weight to European curricula.",
+      "axis": "social_progressivism"
+    },
+    "q55": {
+      "text": "State-owned enterprises should be radically restructured and given independent professional management, even if it disrupts current operations and employment.",
+      "axis": "transformation_vs_continuity"
     }
   },
   "languages": {
