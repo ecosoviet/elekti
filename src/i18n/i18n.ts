@@ -3,7 +3,12 @@ import af from "../data/translations/af.json";
 import en from "../data/translations/en.json";
 
 function getInitialLocale(): string {
-  const stored = localStorage.getItem("lang");
+  const stored =
+    typeof globalThis !== "undefined" &&
+    globalThis.localStorage &&
+    typeof globalThis.localStorage.getItem === "function"
+      ? globalThis.localStorage.getItem("lang")
+      : null;
   if (stored && ["en", "af"].includes(stored)) {
     return stored;
   }

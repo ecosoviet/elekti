@@ -11,7 +11,12 @@ export function isSurveyMode(m: string): m is SurveyMode {
 
 export const useUiStore = defineStore("ui", () => {
   const lang = ref<Locale>(i18n.global.locale.value as Locale);
-  const rawStoredMode = globalThis.localStorage?.getItem("mode");
+  const rawStoredMode =
+    typeof globalThis !== "undefined" &&
+    globalThis.localStorage &&
+    typeof globalThis.localStorage.getItem === "function"
+      ? globalThis.localStorage.getItem("mode")
+      : null;
   const storedMode = isSurveyMode(rawStoredMode || "")
     ? (rawStoredMode as SurveyMode)
     : ("full" as SurveyMode);
@@ -20,12 +25,24 @@ export const useUiStore = defineStore("ui", () => {
   function setLang(langCode: Locale) {
     lang.value = langCode;
     i18n.global.locale.value = langCode;
-    localStorage.setItem("lang", langCode);
+    if (
+      typeof globalThis !== "undefined" &&
+      globalThis.localStorage &&
+      typeof globalThis.localStorage.setItem === "function"
+    ) {
+      globalThis.localStorage.setItem("lang", langCode);
+    }
   }
 
   function setMode(newMode: SurveyMode) {
     mode.value = newMode;
-    localStorage.setItem("mode", newMode);
+    if (
+      typeof globalThis !== "undefined" &&
+      globalThis.localStorage &&
+      typeof globalThis.localStorage.setItem === "function"
+    ) {
+      globalThis.localStorage.setItem("mode", newMode);
+    }
   }
 
   return {
