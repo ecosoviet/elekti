@@ -21,20 +21,18 @@ const BITS_PER_ANSWER = 3;
 export const UNANSWERED_VALUE = 7;
 
 function base64UrlEncode(bytes: Uint8Array): string {
-  const binary = Array.from(bytes)
-    .map((byte) => String.fromCharCode(byte))
-    .join("");
+  const binary = [...bytes].map((byte) => String.fromCodePoint(byte)).join("");
   const base64 = btoa(binary);
-  return base64.replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  return base64.replaceAll("+", "-").replaceAll("/", "_").replace(/=+$/, "");
 }
 
 function base64UrlDecode(encoded: string): Uint8Array {
   const padded = encoded + "===".slice((encoded.length + 3) % 4);
-  const base64 = padded.replace(/-/g, "+").replace(/_/g, "/");
+  const base64 = padded.replaceAll("-", "+").replaceAll("_", "/");
   const binary = atob(base64);
   const bytes = new Uint8Array(binary.length);
   for (let index = 0; index < binary.length; index++) {
-    bytes[index] = binary.charCodeAt(index);
+    bytes[index] = binary.codePointAt(index) ?? 0;
   }
   return bytes;
 }

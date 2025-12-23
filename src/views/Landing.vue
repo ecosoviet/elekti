@@ -296,6 +296,13 @@
     box-shadow: var(--shadow-md);
   }
 
+  .landing__mode:focus-within {
+    outline: none;
+    box-shadow:
+      0 0 0 2px color-mix(in srgb, var(--color-secondary) 45%, transparent),
+      var(--shadow-md);
+  }
+
   .landing__mode--active {
     background: linear-gradient(
       135deg,
@@ -304,13 +311,6 @@
     );
     box-shadow:
       0 0 0 2px color-mix(in srgb, var(--color-primary) 45%, transparent),
-      var(--shadow-md);
-  }
-
-  .landing__mode:focus-within {
-    outline: none;
-    box-shadow:
-      0 0 0 2px color-mix(in srgb, var(--color-secondary) 45%, transparent),
       var(--shadow-md);
   }
 
