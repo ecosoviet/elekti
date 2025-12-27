@@ -7,7 +7,7 @@
   import ResultBreakdown from "../components/ResultBreakdown.vue";
   import { useQuizStore } from "../stores/quizStore";
   import { isSurveyMode, type SurveyMode } from "../stores/uiStore";
-  import type { PartyScore, QuizResult } from "../types";
+  import type { PartyScore, Question, QuizResult } from "../types";
   import { URL_PARAMS } from "../utils/constants";
 
   const router = useRouter();
@@ -67,7 +67,7 @@
       if (quizStore.completed && Object.keys(quizStore.answers).length > 0) {
         result.value = quizStore.computeScores();
         const encoded = quizStore.encodeAnswersToUrl();
-        const ids = quizStore.questions.map((q) => q.id).join(",");
+        const ids = quizStore.questions.map((q: Question) => q.id).join(",");
         const m = quizStore.mode;
         const queryParams = {
           [URL_PARAMS.RESULTS]: encoded,
@@ -101,7 +101,7 @@
 
     try {
       const encoded = quizStore.encodeAnswersToUrl();
-      const ids = quizStore.questions.map((q) => q.id).join(",");
+      const ids = quizStore.questions.map((q: Question) => q.id).join(",");
       const m = quizStore.mode;
       const shareUrl = `${globalThis.location.origin}/results?${URL_PARAMS.RESULTS}=${encoded}&${URL_PARAMS.MODE}=${m}&${URL_PARAMS.QUESTIONS}=${encodeURIComponent(ids)}`;
 
