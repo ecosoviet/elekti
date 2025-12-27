@@ -15,8 +15,8 @@ export const useUiStore = defineStore("ui", () => {
     typeof globalThis !== "undefined" &&
     globalThis.localStorage &&
     typeof globalThis.localStorage.getItem === "function"
-      ? globalThis.localStorage.getItem("mode")
-      : null;
+      ? (globalThis.localStorage.getItem("mode") ?? undefined)
+      : undefined;
   const storedMode = isSurveyMode(rawStoredMode || "")
     ? (rawStoredMode as SurveyMode)
     : ("full" as SurveyMode);

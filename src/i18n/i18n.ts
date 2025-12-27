@@ -7,8 +7,8 @@ function getInitialLocale(): string {
     typeof globalThis !== "undefined" &&
     globalThis.localStorage &&
     typeof globalThis.localStorage.getItem === "function"
-      ? globalThis.localStorage.getItem("lang")
-      : null;
+      ? (globalThis.localStorage.getItem("lang") ?? undefined)
+      : undefined;
   if (stored && ["en", "af"].includes(stored)) {
     return stored;
   }

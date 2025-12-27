@@ -197,9 +197,9 @@ describe("quizStore", () => {
       store.answerQuestion("q3", 2);
 
       const encoded = store.encodeAnswersToUrl();
-      const success = store.loadAnswersFromUrl(encoded);
+      const result = store.loadAnswersFromUrl(encoded);
 
-      expect(success).toBe(true);
+      expect(result.success).toBe(true);
       expect(store.answers["q1"]).toBe(0);
       expect(store.answers["q2"]).toBe(1);
       expect(store.answers["q3"]).toBe(2);
@@ -208,9 +208,9 @@ describe("quizStore", () => {
     it("should preserve unanswered questions as missing entries", () => {
       const store = useQuizStore();
       const encoded = makeEncodedAnswers([2, undefined, 4], 41);
-      const success = store.loadAnswersFromUrl(encoded);
+      const result = store.loadAnswersFromUrl(encoded);
 
-      expect(success).toBe(true);
+      expect(result.success).toBe(true);
       expect(store.answers["q1"]).toBe(2);
       expect(store.answers["q2"]).toBeUndefined();
       expect(store.answers["q3"]).toBe(4);
@@ -220,33 +220,42 @@ describe("quizStore", () => {
       const store = useQuizStore();
       const allAnswers = Array.from({ length: 41 }, (_, index) => index % 5);
       const encoded = makeEncodedAnswers(allAnswers, 41);
-      const success = store.loadAnswersFromUrl(encoded);
+      const result = store.loadAnswersFromUrl(encoded);
 
-      expect(success).toBe(true);
+      expect(result.success).toBe(true);
       expect(store.completed).toBe(true);
     });
 
     it("should not set completed if partial answers", () => {
       const store = useQuizStore();
       const encoded = makeEncodedAnswers([0, 1, 2, 3, 4, 0, 0, 0, 0, 0], 41);
-      const success = store.loadAnswersFromUrl(encoded);
+      const result = store.loadAnswersFromUrl(encoded);
 
-      expect(success).toBe(true);
+      expect(result.success).toBe(true);
       expect(store.completed).toBe(false);
     });
 
     it("should return false for invalid URL format", () => {
       const store = useQuizStore();
-      const success = store.loadAnswersFromUrl("invalid");
+      const result = store.loadAnswersFromUrl("invalid");
 
-      expect(success).toBe(false);
+      expect(result.success).toBe(false);
     });
 
     it("should return false for completely empty URL", () => {
       const store = useQuizStore();
-      const success = store.loadAnswersFromUrl("");
+      const result = store.loadAnswersFromUrl("");
 
-      expect(success).toBe(false);
+      expect(result.success).toBe(false);
+    });
+
+    it("should reject answers for question ids outside the current survey", () => {
+      const store = useQuizStore();
+      const encoded = makeEncodedAnswers([0], 1);
+      const result = store.loadAnswersFromUrl(encoded, ["q999"]);
+
+      expect(result.success).toBe(false);
+      expect(result.error).toContain("Question ids not present");
     });
   });
 

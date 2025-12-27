@@ -16,6 +16,7 @@
 
   const { t } = useI18n();
   const selectedOption = ref<number | undefined>(properties.modelValue);
+  const questionLabelId = computed(() => `${properties.question.id}-label`);
 
   const optionLabels = computed(() => [
     t("options.stronglyAgree"),
@@ -43,14 +44,14 @@
 
 <template>
   <div class="quiz-question">
-    <h2 class="quiz-question__text">
+    <h2 class="quiz-question__text" :id="questionLabelId" aria-live="polite">
       {{ question.textKey ? t(question.textKey) : question.text }}
     </h2>
 
     <div
       class="quiz-question__options"
       role="radiogroup"
-      :aria-labelledby="question.id"
+      :aria-labelledby="questionLabelId"
       :class="{ 'quiz-question__options--disabled': disabled }"
     >
       <QuizOption

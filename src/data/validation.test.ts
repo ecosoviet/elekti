@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   validateAxes,
+  validateDatasetConsistency,
   validateParties,
   validatePartyPositions,
   validateQuestions,
@@ -15,6 +16,22 @@ import en from "./translations/en.json";
 
 describe("Data Validation", () => {
   describe("Zod Schema Validation", () => {
+    it("should pass dataset consistency validation", () => {
+      const result = validateDatasetConsistency({
+        axes,
+        questions,
+        parties,
+        partyPositions,
+        translationsByLocale: { en, af },
+      });
+
+      if (!result.success) {
+        console.error("Dataset consistency validation errors:", result.errors);
+      }
+
+      expect(result.success).toBe(true);
+    });
+
     it("should validate questions.json with Zod schema", () => {
       const result = validateQuestions(questions);
       expect(result.success).toBe(true);

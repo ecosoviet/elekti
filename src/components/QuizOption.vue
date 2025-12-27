@@ -13,11 +13,15 @@
 <template>
   <button
     @click="$emit('select')"
+    @keydown.enter.prevent="$emit('select')"
+    @keydown.space.prevent="$emit('select')"
     class="quiz-option"
     :class="{ 'quiz-option--selected': isSelected }"
     :disabled="disabled"
     role="radio"
+    type="button"
     :aria-checked="isSelected"
+    :aria-disabled="disabled ?? false"
   >
     <span class="quiz-option__circle" />
     <span class="quiz-option__text">{{ label }}</span>
@@ -81,6 +85,16 @@
       )
     );
     box-shadow: var(--shadow-xl);
+  }
+
+  .quiz-option:focus-visible {
+    outline: 3px solid var(--color-secondary);
+    outline-offset: 2px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .quiz-option:focus-visible .quiz-option__circle {
+    transform: scale(1.05);
   }
 
   .quiz-option__circle {

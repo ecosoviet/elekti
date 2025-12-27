@@ -20,7 +20,33 @@ export const QuestionMetadataSchema = z.object({
 export const QuestionsFileSchema = z.object({
   questions: z
     .array(QuestionMetadataSchema)
-    .min(1, "Must have at least one question"),
+    .min(1, "Must have at least one question")
+    .superRefine((value, ctx) => {
+      const seenIds = new Set<string>();
+      const seenTextKeys = new Set<string>();
+
+      for (const question of value) {
+        if (seenIds.has(question.id)) {
+          ctx.addIssue({
+            code: "custom",
+            message: `Duplicate question id: ${question.id}`,
+            path: ["questions"],
+          });
+        } else {
+          seenIds.add(question.id);
+        }
+
+        if (seenTextKeys.has(question.textKey)) {
+          ctx.addIssue({
+            code: "custom",
+            message: `Duplicate question textKey: ${question.textKey}`,
+            path: ["questions"],
+          });
+        } else {
+          seenTextKeys.add(question.textKey);
+        }
+      }
+    }),
 });
 
 export type QuestionMetadata = z.infer<typeof QuestionMetadataSchema>;

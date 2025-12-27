@@ -67,18 +67,20 @@
     }
 
     switch (event.key) {
-      case "ArrowLeft":
+      case "ArrowLeft": {
         if (quizStore.currentQuestionIndex > 0) {
           event.preventDefault();
           quizStore.previousQuestion();
         }
         break;
-      case "ArrowRight":
+      }
+      case "ArrowRight": {
         if (hasAnsweredCurrent.value) {
           event.preventDefault();
           handleNext();
         }
         break;
+      }
       case "1":
       case "2":
       case "3":
@@ -91,12 +93,13 @@
         }
         break;
       }
-      case "Enter":
+      case "Enter": {
         if (hasAnsweredCurrent.value) {
           event.preventDefault();
           handleNext();
         }
         break;
+      }
     }
   }
 

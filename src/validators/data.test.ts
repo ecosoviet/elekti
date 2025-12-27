@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   validateAxes,
+  validateDatasetConsistency,
   validateParties,
   validatePartyPositions,
   validateQuestions,
@@ -9,6 +10,31 @@ import {
 
 describe("Data Validators", () => {
   describe("validateQuestions", () => {
+    it("should reject duplicate question IDs", () => {
+      const data = {
+        questions: [
+          {
+            id: "q1",
+            textKey: "questions.q1.text",
+            axis: "economic_left_right",
+            weight: 1,
+          },
+          {
+            id: "q1",
+            textKey: "questions.q2.text",
+            axis: "state_vs_market",
+            weight: 1,
+          },
+        ],
+      };
+
+      const result = validateQuestions(data);
+      expect(result.success).toBe(false);
+      expect(
+        result.errors?.some((e) => e.includes("Duplicate question id"))
+      ).toBe(true);
+    });
+
     it("should accept valid questions data", () => {
       const data = {
         questions: [
@@ -254,6 +280,125 @@ describe("Data Validators", () => {
 
       const result = validateTranslation(data);
       expect(result.success).toBe(false);
+    });
+  });
+
+  describe("validateDatasetConsistency", () => {
+    const axes = {
+      axes: [
+        {
+          id: "economic_left_right",
+          name: "Economic Left ↔ Right",
+          shortNameKey: "axes.economic_left_right.short",
+          description: "Economic axis",
+        },
+      ],
+    };
+
+    const questions = {
+      questions: [
+        {
+          id: "q1",
+          textKey: "questions.q1.text",
+          axis: "economic_left_right",
+          weight: 1,
+        },
+      ],
+    };
+
+    const parties = [
+      {
+        id: "anc",
+        short: "ANC",
+        name: "African National Congress",
+        descriptionKey: "party.anc.desc",
+        ideologyKey: "party.anc.ideology",
+        colour: "#008542",
+        website: "https://example.com",
+      },
+    ];
+
+    const partyPositions = {
+      parties: {
+        anc: {
+          economic_left_right: 0,
+        },
+      },
+    };
+
+    const translations = {
+      en: {
+        questions: {
+          q1: {
+            text: "Question 1",
+            axis: "Economic",
+          },
+        },
+        party: {
+          visitWebsite: "Visit",
+          anc: {
+            desc: "Desc",
+            ideology: "Ideology",
+          },
+        },
+        axes: {
+          economic_left_right: {
+            short: "Economic",
+          },
+        },
+      },
+      af: {
+        questions: {
+          q1: {
+            text: "Vraag 1",
+            axis: "Ekonomies",
+          },
+        },
+        party: {
+          visitWebsite: "Besoek",
+          anc: {
+            desc: "Beskrywing",
+            ideology: "Ideologie",
+          },
+        },
+        axes: {
+          economic_left_right: {
+            short: "Ekonomies",
+          },
+        },
+      },
+    };
+
+    it("returns success for consistent datasets", () => {
+      const result = validateDatasetConsistency({
+        axes,
+        questions,
+        parties,
+        partyPositions,
+        translationsByLocale: translations,
+      });
+
+      expect(result.success).toBe(true);
+    });
+
+    it("flags missing translations or mismatched axes", () => {
+      const brokenTranslations = {
+        ...translations,
+        af: { ...translations.af, axes: {} },
+      };
+
+      const result = validateDatasetConsistency({
+        axes,
+        questions,
+        parties,
+        partyPositions,
+        translationsByLocale: brokenTranslations,
+      });
+
+      expect(result.success).toBe(false);
+      expect(
+        result.errors?.some((e) => e.includes("missing translation for axis"))
+      ).toBe(true);
     });
   });
 });

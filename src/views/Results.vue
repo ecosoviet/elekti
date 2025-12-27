@@ -15,7 +15,7 @@
   const { t } = useI18n();
   const result = ref<QuizResult | undefined>(undefined);
   const copied = ref(false);
-  const error = ref<string | null>(null);
+  const error = ref<string | undefined>(undefined);
 
   const modeLabel = computed(() => t(`landing.modes.${quizStore.mode}.title`));
 
@@ -24,7 +24,6 @@
     if (!currentResult) {
       return [];
     }
-    // Create exclusion set once
     const excludeIds = new Set<string>([
       currentResult.primary.partyId,
       ...currentResult.alternatives.map((a) => a.partyId),
@@ -54,11 +53,12 @@
           encodedAnswers,
           idsForDecode
         );
-        if (loaded) {
+        if (loaded.success) {
           result.value = quizStore.computeScores();
           return;
         } else {
           error.value =
+            loaded.error ||
             "Invalid or corrupted results URL. Please retake the quiz.";
           return;
         }
@@ -75,7 +75,6 @@
           [URL_PARAMS.QUESTIONS]: ids,
         };
 
-        // Build URL to check length
         const testUrl = new URLSearchParams(queryParams).toString();
         const fullUrl = `${globalThis.location.origin}/results?${testUrl}`;
 
@@ -89,8 +88,8 @@
       } else {
         error.value = "No quiz data found. Please take the quiz first.";
       }
-    } catch (err) {
-      console.error("Error loading results:", err);
+    } catch (error_) {
+      console.error("Error loading results:", error_);
       error.value = "An error occurred loading your results. Please try again.";
     }
   });
@@ -106,7 +105,6 @@
       const m = quizStore.mode;
       const shareUrl = `${globalThis.location.origin}/results?${URL_PARAMS.RESULTS}=${encoded}&${URL_PARAMS.MODE}=${m}&${URL_PARAMS.QUESTIONS}=${encodeURIComponent(ids)}`;
 
-      // Check URL length
       if (shareUrl.length > URL_PARAMS.MAX_URL_LENGTH) {
         console.warn("Share URL exceeds safe length");
       }
@@ -133,12 +131,12 @@
             copied.value = false;
           }, 2000);
         },
-        (err) => {
-          console.error("Failed to copy results:", err);
+        (error_) => {
+          console.error("Failed to copy results:", error_);
         }
       );
-    } catch (err) {
-      console.error("Error creating share URL:", err);
+    } catch (error_) {
+      console.error("Error creating share URL:", error_);
     }
   }
 

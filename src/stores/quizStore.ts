@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { computed, ref } from "vue";
+import { computed, ref, watch } from "vue";
 import { i18n } from "../i18n/i18n";
 
 import partiesData from "../data/parties.json";
@@ -13,6 +13,13 @@ import {
   UNANSWERED_VALUE,
 } from "../validators/answers";
 import { useUiStore, type SurveyMode } from "./uiStore";
+
+export interface LoadAnswersResult {
+  success: boolean;
+  restoredCount?: number;
+  completed?: boolean;
+  error?: string;
+}
 
 export const useQuizStore = defineStore("quiz", () => {
   const answers = ref<Record<string, number>>({});
@@ -82,6 +89,9 @@ export const useQuizStore = defineStore("quiz", () => {
   const currentQuestion = computed(
     () => questions.value[currentQuestionIndex.value]
   );
+  const upcomingQuestion = computed(
+    () => questions.value[currentQuestionIndex.value + 1]
+  );
   const progress = computed(
     () => (currentQuestionIndex.value / questions.value.length) * 100
   );
@@ -135,27 +145,80 @@ export const useQuizStore = defineStore("quiz", () => {
   function loadAnswersFromUrl(
     encoded: string,
     questionIdsParam?: string[]
-  ): boolean {
+  ): LoadAnswersResult {
+    if (!encoded) {
+      return { success: false, error: "No encoded answers provided" };
+    }
+
     try {
       const questionIds =
         questionIdsParam && questionIdsParam.length > 0
           ? questionIdsParam
           : questions.value.map((q) => q.id);
-      const result = decodeAndValidateAnswers(encoded, questionIds);
 
-      if (result.success && result.answers) {
-        answers.value = result.answers;
-        completed.value =
-          Object.keys(result.answers).length === questionIds.length;
-        return true;
+      const availableQuestionIds = new Set(questions.value.map((q) => q.id));
+      const invalidQuestionIds = questionIds.filter(
+        (id) => !availableQuestionIds.has(id)
+      );
+
+      if (invalidQuestionIds.length > 0) {
+        return {
+          success: false,
+          error: `Question ids not present in current survey: ${invalidQuestionIds.join(", ")}`,
+        };
       }
 
-      return false;
+      if (questionIds.length === 0) {
+        return { success: false, error: "No questions available to decode" };
+      }
+
+      const result = decodeAndValidateAnswers(encoded, questionIds);
+
+      if (!result.success || !result.answers) {
+        return {
+          success: false,
+          error: result.error || "Encoded answers could not be decoded",
+        };
+      }
+
+      const allowedIds = new Set(questionIds);
+      const filtered = Object.fromEntries(
+        Object.entries(result.answers).filter(([id]) => allowedIds.has(id))
+      );
+
+      const restoredCount = Object.keys(filtered).length;
+
+      if (restoredCount === 0) {
+        return {
+          success: false,
+          error: "No valid answers found for the provided questions",
+        };
+      }
+
+      answers.value = filtered;
+      completed.value = restoredCount === allowedIds.size;
+
+      return {
+        success: true,
+        restoredCount,
+        completed: completed.value,
+      };
     } catch (error) {
       console.error("Failed to load answers from URL:", error);
-      return false;
+      return { success: false, error: "Failed to load encoded answers" };
     }
   }
+
+  watch(
+    () => currentQuestionIndex.value,
+    () => {
+      const upcoming = upcomingQuestion.value;
+      if (upcoming?.textKey) {
+        translate(upcoming.textKey);
+      }
+    },
+    { immediate: true }
+  );
 
   return {
     answers,
@@ -167,6 +230,7 @@ export const useQuizStore = defineStore("quiz", () => {
     answeredCount,
     canProceed,
     questions,
+    upcomingQuestion,
     selectedQuestionIds,
     parties,
     answerQuestion,

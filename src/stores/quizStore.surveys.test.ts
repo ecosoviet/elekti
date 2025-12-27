@@ -3,7 +3,6 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import { useQuizStore } from "./quizStore";
 import { useUiStore } from "./uiStore";
 
-// Mock vue-i18n
 vi.mock("vue-i18n", () => ({
   createI18n: (_opts?: unknown) => ({
     global: {
@@ -52,8 +51,8 @@ describe("quizStore surveys", () => {
     quiz.answerQuestion("q3", 2);
     const enc = quiz.encodeAnswersToUrl();
     quiz.loadSurvey("full", ids);
-    const ok = quiz.loadAnswersFromUrl(enc, ids);
-    expect(ok).toBe(true);
+    const result = quiz.loadAnswersFromUrl(enc, ids);
+    expect(result.success).toBe(true);
     expect(quiz.answers["q1"]).toBe(0);
     expect(quiz.answers["q2"]).toBeUndefined();
     expect(quiz.answers["q3"]).toBe(2);

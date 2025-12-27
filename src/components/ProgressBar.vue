@@ -1,7 +1,13 @@
 <script setup lang="ts">
-  defineProps<{
+  import { computed } from "vue";
+
+  const props = defineProps<{
     progress: number;
   }>();
+
+  const progressLabel = computed(
+    () => `${Math.round(props.progress)}% complete`
+  );
 </script>
 
 <template>
@@ -9,11 +15,16 @@
     <div
       class="progress-bar__track"
       role="progressbar"
-      :aria-valuenow="progress"
+      :aria-valuenow="props.progress"
       aria-valuemin="0"
       aria-valuemax="100"
+      :aria-label="progressLabel"
+      :aria-valuetext="progressLabel"
     >
-      <div class="progress-bar__fill" :style="{ width: `${progress}%` }" />
+      <div
+        class="progress-bar__fill"
+        :style="{ width: `${props.progress}%` }"
+      />
     </div>
     <div v-if="$slots.default" class="progress-bar__label">
       <slot />
