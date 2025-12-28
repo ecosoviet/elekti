@@ -22,16 +22,35 @@ export type {
   QuizResult,
 } from "../types";
 
-export function computeScores(
-  answers: Record<string, number>,
-  parties: Party[]
-): QuizResult {
+type ScoringData = {
+  axes: Axis[];
+  partyPositions: Record<string, Record<string, number>>;
+  questionsMetadata: QuestionMetadata[];
+};
+
+let cachedScoringData: ScoringData | undefined;
+
+function getScoringData(): ScoringData {
+  if (cachedScoringData) {
+    return cachedScoringData;
+  }
+
   const axes = (axesData as { axes: Axis[] }).axes;
   const partyPositions = (
     partyPositionsData as { parties: Record<string, Record<string, number>> }
   ).parties;
   const questionsMetadata = (questionsData as { questions: QuestionMetadata[] })
     .questions;
+
+  cachedScoringData = { axes, partyPositions, questionsMetadata };
+  return cachedScoringData;
+}
+
+export function computeScores(
+  answers: Record<string, number>,
+  parties: Party[]
+): QuizResult {
+  const { axes, partyPositions, questionsMetadata } = getScoringData();
 
   const axisScoresPerParty: Record<string, Record<string, number>> = {};
   const axisWeightsPerParty: Record<string, Record<string, number>> = {};
