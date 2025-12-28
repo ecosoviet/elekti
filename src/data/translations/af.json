@@ -440,6 +440,7 @@
     }
   },
   "languages": {
+    "change": "Verander taal",
     "en": "Engels",
     "af": "Afrikaans"
   },

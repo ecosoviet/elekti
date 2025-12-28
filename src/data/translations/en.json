@@ -437,6 +437,7 @@
     }
   },
   "languages": {
+    "change": "Change language",
     "en": "English",
     "af": "Afrikaans"
   },

@@ -80,16 +80,11 @@
 
         if (fullUrl.length <= URL_PARAMS.MAX_URL_LENGTH) {
           router.replace({ query: queryParams });
-        } else {
-          console.warn(
-            "Generated URL exceeds safe length, skipping URL update"
-          );
         }
       } else {
         error.value = "No quiz data found. Please take the quiz first.";
       }
-    } catch (error_) {
-      console.error("Error loading results:", error_);
+    } catch {
       error.value = "An error occurred loading your results. Please try again.";
     }
   });
@@ -104,10 +99,6 @@
       const ids = quizStore.questions.map((q: Question) => q.id).join(",");
       const m = quizStore.mode;
       const shareUrl = `${globalThis.location.origin}/results?${URL_PARAMS.RESULTS}=${encoded}&${URL_PARAMS.MODE}=${m}&${URL_PARAMS.QUESTIONS}=${encodeURIComponent(ids)}`;
-
-      if (shareUrl.length > URL_PARAMS.MAX_URL_LENGTH) {
-        console.warn("Share URL exceeds safe length");
-      }
 
       const confidenceLabel = t(
         `results.confidence.${result.value.confidence}`
@@ -131,12 +122,10 @@
             copied.value = false;
           }, 2000);
         },
-        (error_) => {
-          console.error("Failed to copy results:", error_);
-        }
+        () => {}
       );
-    } catch (error_) {
-      console.error("Error creating share URL:", error_);
+    } catch {
+      // Swallow copy errors silently to avoid noisy runtime logs in production.
     }
   }
 

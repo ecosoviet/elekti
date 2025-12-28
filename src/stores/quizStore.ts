@@ -203,8 +203,7 @@ export const useQuizStore = defineStore("quiz", () => {
         restoredCount,
         completed: completed.value,
       };
-    } catch (error) {
-      console.error("Failed to load answers from URL:", error);
+    } catch {
       return { success: false, error: "Failed to load encoded answers" };
     }
   }
