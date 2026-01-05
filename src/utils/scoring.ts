@@ -1,6 +1,3 @@
-import axesData from "../data/axes.json";
-import partyPositionsData from "../data/party_positions.json";
-import questionsData from "../data/questions.json";
 import type {
   Axis,
   AxisContribution,
@@ -11,6 +8,7 @@ import type {
   QuizResult,
 } from "../types";
 import { SCORING, STANDARD_OPTIONS } from "./constants";
+import { getAxes, getPartyPositions, getQuestions } from "./dataLoader";
 
 export type {
   Axis,
@@ -26,6 +24,7 @@ type ScoringData = {
   axes: Axis[];
   partyPositions: Record<string, Record<string, number>>;
   questionsMetadata: QuestionMetadata[];
+  questionById: Map<string, QuestionMetadata>;
 };
 
 let cachedScoringData: ScoringData | undefined;
@@ -35,14 +34,14 @@ function getScoringData(): ScoringData {
     return cachedScoringData;
   }
 
-  const axes = (axesData as { axes: Axis[] }).axes;
-  const partyPositions = (
-    partyPositionsData as { parties: Record<string, Record<string, number>> }
-  ).parties;
-  const questionsMetadata = (questionsData as { questions: QuestionMetadata[] })
-    .questions;
+  const axes = getAxes();
+  const partyPositions = getPartyPositions();
+  const questionsMetadata = getQuestions();
+  const questionById = new Map(
+    questionsMetadata.map((question) => [question.id, question])
+  );
 
-  cachedScoringData = { axes, partyPositions, questionsMetadata };
+  cachedScoringData = { axes, partyPositions, questionsMetadata, questionById };
   return cachedScoringData;
 }
 
@@ -50,7 +49,8 @@ export function computeScores(
   answers: Record<string, number>,
   parties: Party[]
 ): QuizResult {
-  const { axes, partyPositions, questionsMetadata } = getScoringData();
+  const { axes, partyPositions, questionsMetadata, questionById } =
+    getScoringData();
 
   const axisScoresPerParty: Record<string, Record<string, number>> = {};
   const axisWeightsPerParty: Record<string, Record<string, number>> = {};
@@ -66,7 +66,7 @@ export function computeScores(
   }
 
   for (const [questionId, optionIndex] of Object.entries(answers)) {
-    const question = questionsMetadata.find((q) => q.id === questionId);
+    const question = questionById.get(questionId);
     if (!question) continue;
 
     let userValue = STANDARD_OPTIONS[optionIndex]?.value;
@@ -83,7 +83,8 @@ export function computeScores(
       const partyPositionValue = partyPositions[party.id]?.[axis];
       if (partyPositionValue === undefined) continue;
 
-      const similarity = 1 - Math.abs(userValue - partyPositionValue);
+      const similarityRaw = 1 - Math.abs(userValue - partyPositionValue);
+      const similarity = Math.max(0, similarityRaw);
 
       const weightedScore = similarity * weight;
 

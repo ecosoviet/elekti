@@ -2,10 +2,10 @@ import { defineStore } from "pinia";
 import { computed, ref, watch } from "vue";
 import { i18n } from "../i18n/i18n";
 
-import partiesData from "../data/parties.json";
 import surveysData from "../data/surveys.json";
-import type { Party, Question, QuestionMetadata, QuizResult } from "../types";
+import type { Question, QuestionMetadata, QuizResult } from "../types";
 import { STANDARD_OPTIONS } from "../utils/constants";
+import { getParties, getQuestions } from "../utils/dataLoader";
 import { computeScores as computeScoresUtility } from "../utils/scoring";
 import {
   decodeAndValidateAnswers,
@@ -29,9 +29,7 @@ export const useQuizStore = defineStore("quiz", () => {
   const mode = ref<SurveyMode>(ui.mode);
   const selectedQuestionIds = ref<string[]>([]);
 
-  const parties = (partiesData as Party[]).toSorted((a, b) =>
-    a.name.localeCompare(b.name)
-  );
+  const parties = getParties();
 
   const tGlobal = i18n.global.t as unknown as (key: string) => string;
   function translate(key: string): string {
@@ -48,18 +46,7 @@ export const useQuizStore = defineStore("quiz", () => {
       return translatedQuestionsCache.get(cacheKey)!;
     }
 
-    const questionsMetadata = import.meta.glob<{
-      questions: QuestionMetadata[];
-    }>("../data/questions.json", {
-      eager: true,
-      import: "default",
-    })["../data/questions.json"] as { questions: QuestionMetadata[] };
-
-    if (!questionsMetadata?.questions) {
-      throw new Error("Could not load questions from questions.json");
-    }
-
-    const base = questionsMetadata.questions;
+    const base = getQuestions();
     const filtered =
       ids && ids.length > 0
         ? ids
@@ -98,6 +85,17 @@ export const useQuizStore = defineStore("quiz", () => {
 
   const questions = ref<Question[]>([]);
   loadSurvey(mode.value);
+
+  watch(
+    () => i18n.global.locale.value,
+    () => {
+      if (selectedQuestionIds.value.length === 0) {
+        return;
+      }
+      const refreshed = loadQuestionsFromI18n(selectedQuestionIds.value);
+      questions.value = refreshed;
+    }
+  );
 
   const currentQuestion = computed(
     () => questions.value[currentQuestionIndex.value]
